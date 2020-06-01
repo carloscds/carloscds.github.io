@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Studio Code on Carlos dos Santos</title>
+    <link>https://carloscds.github.io/categories/visual-studio-code/</link>
+    <description>Recent content in Visual Studio Code on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 19 Nov 2017 21:00:06 -0300</lastBuildDate>
+    
+        <atom:link href="https://carloscds.github.io/categories/visual-studio-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publicando uma aplicação web no IIS 7</title>
+      <link>https://carloscds.github.io/2010/10/publicando-uma-aplicao-web-no-iis-7/</link>
+      <pubDate>Sun, 03 Oct 2010 16:39:28 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/10/publicando-uma-aplicao-web-no-iis-7/</guid>
+      <description>Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
+Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting.</description>
+    </item>
+    
+    <item>
+      <title>Verificar se um programa já está em execução</title>
+      <link>https://carloscds.github.io/2010/09/verificar-se-um-programa-j-est-em-execuo/</link>
+      <pubDate>Sun, 19 Sep 2010 18:19:28 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/09/verificar-se-um-programa-j-est-em-execuo/</guid>
+      <description>Pessoal, neste post sobre C# básico, vou mostrar como identificar se um programa já está em execução. Vamos aproveitar também ver como listar todos os programas que estão em execução no computador.
+Para começar, crie um projeto em C# do tipo Console Application e logo em seguida vamos modificar o program.cs conforme abaixo:
+static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &amp;gt; 1){Console.WriteLine(&amp;quot;Programa em execução&amp;quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa.</description>
+    </item>
+    
+    <item>
+      <title>Passando parâmetros para uma aplicação .Net</title>
+      <link>https://carloscds.github.io/2010/09/passando-parmetros-para-uma-aplicao-net/</link>
+      <pubDate>Sun, 12 Sep 2010 21:17:01 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/09/passando-parmetros-para-uma-aplicao-net/</guid>
+      <description>Pessoal, seguindo com os posts sobre C# básico, vou mostrar como passar parâmetros para uma aplicação em .Net usando C# em um Windows Forms.
+Primeiramente crie uma aplicação Windows Forms:
+Eu estou usando o Visual Studio 2010 e o Framework 4, mas você pode usar qualquer versão do Visual Studio para executar este exemplo.
+Após criar a aplicação vamos ao arquivo Program.cs, onde vamos colocar a variável que irá receber os parâmetros:</description>
+    </item>
+    
+    <item>
+      <title>Ferramentas para Relatórios</title>
+      <link>https://carloscds.github.io/2010/09/ferramentas-para-relatrios/</link>
+      <pubDate>Mon, 06 Sep 2010 21:36:36 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/09/ferramentas-para-relatrios/</guid>
+      <description>Para quem está desenvolvendo aplicações comerciais em .Net, uma dúvida muito comum é como criar os relatórios da aplicação. Se você usa o Microsoft SQL Server, poderá usar o Reporting Services (), que é um excelente ferramenta para relatórios.
+Mas se você usa outros bancos de dados, ou está criando uma aplicação multi-banco, talvez o Reporting Services não seja uma boa opção, mas não se preocupe pois existem várias alternativas e excelentes ferramentas para relatórios, vejamos algumas delas que considero muito boas:</description>
+    </item>
+    
+    <item>
+      <title>EFProfiler– Entity Framework Profiler</title>
+      <link>https://carloscds.github.io/2010/08/efprofiler-entity-framework-profiler/</link>
+      <pubDate>Fri, 20 Aug 2010 15:31:27 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/08/efprofiler-entity-framework-profiler/</guid>
+      <description>Se você está trabalhando com EF4, provavelmente já se perguntou se os comandos SQL gerados estão realmente otimizados, ou talvez quando você tem algum problema de performance. Para responder a isto existem várias ferramentas de análise, ou profilers, e um destes é o EFProfiler.
+A ferramenta é bastante simples, você baixa um executável do site www.efprof.com e segue as instruções contidas no arquivo “How to use.txt”.
+Para o profiler funciona, você precisa adicionar a referência de um DLL do Profiler ao seu projeto:</description>
+    </item>
+    
+    <item>
+      <title>Windows Forms – atualizando o formulário de dentro de uma Thread</title>
+      <link>https://carloscds.github.io/2010/08/windows-forms-atualizando-o-formulrio-de-uma-thread/</link>
+      <pubDate>Mon, 02 Aug 2010 21:44:53 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/08/windows-forms-atualizando-o-formulrio-de-uma-thread/</guid>
+      <description>É relativamente comum termos uma aplicação que precise usar uma ou mais threads para realizar algum processo demorado onde o usuário não precise ficar esperando, mas às vezes é necessário também que esta thread faça algum tipo de interação com a tela, talvez atualizando alguma informação, barra de progresso, enfim, mostrar ao usuário que algo está acontecendo.
+Uma tarefa relativamente simples, mas que pode causar um certo transtorno justamente por ser uma thread.</description>
+    </item>
+    
+    <item>
+      <title>Consultas Genéricas com Linq</title>
+      <link>https://carloscds.github.io/2010/07/consultas-genricas-com-linq/</link>
+      <pubDate>Mon, 19 Jul 2010 23:22:31 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/07/consultas-genricas-com-linq/</guid>
+      <description>No conceito de orientação a objeto, sempre temos em mente criar códigos que possam ser reutilizados dentro da aplicação ou mesmo em aplicações diferentes, e neste contexto eu tenho sido questionado sobre como é possível usar Linq, que é totalmente orientado a objeto e fortemente tipado, e ainda sim criar códigos reusáveis.
+Aproveitando esta situação, vou mostrar como é possível criar um método de consulta usando Linq, que serve para consultar praticamente qualquer entidade (tabela) do seu modelo, ou seja, iremos criar uma consulta totalmente genérica, e um dos possíveis lugares que você pode utilizar este tipo de método, é em uma rotina de consulta que você chama em todo o seu sistema, por exemplo.</description>
+    </item>
+    
+    <item>
+      <title>Certificação .Net 4– Windows Developer</title>
+      <link>https://carloscds.github.io/2010/06/certificao-net-4-windows-developer/</link>
+      <pubDate>Wed, 30 Jun 2010 09:31:55 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/certificao-net-4-windows-developer/</guid>
+      <description>Pessoal,
+Acabei de passar em mais uma prova beta do .Net 4.0 – Windows Developer 4. Lembrando que estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
+Abraços,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Certificação em .Net 4.0</title>
+      <link>https://carloscds.github.io/2010/06/certificao-em-net-4-0/</link>
+      <pubDate>Sun, 27 Jun 2010 15:58:28 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/certificao-em-net-4-0/</guid>
+      <description>Pessoal,
+Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
+No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.</description>
+    </item>
+    
+    <item>
+      <title>Agile Brazil 2010</title>
+      <link>https://carloscds.github.io/2010/06/agile-brazil-2010/</link>
+      <pubDate>Sun, 27 Jun 2010 15:51:34 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/agile-brazil-2010/</guid>
+      <description>Eu estive na quinta e sexta-feira (24 e 25/06) em Porto Alegre/RS para a Agile Brasil 2010 – Conferência Brasileira sobre Métodos Ageis de Desenvolvimento de Software e foi um evento realmente espetacular.
+Primeiro por reencontrar vários amigos, depois pelos palestrantes, como Martin Flowler, um dos grandes influenciadores das metodologias ágeis. Nestes dias tivemos várias palestras e workshops , de alto nível, onde pudemos aumentar nosso conhecimento e trocar idéias.</description>
+    </item>
+    
+    <item>
+      <title>Professional Scrum Master</title>
+      <link>https://carloscds.github.io/2010/06/professional-scrum-master/</link>
+      <pubDate>Sun, 13 Jun 2010 14:17:17 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/professional-scrum-master/</guid>
+      <description>Pessoal, eu acabei de passar na prova do Professional Scrum Master www.scrum.org. Agora só falta fazer a Professional Scrum Developer, que é baseada no Visual Studio Team System 2010.
+Após realizar este segunda prova, eu poderei ministrar cursos oficiais de Scrum pela Scrum.Org.
+Abraços,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Palestra na Faccar de Rolândia/PR sobre Visual Studio 2010</title>
+      <link>https://carloscds.github.io/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</link>
+      <pubDate>Sun, 13 Jun 2010 10:09:00 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</guid>
+      <description>Eu estive na Faculdade Paranaense – FACCAR, de Rolância/PR na última sexta-feira (11/06), para ministrar uma palestra sobre Visual Studio 2010 e as novidades da plataforma.
+Neste evento, tive a oportunidade de mostrar recursos como programação dinâmina, paralelelismo, Entity Framework 4, WPF e Silverlight.
+Gostaria de agradecer ao convite do Prof.Zanete e espero voltar mais vezes para mostrar os avanços tecnológicos da plataforma .Net
+Vejam as fotos:
+[]s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Scrum para o VSTS 2010</title>
+      <link>https://carloscds.github.io/2010/06/scrum-para-o-vsts-2010/</link>
+      <pubDate>Mon, 07 Jun 2010 12:24:29 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/scrum-para-o-vsts-2010/</guid>
+      <description>A Microsoft acaba de liberar o template Beta de Scrum para o Team Foundation Server 2010. Eu já tive oportunidade de trabalhar com ele na semana passada durante um curso de Professional Scrum Developer e está realmente muito bom.
+Conheça o novo template no link:
+http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
+http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Dicas sobre Visual Studio Team System</title>
+      <link>https://carloscds.github.io/2010/06/dicas-sobre-visual-studio-team-system/</link>
+      <pubDate>Thu, 03 Jun 2010 23:25:56 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/06/dicas-sobre-visual-studio-team-system/</guid>
+      <description>Eu separei três dicas interessantes sobre VSTS 2010 para vocês:
+ Migrando para o TFS 2010 Configurando a análise estática de código Introdução as ferramentas de arquitetura  No mesmo site existem diversas outras dicas sobre o VSTS. Os artigos estão em inglês, mas vale a pena dar uma olhada.
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Palestra na Unipar de Paranavaí/PR</title>
+      <link>https://carloscds.github.io/2010/05/palestra-na-unipar-de-paranavaipr/</link>
+      <pubDate>Tue, 25 May 2010 02:40:31 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/05/palestra-na-unipar-de-paranavaipr/</guid>
+      <description>Ontem (24/05/2010) eu e o Márcio Althmann realizamos uma palestra na Unipar de Paranavaí/PR onde tivemos a oportunidade de mostrar as novidades do novo Visual Studio 2010 e do Silverlight 4.
+Gostaria de agradecer ao nosso amigo Rodrigo Ghedin, do famoso site WinAjuda e MVP assim como eu, pelo convite e pela oportunidade de mostrarmos um pouco de tecnologia neste evento.
+Agradecemos também a direção da Unipar pelo espaço e pela colaboração na divulgação do evento.</description>
+    </item>
+    
+    <item>
+      <title>Desenvolvimento para Windows Phone com Silverlight</title>
+      <link>https://carloscds.github.io/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</link>
+      <pubDate>Sun, 18 Apr 2010 08:12:39 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</guid>
+      <description>Gostaria de compartilhar com vocês dois artigos realmente interessantes sobre o desenvolvimento de softwares para a plataforma Windows Phone 7 usando Silverlight.
+O primeiro deles trata das diferenças do Silverlight no Windows Phone 7:
+http://msdn.microsoft.com/en-us/library/ff426930(VS.96).aspx
+O outro mostra quais são as funcionalidades suportadas pelo Silverlight no Windows Phone 7:
+http://msdn.microsoft.com/en-us/library/ff426931(VS.96).aspx
+Abraços,
+Carlos dos Santos</description>
+    </item>
+    
+    <item>
+      <title>Evento sobre Visual Studio 2010 na Unioeste em Cascavel</title>
+      <link>https://carloscds.github.io/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</link>
+      <pubDate>Wed, 14 Apr 2010 15:40:09 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</guid>
+      <description>Agora pouco eu e o Alexsandro Salmazo (funcionário da Microsoft) fizemos uma palestra na Unioeste em Cascavel/PR.
+O Salmazo abriu o evento falando sobre diversas tecnologias e aplicações que a Microsoft possui, foi muito bom!!!
+Depois eu falei sobre várias funcionalidades do novo Visual Studio 2010, EF 4, WPF, Silverlight e Azure, enfim, fiz um overview da plataforma .Net e do Visual Studio 2010.
+Agradecemos o convite da universidade e esperamos voltar lá em breve.</description>
+    </item>
+    
+    <item>
+      <title>Evento sobre Visual Studio 2010 na PUC em Londrina</title>
+      <link>https://carloscds.github.io/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</link>
+      <pubDate>Wed, 14 Apr 2010 15:33:23 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</guid>
+      <description>Realizamos ontem (13/04) mais um evento de Visual Studio 2010, desta vez na PUC de Londrina.
+O André Nobre deu um show nas novidades do Visual Studio 2010, depois eu falei do Entity Framework 4.0 e para finalizar o Márcio Althmann falou do Silverlight 4.
+Agradecemos a PUC oportunidade e esperamos estar em breve realizando novos eventos por lá.
+Vejam as fotos:
+Finalmente o André fez um PPT com os dados dele.</description>
+    </item>
+    
+    <item>
+      <title>Maringá Techday</title>
+      <link>https://carloscds.github.io/2010/04/maringa-techday/</link>
+      <pubDate>Sun, 11 Apr 2010 14:52:00 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/04/maringa-techday/</guid>
+      <description>Realizamos no último sábado (11/04) no Cesumar de Maringá/PR a primeira etapa do Maringá Techday, onde mostramos as novidades do Visual Studio 2010. Este foi um evento da Copa de Talentos Microsoft.
+Estiveram presente no evento o André Nobre, que falou sobre as novidades do Visual Studio 2010 e como aplicá-las na prática, logo em seguida eu falei sobre o Entity framework 4 e encerrando o evento o Márcio Althmann falou sobre o Silverlight 4.</description>
+    </item>
+    
+    <item>
+      <title>Community Launch &amp;#8211; Londrina</title>
+      <link>https://carloscds.github.io/2010/03/community-launch-londrina/</link>
+      <pubDate>Sun, 21 Mar 2010 12:30:53 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/03/community-launch-londrina/</guid>
+      <description>Aconteceu no último sábado (20/03) o Community Launch em Londrina/PR. Nesta oportunidade participamos do evento nacional da Microsoft, através da sessão geral e logo após apresentamos vários recursos do Visual Studio 2010.
+Apresentamos durante o evento a Copa de Talentos (www.talentosmicrosoft.com.br), competição que se iniciou durante o evento do sábado.
+Gostaria de agradecer novamente o Prof. Rosmar do Senai, por apoiar nosso evento.
+Vejam as fotos:
+[]s,
+Carlos dos Santos.</description>
+    </item>
+    
+  </channel>
+</rss>

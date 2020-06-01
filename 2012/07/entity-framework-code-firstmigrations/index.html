@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Entity Framework Code First–Migrations - Carlos dos Santos
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Olá pessoal,
+Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
+O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
+Na prática temos duas maneiras de trabalhar com o Migrations:" />
+    <meta name="generator" content="Hugo 0.71.0 with theme pure" />
+    <title>Entity Framework Code First–Migrations - Carlos dos Santos</title>
+    
+    
+    <link rel="stylesheet" href="https://carloscds.github.io/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
+    
+    <base href="https://carloscds.github.io">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Entity Framework Code First–Migrations" />
+<meta property="og:description" content="Olá pessoal,
+Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
+O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
+Na prática temos duas maneiras de trabalhar com o Migrations:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carloscds.github.io/2012/07/entity-framework-code-firstmigrations/" />
+<meta property="article:published_time" content="2012-07-15T22:20:07-03:00" />
+<meta property="article:modified_time" content="2012-07-15T22:20:07-03:00" />
+<meta itemprop="name" content="Entity Framework Code First–Migrations">
+<meta itemprop="description" content="Olá pessoal,
+Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
+O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
+Na prática temos duas maneiras de trabalhar com o Migrations:">
+<meta itemprop="datePublished" content="2012-07-15T22:20:07-03:00" />
+<meta itemprop="dateModified" content="2012-07-15T22:20:07-03:00" />
+<meta itemprop="wordCount" content="1671">
+
+
+
+<meta itemprop="keywords" content="c#; msdn; entity framework," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Entity Framework Code First–Migrations"/>
+<meta name="twitter:description" content="Olá pessoal,
+Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
+O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
+Na prática temos duas maneiras de trabalhar com o Migrations:"/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://www.carloscds.net" target="_blank">
+            <img class="img-circle img-rotate" src="https://avatars0.githubusercontent.com/u/1697221?s=460&amp;u=409a6ac4e0cca9f7302962ae6f6e375507c7d38f&amp;v=4" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Carlos dos Santos</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Technology and Code</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Developer world!</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-contact">
+                <a href="mailto:cdssoftware@hotmail.com?subject=Contato_Blog">
+                    <i class="icon icon-project"></i>
+                  <span class="menu-title">Contact</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/.net/" class="category-list-link">.net</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/.net-core/" class="category-list-link">.net-core</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/alm/" class="category-list-link">alm</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">23</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/c#/" class="category-list-link">c#</a><span class="category-list-count">82</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/certifica%C3%A7%C3%A3o/" class="category-list-link">certificação</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/csharp/" class="category-list-link">csharp</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/diversos/" class="category-list-link">diversos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/dotnetcore/" class="category-list-link">dotnetcore</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">10</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/ide/" class="category-list-link">ide</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/opensource/" class="category-list-link">opensource</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/orm/" class="category-list-link">orm</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/roslyn/" class="category-list-link">roslyn</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/syntax/" class="category-list-link">syntax</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/team-foundation-server/" class="category-list-link">team-foundation-server</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/themes/" class="category-list-link">themes</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/uncategorized/" class="category-list-link">uncategorized</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">52</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/#azure/" class="tag-list-link">#azure</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/azure/" class="tag-list-link">azure</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#/" class="tag-list-link">c#</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-8/" class="tag-list-link">c#-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-entity-framework/" class="tag-list-link">c#-entity-framework</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-entity-framework-azure/" class="tag-list-link">c#-entity-framework-azure</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
+                    class="tag-list-count">14</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-%23ef/" class="tag-list-link">c#-msdn-#ef</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-entity-framework/" class="tag-list-link">c#-msdn-entity-framework</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-windows-phone/" class="tag-list-link">c#-msdn-windows-phone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-tuple/" class="tag-list-link">c#-tuple</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/certifica%C3%A7%C3%A3o/" class="tag-list-link">certificação</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/consultoria/" class="tag-list-link">consultoria</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/csharp/" class="tag-list-link">csharp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/css/" class="tag-list-link">css</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/ef-4/" class="tag-list-link">ef-4</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/eventos/" class="tag-list-link">eventos</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/excel/" class="tag-list-link">excel</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/extensions/" class="tag-list-link">extensions</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/html/" class="tag-list-link">html</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/index/" class="tag-list-link">index</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/json/" class="tag-list-link">json</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/live/" class="tag-list-link">live</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/markdown/" class="tag-list-link">markdown</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdn/" class="tag-list-link">msdn</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
+                    class="tag-list-count">13</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#-tfs/" class="tag-list-link">msdnc#-tfs</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#ef-codefirst/" class="tag-list-link">msdnc#ef-codefirst</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
+                    class="tag-list-count">6</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#eforacle/" class="tag-list-link">msdnc#eforacle</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#windows-8/" class="tag-list-link">msdnc#windows-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/prodividade/" class="tag-list-link">prodividade</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/publish/" class="tag-list-link">publish</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/scrum/" class="tag-list-link">scrum</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/silverlight/" class="tag-list-link">silverlight</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/storage/" class="tag-list-link">storage</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/tfs/" class="tag-list-link">tfs</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/themes/" class="tag-list-link">themes</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/tools/" class="tag-list-link">tools</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/website/" class="tag-list-link">website</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows-phone-c#-msdn/" class="tag-list-link">windows-phone-c#-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows10/" class="tag-list-link">windows10</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/05/migracaoblog/" class="title">Migração do Blog para Markdown</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-31</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/02/injecao-de-depenencia-em-c-bonus/" class="title">Injeção de Dependência em C# - Bônus</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-27</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-2/" class="title">Injeção de Dependência em C# – Parte 2</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-25 01:10:29 -0300 -03" itemprop="datePublished">2020-02-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-1/" class="title">Injeção de Dependência em C# - Parte 1</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-13 23:16:24 -0300 -03" itemprop="datePublished">2020-02-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2019/09/asp-net-core-minhas-views-sumiram-no-publish/" class="title">ASP.NET Core: Minhas Views sumiram no publish?</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-09-15 19:49:16 -0300 -03" itemprop="datePublished">2019-09-15</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="post-" class="article article-type-post" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2012/07/entity-framework-code-firstmigrations/"
+    >Entity Framework Code First–Migrations</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.github.io/2012/07/entity-framework-code-firstmigrations/" class="article-date">
+  <time datetime="2012-07-15 22:20:07 -0300 -03" itemprop="datePublished">2012-07-15</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c/"> C# </a>
+  <a class="article-category-link" href="/categories/entity-framework/"> Entity Framework </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/c#-msdn-entity-framework/"> c#; msdn; entity framework </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2012/07/entity-framework-code-firstmigrations/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1671words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 8minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Olá pessoal,</p>
+<p>Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.</p>
+<p>O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.</p>
+<p>Na prática temos duas maneiras de trabalhar com o Migrations:</p>
+<ol>
+<li>Usar pontos de migração no banco de dados, onde podemos avançar, aplicando as últimas modificações, ou voltar na linha do tempo, em qualquer momento do banco de dados;</li>
+<li>Usar o modo totalmente automático, onde você não precisa se preocupar em atualizar o banco, pois ao executar o seu programa, isto será feito de maneira automatica.</li>
+</ol>
+<p>Mas qual dos dois modelos eu devo utilizar em minha aplicação ? E a resposta é: Depende!. Se você precisa de um controle rigoroso das modificações, se precisa gerar scripts que serão executados no seu ambiente de produção, o melhor é usar o modo mais manual. Mas se o que lhe interessa é manter o banco sempre atualizado, sem se preocupar em rodar scripts, então use o modo automatico.</p>
+<p>Neste artigo iremos abordar os dois métodos de utilização do Migrations e após entender cada um você poderá optar pelo que melhor se adequa ao seu processo.</p>
+<p><strong><!-- raw HTML omitted -->Criando o projeto de exemplo<!-- raw HTML omitted --></strong></p>
+<p>Antes de começar, vamos criar nosso projeto de exemplo. Eu estou usando o <a href="http://www.microsoft.com/visualstudio/11/en-us/downloads">Visual Studo 2012</a>, mas você pode também usar o Visual Studio 2010.</p>
+<p>Vamos iniciar criando um projeto do tipo console, com o .Net Framework 4:<br>
+<img src="wp-content/uploads/2012/07/image.png" alt=""></p>
+<p>Logo após criar o projeto, vamos adicionar o Entity Framework CodeFirst usando o NuGet. Para isto abra o gerenciador do NuGet em Tools/Library Package Manager/Packager Manager Console e digite:<br>
+<img src="wp-content/uploads/2012/07/image13.png" alt=""></p>
+<p>Após isto teremos o EF CodeFirst instalado em nosso projeto. Vamos agora criar um Contexto e uma classe para podermos trabalhar com o Migrations.</p>
+<p>Esta será a nossa classe de Contexto:</p>
+<pre><code class="language-csharp">public class Contexto : DbContextsdf
+{
+    public DbSet&lt;Cliente&gt; Cliente { get; set; }
+}
+</code></pre>
+<p>E esta será a nossa classe de Clientes:</p>
+<pre><code class="language-csharp">public class Cliente
+{
+   public int ID { get; set; }
+   public string Nome { get; set; }
+}
+</code></pre>
+<p>Vamos também adicionar um arquivo app.config para identificarmos nosso servidor SQL e o nome do banco de dados:</p>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;configuration&gt;
+  &lt;connectionStrings&gt;
+    &lt;add name=&quot;Contexto&quot; providerName=&quot;System.Data.SqlClient&quot; connectionString=&quot;data source=(local); initial catalog=ExemploMigrations; integrated security=true;&quot;/&gt;       
+  &lt;/connectionStrings&gt;
+&lt;/configuration&gt;
+</code></pre>
+<p>Agora que já temos nossas classes e o arquivo de configuração, vamos adicionar o Migrations.</p>
+<p><strong><!-- raw HTML omitted -->Migrations – Gerenciando cada atualização no banco de dados<!-- raw HTML omitted --></strong></p>
+<p>Vamos inicialmente adicionar o Migrations ao nosso projeto. Independente do método: manual ou automático, precisamos adicioná-lo ao nosso projeto. Faremos isto usando novamente a janela do Nuget através do comando Enable-Migrations:<br>
+<img src="wp-content/uploads/2012/07/image22.png" alt=""></p>
+<p>Após este comando, uma nova classe será adicionada ao nosso projeto, o nome dela é Configurations:<br>
+<img src="wp-content/uploads/2012/07/image32.png" alt=""></p>
+<p>Como vamos trabalhar com o processo manual, vamos deixar esta classe como está e vamos iniciar com os comandos do Migrations, que devem ser executados na janela do NuGet:</p>
+<p>Agora, para todas as alterações que fizermos nas classes executaremos basicamente dois comandos:<br>
+<strong>Add-Migrations<br>
+Update-DataBase</strong></p>
+<p>Add-Migrations “nome_migrations” – cria um alteração no banco de dados, onde o “nome_migrations” é o nome que você irá dar para a atualização;<br>
+Update-DataBase – aplica as alterações no banco de dados;<br>
+Update-DataBase – script – gera um script com os comandos SQL para serem executados no banco de dados.</p>
+<p>Para nosso exemplo, iremos executar:<br>
+**Add-Migrations “CriacaoBanco”<br>
+Update-DataBase<br>
+**<br>
+Veja que ao executar o Add-Migrations, um novo arquivo foi adicionado ao projeto, contendo os comandos Migrations para o banco de dados:<br>
+<img src="wp-content/uploads/2012/07/image42.png" alt=""></p>
+<pre><code class="language-csharp">public partial class CriacaoBanco : DbMigration
+{
+    public override void Up()
+    {
+        CreateTable(
+            &quot;Clientes&quot;,
+            c =&gt; new
+                {
+                    ID = c.Int(nullable: false, identity: true),
+                    Nome = c.String(),
+                })
+            .PrimaryKey(t =&gt; t.ID);
+        
+    }
+    
+    public override void Down()
+    {
+        DropTable(&quot;Clientes&quot;);
+    }
+}
+</code></pre>
+<p>Como nosso banco de dados ainda não existia, ele foi criado após o comando Update-DataBase:<br>
+<img src="wp-content/uploads/2012/07/image52.png" alt=""></p>
+<p>Para que nossos exemplo fiquem mais interessantes, vou adicionar alguns registros no banco de dados usando o código abaixo, mas se você preferir, insira os dados diretamente no SQL:</p>
+<pre><code class="language-csharp">static void Main(string[] args)
+{
+    var db = new Contexto();
+    db.Cliente.Add(new Cliente() { Nome = &quot;Carlos dos Santos&quot; });
+    db.Cliente.Add(new Cliente() { Nome = &quot;Jose da Silva&quot; });
+    db.Cliente.Add(new Cliente() { Nome = &quot;Antonio das Couves&quot; });
+    db.SaveChanges();
+}
+</code></pre>
+<p>Agora vamos começar a modificar a nossa classe e ver como realmente o migrations pode nos ajudar. Inicialmente vamos adicionar um campo chamado Ativo na classe Cliente, e logo após vamos criar um novo Migration para enviar isto ao banco de dados:</p>
+<p>Classe Cliente com o novo campo:</p>
+<pre><code class="language-csharp">public class Cliente
+{
+    public int ID { get; set; }
+    public string Nome { get; set; }
+}
+</code></pre>
+<p>Agora ao executar o comando Add-Migrations “Cliente_Ativo” teremos mais um arquivo do Migrations:</p>
+<pre><code class="language-csharp">public partial class Cliente_Ativo : DbMigration
+{
+    public override void Up()
+    {
+        AddColumn(&quot;Clientes&quot;, &quot;Ativo&quot;, c =&gt; c.Boolean(nullable: false));
+    }
+    
+    public override void Down()
+    {
+        DropColumn(&quot;Clientes&quot;, &quot;Ativo&quot;);
+    }
+}
+</code></pre>
+<p>Mas antes de enviar isto para o banco, vamos imaginar que você queira setar um valor para o campo Ativo, por exemplo, todos os campos Ativos deverão estar true. Você pode fazer isto através do comando Sql() dentro do arquivo do migrations, veja:</p>
+<pre><code class="language-csharp">public partial class Cliente_Ativo : DbMigration
+{
+    public override void Up()
+    {
+        AddColumn(&quot;Clientes&quot;, &quot;Ativo&quot;, c =&gt; c.Boolean(nullable: false));
+        Sql(&quot;update clientes set ativo = 1&quot;);
+    }
+    
+    public override void Down()
+    {
+        DropColumn(&quot;Clientes&quot;, &quot;Ativo&quot;);
+    }
+}
+</code></pre>
+<p>Obviamente você poderia ter definido isto como um valor default par o banco, mass o intuito aqui é lhe mostrar como é possível enviar comandos durante o processo do Migrations.</p>
+<p>Agora vamos enviar o comando para o banco, mas de uma maneira um pouco diferente, vamos gerar um script SQL. Para isto execute o comando da seguinte maneira:</p>
+<p><strong>Update-DataBase –script</strong></p>
+<p>E o resultado será um arquivo de script SQL:</p>
+<pre><code class="language-sql">ALTER TABLE [Clientes] ADD [Ativo] [bit] NOT NULL DEFAULT 0
+update clientes set ativo = &lt;span class=&quot;kwrd&quot;&gt;1&lt;/span&gt;
+INSERT INTO [__MigrationHistory] ([MigrationId], [CreatedOn], [Model], [ProductVersion]) VALUES (&lt;span class=&quot;str&quot;&gt;'201207160033131_Cliente_Ativo'&lt;/span&gt;, &lt;span class=&quot;str&quot;&gt;'2012-07-16T00:38:19.710Z'&lt;/span&gt;, 0x1F8B0800000000000400CD56C96EDB3010BD17E83F083CB587988E0B0449202748ECB8085A3B4194E64E4B6387281755A40CFBDB7AE827F5173AD46E79C97AE84D2267797C7C33C3BFBFFFF8E74B29BC0524866BD527879D2EF140853AE26ADE27A99D1D1C93F3B38F1FFCAB482EBD87D2AEE7ECD053993E79B4363EA5D4848F2099E9481E26DAE899ED845A521669DAEB768FE9619702862018CBF3FCBB54592E21FBC1DF815621C4366562AC2310A658C79D208BEA4D980413B310FAE46A0932167ACCE709B308C610EF427086400210B317A2EA9E3854A4CA8719AF10995DDDAF62C8B2F6C9407050169A4668F60D566B0BB8749BE81812BBBA8359E17A3D241E5DF7A36DC7CAADE1E3B2E397B25F7AC49BA442B0A9C08519130688171F9D065627F01514200710DD326B21C16BB98E20435FB0701A1F3D8F8813DAED392228534ADB8CD60DE02D98132DA1041AD804E542BC115F42F41DD4DC3E5660C76C59AEE027F17E288EEA42279BA4D03C5CFEBF3FE985E50B5D66BDD45A00535B086A06F1697DA19BD78CC2B38C238DE55DE33F2CAD6E5D766E1C806D49C2AB63E7F2EB543BDB3054D96A7DD35CE06521D01D95E08F591C23C78DCA2856BC202F8BC141F072EDCB3C060DCD9612A8D0569950746C0EAD5D475A04239E183B64964D99BB814124B798EDE7B64CB3A7EAD6CAB3B477DFB9CF466BE8EC8852D337C2134934C90E0715969DF933DF206482255BEA76A0452AD5AEDADFE79D9753D33F5F797E84A2369A218AA5CD183E6D1DBFCD32DDA0B9D5C5DAB7B64FED6D932A7BA5FA96BAFD42694F0F830DE9E526C44372163C72B20B56C682EC38834EF04BE4F75A1B8C99E23330F65EFF0437D8B0325E3F50AA3E6A4C24FED3A9C2DDE99F9C1F7B7BEAFE69A0162C091F59F249B2E5E73775F829B7EFDCDDDB8DEACD6D3ED75B9F4453873AC7596C9A570F814DF9FBB4F962F28760F8BC0EE1DE4F0A42D7F2EAA0A5CDB59AE992643C5A135169D2BA8331581621431789E533165ADC0EC1986CC43F3091BA4E2BA7105DAB9BD4C6A9BD3006E454AC9AE7F5E9FEFCD9A45BC7ECDFC459D37E8F23204C8E47801B7599721155B8475B24B42384134B5121880A9F38186EBEAA224DB47A66A082BE21C4A05C7DDDBB2185C1CC8D0AD80276637B9AC375C6FC216738F96493C17CA5401230CCDC4881099A1E753EF7E0A7EEC57FF60FBDB90F33230C0000
+</code></pre>
+<p>Basta executar este arquivo dentro do SQL que o campo será criado e atualizado, ou se preferir, execute novamente o Update-DataBase que isto será feito automaticamente.<br>
+Este recurso do script pode ser util se você precisar atualizar também um ambiente e produção da sua aplicação.<br>
+<img src="wp-content/uploads/2012/07/image62.png" alt=""></p>
+<p><strong><!-- raw HTML omitted -->Obs: <!-- raw HTML omitted --></strong>A tabela __MigrationHistory é usada pelo Migrations para gerenciar o histórico das versões dentro do banco de dados.</p>
+<p><strong><!-- raw HTML omitted -->Voltando o banco de dados em um determinado ponto:<!-- raw HTML omitted --></strong></p>
+<p>Um recurso bem interessante do Migrations é que você pode voltar o seu banco de dados a qualquer ponto em que tenha executado um Add-Migrations. Imagine então que nós criamos o campo ativo no banco e agora você queira voltar ao ponto onde este campo ainda não existia, para isto vamos executar o seguinte comando do Migrations:</p>
+<p><strong>Update-DataBase –target “CriacaoBanco”</strong></p>
+<p>Isto volta nosso banco de dados a este ponto, que nosso caso foi a criação do banco, mas poderia ser qualquer outro ponto. Lembrando que este comando afeta apenas o banco de dados e não a nossa classe.</p>
+<p>Agora vamos ver como é executar o Migrations de forma totalmente automatica.</p>
+<p><strong><!-- raw HTML omitted -->Migrations – Executando as atualizações automaticamente<!-- raw HTML omitted --></strong></p>
+<p>Agora que você já sabe como manter seu banco de dados atualizados, gerando versões das atualizações, vamos imaginar que você não precisa manter este histórico, mas simplesmente manter o banco atualizado.</p>
+<p>Para este exemplo, vamos criar um projeto com os mesmos dados do exemplo anterior, ou seja: crie um projeto do tipo console:<br>
+<img src="wp-content/uploads/2012/07/image72.png" alt=""></p>
+<p>Adicione o EF CodeFirst através do console do NuGet e depois adicione o contexto, a classe cliente e o arquivo app.config, mas neste arquivo iremos modificar o nome do bando de dados para ExemploMigrationsAutomatico:</p>
+<pre><code class="language-csharp">public class Contexto : DbContext
+{
+   public DbSet&lt;Cliente&gt; Cliente { get; set; }
+}
+</code></pre>
+<pre><code class="language-csharp">public class Cliente
+{
+    public int ID { get; set; }
+}       
+</code></pre>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;configuration&gt;
+  &lt;connectionStrings&gt;
+    &lt;add name=&quot;Contexto&quot; providerName=&quot;System.Data.SqlClient&quot; connectionString=&quot;data source=(local); initial catalog=ExemploMigrationsAutomatico; integrated security=true;&quot;/&gt;
+  &lt;/connectionStrings&gt;
+&lt;/configuration&gt;
+</code></pre>
+<p>Feito isto vamos adicionar o migrations, da mesma forma que antes, mas agora modificando os parâmetros necessários para que tudo fique automático, então abra o console do NuGet e execute o comando Enable-Migrations:<br>
+<img src="wp-content/uploads/2012/07/image82.png" alt=""></p>
+<p>Agora que começam as diferenças. No exemplo anterior não modificamos nada na classe configurations, mas neste caso iremos fazer alguns ajustes:<br>
+<img src="wp-content/uploads/2012/07/image92.png" alt=""></p>
+<p>Primeiro vamos mudar a classe para “public class”, pois precisaremos refenciá-lá posteriormente. Depois vamos ativar a propriedade da migração automatica e por fim vamos marcar a opção que dados podem ser perdidos durante a migração. Esta última opção fica a seu critério, pois se você não habilitar a opção e o Migrations não conseguir atualizar o banco de dados. você receberá um erro.</p>
+<p>E agora vamos modificar o construtor do contexto para ele chamar o DatabaseInitializer, que é quem faz todo o processo acontecer:</p>
+<pre><code class="language-csharp">public class Contexto : DbContext
+{
+    public DbSet&lt;Cliente&gt; Cliente { get; set; }
+
+    public Contexto()
+    {
+        Database.SetInitializer(new MigrateDatabaseToLatestVersion&lt;Contexto, Configuration&gt;());
+    }
+}
+</code></pre>
+<p>O que fizemos foi adicionar a chamada do DatabaseSetInitializer() com a opção MigrateDatabaseToLastVersion, o que faz com que nosso banco de dados seja sempre atualizado de acordo com as nossas classes.</p>
+<p>Agora é só executar o exemplo abaixo para criarmos o banco de dados:</p>
+<pre><code class="language-csharp">static void Main(string[] args)
+{
+    var db = new Contexto();
+    db.Cliente.Add(new Cliente() { Nome = &quot;Carlos dos Santos&quot; });
+    db.Cliente.Add(new Cliente() { Nome = &quot;Jose da Silva&quot; });
+    db.Cliente.Add(new Cliente() { Nome = &quot;Antonio das Couves&quot; });
+    db.SaveChanges();
+}
+</code></pre>
+<p>Agora vamos modificar a classe cliente e simplesmente executar o programa novamente:</p>
+<pre><code class="language-csharp">public class Cliente
+{
+    public int ID { get; set; }
+    public string Nome { get; set; }
+    public string CPF { get; set; }
+    public decimal Limite { get; set; }
+}
+</code></pre>
+<p>Após executar o programa e fazer uma consulta no SQL:<br>
+<img src="wp-content/uploads/2012/07/image102.png" alt=""></p>
+<p><strong>Conclusão:</strong></p>
+<p>O recurso de Migrations sem dúvida é algo realmente fantástico no Entity Framework CodeFirst e certament ajuda na produtividade do nosso dia a dia. Escolha o que melhor lhe atender e começe a usar agora mesmo.</p>
+<p>Abraços e até a próxima.<br>
+Carlos dos Santos.</p>
+
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://carloscds.github.io/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/" title="Testes para Entrega Contínua com Visual Studio 2012 RC"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://carloscds.github.io/2012/07/entity-frameworkopen-source/"
+                    title="Entity Framework–Open Source"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="facebook,twitter,linkedin"
+                data-mobile-sites=""></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://www.facebook.com/carloscds" target="_blank" title="facebook" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-facebook"></i></a></li>
+    <li><a href="https://github.com/carloscds" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://carloscds.github.io/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2008  -
+    2020
+    
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/csharp.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://carloscds.github.io/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://carloscds.github.io/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/carloscds.github.io',
+            CONTENT_URL: 'https:\/\/carloscds.github.io\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://carloscds.github.io/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/carloscds.github.io\/2012\/07\/entity-framework-code-firstmigrations\/';
+        this.page.identifier = 'https-www-carloscds-net';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'https-www-carloscds-net' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8863591-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

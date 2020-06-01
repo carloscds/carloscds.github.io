@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>certificação on Carlos dos Santos</title>
+    <link>https://carloscds.github.io/tags/certifica%C3%A7%C3%A3o/</link>
+    <description>Recent content in certificação on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 07 Dec 2011 15:53:17 -0300</lastBuildDate>
+    
+        <atom:link href="https://carloscds.github.io/tags/certifica%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desenvolvimento para Windows 8</title>
+      <link>https://carloscds.github.io/2013/01/desenvolvimento-para-windows-8/</link>
+      <pubDate>Thu, 17 Jan 2013 17:25:08 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/01/desenvolvimento-para-windows-8/</guid>
+      <description>Olá pessoal,
+Neste primeiro post de 2013 vou falar um pouco somente a minha experiência no desenvolvimento de duas aplicações para Windows 8.
+A primeira aplicação eu fiz no final do ano passado, apenas com o intuito de validar o processo de desenvolvimento e publicação na Store da Microsoft. É uma aplicação bem simples, para lista de compras, onde o usuário cria uma lista de compras e relaciona os produtos que vai comprar, podendo enviar esta lista por email através do Share do Windows.</description>
+    </item>
+    
+    <item>
+      <title>TFS com GIT para versionamento local</title>
+      <link>https://carloscds.github.io/2012/08/tfs-com-git-para-versionamento-local/</link>
+      <pubDate>Mon, 13 Aug 2012 15:00:04 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/08/tfs-com-git-para-versionamento-local/</guid>
+      <description>Olás pessoal,
+A Microsoft acaba de anunciar a integração do TFS com o GIT para versionamento local, ou DCVS (Distributed Concurrent Versions System), ou basicamente, versionamento local integrado ao servidor de código.
+Na prática você pode estar fora do seu ambiente TFS, trabalhlar normalmente no seu código, fazendo Check-in e Check-out e depois você publica tudo no servidor TFS, integrando o código.
+Para quem trabalha fora do ambiente e quer ter um versionador local de código, ou seja, você quer manter mais do que a cópia atual do seu código, este recurso sem dúvida fará a diferença.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework–Open Source</title>
+      <link>https://carloscds.github.io/2012/07/entity-frameworkopen-source/</link>
+      <pubDate>Thu, 19 Jul 2012 17:04:36 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/07/entity-frameworkopen-source/</guid>
+      <description>Pessoal,
+A Microsoft anunciou hoje que o Entity Framework terá seu código fonte Open Source e ela vai contar com a ajuda da comunidade para poder melhorá-lo.
+Mesmo sendo Open Source, a Microsoft irá continuar o desevolvimento do produto, e já fala inclusive no roadmap do Entity Framework 6.
+Se você tem interesse em conhecer o código fonte, e principalmente, contribuir, acesse o portal do projeto no CodePlex no link: http://entityframework.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Code First–Migrations</title>
+      <link>https://carloscds.github.io/2012/07/entity-framework-code-firstmigrations/</link>
+      <pubDate>Sun, 15 Jul 2012 22:20:07 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/07/entity-framework-code-firstmigrations/</guid>
+      <description>Olá pessoal,
+Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
+O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
+Na prática temos duas maneiras de trabalhar com o Migrations:</description>
+    </item>
+    
+    <item>
+      <title>Testes para Entrega Contínua com Visual Studio 2012 RC</title>
+      <link>https://carloscds.github.io/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/</link>
+      <pubDate>Thu, 21 Jun 2012 15:44:19 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/</guid>
+      <description>Pessoal,
+Recentemente eu participei do processo de revisão do material sobre Testes para Entrega Contínua com Visual Studio 2012 RC juntamente com o time de Patterns &amp;amp; Practices da Microsoft.
+O material está muito interessante e vários exemplos. Se você trabalha com entrega contínua integrada ao processo de desenvolvimento, sem dúvida é um material essencial para você.
+Para acessar o material acesse este link: http://msdn.microsoft.com/en-us/library/jj159344
+Abraços,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Migrando Blog para o Azure</title>
+      <link>https://carloscds.github.io/2012/06/migrando-blog-para-o-azure/</link>
+      <pubDate>Thu, 07 Jun 2012 22:00:28 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/06/migrando-blog-para-o-azure/</guid>
+      <description>Pessoal, eu migrei todo o meu blog para o Windows Azure usando o WordPerss com MySQL. A migração foi feita usando as próprias ferramentas do wordpress, ou seja, exportar dados de um lado e importar do outro.
+Fora o backup, precisei copiar os plug-ins e reativá-los, mas isto foi tranquilo. O site ficou muito, mas muito mais rapido no Azure, sem perder nenhum recurso em relação ao site original.
+Agora vou esperar só a liberação de mais tráfego para download para finalizar a migração e usar tudo no Azure.</description>
+    </item>
+    
+    <item>
+      <title>Academia de Entity Framework 4</title>
+      <link>https://carloscds.github.io/2012/06/academia-de-entity-framework-4/</link>
+      <pubDate>Thu, 07 Jun 2012 13:15:29 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/06/academia-de-entity-framework-4/</guid>
+      <description>Pessoal,
+Está no ar o Microsoft Virtual Academy (MVA) do Entity Framework 4. É um treinamento básico sobre o EF, com seus conceitos fundamentais e vários exemplos de códigos.
+O MVA é composto de vídeos explicativos e também de artigos e de uma prova. Para quem está começando com EF, é uma excelente fonte de aprendizado.
+Esta academia foi grava por mim, Renato Haddad e pelo Fernando Henrique.
+O link é https://www.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework 4.3 lançado!</title>
+      <link>https://carloscds.github.io/2012/02/entity-framework-4-3-lanado/</link>
+      <pubDate>Fri, 10 Feb 2012 09:41:18 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/02/entity-framework-4-3-lanado/</guid>
+      <description>Pessoal,
+A Microsoft acaba de lancar a versão 4.3 do Entity Framework CodeFirst, agora com todas as novidades que vinham sendo trabalhadas nos betas, consolidadas nesta versão.
+Um dos pontos mais trabalhados foi o Migrations, que permite que você atualize o banco de dados, seja de desenvolvimento ou produção, simplesmente através das mudanças em suas classes POCO.
+Muitas novidades ainda estão por vir na versão que deverá sair logo após o lançamento do novo Visual Studio, pois muitas das mudanças anunciadas para o Entity Framework, como por exempo suporte a enums, necessita de mudanças também no .</description>
+    </item>
+    
+    <item>
+      <title>Nova versão do Debugger Canvas</title>
+      <link>https://carloscds.github.io/2012/02/nova-verso-do-debugger-canvas/</link>
+      <pubDate>Sun, 05 Feb 2012 19:22:47 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/02/nova-verso-do-debugger-canvas/</guid>
+      <description>Pessoal, eu fiz um post sobre o Debugger Canvas há um tempo atrás. Agora foi lançada a versão 1.1, que conta com diversas melhorias, como por exemplo: ligar/desligar o canvas durante o debug, edição de código dentro do canvas, entre outros.
+Após baixar e instalar o Debugger Canvas, você pode configurar a ativar as opções no menu Tools/Options/Debugger do Visual Studio:
+Depois é só executar o seu código:
+A diferença é aque você pode alternar entre o Debugger Canvas e o Debugger convencional, através da opção “Debugger Canvas” do menu Debug.</description>
+    </item>
+    
+    <item>
+      <title>Validando Dados com EntityFramework e WindowsForms</title>
+      <link>https://carloscds.github.io/2012/01/validando-dados-com-entityframework-e-windowsforms/</link>
+      <pubDate>Tue, 31 Jan 2012 00:20:00 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/01/validando-dados-com-entityframework-e-windowsforms/</guid>
+      <description>Pessoal,
+Hoje vou mostrar uma maneira bem simples e interessante de fazer validação de dados com EntityFramework, classes POCO e uma aplicação Windows Forms.
+Como eu já comentei em outros posts, quando você utiliza DataAnnotations em classes POCO na sua camada de dados e faz a camada de apresentação com WPF/Silverlight ou MVC, o tratamento dos campos é feito automaticamente, praticamente sem nenhum tipo de código. Mas e se você ainda programa para WindowsForms ou precisa validar os dados da classe em uma camada e retornar o erro para outra camada, como fazer ?</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework CodeFirst</title>
+      <link>https://carloscds.github.io/2012/01/entityframework-codefirst/</link>
+      <pubDate>Sat, 07 Jan 2012 23:31:48 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/01/entityframework-codefirst/</guid>
+      <description>No post anterior, eu falei em como trabalhar com Entity Framework usando o Designer, ou seja, um modelo de classes criado a partir de um arquivo EDMX. Este modelo funciona perfeitamente em diversos tipos de projetos, mas o grande incoveniente é ter um arquivo EDMX para cada tipo de banco de dados do seu projeto.
+Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do artigo anterior. Nossa necessidade ainda é manter o isolamento do banco de dados e trabalhar somente com objetos.</description>
+    </item>
+    
+    <item>
+      <title>Trabalhando com Entity Framework Designer</title>
+      <link>https://carloscds.github.io/2012/01/trabalhando-com-entity-framework-designer/</link>
+      <pubDate>Sat, 07 Jan 2012 16:21:11 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/01/trabalhando-com-entity-framework-designer/</guid>
+      <description>Olá pessoal,
+Hoje em um desenvolvimento de projeto é muito comum o programador ter que saber vários comando de bancos de dados (Insert, Delete, Update, Select) para poder desenvolver, além de saber sobre a linguagem de progração. O EntityFramework vem para ajudar nesta tarefa, criando uma correspondência entre as tabelas do banco de dados, o que chamamos de ORM, ou mapeamento Objeto-Relacional.
+Existem, basicamente, duas maneiras de se trabalhar com o Entity Framework, usando o Entity Designer ou o Entity Framework Code First.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework com Oracle</title>
+      <link>https://carloscds.github.io/2012/01/entity-framework-com-oracle/</link>
+      <pubDate>Wed, 04 Jan 2012 22:29:16 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2012/01/entity-framework-com-oracle/</guid>
+      <description>A Oracle acabou de lancar seu provider nativo para o Entity Framework, a versão ODAC 11.2. Agora você já pode acessar nativamente o Oracle com o EF, facilitando o desenvolvimento através do mapeamento objeto relacional.
+Para baixar acesse os links abaixo:
+Usando EF com Oracle: http://www.oracle.com/technetwork/issue-archive/2011/11-sep/o51odt-453447.html
+Provider 32 bits: http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
+Provider 64 bits: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
+ []s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Provas de Certificação</title>
+      <link>https://carloscds.github.io/2011/12/provas-de-certificao/</link>
+      <pubDate>Wed, 07 Dec 2011 15:53:17 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/12/provas-de-certificao/</guid>
+      <description>Pessoal,
+Tenho acompanhado que muitas pessoas estão estudando para tirar alguma tipo de certificação Microsoft. Uma boa dica é usarem os livros Self-Paced, que além de conterem material específico para a prova, têm também um software que simula a prova e que você pode usar para ver como está seu conhecimento, antes de realizar a prova.
+Veja um exemplo de livro aqui no Amazon: http://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401. Este é para a prova de Web do .</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Windows Phone em Natal/RN</title>
+      <link>https://carloscds.github.io/2011/11/palestra-sobre-windows-phone-em-natalrn/</link>
+      <pubDate>Mon, 14 Nov 2011 14:20:29 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/11/palestra-sobre-windows-phone-em-natalrn/</guid>
+      <description>Pessoal,
+Semana passada estive em Natal/RN para um encontro de Centrais de Negócios do Sebrae e algo inusitado aconteceu. Tenho um grande amigo que mora em Natal, o Glebe Duarte, que trabalha no Senac. Eu já tinha falado com ele que estaria em Natal, e tínhamos até combinado um bate papo sobre comunidades e tecnologia.
+O mais incrível foi que o Glebe me chamou para fazer uma palestra sobre Windows Phone no Senac, algo que eu nem imaginava quando fúi para lá.</description>
+    </item>
+    
+    <item>
+      <title>Curso de C# no IFPR</title>
+      <link>https://carloscds.github.io/2011/10/curso-de-c-no-ifpr/</link>
+      <pubDate>Mon, 03 Oct 2011 20:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/10/curso-de-c-no-ifpr/</guid>
+      <description>Nos dias 14 e 15 de setembro eu ministrei um curso básico de C# para os alunos do curso técnico do Instituto Federal do Paraná (www.ifpr.edu.br) a convite do Prof. Rodolfo Barrivieira.
+Neste treinamento os alunos tiveram a oportunidade de conhecer a plataforma Microsoft.Net e o Visual Studio 2010, num total de 8 horas de curso.
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>TechEd 2011–Palestra Entity Framework</title>
+      <link>https://carloscds.github.io/2011/10/teched-2011palestra-entity-framework/</link>
+      <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/10/teched-2011palestra-entity-framework/</guid>
+      <description>Pessoal,
+Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
+    </item>
+    
+    <item>
+      <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
+      <link>https://carloscds.github.io/2011/10/brazilian-translation-wiki-2011-community-participant-award/</link>
+      <pubDate>Sun, 02 Oct 2011 20:14:06 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/10/brazilian-translation-wiki-2011-community-participant-award/</guid>
+      <description>Pessoal,
+Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
+Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
+Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.</description>
+    </item>
+    
+    <item>
+      <title>EF Code First-Acessando Stored Procedures</title>
+      <link>https://carloscds.github.io/2011/08/ef-code-first-acessando-stored-procedures/</link>
+      <pubDate>Sat, 20 Aug 2011 22:07:01 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/08/ef-code-first-acessando-stored-procedures/</guid>
+      <description>Olá,
+Vou iniciar este post informando que o Entity Framework Code First não tem suporte nativo para Stored Procedures, ainda!!!
+Mas se não é suportado nativamente, então como é possível acessá-las ? Através do método SqlQuery() do contexto, mas existe um inconveniente: o acesso fica vinculado ao banco de dados, ou seja, para cada banco de dados o acesso é feito de uma maneira, mesmo porquê cada banco tem uma maneira específica de chamar e tratar os parâmetros das stored procedures.</description>
+    </item>
+    
+    <item>
+      <title>EF CodeFirst–Gerenciando as Strings de Conexão</title>
+      <link>https://carloscds.github.io/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</link>
+      <pubDate>Mon, 08 Aug 2011 22:21:48 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</guid>
+      <description>Olá,
+Hoje vamos falar um pouco sobre o gerenciamento de string de conexões no Entity Framework Code First, uma maneira muito simples e rápida de criar um mapeamento objeto relacional em C# com o Visual Studio 2010.
+Se você ainda não conhece o EF CodeFirst, veja este post e também o Blog do time de ADO.Net.
+O que vou tratar neste post é como podemos armazenar as strings de conexão e os providers que permitem o acesso do EF ao nosso banco de dados.</description>
+    </item>
+    
+  </channel>
+</rss>

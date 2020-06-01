@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows Phone on Carlos dos Santos</title>
+    <link>https://carloscds.github.io/tags/windows-phone/</link>
+    <description>Recent content in Windows Phone on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 14 Nov 2011 14:20:29 -0300</lastBuildDate>
+    
+        <atom:link href="https://carloscds.github.io/tags/windows-phone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EntityFramework&amp;ndash;Apoveitando seu Banco de Dados com PowerTools</title>
+      <link>https://carloscds.github.io/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</link>
+      <pubDate>Mon, 21 Apr 2014 19:34:06 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</guid>
+      <description>Olá pessoal,
+Quando uma empresa resolve adotar uma ferramenta de ORM (Mapeamento Objeto Relacional); no nosso caso o EntityFramework), começa uma grande quebra de paradigma, pois você vai deixar de acessar o banco de dados diretamente (Select, Insert, Update, Delete, etc) e vai passar a trabalhar somente com classes e objetos. Isto torna o desenvolvimento muito mais fácil e produtivo, uma vez que você não precisa ficar se preocupando com os comandos que vão para o banco de dados, já que isto é trabalho do ORM.</description>
+    </item>
+    
+    <item>
+      <title>Melhorando a performance do Entity Framework com NGen</title>
+      <link>https://carloscds.github.io/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</link>
+      <pubDate>Mon, 21 Apr 2014 18:32:40 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</guid>
+      <description>Olá pessoal,
+Em um outro post eu falei bem rapidamente sobre o NGen, que serve para pré-compilar os assemblies de um aplicação, fazendo antecipadamente o trabalho do JIT (Just in Time Compiler).
+Só para relembrar um pouco, a figura abaixo mostra o processo de execução de uma aplicação em .Net:
+Em um processo natural de desenvolvimento em .Net, o que acontece é basicamente o que está na figura acima, ou seja, você escreve seu código, compila e depois executa.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio OnLine</title>
+      <link>https://carloscds.github.io/2014/04/visual-studio-online/</link>
+      <pubDate>Mon, 07 Apr 2014 21:25:57 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2014/04/visual-studio-online/</guid>
+      <description>Olá pessoal,
+Hoje a Micfrosoft liberou de forma definitiva e para todos, o Visual Studio Online. E o que vem a ser isto, talvez você esteja se perguntando ?
+Há algum tempo atrás, a Microsoft começou com uma iniciativa para colocar o Team Foundation Server, sua plataforma de ALM, na nuvem, e desta assim nasceu o que chamamos hoje de Visual Studio Online, que você pode acessar no site: http://www.visualstudio.com/. Com esta ferramenta você pode ter uma versão do Team Foundation Server completo sem a necessidade de nenhum tipo de servidor em sua empresa.</description>
+    </item>
+    
+    <item>
+      <title>DevChamps-EntityFramework6</title>
+      <link>https://carloscds.github.io/2014/01/devchamps-entityframework6/</link>
+      <pubDate>Thu, 23 Jan 2014 11:50:34 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2014/01/devchamps-entityframework6/</guid>
+      <description>Pessoal,
+Acabei de fazer uma apresentação sobre Entity Framework 6 e uma breve introdução ao uso de EF com MVC e WebAPI para grupo DevChamps da Microsoft. Este é grupo seleto com grandes empresas do mercado e me sinto muito honrado e feliz por ter esta oportunidade!
+Nesta apresentação falei de algumas novidades do Entity Framework 6, e mostrei como utilizar o Scaffold em aplicações MVC e webAPI para integração com o EF.</description>
+    </item>
+    
+    <item>
+      <title>E-book sobre cria&amp;ccedil;&amp;atilde;o de Aplica&amp;ccedil;&amp;otilde;es reais para Azure</title>
+      <link>https://carloscds.github.io/2014/01/e-book-sobre-criao-de-apps-reais-para-azure/</link>
+      <pubDate>Mon, 13 Jan 2014 23:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2014/01/e-book-sobre-criao-de-apps-reais-para-azure/</guid>
+      <description>Pessoal,
+Acabou de sair um E-book do Scott Guthrie’s sobre como criar aplicações reais para nuvem usando o Windows Azure. Este livro tem um material excelente e sem dúvida irá ajudá-los no desenvolvimento de aplicações para nuvem.
+Eu tive a felicidade de participar do processo de revisão deste material e vale a pena conferir.
+Para conferir o livro, clica aqui.
+Abraços e até a próxima,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Capturando a tela em Windows Forms</title>
+      <link>https://carloscds.github.io/2014/01/capturando-a-tela-em-windows-forms/</link>
+      <pubDate>Wed, 08 Jan 2014 21:55:40 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2014/01/capturando-a-tela-em-windows-forms/</guid>
+      <description>Olá pessoal,
+Hoje vou demonstrar como é possível capturar a tela ou até mesmo o conteúdo de um controle e salvá-lo como um Bitmap. Imagine que você tem uma solução de atendimento ao cliente e em algum momento precise capturar a tela do seu usuário e depois anexá-la a algum requisito do software ou tratamento de um bug.
+Claro que existem várias ferramentas prontas para captura de tela, mas vamos ver como é possível, através de um código em C# usando o recurso de Interop e acessando a API do Windows, criar um método reusável que pode ser utilizado para capturar vários tipos de tela no Windows.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework–CodeBase Configuration (Interception)</title>
+      <link>https://carloscds.github.io/2013/12/entity-frameworkcodebase-configuration-interception/</link>
+      <pubDate>Mon, 30 Dec 2013 00:06:34 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/12/entity-frameworkcodebase-configuration-interception/</guid>
+      <description>Olá pessoal,
+Uma das novidades do Entity Framework 6 é a possibilidade de fazermos as configurações do nosso modelo usando código ao invés dos tradicionais arquivos de configuração (app.config/web.config). Além disto, temos agora muitas outras configurações que podem ser modificadas através da classe DbConfiguration.
+Dentre as várias opções de configuração que temos através do DbConfiguration, existe uma chamada Interception (veja mais aqui), onde podemos interceptar várias operaçoes que são enviadas ao banco de dados pelo Entity Framework.</description>
+    </item>
+    
+    <item>
+      <title>Melhorando o tempo de carga do Entity Framework com NGEN</title>
+      <link>https://carloscds.github.io/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</link>
+      <pubDate>Sun, 03 Nov 2013 21:49:43 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</guid>
+      <description>A partir do Entity Framework 6, todos os componentes do EF estão dentro da DLL EntityFramework.dll e não mais divididas entre vários componentes do .Net Framework. Sendo assim, a DLL do EF não está otimizada para o JIT (Just in Time) do computador onde está sendo rodado, assim como o .Net está.
+Nós podemos melhorar isto executando o comando Ngen.exe, que pré-compila a DLL e elimina este processo durante a carga da DLL.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2013–Novidades</title>
+      <link>https://carloscds.github.io/2013/10/visual-studio-2013novidades/</link>
+      <pubDate>Sun, 20 Oct 2013 12:12:27 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/10/visual-studio-2013novidades/</guid>
+      <description>Olá pessoal,
+O Visual Studio 2013 será lançado no próximo dia 13/11/2013 (para assinantes do MSDN já está disponível) e junto com esta nova versão temos melhorias muito interessantes na IDE, que tornam o nosso dia a dia ainda mais produtivo.
+Neste post vou mostrar algumas destas novas funcionalidades que eu particularmente uso a todo momento e que ajudam muito no desenvolvimento. Enão vamos lá:
+Peek Definition (ALT F12)
+Imagine que você está escrevendo um método qualquer e precisa verificar um método que está em outra classe, normalmente você pressionar o F2 e olha a classe, e depois volta para o seu código.</description>
+    </item>
+    
+    <item>
+      <title>Palestra de Windows Azure–Cesumar</title>
+      <link>https://carloscds.github.io/2013/09/palestra-de-windows-azurecesumar/</link>
+      <pubDate>Thu, 19 Sep 2013 10:07:11 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/09/palestra-de-windows-azurecesumar/</guid>
+      <description>Pessoal,
+Ontem (18/09/2013) fiz uma palestra sobre Windows Azure no Cesumar em Maringá, onde mostrei as funcionalides do Azure e como é possível criar e migrar aplicações para a nuvem.
+Gostaria de agradecer ao Clodoaldo Assis pelo convite, ao Cesumar pela oportunidade e principalmente pelas pessoas presentes e pela excelente interação que tivemos ao final da palestra.
+Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse minha página no facebook.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework 6–Gerando Log dos comandos SQL</title>
+      <link>https://carloscds.github.io/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</link>
+      <pubDate>Mon, 02 Sep 2013 21:31:15 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</guid>
+      <description>Olá,
+O Entity Framework 6 RC já foi lançado! Agora é a hora de começar a trabalhar na migraçãoda versão 5 para a 6 e ver as novas funcionalidades. As especificações sobre as novas funcionalidades podem ser encontradas aqui.
+Dentre as muitas novidades, que vamos explorar nos post seguintes, hoje vou destacar uma que acho bem interessante: o log dos comandos enviados ao banco de dados.
+Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacional traduz comandos de uma linguagem de programação, no nosso caso C# e LINQ, para comandos de banco de dados.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework 6–Trabalhando com os Nightly Builds</title>
+      <link>https://carloscds.github.io/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</link>
+      <pubDate>Sun, 18 Aug 2013 18:13:06 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</guid>
+      <description>Olá pessoal,
+Voltando agora a escrever mais sobre o Entity Framework, estamos aguardando a nova versão 6 (ainda sem data definitiva para ser lançado) que trará melhorias muito significativas e vamos explorar algumas delas nos próximos artigos.
+Antes de qualquer coisa é importante saber que o Entity Framework 6 ainda está em versão Alfa (isto mesmo ALFA), sendo assim não é recompendado utilizar em projetos que já estejam em produção, o que não nos impede de já ir testando algumas coisas bem legais.</description>
+    </item>
+    
+    <item>
+      <title>Analise sua Conta do Windows Azure</title>
+      <link>https://carloscds.github.io/2013/07/analise-sua-conta-do-windows-azure/</link>
+      <pubDate>Sun, 07 Jul 2013 15:59:40 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/07/analise-sua-conta-do-windows-azure/</guid>
+      <description>Pessoal,
+Quem já está usando o Windows Azure e tem necessidade de analisar como anda a conta, precisa baixar o arquivo CSV com os dados de movimentação da conta.
+Este arquivo contém informações sobre todos os serviços que você está utilizando na sua conta, mas é um arquivo texto um pouco complicado de se entender.
+Para resolver isto, eu criei uma ferramenta que permite transformar este arquivo texto em uma informação mais simples de se entender e também possível de ser exportada para um arquivo XML, que pode até ser aberto no Excel.</description>
+    </item>
+    
+    <item>
+      <title>Windows Azure Library</title>
+      <link>https://carloscds.github.io/2013/05/windows-azure-library/</link>
+      <pubDate>Thu, 30 May 2013 22:02:47 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/05/windows-azure-library/</guid>
+      <description>Pessoal,
+Eu disponibilizei um biblioteca para manipular dados no Windows Azure. Este biblioteca possui exemplos para Blob, Table e Queue, através de classes que podem ser reutilizadas.
+Você pode baixar o código fonte completo com exemplos neste endereço aqui.
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Summit 2013</title>
+      <link>https://carloscds.github.io/2013/05/visual-studio-summit-2013/</link>
+      <pubDate>Sun, 26 May 2013 23:02:41 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/05/visual-studio-summit-2013/</guid>
+      <description>Pessoal,
+No último sábado, dia 25/05/2013, aconteceu na sede da Microsoft em SP o Visual Studio Summit 2013. Neste ano tive o prazer de realizar duas palestras: Entity Framework 6 e Debug de Aplicações Windows 8 no Device. As duas palestras também foram repetidas, o que tornou o meu dia um pouco mais intenso!
+Gostaria de agradecer a excelente audiência que tive nas palestras, onde tive salas praticamente lotadas!
+Aqui estão as fotos do eventos que publiquei no Facebook.</description>
+    </item>
+    
+    <item>
+      <title>Global Windows Azure Bootcamp – Londrina – Pós Evento</title>
+      <link>https://carloscds.github.io/2013/04/global-windows-azure-bootcamp-londrina-ps-evento/</link>
+      <pubDate>Sat, 27 Apr 2013 19:52:44 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/04/global-windows-azure-bootcamp-londrina-ps-evento/</guid>
+      <description>Pessoal,
+Gostaria de agradecer a todos que participarem do GWAB de Londrina, tivemos mais de 40 pessoas durante o evento onde foi realizado um treinamento que abordou as principais funcionalidades do Windows Azure. Tudo na prática!
+Obrigado ao professor Eidy da PUC de Londrina, que nos apoiou cedendo o espaço para realizarmos o evento.
+Vejam as fotos aqui no meu Facebook.
+Para baixar as aplicações usadas no evento, acesse este link do SkyDrive.</description>
+    </item>
+    
+    <item>
+      <title>Global Windows Azure Bootcamp</title>
+      <link>https://carloscds.github.io/2013/04/global-windows-azure-bootcamp/</link>
+      <pubDate>Tue, 23 Apr 2013 18:45:17 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/04/global-windows-azure-bootcamp/</guid>
+      <description>![](http://lucasromao.azurewebsites.net wp-content/uploads/2013/04/bootcamp1-300x202.png)
+Olá pessoal,
+Acontecerá no próximo sábado, 27 de abril, o maior evento de Windows Azure já realizado no mundo. Serão mais de 95 cidades ao redor do globo e no Brasil teremos 12 cidades com mais de 6 horas de puro treinamento 100% prático e presencial.
+Confira abaixo a relação de todas as cidades que estarão executando a ação, veja a mais próxima de você e inscreva-se pois as vagas são limitadas!</description>
+    </item>
+    
+    <item>
+      <title>Windows Azure Bootcamp</title>
+      <link>https://carloscds.github.io/2013/04/windows-azure-bootcamp/</link>
+      <pubDate>Fri, 12 Apr 2013 17:14:14 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/04/windows-azure-bootcamp/</guid>
+      <description>Pessoal,
+Iremos realizar o evento mundial de Windows Azure em Londrina no dia 27 de abril na PUC. A idéia deste evento é ser totalmente prático, ou seja, como criar e publicar uma aplicação no Windows Azure.
+Fique atento aos pré-requisitos na página de inscrição: http://www.eventick.com.br/GWAB-Londrina-PR
+
+Abraços e até lá!
+Carlos dos Santos</description>
+    </item>
+    
+    <item>
+      <title>Como escolher o modelo ideal de TFS para sua empresa</title>
+      <link>https://carloscds.github.io/2013/03/como-escolher-o-modelo-ideal-de-tfs-para-sua-empresa/</link>
+      <pubDate>Sun, 31 Mar 2013 21:03:35 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/03/como-escolher-o-modelo-ideal-de-tfs-para-sua-empresa/</guid>
+      <description>Pessoal,
+Semana passada aconteceu o MVP Virtual Conference (http://mvpvirtualconference.azurewebsites.net), um evento totalmente online, com várias trilhas de mais de 45 palestras, e eu tive a honra de participar da organização deste evento cuidando também da trilha de Gerenciamento de Equipes de Desenvolvimento junto com o André Dias.
+Gostaria de agradecer a todos que participaram também da minha palestra no dia 26/03/2013. Foram mais de 120 pessoas online. Muitíssimo obrigado!!!
+O PPT da apresentação está disponível no slideshare no endereço: http://www.</description>
+    </item>
+    
+    <item>
+      <title>MVP Virtual Conference</title>
+      <link>https://carloscds.github.io/2013/03/mvp-virtual-conference/</link>
+      <pubDate>Sun, 17 Mar 2013 14:47:46 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2013/03/mvp-virtual-conference/</guid>
+      <description>A comunidade de Microsoft Most Valuable Professionals (MVP) convida você para participar do MVP Virtual Conference dias 26, 27 e 28 de Março de forma 100% online.
+Aproveite essa oportunidade de entender e tirar suas dúvidas sobre como as tecnologias e produtos Microsoft podem te ajudar a solucionar problemas e/ou otimizar tarefas do seu dia a dia. Aprenda diretamente com MVPs, profissionais reconhecidos pela Microsoft, independentes e especialistas, além de convidados especiais da comunidade técnica brasileira e da Microsoft, como os arquitetos do Microsoft Technology Center (MTC).</description>
+    </item>
+    
+  </channel>
+</rss>

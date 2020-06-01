@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Publicando uma aplicação web no IIS 7 - Carlos dos Santos
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
+Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting." />
+    <meta name="generator" content="Hugo 0.71.0 with theme pure" />
+    <title>Publicando uma aplicação web no IIS 7 - Carlos dos Santos</title>
+    
+    
+    <link rel="stylesheet" href="https://carloscds.github.io/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
+    
+    <base href="https://carloscds.github.io">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Publicando uma aplicação web no IIS 7" />
+<meta property="og:description" content="Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
+Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carloscds.github.io/2010/10/publicando-uma-aplicao-web-no-iis-7/" />
+<meta property="article:published_time" content="2010-10-03T16:39:28-03:00" />
+<meta property="article:modified_time" content="2010-10-03T16:39:28-03:00" />
+<meta itemprop="name" content="Publicando uma aplicação web no IIS 7">
+<meta itemprop="description" content="Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
+Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting.">
+<meta itemprop="datePublished" content="2010-10-03T16:39:28-03:00" />
+<meta itemprop="dateModified" content="2010-10-03T16:39:28-03:00" />
+<meta itemprop="wordCount" content="1029">
+
+
+
+<meta itemprop="keywords" content="c#; msdn," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Publicando uma aplicação web no IIS 7"/>
+<meta name="twitter:description" content="Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
+Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting."/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://www.carloscds.net" target="_blank">
+            <img class="img-circle img-rotate" src="https://avatars0.githubusercontent.com/u/1697221?s=460&amp;u=409a6ac4e0cca9f7302962ae6f6e375507c7d38f&amp;v=4" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Carlos dos Santos</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Technology and Code</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Developer world!</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-contact">
+                <a href="mailto:cdssoftware@hotmail.com?subject=Contato_Blog">
+                    <i class="icon icon-project"></i>
+                  <span class="menu-title">Contact</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/.net/" class="category-list-link">.net</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/.net-core/" class="category-list-link">.net-core</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/alm/" class="category-list-link">alm</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">23</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/c#/" class="category-list-link">c#</a><span class="category-list-count">82</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/certifica%C3%A7%C3%A3o/" class="category-list-link">certificação</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/csharp/" class="category-list-link">csharp</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/diversos/" class="category-list-link">diversos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/dotnetcore/" class="category-list-link">dotnetcore</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">10</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/ide/" class="category-list-link">ide</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/opensource/" class="category-list-link">opensource</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/orm/" class="category-list-link">orm</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/roslyn/" class="category-list-link">roslyn</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/syntax/" class="category-list-link">syntax</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/team-foundation-server/" class="category-list-link">team-foundation-server</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/themes/" class="category-list-link">themes</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/uncategorized/" class="category-list-link">uncategorized</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">52</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">4</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/#azure/" class="tag-list-link">#azure</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/azure/" class="tag-list-link">azure</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#/" class="tag-list-link">c#</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-8/" class="tag-list-link">c#-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-entity-framework/" class="tag-list-link">c#-entity-framework</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-entity-framework-azure/" class="tag-list-link">c#-entity-framework-azure</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
+                    class="tag-list-count">14</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-%23ef/" class="tag-list-link">c#-msdn-#ef</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-entity-framework/" class="tag-list-link">c#-msdn-entity-framework</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-windows-phone/" class="tag-list-link">c#-msdn-windows-phone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-tuple/" class="tag-list-link">c#-tuple</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/certifica%C3%A7%C3%A3o/" class="tag-list-link">certificação</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/consultoria/" class="tag-list-link">consultoria</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/csharp/" class="tag-list-link">csharp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/css/" class="tag-list-link">css</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/ef-4/" class="tag-list-link">ef-4</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/eventos/" class="tag-list-link">eventos</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/excel/" class="tag-list-link">excel</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/extensions/" class="tag-list-link">extensions</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/html/" class="tag-list-link">html</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/index/" class="tag-list-link">index</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/json/" class="tag-list-link">json</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/live/" class="tag-list-link">live</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/markdown/" class="tag-list-link">markdown</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdn/" class="tag-list-link">msdn</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
+                    class="tag-list-count">13</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#-tfs/" class="tag-list-link">msdnc#-tfs</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#ef-codefirst/" class="tag-list-link">msdnc#ef-codefirst</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
+                    class="tag-list-count">6</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#eforacle/" class="tag-list-link">msdnc#eforacle</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#windows-8/" class="tag-list-link">msdnc#windows-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/prodividade/" class="tag-list-link">prodividade</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/publish/" class="tag-list-link">publish</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/scrum/" class="tag-list-link">scrum</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/silverlight/" class="tag-list-link">silverlight</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/storage/" class="tag-list-link">storage</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/tfs/" class="tag-list-link">tfs</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/themes/" class="tag-list-link">themes</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/tools/" class="tag-list-link">tools</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/website/" class="tag-list-link">website</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows-phone-c#-msdn/" class="tag-list-link">windows-phone-c#-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows10/" class="tag-list-link">windows10</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/05/migracaoblog/" class="title">Migração do Blog para Markdown</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-05-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-31</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/02/injecao-de-depenencia-em-c-bonus/" class="title">Injeção de Dependência em C# - Bônus</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-27</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-2/" class="title">Injeção de Dependência em C# – Parte 2</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-25 01:10:29 -0300 -03" itemprop="datePublished">2020-02-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-1/" class="title">Injeção de Dependência em C# - Parte 1</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-02-13 23:16:24 -0300 -03" itemprop="datePublished">2020-02-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.github.io/2019/09/asp-net-core-minhas-views-sumiram-no-publish/" class="title">ASP.NET Core: Minhas Views sumiram no publish?</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-09-15 19:49:16 -0300 -03" itemprop="datePublished">2019-09-15</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="post-" class="article article-type-post" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2010/10/publicando-uma-aplicao-web-no-iis-7/"
+    >Publicando uma aplicação web no IIS 7</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.github.io/2010/10/publicando-uma-aplicao-web-no-iis-7/" class="article-date">
+  <time datetime="2010-10-03 16:39:28 -0300 -03" itemprop="datePublished">2010-10-03</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/asp.net/"> Asp.Net </a>
+  <a class="article-category-link" href="/categories/c/"> C# </a>
+  <a class="article-category-link" href="/categories/visual-studio/"> Visual Studio </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/c#-msdn/"> c#; msdn </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2010/10/publicando-uma-aplicao-web-no-iis-7/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1029words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 5minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.</p>
+<p>Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting.</p>
+<p>Mas no ambiente da sua rede local, será necessário acessar o IIS para publicar sua aplicação web, seja ela Asp.Net, Webservices ou WCF, e é neste caso que este artigo pode lhe ajudar.</p>
+<p>Não vou abordar a criação da aplicação propriamente dita, pois existe uma infinidade de artigos na web mostrando técnicas e frameworks que podem lhe ajudar neste processo, aqui vamos abordar simplesmente a publicação e atualização da aplicação.</p>
+<p>Então vamos criar uma aplicação bem simples em Asp.Net só para demonstrar a publicação, para isto vá em New Project e escolha Asp.Net e dê o nome de WebTeste:</p>
+<p><img src="wp-content/uploads/2010/10/image.png" alt=""></p>
+<p>Veja que estamos criando uma aplicação com o Framework 2.0. Estou fazendo isto para demonstrar logo abaixo como podemos publicar uma aplicação com o Framework 4.0, que apresenta algumas diferenças.</p>
+<p>Criada a aplicação, vamos apenas escrever um texto qualquer, lembrando que o objetivo é mostrar a publicação apenas:</p>
+<p><img src="wp-content/uploads/2010/10/image1.png" alt=""></p>
+<p>Se você executar esta aplicação, pressionando F5, terá algo como a tela abaixo:</p>
+<p><img src="wp-content/uploads/2010/10/image2.png" alt=""></p>
+<p>O Visual Studio possui um micro servidor web, que serve para ajudar no desenvolvimento de aplicações web, ou seja, com este pequeno servidor, você consegue executar sua aplicação sem precisar instalar o IIS, e para cada aplicação que você executa, ele cria um endereço virtual, como o da imagem acima:</p>
+<h5 id="httplocalhost45566defaultaspx">http://localhost:45566/Default.aspx</h5>
+<p>Isto é bem interessante, pois você pode usar este endereço inclusive dentro da sua rede, ou seja, de um outro computador, se você digitar o nome ou IP deste micro, é possível acessar esta aplicação web, mas lembre-se, somente para o desenvolvimento, pois o Visual Studio compila a aplicação e publica através deste servidor de desenvolvimento.</p>
+<p>Mas agora vamos publicar a aplicação corretamente, usando o IIS. Para isto vá no menu Build/Publish do Visual Studio e você verá uma tela igual a este no Visual Studio 2010:</p>
+<p><img src="wp-content/uploads/2010/10/image3.png" alt=""></p>
+<p><img src="wp-content/uploads/2010/10/image4.png" alt=""></p>
+<p>ou igual a esta no Visual Studio 2008:</p>
+<p><img src="wp-content/uploads/2010/10/image5.png" alt=""></p>
+<p>No Visual Studio 2010, nós temos mais opções na publicação, que você poderá explorar posteriomente. Eu vou escolher publicar em um diretório a nossa aplicação, mas você pode publicar direto no IIS ou por FTP, de acordo com a sua necessidade. Para publicar em um diretório, em Target Location coloque o nome do diretório e depois clique em Publish:</p>
+<p><img src="wp-content/uploads/2010/10/image6.png" alt=""></p>
+<p>Feito isto, o Visual Studio irá compilar e copiar os arquivos necessários para a aplicação web funcionar no diretório especificado, veja:</p>
+<p><img src="wp-content/uploads/2010/10/image7.png" alt=""></p>
+<p>Agora precisamos publicar no IIS, e para isto vamos abrir o Gerenciador do IIS, lembrando que se você não tem o IIS precisará instalá-lo. Abra o gerenciador do IIS clicando Iniciar/Painel de Controle/Ferramentas Administrativas/Gerenciador do Internet Information Services (caso você não veja as Ferramentas Administrativas, use a busca do Painel de Controle) e após isto você vera a tela abaixo:</p>
+<p><img src="wp-content/uploads/2010/10/image8.png" alt=""></p>
+<p>Agora para publicar a aplicação, clique com o botão direito do mouse no site padrão (Default WebSite) e depois em Add Application:</p>
+<p><img src="wp-content/uploads/2010/10/image9.png" alt=""></p>
+<p>Você verá a tela abaixo:</p>
+<p><img src="wp-content/uploads/2010/10/image10.png" alt=""></p>
+<p>Neste tela o <strong>Alias</strong> é o nome do site, que será usado para acessá-lo pelo navegador e o <strong>Physical Path</strong> é o diretório onde publicamos a aplicação pelo Visual Studio ou o diretório do seu servidor onde está a aplicação publicada. Clicando em OK, você já poderá acessar a sua aplicação pelo browser:</p>
+<p><img src="wp-content/uploads/2010/10/image11.png" alt=""></p>
+<p>Está pronto, sua aplicação está publicada no IIS 7, mas lembre-se que no eu comentei no início do artigo que para publicar uma aplicação em .Net 4.0 era um pouco diferente e vou mostrar isto agora.</p>
+<p>Quando desenvolvemos uma aplicação, ela está ligada a versão do Framework em que foi escrita, e isto acontece também com o Servidor Web (IIS). Nele as aplicações executam sob um Pool de Aplicações, onde você informa qual a versão do framework será executada. Isto possibilita que executemos em um mesmo servidor web aplicações escritas em várias versões do framework. Mas como gerenciar estes Pools  de Aplicação ? Bom isto é bem simples, veja: clicando em Application Pools no gerenciador do IIS você tem esta tela:</p>
+<p><img src="wp-content/uploads/2010/10/image12.png" alt=""></p>
+<p>Ela mostra todos os pools que temos atualmente e você pode notar que temos .Net 2.0 e .Net 4.0, mas não temos o 3.5, pois ele faz parte do 2.0. Vamos então criar e publicar uma aplicação com .Net 4.0, para isto basta primeiramente criarmos a aplicação em  .Net 4.0, então vamos em New Project/Web:</p>
+<p><img src="wp-content/uploads/2010/10/image13.png" alt=""></p>
+<p>Só um detalhe importante é que quando clicamos uma aplicação no Visual Studio 2010 para .Net 4.0, ela já tem um esqueleto pronto, então se você quiser, troque somente o texto da tela inicial, de maneira que fique como a tela abaixo:</p>
+<p><img src="wp-content/uploads/2010/10/image14.png" alt=""></p>
+<p>Depois publique da mesma maneira que foi demonstrado acima. Só para demonstrarmos um erro bem comum, publique a aplicação da mesma maneira que a anterior, e veja que ao executá-la obterá o seguinte erro:</p>
+<p><img src="wp-content/uploads/2010/10/image15.png" alt=""></p>
+<p>Este erro acontece porquê o DefaultAppPool está apontando para o .Net 2.0 e sua aplicação agora é feita em 4.0, vamos então ver a maneira correta de criar a aplicação no IIS. Na verdade os passos são os mesmos com uma pequena diferença, temos que escolher um outro Pool para nossa aplicação, clicando no botão Select da tela de criação de aplicação:</p>
+<p><img src="wp-content/uploads/2010/10/image16.png" alt=""></p>
+<p>Clicando no botão Select, você verá a tela abaixo:</p>
+<p><img src="wp-content/uploads/2010/10/image17.png" alt=""></p>
+<p>Onde escolheremos ASP.NET v4.0, e está pronto, agora você pode acessar sua aplicação sem problemas:</p>
+<p><img src="wp-content/uploads/2010/10/image18.png" alt=""></p>
+<p>Se você já tiver criado a aplicação no IIS e quiser trocar o Pool, basta clicar em <strong>Advanced Settings</strong> e trocar o Pool. Você pode também criar seu próprio Pool no IIS, clicando com o botão direito em Application Pools/Add Application Pool.</p>
+<p>Para finalizar, quando você atualizar a sua aplicação, basta publicar novamente que o IIS irá executar a nova versão.</p>
+<p>Se você quer configurar a segurança da sua aplicação, veja estes outros posts:<br>
+<a href="http://technet.microsoft.com/pt-br/library/cc731278(WS.10).aspx">http://technet.microsoft.com/pt-br/library/cc731278(WS.10).aspx</a></p>
+<p><a href="http://technet.microsoft.com/pt-br/library/cc730708(WS.10).aspx">http://technet.microsoft.com/pt-br/library/cc730708(WS.10).aspx</a></p>
+<p>É isto aí pessoal, espero que seja útil para vocês!</p>
+<p>Abraços,<br>
+Carlos dos Santos.</p>
+
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://carloscds.github.io/2010/09/verificar-se-um-programa-j-est-em-execuo/" title="Verificar se um programa já está em execução"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://carloscds.github.io/2010/10/uma-histria-interessante/"
+                    title="Uma história interessante"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="facebook,twitter,linkedin"
+                data-mobile-sites=""></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://www.facebook.com/carloscds" target="_blank" title="facebook" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-facebook"></i></a></li>
+    <li><a href="https://github.com/carloscds" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://carloscds.github.io/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2008  -
+    2020
+    
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/csharp.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://carloscds.github.io/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://carloscds.github.io/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/carloscds.github.io',
+            CONTENT_URL: 'https:\/\/carloscds.github.io\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://carloscds.github.io/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/carloscds.github.io\/2010\/10\/publicando-uma-aplicao-web-no-iis-7\/';
+        this.page.identifier = 'https-www-carloscds-net';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'https-www-carloscds-net' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8863591-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
