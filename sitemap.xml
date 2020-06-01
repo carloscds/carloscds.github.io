@@ -1151,14 +1151,14 @@
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/categories/certifica%C3%A7%C3%A3o/</loc>
+    <loc>https://carloscds.github.io/categories/certificacao/</loc>
     <lastmod>2011-12-07T15:53:17-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/tags/certifica%C3%A7%C3%A3o/</loc>
+    <loc>https://carloscds.github.io/tags/certificacao/</loc>
     <lastmod>2011-12-07T15:53:17-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1852,12 +1852,6 @@
   
   <url>
     <loc>https://carloscds.github.io/tags/index/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.github.io/true/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
