@@ -78,6 +78,16 @@ As opiniões colocadas neste blog são minhas e pessoais e não expressam necess
     </item>
     
     <item>
+      <title>Videos</title>
+      <link>https://carloscds.github.io/videos/</link>
+      <pubDate>Thu, 21 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.github.io/videos/</guid>
+      <description> Estes são alguns de meus vídeos no YouTube:
+ Migrando um projeto para SDK Project: https://www.youtube.com/watch?v=A_3lvMOAazE Você executa planos de execução de query: https://www.youtube.com/watch?v=ATLLqcLFkl4&amp;amp;t=1s Publicando uma aplicação em ASP.NET Core no Azure: https://www.youtube.com/watch?v=CnoJ3gtfAhU&amp;amp;t=203s Visual Studio Container Tools: https://www.youtube.com/watch?v=YW8JVGAGZDA&amp;amp;t=7s  </description>
+    </item>
+    
+    <item>
       <title>Windows Azure – tabela de preços</title>
       <link>https://carloscds.github.io/2010/01/windows-azure-tabela-de-precos/</link>
       <pubDate>Mon, 04 Jan 2010 11:43:28 -0300</pubDate>
@@ -226,18 +236,6 @@ Acabei de instalar o novo beta do Visual Studio 2010. O que mais me impressiona 
 Olha como ficou a home:
 Agora vou trabalhar um pouco mais nele e já já publico mais novidades!
 []s,</description>
-    </item>
-    
-    <item>
-      <title>Evento Comunidades no TechEd Brasil 2009</title>
-      <link>https://carloscds.github.io/2009/10/evento-comunidades-no-teched-brasil-2009/</link>
-      <pubDate>Mon, 12 Oct 2009 11:22:00 -0300</pubDate>
-      
-      <guid>https://carloscds.github.io/2009/10/evento-comunidades-no-teched-brasil-2009/</guid>
-      <description>Pessoal,
-Desculpem o post meio atrasado, mas como eu troquei de blog, só agora consegui colocar as coisas em ordem.
-Durante o TechED Brasil 2009, realizamos um evento de comunidades, onde convidamos os líderes de grupos para um bate papo sobre as ações de cada um, suas expectativas e também o que esperam do http://www.inetabr.org.
-O bate papo foi muito interessante e conseguimos entender um pouco do funcionamento de cada grupo que estava presente.</description>
     </item>
     
   </channel>
