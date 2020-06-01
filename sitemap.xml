@@ -38,6 +38,13 @@
   </url>
   
   <url>
+    <loc>https://carloscds.github.io/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.github.io/categories/c#/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -157,13 +164,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.github.io/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -257,13 +257,6 @@
   <url>
     <loc>https://carloscds.github.io/tags/website/</loc>
     <lastmod>2019-01-21T22:40:56-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.github.io/tags/c#/</loc>
-    <lastmod>2019-01-06T21:40:26-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -528,13 +521,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/categories/windows/</loc>
-    <lastmod>2016-08-07T21:38:20-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.github.io/categories/windows-10/</loc>
     <lastmod>2016-08-07T21:38:20-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -661,13 +647,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/tags/c#-entity-framework/</loc>
-    <lastmod>2015-12-14T08:53:41-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.github.io/tags/c#-entity-framework-azure/</loc>
     <lastmod>2015-12-14T08:53:41-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -738,6 +717,13 @@
   </url>
   
   <url>
+    <loc>https://carloscds.github.io/categories/windows/</loc>
+    <lastmod>2015-05-29T16:47:36-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.github.io/tags/windows10/</loc>
     <lastmod>2015-05-29T16:47:36-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -754,13 +740,6 @@
   <url>
     <loc>https://carloscds.github.io/2015/03/c-6/</loc>
     <lastmod>2015-03-02T15:30:53-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.github.io/tags/msdn/</loc>
-    <lastmod>2014-11-16T18:02:58-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -857,13 +836,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/tags/msdnc#ef-codefirst/</loc>
-    <lastmod>2014-04-21T19:34:06-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.github.io/tags/msdnc#ef-codefirst-ef/</loc>
     <lastmod>2014-04-21T19:34:06-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -878,6 +850,13 @@
   </url>
   
   <url>
+    <loc>https://carloscds.github.io/tags/msdn/</loc>
+    <lastmod>2014-04-07T21:25:57-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.github.io/categories/team-foundation-server/</loc>
     <lastmod>2014-04-07T21:25:57-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -887,6 +866,13 @@
   <url>
     <loc>https://carloscds.github.io/2014/04/visual-studio-online/</loc>
     <lastmod>2014-04-07T21:25:57-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/tags/c#-entity-framework/</loc>
+    <lastmod>2014-01-23T11:50:34-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -921,6 +907,13 @@
   
   <url>
     <loc>https://carloscds.github.io/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</loc>
+    <lastmod>2013-11-03T21:49:43-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/tags/msdnc#ef-codefirst/</loc>
     <lastmod>2013-11-03T21:49:43-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1186,13 +1179,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.github.io/tags/windows-phone/</loc>
-    <lastmod>2011-11-14T14:20:29-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.github.io/categories/windows-phone/</loc>
     <lastmod>2011-11-14T14:20:29-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1202,6 +1188,13 @@
   <url>
     <loc>https://carloscds.github.io/tags/windows-phone-c#-msdn/</loc>
     <lastmod>2011-11-14T14:20:29-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/tags/c#/</loc>
+    <lastmod>2011-10-03T20:32:31-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1523,6 +1516,13 @@
   
   <url>
     <loc>https://carloscds.github.io/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</loc>
+    <lastmod>2010-04-18T08:12:39-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/tags/windows-phone/</loc>
     <lastmod>2010-04-18T08:12:39-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1852,6 +1852,12 @@
   
   <url>
     <loc>https://carloscds.github.io/tags/index/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/true/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
