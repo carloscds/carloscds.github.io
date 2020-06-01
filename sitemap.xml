@@ -3,14 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carloscds.github.io/categories/c#/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
+    <loc>https://carloscds.github.io/categories/.net/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/categories/.net-core/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://carloscds.github.io/categories/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/2020/06/nukeeper/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/posts/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.github.io/categories/c#/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -19,27 +47,6 @@
   <url>
     <loc>https://carloscds.github.io/2020/05/migracaoblog/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.github.io/posts/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.github.io/categories/.net/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.github.io/categories/.net-core/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

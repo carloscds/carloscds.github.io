@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Uma história interessante</title>
+      <link>https://carloscds.github.io/2010/10/uma-histria-interessante/</link>
+      <pubDate>Fri, 15 Oct 2010 18:34:44 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/10/uma-histria-interessante/</guid>
+      <description>Pessoal,
+Gostaria de compartilhar com vocês uma história muito interessante que ocorreu comigo ontem. Como MVP, temos acesso a diversas ferramentas, mesmo antes de serem lançadas para o público em geral, com o intuito de ajudarmos no processo de testes e refinamento das funcionalidades. Recentemente eu comecei a testar o novo Visual Studio Power Tools (versão ainda beta privado) e percebi que o Visual Studio ficou mais lento para carregar soluções.</description>
+    </item>
+    
+    <item>
       <title>Publicando uma aplicação web no IIS 7</title>
       <link>https://carloscds.github.io/2010/10/publicando-uma-aplicao-web-no-iis-7/</link>
       <pubDate>Sun, 03 Oct 2010 16:39:28 -0300</pubDate>
@@ -228,20 +238,6 @@ Finalmente o André fez um PPT com os dados dele.</description>
       <guid>https://carloscds.github.io/2010/04/maringa-techday/</guid>
       <description>Realizamos no último sábado (11/04) no Cesumar de Maringá/PR a primeira etapa do Maringá Techday, onde mostramos as novidades do Visual Studio 2010. Este foi um evento da Copa de Talentos Microsoft.
 Estiveram presente no evento o André Nobre, que falou sobre as novidades do Visual Studio 2010 e como aplicá-las na prática, logo em seguida eu falei sobre o Entity framework 4 e encerrando o evento o Márcio Althmann falou sobre o Silverlight 4.</description>
-    </item>
-    
-    <item>
-      <title>Community Launch &amp;#8211; Londrina</title>
-      <link>https://carloscds.github.io/2010/03/community-launch-londrina/</link>
-      <pubDate>Sun, 21 Mar 2010 12:30:53 -0300</pubDate>
-      
-      <guid>https://carloscds.github.io/2010/03/community-launch-londrina/</guid>
-      <description>Aconteceu no último sábado (20/03) o Community Launch em Londrina/PR. Nesta oportunidade participamos do evento nacional da Microsoft, através da sessão geral e logo após apresentamos vários recursos do Visual Studio 2010.
-Apresentamos durante o evento a Copa de Talentos (www.talentosmicrosoft.com.br), competição que se iniciou durante o evento do sábado.
-Gostaria de agradecer novamente o Prof. Rosmar do Senai, por apoiar nosso evento.
-Vejam as fotos:
-[]s,
-Carlos dos Santos.</description>
     </item>
     
   </channel>

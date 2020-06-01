@@ -10,6 +10,20 @@
     
     
     <item>
+      <title>Community Launch &amp;#8211; Londrina</title>
+      <link>https://carloscds.github.io/2010/03/community-launch-londrina/</link>
+      <pubDate>Sun, 21 Mar 2010 12:30:53 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2010/03/community-launch-londrina/</guid>
+      <description>Aconteceu no último sábado (20/03) o Community Launch em Londrina/PR. Nesta oportunidade participamos do evento nacional da Microsoft, através da sessão geral e logo após apresentamos vários recursos do Visual Studio 2010.
+Apresentamos durante o evento a Copa de Talentos (www.talentosmicrosoft.com.br), competição que se iniciou durante o evento do sábado.
+Gostaria de agradecer novamente o Prof. Rosmar do Senai, por apoiar nosso evento.
+Vejam as fotos:
+[]s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
       <title>Desenvolvimento para Windows Phone 7 – primeiras impressões</title>
       <link>https://carloscds.github.io/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</link>
       <pubDate>Wed, 17 Mar 2010 13:57:10 -0300</pubDate>
@@ -223,19 +237,6 @@ http://technet.microsoft.com/en-us/magazine/2009.10.77windows.aspx
 Quem nunca teve a infelicidade de pressionar a tecla F1 dentro do Visual Studio sem querer, e ele começa a compilar o help eternamente. Em alguns casos, eu mesmo, tive que derrubar o processo pelo gerenciador de tarefas.
 Mas por quê isto acontececia ? Simples, o help era gerado no mesmo processo da IDE, ou seja, o DEVENV.EXE.
 Agora, no Visual Studio 2010, o help é totalmente gerenciado via browser, ou seja, totalmente independente da IDE e muito, mas muito, mais rápido.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2010 Beta 2</title>
-      <link>https://carloscds.github.io/2009/10/visual-studio-2010-beta-2/</link>
-      <pubDate>Tue, 20 Oct 2009 03:14:00 -0300</pubDate>
-      
-      <guid>https://carloscds.github.io/2009/10/visual-studio-2010-beta-2/</guid>
-      <description>Pessoal,
-Acabei de instalar o novo beta do Visual Studio 2010. O que mais me impressiona até o momento, além do visual todo modificado, é a velocidade, muito diferente dos betas anteriores.
-Olha como ficou a home:
-Agora vou trabalhar um pouco mais nele e já já publico mais novidades!
-[]s,</description>
     </item>
     
   </channel>

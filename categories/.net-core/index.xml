@@ -5,10 +5,21 @@
     <link>https://carloscds.github.io/categories/.net-core/</link>
     <description>Recent content in .Net Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.github.io/categories/.net-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NuKeeper - mantenha seus pacotes atualizados</title>
+      <link>https://carloscds.github.io/2020/06/nukeeper/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.github.io/2020/06/nukeeper/</guid>
+      <description>Todos nós usamos diversos pacotes em nossas aplicações, até mesmo partes essenciais dos projetos estão em pacotes hoje em dia! Ai vem o grande desafio, como manter isto tudo atualizado, e principalmente, como descobrir o que precisa ser atualizado ?
+Conheça o NuKepper O Nukeeper é um &amp;ldquo;atualizador&amp;rdquo; de pacotes, que como o site do GitHub diz: &amp;ldquo;Ele Automagicamente&amp;rdquo; atualiza seus pacotes.
+MAs atualizar pacotes pode ser perigoso, não é? Então você pode usar o NuKeeper para mostrar quais pacotes estão desatualizados, e há quanto tempo!</description>
+    </item>
     
     <item>
       <title>Migração do Blog para Markdown</title>
@@ -224,19 +235,6 @@ A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi p
 O post de hoje é bem simples e rápido, apesar de ser uma questão muito pesquisada e nem sempre muito clara!
 A idéia é simples, você está desenvolvendo com .Net Core e precisa publicar sua aplicação, mas produzindo um executável ao invés de uma DLL, que é o padrão da plataforma.
 Mas porque produzir um executável ? Simples, para chamar diretamente sem o comando ‘dotnet’, ou seja, um executável self-contained deployment.</description>
-    </item>
-    
-    <item>
-      <title>Voce se preocupa com performance ou é sempre problema da infra</title>
-      <link>https://carloscds.github.io/2017/09/voce-se-preocupa-com-performance-ou-sempre-problema-da-infra/</link>
-      <pubDate>Fri, 01 Sep 2017 22:34:37 -0300</pubDate>
-      
-      <guid>https://carloscds.github.io/2017/09/voce-se-preocupa-com-performance-ou-sempre-problema-da-infra/</guid>
-      <description>Pessoal,
- Obrigado a todos que participaram da minha palestra no dia 01/09/2017 no Devxperience, e também ao Eduardo Pires pelo convite, foi muito legal!
- Os slides estão no meu SlideShare e algumas fotos estão no facebook.
- Abraços, e até a próxima,
-Carlos dos Santos</description>
     </item>
     
   </channel>

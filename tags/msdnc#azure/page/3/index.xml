@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>CodeCracker no Channel9</title>
+      <link>https://carloscds.github.io/2015/12/codecracker-no-channel9/</link>
+      <pubDate>Wed, 30 Dec 2015 14:31:07 -0300</pubDate>
+      
+      <guid>https://carloscds.github.io/2015/12/codecracker-no-channel9/</guid>
+      <description>Fala galera,
+Gostaria de compartilhar com vocês um vídeo que acabou de entrar no Channel9 sobre o projeto CodeCracker. Neste vídeo nós falamos um pouco do projeto, como contribuir e principalmente, como usar!
+Lembrando que você precisa do Visual Studio 2015 para poder trabalhar com o CodeCracker, pois ele é baseado no compilador Roslyn.
+Abraços e até a próxima,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
       <title>Visual Studio MarketPlace</title>
       <link>https://carloscds.github.io/2015/12/visual-studio-marketplace/</link>
       <pubDate>Mon, 28 Dec 2015 21:13:17 -0300</pubDate>
@@ -221,18 +234,6 @@ Dentre as novidades, surgem 3 categorias de banco de dados:
   Basic: para aplicações com poucas transações e baixa necessidade de performance**.**
   Standard: para aplicações de negócios, com médio nível de performance.
   Premium: para aplicações de missão crítica, com alta necessidade de desempenho e alto volume de transações.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Summit 2014</title>
-      <link>https://carloscds.github.io/2014/05/visual-studio-summit-2014/</link>
-      <pubDate>Fri, 02 May 2014 09:34:41 -0300</pubDate>
-      
-      <guid>https://carloscds.github.io/2014/05/visual-studio-summit-2014/</guid>
-      <description>Pessoal,
-No último sábado (26/04/2014) aconteceu em São Paulo, na sede da Microsoft, mais uma edição do Visual Studio Summit. Neste ano tive a grata satisfação de realizar 5 palestras, ufa! Foi uma maratona!
-Fiz na verdade 5 palestras sobre dois Temas: Novidades do Visual Studio 2013 e Entity Framework Framework 6, a maioria com lotação máxima das salas.
-Gostaria de agradecer ao Ramon novamente pela oportunidade e a todos que participaram das palestras e principalmente pelas interações durante as palestras.</description>
     </item>
     
   </channel>
