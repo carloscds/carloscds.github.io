@@ -23,13 +23,13 @@
     <meta name="description" content="Esta semana a Microsoft anunciou o novo Visual Studio 2015 e junto com ele o C# 6 com seu novo compilador, anteriormente conhecido como Roslyn e agora oficialmente chamado de .Net Compiler Platform.
 Com o Roslyn possível termos acesso a estrutura do compilador, sua árvore sintática e também mudar o seu comportamento através de componentes chamados Analyzers.
 Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, participei de um hackaton com o time do compilador Roslyn, onde eu e diversos outros MVPs tivemos a oportunidade de escrever alguns analyzers juntamente com o time do Roslyn e durante este mesmo evento surgiu a idéia de criarmos um projeto Open Source contendo diversos analyzers, totalmente aberto e free, disponível para toda a comunidade de desenvolvedores, nascia então o projeto CodeCracker, naquele momento criamos o time inicial, composto por mim, Giovanni Bassi e o Elemar Junior, todos MVPs de C#." />
-    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.71.0 with theme pure" />
     <title>C# Roslyn e Projeto Open Source - CodeCracker - Carlos dos Santos</title>
     
     
-    <link rel="stylesheet" href="https://carloscds.github.io/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
+    <link rel="stylesheet" href="https://carloscds.gihtub.io/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
     
-    <base href="https://carloscds.github.io">
+    <base href="https://carloscds.gihtub.io">
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
     <meta property="og:title" content="C# Roslyn e Projeto Open Source - CodeCracker" />
@@ -37,7 +37,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
 Com o Roslyn possível termos acesso a estrutura do compilador, sua árvore sintática e também mudar o seu comportamento através de componentes chamados Analyzers.
 Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, participei de um hackaton com o time do compilador Roslyn, onde eu e diversos outros MVPs tivemos a oportunidade de escrever alguns analyzers juntamente com o time do Roslyn e durante este mesmo evento surgiu a idéia de criarmos um projeto Open Source contendo diversos analyzers, totalmente aberto e free, disponível para toda a comunidade de desenvolvedores, nascia então o projeto CodeCracker, naquele momento criamos o time inicial, composto por mim, Giovanni Bassi e o Elemar Junior, todos MVPs de C#." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://carloscds.github.io/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/" />
+<meta property="og:url" content="https://carloscds.gihtub.io/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/" />
 <meta property="article:published_time" content="2014-11-13T23:14:56-03:00" />
 <meta property="article:modified_time" content="2014-11-13T23:14:56-03:00" />
 <meta itemprop="name" content="C# Roslyn e Projeto Open Source - CodeCracker">
@@ -167,45 +167,45 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/.net/" class="category-list-link">.net</a><span class="category-list-count">8</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/.net-core/" class="category-list-link">.net-core</a><span class="category-list-count">12</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/alm/" class="category-list-link">alm</a><span class="category-list-count">7</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">6</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">23</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/c#/" class="category-list-link">c#</a><span class="category-list-count">82</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/csharp/" class="category-list-link">csharp</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/diversos/" class="category-list-link">diversos</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/dotnetcore/" class="category-list-link">dotnetcore</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">31</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">10</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/ide/" class="category-list-link">ide</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">7</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/opensource/" class="category-list-link">opensource</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/orm/" class="category-list-link">orm</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/roslyn/" class="category-list-link">roslyn</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/syntax/" class="category-list-link">syntax</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/team-foundation-server/" class="category-list-link">team-foundation-server</a><span class="category-list-count">5</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/themes/" class="category-list-link">themes</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/uncategorized/" class="category-list-link">uncategorized</a><span class="category-list-count">7</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">52</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://carloscds.github.io/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/.net/" class="category-list-link">.net</a><span class="category-list-count">8</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/.net-core/" class="category-list-link">.net-core</a><span class="category-list-count">12</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/alm/" class="category-list-link">alm</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">23</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/c#/" class="category-list-link">c#</a><span class="category-list-count">82</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/csharp/" class="category-list-link">csharp</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/diversos/" class="category-list-link">diversos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/dotnetcore/" class="category-list-link">dotnetcore</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">10</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/ide/" class="category-list-link">ide</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/opensource/" class="category-list-link">opensource</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/orm/" class="category-list-link">orm</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/roslyn/" class="category-list-link">roslyn</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/syntax/" class="category-list-link">syntax</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/team-foundation-server/" class="category-list-link">team-foundation-server</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/themes/" class="category-list-link">themes</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/uncategorized/" class="category-list-link">uncategorized</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">52</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.gihtub.io/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">4</span></li>
         </ul>
     </div>
 </div>
@@ -215,199 +215,199 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
         <ul class="tag-list">
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/#azure/" class="tag-list-link">#azure</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/#azure/" class="tag-list-link">#azure</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/azure/" class="tag-list-link">azure</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/azure/" class="tag-list-link">azure</a><span
                     class="tag-list-count">3</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#/" class="tag-list-link">c#</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#/" class="tag-list-link">c#</a><span
                     class="tag-list-count">3</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-8/" class="tag-list-link">c#-8</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-8/" class="tag-list-link">c#-8</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-entity-framework/" class="tag-list-link">c#-entity-framework</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-entity-framework/" class="tag-list-link">c#-entity-framework</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-entity-framework-azure/" class="tag-list-link">c#-entity-framework-azure</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-entity-framework-azure/" class="tag-list-link">c#-entity-framework-azure</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
                     class="tag-list-count">14</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-%23ef/" class="tag-list-link">c#-msdn-#ef</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-msdn-%23ef/" class="tag-list-link">c#-msdn-#ef</a><span
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-entity-framework/" class="tag-list-link">c#-msdn-entity-framework</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-msdn-entity-framework/" class="tag-list-link">c#-msdn-entity-framework</a><span
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-msdn-windows-phone/" class="tag-list-link">c#-msdn-windows-phone</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-msdn-windows-phone/" class="tag-list-link">c#-msdn-windows-phone</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/c#-tuple/" class="tag-list-link">c#-tuple</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/c#-tuple/" class="tag-list-link">c#-tuple</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/certificacao/" class="tag-list-link">certificacao</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/certificacao/" class="tag-list-link">certificacao</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/consultoria/" class="tag-list-link">consultoria</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/consultoria/" class="tag-list-link">consultoria</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/csharp/" class="tag-list-link">csharp</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/csharp/" class="tag-list-link">csharp</a><span
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/css/" class="tag-list-link">css</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/css/" class="tag-list-link">css</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/ef-4/" class="tag-list-link">ef-4</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/ef-4/" class="tag-list-link">ef-4</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/eventos/" class="tag-list-link">eventos</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/eventos/" class="tag-list-link">eventos</a><span
                     class="tag-list-count">8</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/excel/" class="tag-list-link">excel</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/excel/" class="tag-list-link">excel</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/extensions/" class="tag-list-link">extensions</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/extensions/" class="tag-list-link">extensions</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/html/" class="tag-list-link">html</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/html/" class="tag-list-link">html</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/index/" class="tag-list-link">index</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/index/" class="tag-list-link">index</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/json/" class="tag-list-link">json</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/json/" class="tag-list-link">json</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/live/" class="tag-list-link">live</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/live/" class="tag-list-link">live</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/markdown/" class="tag-list-link">markdown</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/markdown/" class="tag-list-link">markdown</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdn/" class="tag-list-link">msdn</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdn/" class="tag-list-link">msdn</a><span
                     class="tag-list-count">8</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
                     class="tag-list-count">13</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#-tfs/" class="tag-list-link">msdnc#-tfs</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#-tfs/" class="tag-list-link">msdnc#-tfs</a><span
                     class="tag-list-count">3</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
                     class="tag-list-count">8</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#ef-codefirst/" class="tag-list-link">msdnc#ef-codefirst</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#ef-codefirst/" class="tag-list-link">msdnc#ef-codefirst</a><span
                     class="tag-list-count">4</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
                     class="tag-list-count">6</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#eforacle/" class="tag-list-link">msdnc#eforacle</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#eforacle/" class="tag-list-link">msdnc#eforacle</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/msdnc#windows-8/" class="tag-list-link">msdnc#windows-8</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/msdnc#windows-8/" class="tag-list-link">msdnc#windows-8</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/prodividade/" class="tag-list-link">prodividade</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/prodividade/" class="tag-list-link">prodividade</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/publish/" class="tag-list-link">publish</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/publish/" class="tag-list-link">publish</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/scrum/" class="tag-list-link">scrum</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/scrum/" class="tag-list-link">scrum</a><span
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/silverlight/" class="tag-list-link">silverlight</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/silverlight/" class="tag-list-link">silverlight</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/storage/" class="tag-list-link">storage</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/storage/" class="tag-list-link">storage</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/tfs/" class="tag-list-link">tfs</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/tfs/" class="tag-list-link">tfs</a><span
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/themes/" class="tag-list-link">themes</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/themes/" class="tag-list-link">themes</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/tools/" class="tag-list-link">tools</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/tools/" class="tag-list-link">tools</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/website/" class="tag-list-link">website</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/website/" class="tag-list-link">website</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows-phone-c#-msdn/" class="tag-list-link">windows-phone-c#-msdn</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/windows-phone-c#-msdn/" class="tag-list-link">windows-phone-c#-msdn</a><span
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://carloscds.github.io/tags/windows10/" class="tag-list-link">windows10</a><span
+            <li class="tag-list-item"><a href="https://carloscds.gihtub.io/tags/windows10/" class="tag-list-link">windows10</a><span
                     class="tag-list-count">1</span></li>
             
         </ul>
@@ -422,7 +422,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://carloscds.github.io/2020/06/nukeeper/" class="title">NuKeeper - mantenha seus pacotes atualizados</a>
+                        <a href="https://carloscds.gihtub.io/2020/06/nukeeper/" class="title">NuKeeper - mantenha seus pacotes atualizados</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-06-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-06-01</time>
@@ -432,7 +432,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://carloscds.github.io/2020/05/migracaoblog/" class="title">Migração do Blog para Markdown</a>
+                        <a href="https://carloscds.gihtub.io/2020/05/migracaoblog/" class="title">Migração do Blog para Markdown</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-05-31 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-31</time>
@@ -442,7 +442,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://carloscds.github.io/2020/02/injecao-de-depenencia-em-c-bonus/" class="title">Injeção de Dependência em C# - Bônus</a>
+                        <a href="https://carloscds.gihtub.io/2020/02/injecao-de-depenencia-em-c-bonus/" class="title">Injeção de Dependência em C# - Bônus</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-02-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-02-27</time>
@@ -452,7 +452,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-2/" class="title">Injeção de Dependência em C# – Parte 2</a>
+                        <a href="https://carloscds.gihtub.io/2020/02/injecao-de-dependencia-em-c-parte-2/" class="title">Injeção de Dependência em C# – Parte 2</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-02-25 01:10:29 -0300 -03" itemprop="datePublished">2020-02-25</time>
@@ -462,7 +462,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-1/" class="title">Injeção de Dependência em C# - Parte 1</a>
+                        <a href="https://carloscds.gihtub.io/2020/02/injecao-de-dependencia-em-c-parte-1/" class="title">Injeção de Dependência em C# - Parte 1</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-02-13 23:16:24 -0300 -03" itemprop="datePublished">2020-02-13</time>
@@ -502,7 +502,7 @@ Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, partici
         
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.github.io/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/" class="article-date">
+<a href="https://carloscds.gihtub.io/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/" class="article-date">
   <time datetime="2014-11-13 23:14:56 -0300 -03" itemprop="datePublished">2014-11-13</time>
 </a>
 
@@ -553,12 +553,12 @@ Carlos dos Santos.</p>
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="https://carloscds.github.io/2014/09/alm-summit-2014/" title="ALM Summit 2014"><i
+                <a href="https://carloscds.gihtub.io/2014/09/alm-summit-2014/" title="ALM Summit 2014"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
             </li>
             <li class="next">
-                <a href="https://carloscds.github.io/2014/11/visual-studio-2015-e-c-6algumas-novidades/"
+                <a href="https://carloscds.gihtub.io/2014/11/visual-studio-2015-e-c-6algumas-novidades/"
                     title="Visual Studio 2015 e C# - Algumas Novidades"><span>Newer&nbsp;&nbsp;</span><i
                         class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
@@ -586,7 +586,7 @@ Carlos dos Santos.</p>
             <i class="icon icon-facebook"></i></a></li>
     <li><a href="https://github.com/carloscds" target="_blank" title="github" data-toggle=tooltip data-placement=top >
             <i class="icon icon-github"></i></a></li>
-    <li><a href="https://carloscds.github.io/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+    <li><a href="https://carloscds.gihtub.io/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
             <i class="icon icon-rss"></i></a></li>
     <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
             <i class="icon icon-twitter"></i></a></li>
@@ -624,8 +624,8 @@ Carlos dos Santos.</p>
     })
     hljs.initHighlightingOnLoad();
 </script>
-<script src="https://carloscds.github.io/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
-<script src="https://carloscds.github.io/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+<script src="https://carloscds.gihtub.io/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://carloscds.gihtub.io/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
 
 <script>
     (function (window) {
@@ -637,13 +637,13 @@ Carlos dos Santos.</p>
                 TAGS: 'Tags',
                 UNTITLED: '(Untitled)',
             },
-            ROOT_URL: 'https:\/\/carloscds.github.io',
-            CONTENT_URL: 'https:\/\/carloscds.github.io\/searchindex.json ',
+            ROOT_URL: 'https:\/\/carloscds.gihtub.io',
+            CONTENT_URL: 'https:\/\/carloscds.gihtub.io\/searchindex.json ',
         };
         window.INSIGHT_CONFIG = INSIGHT_CONFIG;
     })(window);
 </script>
-<script type="text/javascript" src="https://carloscds.github.io/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script type="text/javascript" src="https://carloscds.gihtub.io/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
 <script>
     tocbot.init({
@@ -660,7 +660,7 @@ Carlos dos Santos.</p>
 
 <script>
     var disqus_config = function () {
-        this.page.url = 'https:\/\/carloscds.github.io\/2014\/11\/c-roslyn-e-projeto-open-sourcecodecracker-2\/';
+        this.page.url = 'https:\/\/carloscds.gihtub.io\/2014\/11\/c-roslyn-e-projeto-open-sourcecodecracker-2\/';
         this.page.identifier = 'https-www-carloscds-net';
     };
     (function () {

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tfs on Carlos dos Santos</title>
-    <link>https://carloscds.github.io/tags/tfs/</link>
+    <link>https://carloscds.gihtub.io/tags/tfs/</link>
     <description>Recent content in tfs on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 31 Mar 2013 21:03:35 -0300</lastBuildDate>
     
-        <atom:link href="https://carloscds.github.io/tags/tfs/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://carloscds.gihtub.io/tags/tfs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>EF CodeFirst–Gerenciando as Strings de Conexão</title>
-      <link>https://carloscds.github.io/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</link>
+      <link>https://carloscds.gihtub.io/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</link>
       <pubDate>Mon, 08 Aug 2011 22:21:48 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</guid>
+      <guid>https://carloscds.gihtub.io/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</guid>
       <description>Olá,
 Hoje vamos falar um pouco sobre o gerenciamento de string de conexões no Entity Framework Code First, uma maneira muito simples e rápida de criar um mapeamento objeto relacional em C# com o Visual Studio 2010.
 Se você ainda não conhece o EF CodeFirst, veja este post e também o Blog do time de ADO.Net.
@@ -24,10 +24,10 @@ O que vou tratar neste post é como podemos armazenar as strings de conexão e o
     
     <item>
       <title>Visual Studio Debugger Canvas</title>
-      <link>https://carloscds.github.io/2011/06/visual-studio-debugger-canvas/</link>
+      <link>https://carloscds.gihtub.io/2011/06/visual-studio-debugger-canvas/</link>
       <pubDate>Tue, 21 Jun 2011 21:43:50 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/06/visual-studio-debugger-canvas/</guid>
+      <guid>https://carloscds.gihtub.io/2011/06/visual-studio-debugger-canvas/</guid>
       <description>Olá,
 Acaba de ser lançado um recurso muito legal para o Visual Studio 2010 Ultimate, o Debugger Canvas, que é uma maneira mais visual de fazer debug de suas aplicações.
 Normalmente, ao fazer debug de uma aplicação, você executa e vai percorrendo linha a linha, entrando e saindo de rotinas dentro do código e depois de algum tempo, você acaba com diversas janelas abertas no Visual Studio.
@@ -36,10 +36,10 @@ Agora imagine que ao fazer o debug, os diferentes códigos fontes vão se abrind
     
     <item>
       <title>Palestra no Cesumar</title>
-      <link>https://carloscds.github.io/2011/05/palestra-no-cesumar/</link>
+      <link>https://carloscds.gihtub.io/2011/05/palestra-no-cesumar/</link>
       <pubDate>Sat, 21 May 2011 21:32:58 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/05/palestra-no-cesumar/</guid>
+      <guid>https://carloscds.gihtub.io/2011/05/palestra-no-cesumar/</guid>
       <description>Pessoal,
 hoje fizemos uma palestra no Cesumar em Maringá. O Vladimir Rech mandou muito bem no C# básico e depois eu finalizei com vantagens da plataforma, mercado de trabalho e como é possível começar um negócio usando a plataforma Microsoft.
 Vejam as fotos:
@@ -49,10 +49,10 @@ Carlos.</description>
     
     <item>
       <title>Entity Framework Code First Power Tools CTP1</title>
-      <link>https://carloscds.github.io/2011/05/entity-framework-code-first-power-tools-ctp1/</link>
+      <link>https://carloscds.gihtub.io/2011/05/entity-framework-code-first-power-tools-ctp1/</link>
       <pubDate>Thu, 19 May 2011 09:54:43 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/05/entity-framework-code-first-power-tools-ctp1/</guid>
+      <guid>https://carloscds.gihtub.io/2011/05/entity-framework-code-first-power-tools-ctp1/</guid>
       <description>Pessoal,
 A Microsoft acabou de lancar o Power Tools para o EF Code First. Com este pacote é possível ler um banco de dados existente e gerar todas as classes, muito interessante se você já tem um banco e quer usar o EF Code First.
 O pacote pode ser instalado via Extension Manager do Visual Studio 2010. Maiores informações neste link: http://blogs.msdn.com/b/adonet/archive/2011/05/18/ef-power-tools-ctp1-released.aspx
@@ -62,10 +62,10 @@ Carlos.</description>
     
     <item>
       <title>Java SDK para TFS</title>
-      <link>https://carloscds.github.io/2011/05/java-sdk-para-tfs/</link>
+      <link>https://carloscds.gihtub.io/2011/05/java-sdk-para-tfs/</link>
       <pubDate>Mon, 16 May 2011 08:41:22 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/05/java-sdk-para-tfs/</guid>
+      <guid>https://carloscds.gihtub.io/2011/05/java-sdk-para-tfs/</guid>
       <description>Para você que desenvolve em Java e gostaria de acessar o TFS via programação, a Microsoft acaba de lancar o Java SDK para TFS, que permite criar aplicações em Java para acesso aos recursos do TFS.
 É um recurso muito interessante e permite, por exemplo, integrar aplicações de atendimento e controle de desenvolvimento ao TFS, de uma maneira simples e nativa.
 Abraços,
@@ -74,10 +74,10 @@ Carlos.</description>
     
     <item>
       <title>Impressão Matricial 2.0</title>
-      <link>https://carloscds.github.io/2011/05/impresso-matricial-2-0/</link>
+      <link>https://carloscds.gihtub.io/2011/05/impresso-matricial-2-0/</link>
       <pubDate>Mon, 02 May 2011 21:59:15 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/05/impresso-matricial-2-0/</guid>
+      <guid>https://carloscds.gihtub.io/2011/05/impresso-matricial-2-0/</guid>
       <description>Para quem já conhecia o componente de impressão matricial, eu fiz um update nele e agora é possível usar em Windows 7. Estou também fornecendo os fontes do componente para aqueles que queiram estudar e aprimorar.
 O link para o novo componente é: http://code.msdn.microsoft.com/Impresso-Matricial-20-cb6579af
 Áté a próxima,
@@ -86,10 +86,10 @@ Carlos dos Santos.</description>
     
     <item>
       <title>Palestra sobre Visual Studio e Mercado de Trabalho</title>
-      <link>https://carloscds.github.io/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</link>
+      <link>https://carloscds.gihtub.io/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</link>
       <pubDate>Sun, 10 Apr 2011 14:50:06 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</guid>
+      <guid>https://carloscds.gihtub.io/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</guid>
       <description>Na última sexta-feira (08/04/2011) estive no Instituto Federal Tecnológico do Paraná (http://www.ifpr.edu.br/) para ministrar uma palestra para os alunos do curso técnico em informática.
 Neste evento falei sobre o Visual Studio 2010 e a linguagem C# para a criação de aplilcações Windows, WPF, Silverlight e Windows Phone, mostrando todo o ppotencial da plataforma .Net.
 Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano e principalmente da importância da capacitação para quem quer uma vaga no mercado.</description>
@@ -97,10 +97,10 @@ Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano 
     
     <item>
       <title>MSDN Library em Português (MSDN WIKI)</title>
-      <link>https://carloscds.github.io/2011/04/msdn-library-em-portugus-msdn-wiki/</link>
+      <link>https://carloscds.gihtub.io/2011/04/msdn-library-em-portugus-msdn-wiki/</link>
       <pubDate>Thu, 07 Apr 2011 16:05:36 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/04/msdn-library-em-portugus-msdn-wiki/</guid>
+      <guid>https://carloscds.gihtub.io/2011/04/msdn-library-em-portugus-msdn-wiki/</guid>
       <description>Pessoal,
 A MSDN Library é um importante recurso para todos os desenvolvedores da plataforma Microsoft .Net e somo muito gratos por tê-la em portugês (PT-BR), pois nem todos tem o domínio do inglês, principalmente enquanto iniciante em desenvolvimento de software.
 Mas você já pensou em contribuir com a biblioteca, deixando-a melhor ainda ? Você pode se tornar um contribuidor do MSDN, sugerindo novos termos para a tradução, o que deixaria a biblioteca ainda mais com a cara do Brasil.</description>
@@ -108,10 +108,10 @@ Mas você já pensou em contribuir com a biblioteca, deixando-a melhor ainda ? V
     
     <item>
       <title>Começe a Desenvolver no Azure agora mesmo!</title>
-      <link>https://carloscds.github.io/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</link>
+      <link>https://carloscds.gihtub.io/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</link>
       <pubDate>Tue, 22 Mar 2011 18:53:07 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</guid>
+      <guid>https://carloscds.gihtub.io/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</guid>
       <description>Pessoal,
 Estou com vários promocodes para acesso ao Azure, vejam site. Não precisa de cartão de crédito, simples e rápido para ativar.
 Caso alguem queira começar a desenvolver no Windows Azure, entre em contato comigo pelo twitter: @cdssoftware que fornceço o passcode.
@@ -121,10 +121,10 @@ Carlos.</description>
     
     <item>
       <title>Como se tornar um desenvolvedor oficial de Windows Phone 7</title>
-      <link>https://carloscds.github.io/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</link>
+      <link>https://carloscds.gihtub.io/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</link>
       <pubDate>Mon, 21 Mar 2011 16:49:45 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</guid>
+      <guid>https://carloscds.gihtub.io/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</guid>
       <description>Olá pessoal,
 Hoje vou mostrar como você pode se cadastrar para se tornar um desenvolvedor oficial de aplicações para Windows Phone 7. Mas por quê me cadastrar lá ? Simples, você pode criar um aplicativo que pode ser baixado em qualquer lugar do mundo, então imagine as possibilidades.
 Bom, vamos lá:
@@ -133,10 +133,10 @@ Bom, vamos lá:
     
     <item>
       <title>Visual Studio 2010 Service Pack 1</title>
-      <link>https://carloscds.github.io/2011/03/visual-studio-2010-service-pack-1/</link>
+      <link>https://carloscds.gihtub.io/2011/03/visual-studio-2010-service-pack-1/</link>
       <pubDate>Wed, 09 Mar 2011 21:46:38 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/03/visual-studio-2010-service-pack-1/</guid>
+      <guid>https://carloscds.gihtub.io/2011/03/visual-studio-2010-service-pack-1/</guid>
       <description>Pessoal,
 Já está disponível o SP1 do Visual Studio 2010 com diversas melhorias, como suporte a Silverlight 4, HTML 5, teste de performace para Silverlight, IIS Express, suporte a Razor, melhorias no editor XAML, entre diversas correções de problemas (veja lista completa do SP1 aqui).
 Está também disponível o SP1 do Team Foundation Server com diversas melhorias, o link para download é o mesmo do VS2010 (veja lista completa do SP1 aqui).</description>
@@ -144,10 +144,10 @@ Está também disponível o SP1 do Team Foundation Server com diversas melhorias
     
     <item>
       <title>Usando Tuples em C#–retornando vários parâmetros de um método</title>
-      <link>https://carloscds.github.io/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</link>
+      <link>https://carloscds.gihtub.io/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</link>
       <pubDate>Mon, 07 Feb 2011 21:53:56 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</guid>
+      <guid>https://carloscds.gihtub.io/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</guid>
       <description>Olá pessoal,
 Uma das coisas interessantes da linguagem C# é a quantidade de opções que temos para resolver o problemas do nosso dia a dia. Um caso interessante e bem comum é termos a necessidade de passar vários parâmetros para um método e às vezes também retornar vários parâmetros, e é bem provável que você se utilize de artifícios como parâmetros de saída (out) ou referência (ref).
 Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description>
@@ -155,10 +155,10 @@ Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description
     
     <item>
       <title>Integrando Apple XCode com TFS 2010</title>
-      <link>https://carloscds.github.io/2010/12/integrando-apple-xcode-com-tfs-2010/</link>
+      <link>https://carloscds.gihtub.io/2010/12/integrando-apple-xcode-com-tfs-2010/</link>
       <pubDate>Wed, 29 Dec 2010 11:01:48 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/12/integrando-apple-xcode-com-tfs-2010/</guid>
+      <guid>https://carloscds.gihtub.io/2010/12/integrando-apple-xcode-com-tfs-2010/</guid>
       <description>Pessoal,
 Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
 Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
@@ -166,10 +166,10 @@ Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Te
     
     <item>
       <title>Editora Novatec–Desconto!</title>
-      <link>https://carloscds.github.io/2010/12/editora-novatecdesconto/</link>
+      <link>https://carloscds.gihtub.io/2010/12/editora-novatecdesconto/</link>
       <pubDate>Fri, 10 Dec 2010 13:46:04 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/12/editora-novatecdesconto/</guid>
+      <guid>https://carloscds.gihtub.io/2010/12/editora-novatecdesconto/</guid>
       <description>Pessoal,
 Fiz uma parceria com a Editora Novatec e consegui 20% de desconto para vocês, leitores do meu blog. Basta acessar o site e ao finalizar a compra informar o código da promoção carloscds.
 Este desconto é válido até 31/12/2011.
@@ -180,10 +180,10 @@ Carlos dos Santos.</description>
     
     <item>
       <title>Palestra sobre Mercado e Tecnologias</title>
-      <link>https://carloscds.github.io/2010/12/palestra-sobre-mercado-e-tecnologias/</link>
+      <link>https://carloscds.gihtub.io/2010/12/palestra-sobre-mercado-e-tecnologias/</link>
       <pubDate>Wed, 08 Dec 2010 15:12:03 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/12/palestra-sobre-mercado-e-tecnologias/</guid>
+      <guid>https://carloscds.gihtub.io/2010/12/palestra-sobre-mercado-e-tecnologias/</guid>
       <description>Pessoal,
 No último dia 30/11/2010 estive no Colégio Estadual Vicente Rijo em Londrina, para uma palestra sobre o mercado regional de tecnologia e as tecnologias utilizadas. Nesta oprtunidade falei sobre a plataforma Microsoft e como ela está posicionada em relação a outras ferramentas.
 Gostaria de ressaltar que fique impressional com a qualidade das instalações e do ensino técnico mistrado por uma escola pública, realmente um exemplo a ser seguido. Gostaria de agradecer ao Pedro da Incubadora Intuel da Universidade Estadual de Londrina pelo convite.</description>
@@ -191,10 +191,10 @@ Gostaria de ressaltar que fique impressional com a qualidade das instalações e
     
     <item>
       <title>Curso Gratuito de Visual Studio 2010</title>
-      <link>https://carloscds.github.io/2010/11/curso-gratuito-de-visual-studio-2010/</link>
+      <link>https://carloscds.gihtub.io/2010/11/curso-gratuito-de-visual-studio-2010/</link>
       <pubDate>Tue, 30 Nov 2010 08:49:31 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/11/curso-gratuito-de-visual-studio-2010/</guid>
+      <guid>https://carloscds.gihtub.io/2010/11/curso-gratuito-de-visual-studio-2010/</guid>
       <description>Pessoal,
 Para quem achar interessante, existe um treinamento gratuito de Visual Studio 2010, que pode ser acessado neste site aqui.
 O treinamento está em Inglês mas é muito bom.
@@ -204,10 +204,10 @@ Carlos.</description>
     
     <item>
       <title>Promoção Indique Azure</title>
-      <link>https://carloscds.github.io/2010/11/promoo-indique-azure/</link>
+      <link>https://carloscds.gihtub.io/2010/11/promoo-indique-azure/</link>
       <pubDate>Fri, 26 Nov 2010 08:36:19 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/11/promoo-indique-azure/</guid>
+      <guid>https://carloscds.gihtub.io/2010/11/promoo-indique-azure/</guid>
       <description>Pessoal,
  Sobre a promoção Indique Azure (www.indiqueazure.com.br) , segue abaixo um tutorial que explica como participar:
    Crie sua conta no Portal do Windows Azure: http://www.slideshare.net/indiqueazure/como-assinar-windows-azure
@@ -219,10 +219,10 @@ Carlos.</description>
     
     <item>
       <title>Prova Beta Windows Azure</title>
-      <link>https://carloscds.github.io/2010/11/prova-beta-windows-azure/</link>
+      <link>https://carloscds.gihtub.io/2010/11/prova-beta-windows-azure/</link>
       <pubDate>Wed, 17 Nov 2010 16:38:57 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/11/prova-beta-windows-azure/</guid>
+      <guid>https://carloscds.gihtub.io/2010/11/prova-beta-windows-azure/</guid>
       <description>Pessoal,
 Hoje fiz a prova beta do Windows Azure (70-583) e posso garantir a vocês que achei a prova excelente, com perguntas muito objetivas e que realmente tem o objetivo de verificar se o candidato entendeu o conceito da plataforma e como aplicá-la. Para quem ainda não conhece a plataforma Azure visite este link.
 A prova tinha 75 questões, sobre todas as áreas do Azure e como ainda é uma prova beta, você tem opção para comentar ou questionar as peguntas, para que elas possam, eventualmente, ser corrigidas para o exame definitivo.</description>
@@ -230,10 +230,10 @@ A prova tinha 75 questões, sobre todas as áreas do Azure e como ainda é uma p
     
     <item>
       <title>Prova Team Foundation Server</title>
-      <link>https://carloscds.github.io/2010/11/prova-team-foundation-server/</link>
+      <link>https://carloscds.gihtub.io/2010/11/prova-team-foundation-server/</link>
       <pubDate>Wed, 17 Nov 2010 16:23:07 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/11/prova-team-foundation-server/</guid>
+      <guid>https://carloscds.gihtub.io/2010/11/prova-team-foundation-server/</guid>
       <description>Pessoal, há duas semanas eu fiz a prova do Team Foundation Server Administrator (70-512). A prova relata bem a realidade de um administrador de TFS, com perguntas bem objetivas sobre o dia a dia de uma empresa e situações que realmente acontecem.
 Para os que quiserem fazer esta prova, vai a dica do blog do Daniel Oliveira, que separou vários link com materiais muito interessantes sobre esta prova.
 E para dar uma animada em quem ainda está indecido, seja a cópia do certificado da prova:</description>
@@ -241,10 +241,10 @@ E para dar uma animada em quem ainda está indecido, seja a cópia do certificad
     
     <item>
       <title>EcoDevelopers Maringá</title>
-      <link>https://carloscds.github.io/2010/10/ecodevelopers-maring/</link>
+      <link>https://carloscds.gihtub.io/2010/10/ecodevelopers-maring/</link>
       <pubDate>Sun, 24 Oct 2010 01:21:35 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/10/ecodevelopers-maring/</guid>
+      <guid>https://carloscds.gihtub.io/2010/10/ecodevelopers-maring/</guid>
       <description>Pessoal,
 Estivemos ontem na última quinta-feira (21/10) no Cesumar em Maringá para o EcoDevelopers. Foi um evento muito legal, com cerca de 300 pessoas e palestras muito interessantes sobre responsabilidade ambiental e também tecnologia.
 Eu falei sobre algo diferente, Virtualização com Hyper-V, infra mesmo, pois eu, além de desenvolvedor, gosto muito de infra. O André Nobre falou sobre Windows Azure e desenvolvimento para nuvem.
