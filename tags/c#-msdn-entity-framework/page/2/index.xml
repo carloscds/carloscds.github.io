@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>c#; msdn; entity framework on Carlos dos Santos</title>
-    <link>https://carloscds.gihtub.io/tags/c#-msdn-entity-framework/</link>
+    <link>https://carloscds.github.io/tags/c#-msdn-entity-framework/</link>
     <description>Recent content in c#; msdn; entity framework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 15 Jul 2012 22:20:07 -0300</lastBuildDate>
     
-        <atom:link href="https://carloscds.gihtub.io/tags/c#-msdn-entity-framework/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://carloscds.github.io/tags/c#-msdn-entity-framework/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Voce se preocupa com performance ou é sempre problema da infra</title>
-      <link>https://carloscds.gihtub.io/2017/09/voce-se-preocupa-com-performance-ou-sempre-problema-da-infra/</link>
+      <link>https://carloscds.github.io/2017/09/voce-se-preocupa-com-performance-ou-sempre-problema-da-infra/</link>
       <pubDate>Fri, 01 Sep 2017 22:34:37 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/09/voce-se-preocupa-com-performance-ou-sempre-problema-da-infra/</guid>
+      <guid>https://carloscds.github.io/2017/09/voce-se-preocupa-com-performance-ou-sempre-problema-da-infra/</guid>
       <description>Pessoal,
  Obrigado a todos que participaram da minha palestra no dia 01/09/2017 no Devxperience, e também ao Eduardo Pires pelo convite, foi muito legal!
  Os slides estão no meu SlideShare e algumas fotos estão no facebook.
@@ -25,10 +25,10 @@ Carlos dos Santos</description>
     
     <item>
       <title>Publicando uma aplicação Asp.NET Core no IIS</title>
-      <link>https://carloscds.gihtub.io/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</link>
+      <link>https://carloscds.github.io/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</link>
       <pubDate>Sun, 06 Aug 2017 17:38:30 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</guid>
+      <guid>https://carloscds.github.io/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</guid>
       <description>Olá pessoal, ja faz um tempo do meu post sobre como publicar uma aplicação no IIS, e agora, como temos novas tecnologias, chegou a hora de mostrar como fazer a publicação de uma aplicação Asp.Net Core!
 Mas por quê desenvolver em .Net Core ?
 Existem centenas de artigos explicando as vantagens, mas vou colocar aqui apenas dois pontos: Velocidade e facilidade no desenvolvimento!
@@ -37,10 +37,10 @@ Velocidade porque o Asp.Net Core é muitas vezes mais rápido que o Asp.</descri
     
     <item>
       <title>Extensão para SQL Server no Visual Studio Code</title>
-      <link>https://carloscds.gihtub.io/2017/07/extensao-para-sql-server-no-visual-studio-code/</link>
+      <link>https://carloscds.github.io/2017/07/extensao-para-sql-server-no-visual-studio-code/</link>
       <pubDate>Mon, 17 Jul 2017 14:09:38 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/07/extensao-para-sql-server-no-visual-studio-code/</guid>
+      <guid>https://carloscds.github.io/2017/07/extensao-para-sql-server-no-visual-studio-code/</guid>
       <description>Olá,
 Você que trabalha com o VS Code e com SQL Server, não pode deixar de instalar esta extensão. É muito simples instalar e utilizar!
 Vamos lá! Abra o seu Visual Studio Code e vá em Extensions:
@@ -52,10 +52,10 @@ Existem vários comandos.</description>
     
     <item>
       <title>Visual Studio Summit 2017</title>
-      <link>https://carloscds.gihtub.io/2017/06/visual-studio-summit-2017/</link>
+      <link>https://carloscds.github.io/2017/06/visual-studio-summit-2017/</link>
       <pubDate>Wed, 07 Jun 2017 07:55:55 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/06/visual-studio-summit-2017/</guid>
+      <guid>https://carloscds.github.io/2017/06/visual-studio-summit-2017/</guid>
       <description>No último dia 03 de junho tive novamente a felicidade de ser palestrante do Visual Studio Summit em São Paulo, um evento incrível, com pessoas incríveis!
 Agradeço ao Ramon e ao Davi pela oportunidade e principalmente a todos que assistiram as minhas duas palestras sobre C# 7.0, as duas salas estavam lotadas e a galera interagiu muito!
 As fotos estão no meu facebook e as fotos do eventos estão aqui.</description>
@@ -63,20 +63,20 @@ As fotos estão no meu facebook e as fotos do eventos estão aqui.</description>
     
     <item>
       <title>Assista ao Build 2017 - Keynote com legenda em português</title>
-      <link>https://carloscds.gihtub.io/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</link>
+      <link>https://carloscds.github.io/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</link>
       <pubDate>Wed, 03 May 2017 13:21:13 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</guid>
+      <guid>https://carloscds.github.io/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</guid>
       <description>O Build acontece nos dia 10 a 12 de maio de 2017, em Seattle: https://build.microsoft.com
 Abaixo será transmitido o keynote na abertura do evento:</description>
     </item>
     
     <item>
       <title>Aumente sua produtividade no Visual Studio 2017</title>
-      <link>https://carloscds.gihtub.io/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</link>
+      <link>https://carloscds.github.io/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</link>
       <pubDate>Mon, 10 Apr 2017 22:15:14 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</guid>
+      <guid>https://carloscds.github.io/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</guid>
       <description>Ola pessoal,
 Veja aqui algumas dicas bem legais para configurar o Visual Studio 2017 e aumentar a sua produtividade?
 • Análise completa da solução – Mostra erros / avisos na lista de erros para toda a sua solução. No VS2015 Update 3 e VS2017 isso foi desativado por padrão, de modo que, por padrão, agora você só vê erros / avisos em seus arquivos abertos. Para ativar a Análise de solução completa, acesse Tools/Options/Text Editor/C#/Advanced/Enable Full Solution Analysis.</description>
@@ -84,10 +84,10 @@ Veja aqui algumas dicas bem legais para configurar o Visual Studio 2017 e aument
     
     <item>
       <title>Algumas dicas de DotNet Core com linha de comando</title>
-      <link>https://carloscds.gihtub.io/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</link>
+      <link>https://carloscds.github.io/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</link>
       <pubDate>Wed, 29 Mar 2017 09:19:34 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</guid>
+      <guid>https://carloscds.github.io/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</guid>
       <description>Olá pessoal,
 Muita gente já está trabalhando com .Net Core e eu espero que você seja uma delas! Mas se não for, aproveite e já baixe o DotNetCore agora mesmo neste link.
 Só para relembrar, o DotNet Core é uma nova versão da plataforma .Net que roda multi plataforma, ou seja, você pode desenvolver agora para Windows, Linux e Mac, usando o mesmo código fonte 😊
@@ -96,10 +96,10 @@ Existem muitas maneiras de se trabalhar com .</description>
     
     <item>
       <title>Agora é multi plataforma!</title>
-      <link>https://carloscds.gihtub.io/2017/01/agora-multi-plataforma/</link>
+      <link>https://carloscds.github.io/2017/01/agora-multi-plataforma/</link>
       <pubDate>Sun, 01 Jan 2017 22:24:01 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/01/agora-multi-plataforma/</guid>
+      <guid>https://carloscds.github.io/2017/01/agora-multi-plataforma/</guid>
       <description>Olá a todos,
 Neste primeiro post de 2017 vou falar de algo que já está afetando a vida dos desenvolvedores: criar software multi plataforma! Há muito tempo se fala neste tipo de desenvolvimento e muito se prometeu com ferramentas e linguagens, algumas um tanto mirabolantes!
 Me lembro de ter ido conhecer uma ferramenta Windows que havia sido portada para Linux e quando comecei a fazer perguntas sobre funcionalidades bem básicas a resposta foi: “Bem, isto ainda não fizemos…”, e nem preciso dizer que instalar a tal ferramenta era coisa para alguns dias de muitos comandos em um sistema Linux.</description>
@@ -107,10 +107,10 @@ Me lembro de ter ido conhecer uma ferramenta Windows que havia sido portada para
     
     <item>
       <title>Criando Recursos no Azure com a FluentAPI em C#</title>
-      <link>https://carloscds.gihtub.io/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</link>
+      <link>https://carloscds.github.io/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</link>
       <pubDate>Fri, 14 Oct 2016 15:49:48 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</guid>
+      <guid>https://carloscds.github.io/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</guid>
       <description>Fala pessoal, tudo bem?
 Ontem (12/10) foi publicado o preview do Azure FluentAPI, que permite a criação de vários recursos do Azure, como VMs, Storage e muito mais, diretamente do .Net usando Fluent.
 A grande novidade aqui, além do Fluent é a compatililidade com o .Net Core, isto mesmo, você pode criar código para gerenciar seu Azure totalmente portável!
@@ -120,10 +120,10 @@ E neste link existe alguns outros exemplos e também como usar a Fluent API.</de
     
     <item>
       <title>Microsoft Open Source</title>
-      <link>https://carloscds.gihtub.io/2016/09/microsoft-open-source/</link>
+      <link>https://carloscds.github.io/2016/09/microsoft-open-source/</link>
       <pubDate>Sat, 24 Sep 2016 18:38:34 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/09/microsoft-open-source/</guid>
+      <guid>https://carloscds.github.io/2016/09/microsoft-open-source/</guid>
       <description>Na última quinta-feira (22/09) estive em Ilha Solteira/SP na Unesp falando sobre Microsoft Open Source para o pessoal de Engenharia Elétrica. Valeu pessoal, a papo foi muito legal.
 Nâo sei se todos sabem, mas existe muito código fonte sendo compartilhado pela Microsoft no GitHub, veja: https://github.com/microsoft. Mais interessante ainda é abrir um Linux dentro do Windows 10, quem diria! Eu fiz um outro post sobre isto.
 Recentemente também a Microsoft ficou em primeiro lugar no ranking de empresas que colaboram no GitHub:</description>
@@ -131,10 +131,10 @@ Recentemente também a Microsoft ficou em primeiro lugar no ranking de empresas 
     
     <item>
       <title>C# 7.0 - Tuples</title>
-      <link>https://carloscds.gihtub.io/2016/09/c-7-0-tuples/</link>
+      <link>https://carloscds.github.io/2016/09/c-7-0-tuples/</link>
       <pubDate>Sun, 11 Sep 2016 00:06:21 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/09/c-7-0-tuples/</guid>
+      <guid>https://carloscds.github.io/2016/09/c-7-0-tuples/</guid>
       <description>Olá pessoal,
 Há algum tempo atrás eu publiquei um post falando sobre Tuples em C#, que é um recurso bem interessante para retorno de múltiplos valores, principalmente quando você não quer criar uma classe somente para isto.
 Agora com o C# 7.0 (ainda em preview) as Tuplas ganharam novos recurso que facilitam ainda mais a sua utilização, agora podemos dar nomes aos elementos, faclitando ainda mais o nosso código.
@@ -143,10 +143,10 @@ Para executarmos os exemplos você vai precisar baixar o Visual Studio “15” 
     
     <item>
       <title>Tem um Linux no meu Windows 10!</title>
-      <link>https://carloscds.gihtub.io/2016/08/tem-um-linux-no-meu-windows-10/</link>
+      <link>https://carloscds.github.io/2016/08/tem-um-linux-no-meu-windows-10/</link>
       <pubDate>Sun, 07 Aug 2016 21:38:20 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/08/tem-um-linux-no-meu-windows-10/</guid>
+      <guid>https://carloscds.github.io/2016/08/tem-um-linux-no-meu-windows-10/</guid>
       <description>Fala pessoal,
 É isto mesmo que você leu, tem um Linux dentro do Window 10, e não é uma máquina virtual, como muitos estão pensando, é um sub-sistema baseado no Ubuntu.
 Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é loucura, mas o mundo mudou e a Microsoft também. Nós últimos anos a Microsoft vem trabalhando mais fortemente com comunidades open source, e o Linux é uma delas.</description>
@@ -154,10 +154,10 @@ Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é lo
     
     <item>
       <title>Serializando JSon com JIL</title>
-      <link>https://carloscds.gihtub.io/2016/07/serializando-json-com-jil/</link>
+      <link>https://carloscds.github.io/2016/07/serializando-json-com-jil/</link>
       <pubDate>Sat, 30 Jul 2016 17:34:11 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/07/serializando-json-com-jil/</guid>
+      <guid>https://carloscds.github.io/2016/07/serializando-json-com-jil/</guid>
       <description>Fala pessoal, tudo bem!
 Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
 Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
@@ -166,10 +166,10 @@ Você recebe um dado em Json, que é basicamente um texto, e precisa manipular s
     
     <item>
       <title>Visual Studio Summit</title>
-      <link>https://carloscds.gihtub.io/2016/06/visual-studio-summit/</link>
+      <link>https://carloscds.github.io/2016/06/visual-studio-summit/</link>
       <pubDate>Mon, 13 Jun 2016 08:52:01 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/06/visual-studio-summit/</guid>
+      <guid>https://carloscds.github.io/2016/06/visual-studio-summit/</guid>
       <description>Fala pessoal,
 Neste úiltimo final de semana tive o prazer de novamente ser palestrando do Visual Studio Summit, um evento sensacional que aconteceu na Microsoft em SP e contou com cerca de 300 pessoas.
 Fiquei muito feliz em poder realizar duas palestras (com repeteco) sobre RaspBerry PI e .Net Core. Muito obrigado a todos que assistiram as minhas quatro palestras, todas as vezes estava com a sala cheia!
@@ -178,10 +178,10 @@ Veja aqui algumas fotos e os slides do RaspBerryPI e .</description>
     
     <item>
       <title>JoinCommunity 2016</title>
-      <link>https://carloscds.gihtub.io/2016/05/joincommunity-2016/</link>
+      <link>https://carloscds.github.io/2016/05/joincommunity-2016/</link>
       <pubDate>Mon, 23 May 2016 08:45:56 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/05/joincommunity-2016/</guid>
+      <guid>https://carloscds.github.io/2016/05/joincommunity-2016/</guid>
       <description>Olá pessoal,
 Neste final de semana tive a grata satisfação de palestrar no evento Join Community em Goiânia, a convite do Marcelo Paiva. Um evento muito bem organizado, quie contou até com tradução para Libras, o que mostra a importância dos organizadores profissionais com deficiência auditiva. Confesso que fiquei supreso!
 Neste evento fiz a palestra de abertura e falei sobre o SonarQube, uma ferramenta fantástica para medir a qualidade do código fonte, e não estou falando apenas de código .</description>
@@ -189,40 +189,40 @@ Neste evento fiz a palestra de abertura e falei sobre o SonarQube, uma ferrament
     
     <item>
       <title>Palesta sobre Microsoft Open Source no FLISOL de Mar&amp;iacute;lia</title>
-      <link>https://carloscds.gihtub.io/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</link>
+      <link>https://carloscds.github.io/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</link>
       <pubDate>Sat, 16 Apr 2016 18:15:35 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</guid>
+      <guid>https://carloscds.github.io/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</guid>
       <description>Hoje foi dia de Global Azure Boot Camp, um evento sobre Azure realizado no mundo todo, no mesmo dia. Mas eu tive outra missão este ano, falar sobre Microsoft open source em um evento de software livre, o FLISOL.
 Falar de Microsoft Open Source parece ser algo inimaginável, mas é a pura realidade e hoje mostrei isto na palestra em Marília. Fico muito feliz que tenham gostado da apresentação e principalmente entendido que a Microsoft mudou e muito!</description>
     </item>
     
     <item>
       <title>CodeCracker 1.0</title>
-      <link>https://carloscds.gihtub.io/2016/04/codecracker-1-0/</link>
+      <link>https://carloscds.github.io/2016/04/codecracker-1-0/</link>
       <pubDate>Mon, 04 Apr 2016 08:32:14 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/04/codecracker-1-0/</guid>
+      <guid>https://carloscds.github.io/2016/04/codecracker-1-0/</guid>
       <description>Depois de um longo tempo e muito trabalho, temos o oriulho de anunciar a versão 1.0 do CodeCracker, uma das mais populares ferramentas para análise estática de código do mercado, e totalmente free e open source.
 Só relembrando, Análise Estática de Código, é o fato de conseguirmos analisar seu código direto no editor, sem a necessidade de compilar. Com o compilador Roslyn (.Net Compiler), que veio junto com o Visual Studio 2015, se tornou possível escrever códigos (analisadores e fixers) que atuam no fluxo da compilação, pois o Roslyn atua como “Compiler as a Service”, um serviço de compilação que podemos consumir.</description>
     </item>
     
     <item>
       <title>C# Interativo (REPL)</title>
-      <link>https://carloscds.gihtub.io/2016/04/c-interativo-repl/</link>
+      <link>https://carloscds.github.io/2016/04/c-interativo-repl/</link>
       <pubDate>Sat, 02 Apr 2016 20:34:24 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/04/c-interativo-repl/</guid>
+      <guid>https://carloscds.github.io/2016/04/c-interativo-repl/</guid>
       <description>Alguma vez você já pensou em testar aquele trecho de código sem precisar compilar toda a solução ?
 Acho que este é um sonho de vários desenvolvedores. Será que dá para executar só aquele “pedacinho” do código ? Normalmente você tem que executar o codigo todo e fazer um braek point e depois rodar o debug sem parar, ou mais ainda, quem de nós que nunca criou um programa console só para testar um trecho de código ?</description>
     </item>
     
     <item>
       <title>Desenvolva com Microsoft sem gastar dinheiro</title>
-      <link>https://carloscds.gihtub.io/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</link>
+      <link>https://carloscds.github.io/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</link>
       <pubDate>Sat, 02 Apr 2016 19:04:43 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</guid>
+      <guid>https://carloscds.github.io/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</guid>
       <description>Ola pessoal,
 Esta semana tivemos fortes emoções no mundo Microsoft durante o evento Build. Foram tantos anúncios que levaremos semanas para entender tudo que aconteceu e principalmente o que vai acontecer daqui para frente, mas resumindo em poucas palavras: Muita coisa agora é open source, de graça mesmo!
 Nesta onda de ferrmentas gratuitas e open source, gostaria de apresentar a vocês o portal Visual Studio Dev Essentials:
@@ -231,10 +231,10 @@ Bom, mas o que tem de tão especial neste portal ?</description>
     
     <item>
       <title>Sua aplicação web está online neste momento ?</title>
-      <link>https://carloscds.gihtub.io/2016/03/sua-aplicao-web-est-online-neste-momento/</link>
+      <link>https://carloscds.github.io/2016/03/sua-aplicao-web-est-online-neste-momento/</link>
       <pubDate>Mon, 28 Mar 2016 11:52:44 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2016/03/sua-aplicao-web-est-online-neste-momento/</guid>
+      <guid>https://carloscds.github.io/2016/03/sua-aplicao-web-est-online-neste-momento/</guid>
       <description>Esta é realmente uma pergunta complicada não acham ? Como determinar se minha aplicação está funcionando, sem ficar olhando para ela ?
 Existem várias maneiras de resolver este problema, mas vou mostrar como monitorar isto usando o Application Insights do Microsoft Azure.
 É bem simples, vamos lá! Abra o portal do Azure: http://portal.azure.com com seu usuário e senha, caso não tenha um, basta criar uma conta trial.

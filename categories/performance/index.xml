@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Performance on Carlos dos Santos</title>
-    <link>https://carloscds.gihtub.io/categories/performance/</link>
+    <link>https://carloscds.github.io/categories/performance/</link>
     <description>Recent content in Performance on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 01 Sep 2017 22:34:37 -0300</lastBuildDate>
     
-        <atom:link href="https://carloscds.gihtub.io/categories/performance/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://carloscds.github.io/categories/performance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NuKeeper - mantenha seus pacotes atualizados</title>
-      <link>https://carloscds.gihtub.io/2020/06/nukeeper/</link>
+      <link>https://carloscds.github.io/2020/06/nukeeper/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2020/06/nukeeper/</guid>
+      <guid>https://carloscds.github.io/2020/06/nukeeper/</guid>
       <description>Todos nós usamos diversos pacotes em nossas aplicações, até mesmo partes essenciais dos projetos estão em pacotes hoje em dia! Ai vem o grande desafio, como manter isto tudo atualizado, e principalmente, como descobrir o que precisa ser atualizado ?
 Conheça o NuKepper O Nukeeper é um &amp;ldquo;atualizador&amp;rdquo; de pacotes, que como o site do GitHub diz: &amp;ldquo;Ele Automagicamente&amp;rdquo; atualiza seus pacotes.
 MAs atualizar pacotes pode ser perigoso, não é? Então você pode usar o NuKeeper para mostrar quais pacotes estão desatualizados, e há quanto tempo!</description>
@@ -23,10 +23,10 @@ MAs atualizar pacotes pode ser perigoso, não é? Então você pode usar o NuKee
     
     <item>
       <title>Migração do Blog para Markdown</title>
-      <link>https://carloscds.gihtub.io/2020/05/migracaoblog/</link>
+      <link>https://carloscds.github.io/2020/05/migracaoblog/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2020/05/migracaoblog/</guid>
+      <guid>https://carloscds.github.io/2020/05/migracaoblog/</guid>
       <description>Fala pessoal,
 Hoje conclui a migração do meu blog para Markdown com https://gohugo.io/, transformando todo o conteúdo em estático.
 Há muitos anos que o meu blog está em Wordpress, mas estava muito lento, então resolvi modernizar e migrar tudo para markdown.
@@ -36,10 +36,10 @@ Infelizmente nao conseguir migrar comentários dos posts, mas agora instalei o h
     
     <item>
       <title>Injeção de Dependência em C# - Bônus</title>
-      <link>https://carloscds.gihtub.io/2020/02/injecao-de-depenencia-em-c-bonus/</link>
+      <link>https://carloscds.github.io/2020/02/injecao-de-depenencia-em-c-bonus/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2020/02/injecao-de-depenencia-em-c-bonus/</guid>
+      <guid>https://carloscds.github.io/2020/02/injecao-de-depenencia-em-c-bonus/</guid>
       <description>No último artigo desta série, vou mostrar duas coisas bem simples: primeiro como usar o EntityFramework Core em memória e como invocar uma dependência injetada sem usar o construtor da classe!
 Mas porque você não iria injetar a dependência no construtor, como eu mostrei nos artigos anteriores? Bom, as vezes é necessário usarmos mecanismo alternativos para simplificar o desenvolvimento e termos acesso aos objetos!!!
 EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um atraso muito grande no desenvolvimento do EF Core, eu acabei utilizando outros ORMs em projetos.</description>
@@ -47,10 +47,10 @@ EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um 
     
     <item>
       <title>Injeção de Dependência em C# – Parte 2</title>
-      <link>https://carloscds.gihtub.io/2020/02/injecao-de-dependencia-em-c-parte-2/</link>
+      <link>https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-2/</link>
       <pubDate>Tue, 25 Feb 2020 01:10:29 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2020/02/injecao-de-dependencia-em-c-parte-2/</guid>
+      <guid>https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-2/</guid>
       <description>Na parte 1 desta série falamos sobre como funciona a injeção de dependência e até criamos um exemplo usando NInject. um famoso mecanismo de DI (depency injection).
 Neste artigo vamos falar como o ASP.NET Core revolucionou a injeção de dependência, incorporando este mecanismo ao seu núcleo. Isto significa que agora já temos o mecanismo nativamente implementado, sem a necessidade de uma ferramenta de terceiros.
 Uma outra coisa interessante sobre este mecanismo no ASP.</description>
@@ -58,10 +58,10 @@ Uma outra coisa interessante sobre este mecanismo no ASP.</description>
     
     <item>
       <title>Injeção de Dependência em C# - Parte 1</title>
-      <link>https://carloscds.gihtub.io/2020/02/injecao-de-dependencia-em-c-parte-1/</link>
+      <link>https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-1/</link>
       <pubDate>Thu, 13 Feb 2020 23:16:24 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2020/02/injecao-de-dependencia-em-c-parte-1/</guid>
+      <guid>https://carloscds.github.io/2020/02/injecao-de-dependencia-em-c-parte-1/</guid>
       <description>Olá,
 Hoje em dia muito se tem se falado muito em injeção de dependência, principalmente se você desenvolve ou está começando a desenvolver com ASP.NET Core.
 Mas que realmente significa &amp;ldquo;injetar&amp;rdquo; uma dependência e o que é a tal dependência?
@@ -71,10 +71,10 @@ Ai você se pergunta, mas o que é acoplamento do código? Sendo bem simplista, 
     
     <item>
       <title>ASP.NET Core: Minhas Views sumiram no publish?</title>
-      <link>https://carloscds.gihtub.io/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</link>
+      <link>https://carloscds.github.io/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</link>
       <pubDate>Sun, 15 Sep 2019 19:49:16 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</guid>
+      <guid>https://carloscds.github.io/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</guid>
       <description>Você é do tipo que as vezes muda o conteúdo de uma view no ambiente de produção ?
 Isto pode ser algo &amp;ldquo;questionável&amp;rdquo;, mas é também muito útil se você precisa fazer um pequeno ajuste na parte visual na aplicação.
 Eu já precisei mudar códigos JavaScript nas páginas em uma aplicação onde não poderia executar uma nova publicação, e esta facilidade me poupou muito tempo!
@@ -83,49 +83,49 @@ Mas uma mudança feita no ASP.</description>
     
     <item>
       <title>Você já ouviu falar em Self Contained Application?</title>
-      <link>https://carloscds.gihtub.io/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</link>
+      <link>https://carloscds.github.io/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</link>
       <pubDate>Tue, 16 Jul 2019 23:10:43 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</guid>
+      <guid>https://carloscds.github.io/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</guid>
       <description>Se você desenvolve em .NET provavelmente já se perguntou se tudo o que é preciso para a sua aplicação funcionar está na pasta de publicação, certo ? Normalmente temos dezenas, as vezes centenas de DLLs que precisamos levar para o ambiente de produção, e esquecer uma delas pode ser um caos total!
 Bom, se você já está desenvolvendo para .NET Core isto está sendo resolvido de uma forma muito interessante: Bem vindo ao Self Contained App.</description>
     </item>
     
     <item>
       <title>Qual é a versão do framework de um EXE ou DLL ?</title>
-      <link>https://carloscds.gihtub.io/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</link>
+      <link>https://carloscds.github.io/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</link>
       <pubDate>Sun, 02 Jun 2019 22:18:30 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
+      <guid>https://carloscds.github.io/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
       <description>Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
 Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?</description>
     </item>
     
     <item>
       <title>IT Pros, onde vocês guardam os seus scripts ?</title>
-      <link>https://carloscds.gihtub.io/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
+      <link>https://carloscds.github.io/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
       <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
+      <guid>https://carloscds.github.io/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
       <description>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &amp;ldquo;caras do TI&amp;rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &amp;ldquo;Eu guardo lá em um HD no meu PC&amp;rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.
 Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &amp;ldquo;Eu controlo as mudanças em uma planilha!</description>
     </item>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://carloscds.gihtub.io/markdown-syntax/</link>
+      <link>https://carloscds.github.io/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.gihtub.io/markdown-syntax/</guid>
+      <guid>https://carloscds.github.io/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ASP.NET Core dá para usar ?</title>
-      <link>https://carloscds.gihtub.io/2019/03/asp-net-core-da-para-usar/</link>
+      <link>https://carloscds.github.io/2019/03/asp-net-core-da-para-usar/</link>
       <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/03/asp-net-core-da-para-usar/</guid>
+      <guid>https://carloscds.github.io/2019/03/asp-net-core-da-para-usar/</guid>
       <description>Esta semana aconteceu algo interessante. Tenho um projeto hospedado em um host, que por sinal é muito eficiente, mas me surpreendeu quando perguntei se eles suportavam ASP.NET Core!
 A resposta foi &amp;ldquo;nosso técnico disse que o ASP.NET Core ainda não é estável&amp;rdquo;
 Isto me deixou surpreso e ao mesmo tempo intrigado, pois a plataforma .NET Core já existe há alguns anos e vem melhorando e supreendendo a cada dia! Basta olharmos os números!</description>
@@ -133,10 +133,10 @@ Isto me deixou surpreso e ao mesmo tempo intrigado, pois a plataforma .NET Core 
     
     <item>
       <title>Crie um site estático usando Azure Storage</title>
-      <link>https://carloscds.gihtub.io/2019/01/crie-um-site-estatico-usando-azure-storage/</link>
+      <link>https://carloscds.github.io/2019/01/crie-um-site-estatico-usando-azure-storage/</link>
       <pubDate>Mon, 21 Jan 2019 22:40:56 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/01/crie-um-site-estatico-usando-azure-storage/</guid>
+      <guid>https://carloscds.github.io/2019/01/crie-um-site-estatico-usando-azure-storage/</guid>
       <description>Olá, é isto mesmo que você leu! Agora é possível criar um site estático a partir de uma Storage no Azure.
 Sem dúvida você já precisou colocar apenas arquivos HTML, Javacript, CSS e Imagens para subir um site, certo! Agora isto é possível com este novo recurso, ainda em Preview!
 Criando uma Storage:
@@ -145,10 +145,10 @@ O primeiro passo é você criar uma Storage. Para isto vá até o portal do Azur
     
     <item>
       <title>C# 8 Range Index</title>
-      <link>https://carloscds.gihtub.io/2019/01/c-8-range-index/</link>
+      <link>https://carloscds.github.io/2019/01/c-8-range-index/</link>
       <pubDate>Sun, 06 Jan 2019 21:40:26 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2019/01/c-8-range-index/</guid>
+      <guid>https://carloscds.github.io/2019/01/c-8-range-index/</guid>
       <description>No post anterior eu falei um pouco sobre o Visual Studio 2019 Preview, que alias, eu já estou utilizando para trabalhar em alguns projetos.
 Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
 Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
@@ -157,10 +157,10 @@ Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configu
     
     <item>
       <title>Visual Studio 2019 - primeiras impressões</title>
-      <link>https://carloscds.gihtub.io/2018/12/visual-studio-2019-primeiras-impressoes/</link>
+      <link>https://carloscds.github.io/2018/12/visual-studio-2019-primeiras-impressoes/</link>
       <pubDate>Mon, 10 Dec 2018 00:07:49 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2018/12/visual-studio-2019-primeiras-impressoes/</guid>
+      <guid>https://carloscds.github.io/2018/12/visual-studio-2019-primeiras-impressoes/</guid>
       <description>Olá pessoal,
 Esta semana durante o evento Connect foi lançado o novo Visual Studio 2019 - Preview, sim ainda é uma versão inicial, mas já temos muitas novidades!!
 A primeira delas é a nova pagina inicial, agora bem mais simples:
@@ -171,10 +171,10 @@ Eu, particularmente, gostei desta nova tela, onde você tem alguns filtros, como
     
     <item>
       <title>EntityFramework asNoTracking - Por que preciso saber disto ?</title>
-      <link>https://carloscds.gihtub.io/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</link>
+      <link>https://carloscds.github.io/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</link>
       <pubDate>Sun, 02 Dec 2018 19:05:49 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</guid>
+      <guid>https://carloscds.github.io/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</guid>
       <description>Fala pessoal,
 Esta semana me deparei com um problema em um cliente que é bem comum, e causa muito transtorno, pois envolve muito o conceito de como o EF trabalha.
 Quando você cria um contexto para o EF e indica as classes do mapeamento, basicamente diz a ele que todos os objetos deverão ser rastreados, ou seja, o simples fato de você criar um objeto ou ler a partir do contexto, coloca este objeto sobre o controle do EF.</description>
@@ -182,10 +182,10 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
     
     <item>
       <title>EF Core – Lazy Loading</title>
-      <link>https://carloscds.gihtub.io/2018/07/ef-core-lazy-loading/</link>
+      <link>https://carloscds.github.io/2018/07/ef-core-lazy-loading/</link>
       <pubDate>Mon, 02 Jul 2018 13:27:40 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2018/07/ef-core-lazy-loading/</guid>
+      <guid>https://carloscds.github.io/2018/07/ef-core-lazy-loading/</guid>
       <description>Olá pessoal,
 Depois um longo tempo sem escrever sobre o EntityFramework, vou retomar com uma série de artigos sobre esta nova versão, o EntityFramework Core.
 Para quem ainda não sabe, o EF Core faz parte do .NET Core, que é multi plataforma.
@@ -194,10 +194,10 @@ Primeiro, vamos precisamos entender que o EF Core é um ORM totalmente novo, cri
     
     <item>
       <title>EF Core Powertools</title>
-      <link>https://carloscds.gihtub.io/2018/05/ef-core-powertools/</link>
+      <link>https://carloscds.github.io/2018/05/ef-core-powertools/</link>
       <pubDate>Mon, 28 May 2018 15:14:26 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2018/05/ef-core-powertools/</guid>
+      <guid>https://carloscds.github.io/2018/05/ef-core-powertools/</guid>
       <description>Olá pessoal,
 Já utilizando Asp.Net Core ? Entity Framework Core ? Esta nova versão do EF Core está muito boa e para ajudar no processo de desenvolvimento, hoje vou falar da ferramenta EF Core PowerTools.
 Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco existente e fazer engenharia reversa, o que significa gerar todas as classes do EntityFramerwork a partir do seu banco de dados.</description>
@@ -205,10 +205,10 @@ Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco
     
     <item>
       <title>Trabalhando com SQL na linha de comando</title>
-      <link>https://carloscds.gihtub.io/2017/12/trabalhando-com-sql-na-linha-de-comando/</link>
+      <link>https://carloscds.github.io/2017/12/trabalhando-com-sql-na-linha-de-comando/</link>
       <pubDate>Mon, 25 Dec 2017 21:42:46 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/12/trabalhando-com-sql-na-linha-de-comando/</guid>
+      <guid>https://carloscds.github.io/2017/12/trabalhando-com-sql-na-linha-de-comando/</guid>
       <description>Olá pessoal,
 Hoje em dia, apesar de IDEs super poderosas, com milhares de funcionalidades, às vezes nos deparamos com procedimentos que são necessários na linha de comandos, nosso bom e velho Command Prompt.
 Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Management Studio, o Visual Studio e agora também o Operations Studio ? Isto é simples, você pode estar em um ambiente onde não existe sequer um modo gráfico, o que é muito comum em servidores, principalmente Linux.</description>
@@ -216,10 +216,10 @@ Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Manag
     
     <item>
       <title>SQL Operations Studio</title>
-      <link>https://carloscds.gihtub.io/2017/11/sql-operations-studio/</link>
+      <link>https://carloscds.github.io/2017/11/sql-operations-studio/</link>
       <pubDate>Sun, 19 Nov 2017 21:00:06 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/11/sql-operations-studio/</guid>
+      <guid>https://carloscds.github.io/2017/11/sql-operations-studio/</guid>
       <description>Olá pessoal,
 Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
 A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
@@ -227,10 +227,10 @@ A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi p
     
     <item>
       <title>Gerando um arquivo EXE com .NetCore</title>
-      <link>https://carloscds.gihtub.io/2017/10/gerando-um-arquivo-exe-com-netcore/</link>
+      <link>https://carloscds.github.io/2017/10/gerando-um-arquivo-exe-com-netcore/</link>
       <pubDate>Sun, 29 Oct 2017 21:50:13 -0300</pubDate>
       
-      <guid>https://carloscds.gihtub.io/2017/10/gerando-um-arquivo-exe-com-netcore/</guid>
+      <guid>https://carloscds.github.io/2017/10/gerando-um-arquivo-exe-com-netcore/</guid>
       <description>Olá pessoal,
 O post de hoje é bem simples e rápido, apesar de ser uma questão muito pesquisada e nem sempre muito clara!
 A idéia é simples, você está desenvolvendo com .Net Core e precisa publicar sua aplicação, mas produzindo um executável ao invés de uma DLL, que é o padrão da plataforma.
