@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eventos on Carlos dos Santos</title>
-    <link>https://carloscds.github.io/categories/eventos/</link>
+    <link>https://www.carloscds.net/categories/eventos/</link>
     <description>Recent content in Eventos on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 03 May 2017 13:21:13 -0300</lastBuildDate>
     
-        <atom:link href="https://carloscds.github.io/categories/eventos/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.carloscds.net/categories/eventos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Community Launch &amp;#8211; Londrina</title>
-      <link>https://carloscds.github.io/2010/03/community-launch-londrina/</link>
+      <link>https://www.carloscds.net/2010/03/community-launch-londrina/</link>
       <pubDate>Sun, 21 Mar 2010 12:30:53 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/03/community-launch-londrina/</guid>
+      <guid>https://www.carloscds.net/2010/03/community-launch-londrina/</guid>
       <description>Aconteceu no último sábado (20/03) o Community Launch em Londrina/PR. Nesta oportunidade participamos do evento nacional da Microsoft, através da sessão geral e logo após apresentamos vários recursos do Visual Studio 2010.
 Apresentamos durante o evento a Copa de Talentos (www.talentosmicrosoft.com.br), competição que se iniciou durante o evento do sábado.
 Gostaria de agradecer novamente o Prof. Rosmar do Senai, por apoiar nosso evento.
@@ -26,10 +26,10 @@ Carlos dos Santos.</description>
     
     <item>
       <title>Desenvolvimento para Windows Phone 7 – primeiras impressões</title>
-      <link>https://carloscds.github.io/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</link>
+      <link>https://www.carloscds.net/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</link>
       <pubDate>Wed, 17 Mar 2010 13:57:10 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</guid>
+      <guid>https://www.carloscds.net/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</guid>
       <description>Esta semana a Microsoft apresentou o novo Windows Phone 7 no MIX10 em Las Vegas e junto com ele as novas ferramentas para desenvolvimento usando o Visual Studio 2010.
 A partir de agora o desenvolvimento será todo feito em Silverlight e XNA, o que torna o desenvolvimento mais simples e com um potencial incrível para o designer.
 Você pode baixar o CTP para Desenvolvimento e começar a fazer os primeiros testes.</description>
@@ -37,30 +37,30 @@ Você pode baixar o CTP para Desenvolvimento e começar a fazer os primeiros tes
     
     <item>
       <title>Community Launch &amp;#8211; Copa Microsoft de Talentos</title>
-      <link>https://carloscds.github.io/2010/03/community-launch-copa-microsoft-de-talentos/</link>
+      <link>https://www.carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</link>
       <pubDate>Tue, 02 Mar 2010 05:42:58 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/03/community-launch-copa-microsoft-de-talentos/</guid>
+      <guid>https://www.carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</guid>
       <description>Foi dada a largada! Atenção a todos, o Community Launch está começando! A Copa Microsoft de Talentos, que é uma grande iniciativa da Microsoft mais as suas comunidades de profissionais começa agora com vários pilares:
 Community Launch: Ação coordenada pelo time de comunidades da Microsoft com o apoio do GITCA e INETA, e realizada pela comunidade técnica. Os grupos de usuários realizarão uma onda de eventos para a Comunidade, contando com o apoio da Microsoft com conteúdo técnico exclusivo para preparação dos palestrantes, nos moldes do HCL (Heroes Community Launch).</description>
     </item>
     
     <item>
       <title>Você quer aprender a programar, use o SmallBasic da Microsoft</title>
-      <link>https://carloscds.github.io/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</link>
+      <link>https://www.carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</link>
       <pubDate>Sun, 07 Feb 2010 12:57:16 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</guid>
+      <guid>https://www.carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</guid>
       <description>Para você que está querendo começar a programar, a Microsoft tem uma ferramenta muito interessante chamada Small Basic, que consiste em um ambiente onde você consegue executar programas, mas sem uma linguagem específica, ou seja, você não vai usar C# ou VB.Net, mas uma linguagem que vai mais para o lado funcional, sem tipos pré-definidos.
 O Small Basic não é uma ferramenta nova, ela já existe há mais de um ano, mas a grande novidade é que agora o ambiente está totalmente em português, vejam:</description>
     </item>
     
     <item>
       <title>Visual Studio 2010 – Fantástico recurso de visualização de classes</title>
-      <link>https://carloscds.github.io/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</link>
+      <link>https://www.carloscds.net/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</link>
       <pubDate>Sat, 06 Feb 2010 11:21:00 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</guid>
+      <guid>https://www.carloscds.net/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</guid>
       <description>Pessoal,
 Eu estava vendo um post sobre um recurso excelente do Visual Studio 2010. O recurso, é a visualização das classes do projetos e as dependências.
 Para ver isto no seu projeto, no Visual Studio 2010 Ultimate, abra o menu Architecture/Generate Dependency Graph:
@@ -71,10 +71,10 @@ E vai vendo os métodos e as dependências.</description>
     
     <item>
       <title>Visual Studio 2008 – Modificando a tecla F1 para não chamar o Help padrão</title>
-      <link>https://carloscds.github.io/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</link>
+      <link>https://www.carloscds.net/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</link>
       <pubDate>Sun, 24 Jan 2010 12:00:15 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</guid>
+      <guid>https://www.carloscds.net/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</guid>
       <description>Olá,
 Quantos de nós já não pressionou a tecla F1 dentro da IDE do Visual Studio ? Isto normalmente inicia um processo de geração do help que pode levar alguns minutos e deixar a IDE travada.
 Felizmente no Visual Studio 2010 isto foi modificado, conforme eu já mostrei aqui, mas por enquanto, existe uma maneira de contornar este problema, modificando a função da tecla F1, como mostrado neste blog.
@@ -83,10 +83,10 @@ Espero que a dica ajude.</description>
     
     <item>
       <title>Carlos dos Santos</title>
-      <link>https://carloscds.github.io/about/</link>
+      <link>https://www.carloscds.net/about/</link>
       <pubDate>Thu, 21 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.github.io/about/</guid>
+      <guid>https://www.carloscds.net/about/</guid>
       <description>Tenho mais de 20 anos de experiência no desenvolvimento de softwares. Sou certificado Microsoft MCP, Microsoft MVP C#. Sou palestrante em diversos eventos Microsoft, tenho diversos artigos publicados em revistas e participo dos fóruns do MSDN.
 Ministro treinamentos e consultorias in-company para evolução tecnológica de aplicações, melhora de performance e Cloud.
 As opiniões colocadas neste blog são minhas e pessoais e não expressam necessariamente as opiniões de meus empregadores, parceiros e amigos.</description>
@@ -94,20 +94,20 @@ As opiniões colocadas neste blog são minhas e pessoais e não expressam necess
     
     <item>
       <title>Videos</title>
-      <link>https://carloscds.github.io/videos/</link>
+      <link>https://www.carloscds.net/videos/</link>
       <pubDate>Thu, 21 Jan 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.github.io/videos/</guid>
+      <guid>https://www.carloscds.net/videos/</guid>
       <description> Estes são alguns de meus vídeos no YouTube:
  Migrando um projeto para SDK Project: https://www.youtube.com/watch?v=A_3lvMOAazE Você executa planos de execução de query: https://www.youtube.com/watch?v=ATLLqcLFkl4&amp;amp;t=1s Publicando uma aplicação em ASP.NET Core no Azure: https://www.youtube.com/watch?v=CnoJ3gtfAhU&amp;amp;t=203s Visual Studio Container Tools: https://www.youtube.com/watch?v=YW8JVGAGZDA&amp;amp;t=7s  </description>
     </item>
     
     <item>
       <title>Windows Azure – tabela de preços</title>
-      <link>https://carloscds.github.io/2010/01/windows-azure-tabela-de-precos/</link>
+      <link>https://www.carloscds.net/2010/01/windows-azure-tabela-de-precos/</link>
       <pubDate>Mon, 04 Jan 2010 11:43:28 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2010/01/windows-azure-tabela-de-precos/</guid>
+      <guid>https://www.carloscds.net/2010/01/windows-azure-tabela-de-precos/</guid>
       <description>Pessoal,
 Para quem está pensando em colocar aplicações na “nuvem” usando o Windows Azure, a Microsoft publicou a tabela de preços para os serviços que estão sendo oferecidos na plataforma.
 Os valores podem ser conferidos no site:
@@ -117,20 +117,20 @@ Lembrando que ainda não existem DataCenters no Brasil, mas eu particularmente f
     
     <item>
       <title>Livro Sobre Silverlight 3 em C#</title>
-      <link>https://carloscds.github.io/2009/12/livro-sobre-silverlight-3-em-c/</link>
+      <link>https://www.carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</link>
       <pubDate>Mon, 14 Dec 2009 08:57:21 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/12/livro-sobre-silverlight-3-em-c/</guid>
+      <guid>https://www.carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</guid>
       <description>Recentemente eu fiz o review de um livro da editora Apress que se chama Pro Silverlight 3 in C#. Este livro realmente me chamou atenção, pois ele tem uma leitura muito agradável e é cheio de exemplos, o que o torna “viciante”.
 Você quer fazer tudo que tem no livro, pois o Silverlight por si só já é muito show, e um livro que ensina passo a passo melhor ainda.</description>
     </item>
     
     <item>
       <title>Lendo uma Planilha do Excel com C#</title>
-      <link>https://carloscds.github.io/2009/12/lendo-uma-planilha-do-excel-com-c/</link>
+      <link>https://www.carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</link>
       <pubDate>Sun, 13 Dec 2009 11:47:07 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/12/lendo-uma-planilha-do-excel-com-c/</guid>
+      <guid>https://www.carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</guid>
       <description>Hoje em dia é muito comum recebermos dados em planilhas do Excel e ter que importar ou analisar estes dados em nossas aplicações.
 Com a ajuda do .Net Framework esta tarefa fica muito fácil e vou demonstrar como você pode abrir um arquivo do Excel e executar um comando Select em uma planilha simplesmente usando Ado.Net.
 Para começar, vamos mostrar como está a nossa planilha no Excel e quais as informações importantes para o nosso programa em .</description>
@@ -138,20 +138,20 @@ Para começar, vamos mostrar como está a nossa planilha no Excel e quais as inf
     
     <item>
       <title>SkyDrive Explorer</title>
-      <link>https://carloscds.github.io/2009/12/skydrive-explorer/</link>
+      <link>https://www.carloscds.net/2009/12/skydrive-explorer/</link>
       <pubDate>Sun, 13 Dec 2009 11:18:02 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/12/skydrive-explorer/</guid>
+      <guid>https://www.carloscds.net/2009/12/skydrive-explorer/</guid>
       <description>Se você costuma usar o SkyDrive para armazenar informações e poder usar em qualquer lugar, vai gostar deste novo utilitário. O SkyDrive Explorer é um aplicativo que permite que você abra o SkyDrive no seu Windows Explorer e consigar ler e gravar arquivos como se fosse um drive do seu computador. Se você ainda não usa o SkyDrive, clique http://skydrive.live.com e comece agora mesmo.
 Primeiro você precisa baixar o utilitário clicando aqui.</description>
     </item>
     
     <item>
       <title>Londrina TechDay – Segunda Edição</title>
-      <link>https://carloscds.github.io/2009/11/londrina-techday-segunda-edicao/</link>
+      <link>https://www.carloscds.net/2009/11/londrina-techday-segunda-edicao/</link>
       <pubDate>Wed, 18 Nov 2009 08:37:44 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/11/londrina-techday-segunda-edicao/</guid>
+      <guid>https://www.carloscds.net/2009/11/londrina-techday-segunda-edicao/</guid>
       <description>Segunda-feira dia 05 apresentei no Londrina TechDay na Unifil em Londrina as novidades do Visual Studio 2010 Beta 1 e as novidades do C# 4.0, no mesmo dia o Marcio Althmann apresentou as novidades do Silverlight 3.0.
 Em breve teremos mais, principalmente com o lançamento do Windows 7, fiquem atentos.
 []s,</description>
@@ -159,10 +159,10 @@ Em breve teremos mais, principalmente com o lançamento do Windows 7, fiquem ate
     
     <item>
       <title>Windows 7 &#43; Visual Studio 2010 &#43; Silverlight</title>
-      <link>https://carloscds.github.io/2009/11/windows-7-visual-studio-2010-silverlight/</link>
+      <link>https://www.carloscds.net/2009/11/windows-7-visual-studio-2010-silverlight/</link>
       <pubDate>Wed, 18 Nov 2009 08:24:08 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/11/windows-7-visual-studio-2010-silverlight/</guid>
+      <guid>https://www.carloscds.net/2009/11/windows-7-visual-studio-2010-silverlight/</guid>
       <description>É isto mesmo, ontem (17/11/2009) fizemos uma maratona de mini-palestras na Universidade Norte do Paraná (UNOPAR) em Londrina.
 A convite do Prof. Ricardo Delgado, fizemos uma apresentação sobre Windows 7, Visual Studio 2010 e Silverlight para os alunos do 8º e 9º períodos de Engenharia da Computação.
 Procuramos mostrar um overview de todas as tecnologias, onde ficamos cerca de 3 horas fazendo demonstrações.
@@ -172,10 +172,10 @@ Confiram as fotos:
     
     <item>
       <title>Palestra sobre Silverlight</title>
-      <link>https://carloscds.github.io/2009/11/palestra-sobre-silverlight/</link>
+      <link>https://www.carloscds.net/2009/11/palestra-sobre-silverlight/</link>
       <pubDate>Wed, 18 Nov 2009 08:19:23 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/11/palestra-sobre-silverlight/</guid>
+      <guid>https://www.carloscds.net/2009/11/palestra-sobre-silverlight/</guid>
       <description>Estivemos na empresa Agili Desenvolvimento de Sistema na cidade de Londrina, onde fizemos uma apresentação do Silverlight 3.0 e como a empresa pode aproveitar os benefícios desta plataforma para o desenvolvimento de seus sistemas.
 A palestra foi muito interessante e com muita participação da equipe de desenvovimento da empresa.
 Agrademos o convite e esperamos que a palestra tenha mostrado todo o potencial do Silverlight.Net
@@ -185,19 +185,19 @@ Equipe de desenvolvimento da Agili.</description>
     
     <item>
       <title>Cobol &#43; Team Foundation Server</title>
-      <link>https://carloscds.github.io/2009/11/cobol-team-foundation-server/</link>
+      <link>https://www.carloscds.net/2009/11/cobol-team-foundation-server/</link>
       <pubDate>Wed, 18 Nov 2009 08:15:04 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/11/cobol-team-foundation-server/</guid>
+      <guid>https://www.carloscds.net/2009/11/cobol-team-foundation-server/</guid>
       <description>O título parece estranho mas é possível :), estamos prestando consultoria para um cliente em Londrina, onde os projetos novos serão feitos com .NET, Team System e tudo que tem direito, mas eles possuem muitos projetos em Cobol ainda, e uma das exigências era versionar o Cobol no Team Foundation Server também, e funcionou perfeitamente, o pessoal adorou, não preciso nem falar a reação deles quando viram a tela de Anotate mostrando o histórico do código.</description>
     </item>
     
     <item>
       <title>Programação Paralela com C# 4.0</title>
-      <link>https://carloscds.github.io/2009/11/programacao-paralela-com-c-4-0/</link>
+      <link>https://www.carloscds.net/2009/11/programacao-paralela-com-c-4-0/</link>
       <pubDate>Tue, 03 Nov 2009 13:09:45 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/11/programacao-paralela-com-c-4-0/</guid>
+      <guid>https://www.carloscds.net/2009/11/programacao-paralela-com-c-4-0/</guid>
       <description>Uma das novidades do .Net Framework 4.0 é a programação paralela, ou paralelelismo, que consiste em se utilizar os vários núcleos disponíveis nos computadores atuais, por exemplo, os famosos Core 2 Duo.
 Mas como tirar proveito destes recursos em operações simples ? O que vou mostrar agora é como transformar dois comandos simples da linguagem C# com o uso da programação paralela.
 Primeiramente vou montar um laço for tradicional:
@@ -206,10 +206,10 @@ for (int i = 0; i &amp;lt; 100; i++){Console.</description>
     
     <item>
       <title>Visual Studio 2010 – reinvindicação atendida</title>
-      <link>https://carloscds.github.io/2009/10/visual-studio-2010-reinvindicacao-atendida/</link>
+      <link>https://www.carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</link>
       <pubDate>Wed, 28 Oct 2009 22:49:53 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/10/visual-studio-2010-reinvindicacao-atendida/</guid>
+      <guid>https://www.carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</guid>
       <description>Pessoal,
 Estou realmente muito contente com as melhorias que estão sendo feitas no Visual Studio 2010 e a cada dia me surpreendo com a velocidade das mudanças.
 Uma coisa que foi muito solicitada durante o http://mvp.support.microsoft.com/MVPsummit (evento de MVPs na Microsoft/USA), foi a lentidão da janela Add Reference. Acredito que muitos de vocês já ficaram algum tempo esperando esta janela abrir para poder adicionar algo ao projeto.
@@ -218,10 +218,10 @@ Agora, no Beta 2, já tivemos o tão esperado ajuste desta janela, ela simplesme
     
     <item>
       <title>77 Dicas sobre Windows 7</title>
-      <link>https://carloscds.github.io/2009/10/dicas-sobre-windows-7/</link>
+      <link>https://www.carloscds.net/2009/10/dicas-sobre-windows-7/</link>
       <pubDate>Wed, 21 Oct 2009 03:56:00 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/10/dicas-sobre-windows-7/</guid>
+      <guid>https://www.carloscds.net/2009/10/dicas-sobre-windows-7/</guid>
       <description>Pessoal,
 Com o lançamento do Windows 7, olha que post super interessante, ele mostra 77 dicas sobre novidades do Windows 7:
 http://technet.microsoft.com/en-us/magazine/2009.10.77windows.aspx
@@ -230,10 +230,10 @@ http://technet.microsoft.com/en-us/magazine/2009.10.77windows.aspx
     
     <item>
       <title>Visual Studio 2010 – problema antigo resolvido</title>
-      <link>https://carloscds.github.io/2009/10/visual-studio-2010-problema-antigo-resolvido/</link>
+      <link>https://www.carloscds.net/2009/10/visual-studio-2010-problema-antigo-resolvido/</link>
       <pubDate>Tue, 20 Oct 2009 23:05:00 -0300</pubDate>
       
-      <guid>https://carloscds.github.io/2009/10/visual-studio-2010-problema-antigo-resolvido/</guid>
+      <guid>https://www.carloscds.net/2009/10/visual-studio-2010-problema-antigo-resolvido/</guid>
       <description>Pessoal,
 Quem nunca teve a infelicidade de pressionar a tecla F1 dentro do Visual Studio sem querer, e ele começa a compilar o help eternamente. Em alguns casos, eu mesmo, tive que derrubar o processo pelo gerenciador de tarefas.
 Mas por quê isto acontececia ? Simples, o help era gerado no mesmo processo da IDE, ou seja, o DEVENV.EXE.
