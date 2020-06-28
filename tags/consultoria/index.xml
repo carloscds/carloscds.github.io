@@ -19,7 +19,7 @@
       <description>Fala pessoal,
 Hoje é muito comum trabalharmos com APIs e sempre precisamos criar classes para receber os dados serializados. A dica então é bem simples!
 O Visual Studio tem um recurso chamado &amp;ldquo;Paste JSON as Classes&amp;rdquo; que pega o conteúdo da area de transferência e cola como uma classe:
-Agora vamos acessar uma API que retorna dados em Json, por exemplo esta API que retorna a previão do tempo: http://worldtimeapi.org/api/timezone/America/Sao_Paulo</description>
+Agora vamos acessar uma API que retorna dados em Json, por exemplo esta API que retorna a previsão do tempo: http://worldtimeapi.org/api/timezone/America/Sao_Paulo</description>
     </item>
     
     <item>
