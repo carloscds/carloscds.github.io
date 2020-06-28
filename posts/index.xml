@@ -5,10 +5,22 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gerar uma classe a partir de um Json no Visual Studio</title>
+      <link>https://carloscds.net/2020/06/past-json/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/06/past-json/</guid>
+      <description>Fala pessoal,
+Hoje é muito comum trabalharmos com APIs e sempre precisamos criar classes para receber os dados serializados. A dica então é bem simples!
+O Visual Studio tem um recurso chamado &amp;ldquo;Paste JSON as Classes&amp;rdquo; que pega o conteúdo da area de transferência e cola como uma classe:
+Agora vamos acessar uma API que retorna dados em Json, por exemplo esta API que retorna a previão do tempo: http://worldtimeapi.org/api/timezone/America/Sao_Paulo</description>
+    </item>
     
     <item>
       <title>NuKeeper - mantenha seus pacotes atualizados</title>
@@ -223,18 +235,6 @@ Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Manag
       <description>Olá pessoal,
 Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
 A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
-    </item>
-    
-    <item>
-      <title>Gerando um arquivo EXE com .NetCore</title>
-      <link>https://carloscds.net/2017/10/gerando-um-arquivo-exe-com-netcore/</link>
-      <pubDate>Sun, 29 Oct 2017 21:50:13 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/10/gerando-um-arquivo-exe-com-netcore/</guid>
-      <description>Olá pessoal,
-O post de hoje é bem simples e rápido, apesar de ser uma questão muito pesquisada e nem sempre muito clara!
-A idéia é simples, você está desenvolvendo com .Net Core e precisa publicar sua aplicação, mas produzindo um executável ao invés de uma DLL, que é o padrão da plataforma.
-Mas porque produzir um executável ? Simples, para chamar diretamente sem o comando ‘dotnet’, ou seja, um executável self-contained deployment.</description>
     </item>
     
   </channel>

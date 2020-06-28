@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/visual-studio/</link>
     <description>Recent content in Visual Studio on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 10 Dec 2018 00:07:49 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EcoDevelopers Maringá</title>
+      <link>https://carloscds.net/2010/10/ecodevelopers-maring/</link>
+      <pubDate>Sun, 24 Oct 2010 01:21:35 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/10/ecodevelopers-maring/</guid>
+      <description>Pessoal,
+Estivemos ontem na última quinta-feira (21/10) no Cesumar em Maringá para o EcoDevelopers. Foi um evento muito legal, com cerca de 300 pessoas e palestras muito interessantes sobre responsabilidade ambiental e também tecnologia.
+Eu falei sobre algo diferente, Virtualização com Hyper-V, infra mesmo, pois eu, além de desenvolvedor, gosto muito de infra. O André Nobre falou sobre Windows Azure e desenvolvimento para nuvem.
+Gostaria de agradecer ao professor Freud e também ao Clodoaldo pelo convite e também pela calorosa recepção.</description>
+    </item>
     
     <item>
       <title>Uma história interessante</title>
@@ -228,16 +240,6 @@ O André Nobre deu um show nas novidades do Visual Studio 2010, depois eu falei 
 Agradecemos a PUC oportunidade e esperamos estar em breve realizando novos eventos por lá.
 Vejam as fotos:
 Finalmente o André fez um PPT com os dados dele.</description>
-    </item>
-    
-    <item>
-      <title>Maringá Techday</title>
-      <link>https://carloscds.net/2010/04/maringa-techday/</link>
-      <pubDate>Sun, 11 Apr 2010 14:52:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/04/maringa-techday/</guid>
-      <description>Realizamos no último sábado (11/04) no Cesumar de Maringá/PR a primeira etapa do Maringá Techday, onde mostramos as novidades do Visual Studio 2010. Este foi um evento da Copa de Talentos Microsoft.
-Estiveram presente no evento o André Nobre, que falou sobre as novidades do Visual Studio 2010 e como aplicá-las na prática, logo em seguida eu falei sobre o Entity framework 4 e encerrando o evento o Márcio Althmann falou sobre o Silverlight 4.</description>
     </item>
     
   </channel>

@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carloscds.net/categories/c#/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2020/06/past-json/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/posts/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/visual-studio/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/categories/.net/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,29 +52,8 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/2020/06/nukeeper/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/posts/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/c#/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -278,13 +292,6 @@
   <url>
     <loc>https://carloscds.net/2019/01/c-8-range-index/</loc>
     <lastmod>2019-01-06T21:40:26-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/visual-studio/</loc>
-    <lastmod>2018-12-10T00:07:49-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
