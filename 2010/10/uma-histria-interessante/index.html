@@ -533,19 +533,21 @@ Gostaria de compartilhar com vocês uma história muito interessante que ocorreu
     <div id="disqus_thread">
 
         <script type="text/javascript">
-
             (function() {
-                if (window.location.hostname == "localhost")
+                
+                
+                if (window.location.hostname == "localhost") {
                     return;
-            
+                }
+                var disqus_shortname = '';
+                var disqus_identifier = '';
+                var disqus_title = '';
+                var disqus_url = '';
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                var disqus_shortname = 'carloscds';
-                dsq.src = '//carloscds.disqus.com/embed.js';
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
-            </script>
-
-
+        </script>
 
         <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
