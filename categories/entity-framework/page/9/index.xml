@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entity Framework on Carlos dos Santos</title>
-    <link>https://carloscds.net/categories/entity-framework/</link>
+    <link>/categories/entity-framework/</link>
     <description>Recent content in Entity Framework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 02 Dec 2018 19:05:49 -0300</lastBuildDate>
     
-        <atom:link href="https://carloscds.net/categories/entity-framework/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/entity-framework/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Visual Studio 2010 – problema antigo resolvido</title>
-      <link>https://carloscds.net/2009/10/visual-studio-2010-problema-antigo-resolvido/</link>
+      <link>/2009/10/visual-studio-2010-problema-antigo-resolvido/</link>
       <pubDate>Tue, 20 Oct 2009 23:05:00 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/visual-studio-2010-problema-antigo-resolvido/</guid>
+      <guid>/2009/10/visual-studio-2010-problema-antigo-resolvido/</guid>
       <description>Pessoal,
 Quem nunca teve a infelicidade de pressionar a tecla F1 dentro do Visual Studio sem querer, e ele começa a compilar o help eternamente. Em alguns casos, eu mesmo, tive que derrubar o processo pelo gerenciador de tarefas.
 Mas por quê isto acontececia ? Simples, o help era gerado no mesmo processo da IDE, ou seja, o DEVENV.EXE.
@@ -24,10 +24,10 @@ Agora, no Visual Studio 2010, o help é totalmente gerenciado via browser, ou se
     
     <item>
       <title>Visual Studio 2010 Beta 2</title>
-      <link>https://carloscds.net/2009/10/visual-studio-2010-beta-2/</link>
+      <link>/2009/10/visual-studio-2010-beta-2/</link>
       <pubDate>Tue, 20 Oct 2009 03:14:00 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/visual-studio-2010-beta-2/</guid>
+      <guid>/2009/10/visual-studio-2010-beta-2/</guid>
       <description>Pessoal,
 Acabei de instalar o novo beta do Visual Studio 2010. O que mais me impressiona até o momento, além do visual todo modificado, é a velocidade, muito diferente dos betas anteriores.
 Olha como ficou a home:
@@ -37,10 +37,10 @@ Agora vou trabalhar um pouco mais nele e já já publico mais novidades!
     
     <item>
       <title>Evento Comunidades no TechEd Brasil 2009</title>
-      <link>https://carloscds.net/2009/10/evento-comunidades-no-teched-brasil-2009/</link>
+      <link>/2009/10/evento-comunidades-no-teched-brasil-2009/</link>
       <pubDate>Mon, 12 Oct 2009 11:22:00 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/evento-comunidades-no-teched-brasil-2009/</guid>
+      <guid>/2009/10/evento-comunidades-no-teched-brasil-2009/</guid>
       <description>Pessoal,
 Desculpem o post meio atrasado, mas como eu troquei de blog, só agora consegui colocar as coisas em ordem.
 Durante o TechED Brasil 2009, realizamos um evento de comunidades, onde convidamos os líderes de grupos para um bate papo sobre as ações de cada um, suas expectativas e também o que esperam do http://www.inetabr.org.
@@ -49,10 +49,10 @@ O bate papo foi muito interessante e conseguimos entender um pouco do funcioname
     
     <item>
       <title>SQL Azure – O banco de dados na nuvem</title>
-      <link>https://carloscds.net/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</link>
+      <link>/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</link>
       <pubDate>Fri, 09 Oct 2009 11:36:00 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</guid>
+      <guid>/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</guid>
       <description>Pessoal,
 Acho que a maioria de vocês já ouvir falar com Cloud Computing, ou Computação na Nuvem, pois isto está sendo falado e muito nos canais de tecnologia.
 Mas o que vem a ser isto e como eu posso colocar isto na minha empresa, é o que todos querem saber!
@@ -61,10 +61,10 @@ As grandes vantagens da computação na nuvem, na minha opnião são principalme
     
     <item>
       <title>Viagem ao TechDays Chile</title>
-      <link>https://carloscds.net/2009/10/viagem-ao-techdays-chile/</link>
+      <link>/2009/10/viagem-ao-techdays-chile/</link>
       <pubDate>Thu, 08 Oct 2009 09:45:38 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/viagem-ao-techdays-chile/</guid>
+      <guid>/2009/10/viagem-ao-techdays-chile/</guid>
       <description>Caros amigos, no final do mês passado estive no Chile, juntamente com o meu amigo MVP Jamil Lopes, para participarmos do TechDays (www.techdays.cl), que é a versão do Chile para o nosso TechED (www.teched.com.br), só que acontece em apenas um dia.
 Nesta nossa viagem, tivemos a satisfação de termos como nosso “guia” o MVP &amp;ldquo;chileno-brasileiro” Jorge Diaz, que reside na cidade de Sntiago.
 Inicialmente, chegando lá, fomos conhecer as vinícolas, que produzem um vinho de altíssima qualidade, de padrão internacional.</description>
@@ -72,20 +72,20 @@ Inicialmente, chegando lá, fomos conhecer as vinícolas, que produzem um vinho 
     
     <item>
       <title>Evento ABAV/SC</title>
-      <link>https://carloscds.net/2009/10/evento-abavsc/</link>
+      <link>/2009/10/evento-abavsc/</link>
       <pubDate>Thu, 01 Oct 2009 09:59:00 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/evento-abavsc/</guid>
+      <guid>/2009/10/evento-abavsc/</guid>
       <description>Estive no último dia 26 de setembro no Parque do Beto Carreo World em Penha/SC participando do evento da ABAV (Associação Brasileira de Agências de Viagens). Neste evento tive a oportunidade de mostrar como a mobilidade, através do Windows Mobile 6.5, poderia ser útil no dia a dia das agências de viagens.
 A palestra foi para um público não técnico, em um sistema de debate, onde estiveram mais dois palestrantes, falando sobre Marketing Digital e Como Contratar empresas de TI.</description>
     </item>
     
     <item>
       <title>Microsoft Security Essentials</title>
-      <link>https://carloscds.net/2009/10/microsoft-security-essentials/</link>
+      <link>/2009/10/microsoft-security-essentials/</link>
       <pubDate>Thu, 01 Oct 2009 07:26:00 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/10/microsoft-security-essentials/</guid>
+      <guid>/2009/10/microsoft-security-essentials/</guid>
       <description>A Microsoft lançou hoje o Microsoft Security Essentials, ferramenta que protege o computador de vírus, spyware e outros softwares maliciosos.
 Desenvolvido com grande participação da subsidiária brasileira, o Microsoft Security Essentials é fácil de usar e todos os usuários de Windows original podem ter acesso a uma ferramenta eficiente, que junto com todo o ecossistema de segurança do Windows pode tornar o computador mais seguro.
 O MSE está disponível em oito idiomas e 19 países, incluindo Austrália, Áustria, Bélgica,Brasil, Canadá, França, Alemanha, Irlanda, Israel, Itália, Japão, México, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e os Estados Unidos.</description>
@@ -93,10 +93,10 @@ O MSE está disponível em oito idiomas e 19 países, incluindo Austrália, Áus
     
     <item>
       <title>Evento sobre Windows 7 na UEL/Londrina</title>
-      <link>https://carloscds.net/2009/09/evento-sobre-windows-7-na-uellondrina/</link>
+      <link>/2009/09/evento-sobre-windows-7-na-uellondrina/</link>
       <pubDate>Thu, 17 Sep 2009 11:32:30 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/09/evento-sobre-windows-7-na-uellondrina/</guid>
+      <guid>/2009/09/evento-sobre-windows-7-na-uellondrina/</guid>
       <description>Aconteceu ontem, dia 16/09 na UEL (Universidade Estadual de Londrina) o evento de assinatura de convênio entre a Microsoft e a Universidade e nesta oportunidade eu falei sobre o Windows 7. O evento contou com a presença do presidente da Microsoft Brasil, Sr. Michel Levy.
 Vejam as fotos:
 []s,
@@ -105,10 +105,10 @@ Carlos.</description>
     
     <item>
       <title>Palestra na Universidade Estadual de Londrina</title>
-      <link>https://carloscds.net/2009/09/palestra-na-universidade-estadual-de-londrina/</link>
+      <link>/2009/09/palestra-na-universidade-estadual-de-londrina/</link>
       <pubDate>Sat, 12 Sep 2009 15:58:31 -0300</pubDate>
       
-      <guid>https://carloscds.net/2009/09/palestra-na-universidade-estadual-de-londrina/</guid>
+      <guid>/2009/09/palestra-na-universidade-estadual-de-londrina/</guid>
       <description>Na próxima quarta-feira (16/09/2009) estarei fazendo uma palestra sobre Windows 7 no evento que terá a participação do presidente da Microsoft Brasil, o Sr. Michel Levy.
 []s,
 Carlos.</description>
@@ -116,10 +116,10 @@ Carlos.</description>
     
     <item>
       <title>Configurar Emulador do Visual Studio para Acessar Internet</title>
-      <link>https://carloscds.net/2009/09/configurar-emulador-do-visual-studio-para-acessar-internet/</link>
+      <link>/2009/09/configurar-emulador-do-visual-studio-para-acessar-internet/</link>
       <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.net/2009/09/configurar-emulador-do-visual-studio-para-acessar-internet/</guid>
+      <guid>/2009/09/configurar-emulador-do-visual-studio-para-acessar-internet/</guid>
       <description>Pessoal,
 Resolvi publicar este post devido ao grande número de pessoas que solicitam este tipo de informação no fórum de mobilidade do MSDN. O objetivo é apresentar passo a passo como configurar o emulador do Visual Studio para acessar a rede e tambem a internet. Então vamos lá:
  Abra o emulador do Visual Studio (Tools/Connect to Device) e escolha o emulador de sua preferência (WM 5, 6 ou 6.5). Dentro do emulador, clique em File/Configure:  Escolha NetWork e clique para habilitar a placa de rede (connected network inidica a placa que está ativa no nomendo no seu computador, caso tenha mais que uma):  Para compartilhar a placa de rede, você precsa do Virtual Machine Network Manager, que faz parte do Virtual PC 2007.</description>
@@ -127,10 +127,10 @@ Resolvi publicar este post devido ao grande número de pessoas que solicitam est
     
     <item>
       <title>Desenvolvimento para Bluetooth com C#</title>
-      <link>https://carloscds.net/2009/09/desenvolvimento-para-bluetooth-com-c/</link>
+      <link>/2009/09/desenvolvimento-para-bluetooth-com-c/</link>
       <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.net/2009/09/desenvolvimento-para-bluetooth-com-c/</guid>
+      <guid>/2009/09/desenvolvimento-para-bluetooth-com-c/</guid>
       <description>Para quem está desesenvolvendo para Windows Mobile e precisa acessar dispositivos Bluetooth, tenho duas dicas muito interessantes:
   Existe um projeto Open source da 32Feet.Net que implementa diversas funcionalidades para bluetooth. Tem um post mostrando o funcionando destes componentes no link: http://blogs.microsoft.co.il/blogs/shair/archive/2009/06/21/working-with-bluetooth-devices-using-c-part-1.aspx
   A Microsoft tem uma suite de componentes chamada Code4Fun Developer Kit, que tem, entre diversas outras funcionalidades, uma implementação para controle de bluetooth. Você pode obtê-la no link: http://www.</description>
@@ -138,10 +138,10 @@ Resolvi publicar este post devido ao grande número de pessoas que solicitam est
     
     <item>
       <title>Links úteis sobre Entity Framework e ADO.Net</title>
-      <link>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</link>
+      <link>/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</link>
       <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</guid>
+      <guid>/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</guid>
       <description>Aqui estão alguns links muito interessantes:&amp;lt;
 ADO.NET Entity Framework
 Entity Framework Design
