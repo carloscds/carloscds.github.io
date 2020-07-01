@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>certificação on Carlos dos Santos</title>
+    <title>certificacao on Carlos dos Santos</title>
     <link>https://carloscds.net/tags/certificacao/</link>
-    <description>Recent content in certificação on Carlos dos Santos</description>
+    <description>Recent content in certificacao on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 07 Dec 2011 15:53:17 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/certificacao/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>SQL Azure&amp;ndash;melhorias de performance</title>
-      <link>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</link>
-      <pubDate>Mon, 26 May 2014 08:27:02 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</guid>
-      <description>Se você está querendo migrar ou começar a utilizar o Microsoft SQL Server disponível no Azure, durante o último Build foram anunciadas grandes melhorias de performance e funcionalidades.
-Dentre as novidades, surgem 3 categorias de banco de dados:
-  Basic: para aplicações com poucas transações e baixa necessidade de performance**.**
-  Standard: para aplicações de negócios, com médio nível de performance.
-  Premium: para aplicações de missão crítica, com alta necessidade de desempenho e alto volume de transações.</description>
-    </item>
     
     <item>
       <title>Visual Studio Summit 2014</title>
@@ -247,6 +234,18 @@ Fique atento aos pré-requisitos na página de inscrição: http://www.eventick.
 
 Abraços e até lá!
 Carlos dos Santos</description>
+    </item>
+    
+    <item>
+      <title>Como escolher o modelo ideal de TFS para sua empresa</title>
+      <link>https://carloscds.net/2013/03/como-escolher-o-modelo-ideal-de-tfs-para-sua-empresa/</link>
+      <pubDate>Sun, 31 Mar 2013 21:03:35 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/03/como-escolher-o-modelo-ideal-de-tfs-para-sua-empresa/</guid>
+      <description>Pessoal,
+Semana passada aconteceu o MVP Virtual Conference (http://mvpvirtualconference.azurewebsites.net), um evento totalmente online, com várias trilhas de mais de 45 palestras, e eu tive a honra de participar da organização deste evento cuidando também da trilha de Gerenciamento de Equipes de Desenvolvimento junto com o André Dias.
+Gostaria de agradecer a todos que participaram também da minha palestra no dia 26/03/2013. Foram mais de 120 pessoas online. Muitíssimo obrigado!!!
+O PPT da apresentação está disponível no slideshare no endereço: http://www.</description>
     </item>
     
   </channel>

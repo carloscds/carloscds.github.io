@@ -11,16 +11,6 @@
     
     
     <item>
-      <title>Maringá Techday</title>
-      <link>https://carloscds.net/2010/04/maringa-techday/</link>
-      <pubDate>Sun, 11 Apr 2010 14:52:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/04/maringa-techday/</guid>
-      <description>Realizamos no último sábado (11/04) no Cesumar de Maringá/PR a primeira etapa do Maringá Techday, onde mostramos as novidades do Visual Studio 2010. Este foi um evento da Copa de Talentos Microsoft.
-Estiveram presente no evento o André Nobre, que falou sobre as novidades do Visual Studio 2010 e como aplicá-las na prática, logo em seguida eu falei sobre o Entity framework 4 e encerrando o evento o Márcio Althmann falou sobre o Silverlight 4.</description>
-    </item>
-    
-    <item>
       <title>Community Launch &amp;#8211; Londrina</title>
       <link>https://carloscds.net/2010/03/community-launch-londrina/</link>
       <pubDate>Sun, 21 Mar 2010 12:30:53 -0300</pubDate>
@@ -236,6 +226,18 @@ Agora, no Beta 2, já tivemos o tão esperado ajuste desta janela, ela simplesme
 Com o lançamento do Windows 7, olha que post super interessante, ele mostra 77 dicas sobre novidades do Windows 7:
 http://technet.microsoft.com/en-us/magazine/2009.10.77windows.aspx
 []s,</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2010 – problema antigo resolvido</title>
+      <link>https://carloscds.net/2009/10/visual-studio-2010-problema-antigo-resolvido/</link>
+      <pubDate>Tue, 20 Oct 2009 23:05:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/10/visual-studio-2010-problema-antigo-resolvido/</guid>
+      <description>Pessoal,
+Quem nunca teve a infelicidade de pressionar a tecla F1 dentro do Visual Studio sem querer, e ele começa a compilar o help eternamente. Em alguns casos, eu mesmo, tive que derrubar o processo pelo gerenciador de tarefas.
+Mas por quê isto acontececia ? Simples, o help era gerado no mesmo processo da IDE, ou seja, o DEVENV.EXE.
+Agora, no Visual Studio 2010, o help é totalmente gerenciado via browser, ou seja, totalmente independente da IDE e muito, mas muito, mais rápido.</description>
     </item>
     
   </channel>

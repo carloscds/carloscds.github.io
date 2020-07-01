@@ -11,18 +11,6 @@
     
     
     <item>
-      <title>Sua aplicação web está online neste momento ?</title>
-      <link>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</link>
-      <pubDate>Mon, 28 Mar 2016 11:52:44 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</guid>
-      <description>Esta é realmente uma pergunta complicada não acham ? Como determinar se minha aplicação está funcionando, sem ficar olhando para ela ?
-Existem várias maneiras de resolver este problema, mas vou mostrar como monitorar isto usando o Application Insights do Microsoft Azure.
-É bem simples, vamos lá! Abra o portal do Azure: http://portal.azure.com com seu usuário e senha, caso não tenha um, basta criar uma conta trial.
-Dentro do portal, vá em Application Insights:</description>
-    </item>
-    
-    <item>
       <title>CodeCracker no Channel9</title>
       <link>https://carloscds.net/2015/12/codecracker-no-channel9/</link>
       <pubDate>Wed, 30 Dec 2015 14:31:07 -0300</pubDate>
@@ -233,6 +221,19 @@ Com o lançamento do Update 2 do Visual Studio 2013 e também do EntityFramework
       <description>Olá pessoal,
 A partir da versão 6.1 do EntityFramework é possível criar índices no banco de dados, especificando isto diretamente nas classes no código fonte. Esta criação dos índices é feira através do atributo Indexdiretamente sobre o campo da classe. Mas atenção: isto só é possível utilizando o recurso Migrations do EntityFramework.
 Para demonstrar este recurso, vamos criar um projeto do tipo Console no Visual Studio e vamos adicionar o EntityFramework CodeFirst usando o pacote NuGet.</description>
+    </item>
+    
+    <item>
+      <title>SQL Azure&amp;ndash;melhorias de performance</title>
+      <link>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</link>
+      <pubDate>Mon, 26 May 2014 08:27:02 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</guid>
+      <description>Se você está querendo migrar ou começar a utilizar o Microsoft SQL Server disponível no Azure, durante o último Build foram anunciadas grandes melhorias de performance e funcionalidades.
+Dentre as novidades, surgem 3 categorias de banco de dados:
+  Basic: para aplicações com poucas transações e baixa necessidade de performance**.**
+  Standard: para aplicações de negócios, com médio nível de performance.
+  Premium: para aplicações de missão crítica, com alta necessidade de desempenho e alto volume de transações.</description>
     </item>
     
   </channel>

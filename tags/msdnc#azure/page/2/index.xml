@@ -5,22 +5,10 @@
     <link>https://carloscds.net/tags/msdnc#azure/</link>
     <description>Recent content in msdn;c#;azure on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Sep 2014 10:33:55 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2013 22:02:47 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/msdnc#azure/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Gerando um arquivo EXE com .NetCore</title>
-      <link>https://carloscds.net/2017/10/gerando-um-arquivo-exe-com-netcore/</link>
-      <pubDate>Sun, 29 Oct 2017 21:50:13 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/10/gerando-um-arquivo-exe-com-netcore/</guid>
-      <description>Olá pessoal,
-O post de hoje é bem simples e rápido, apesar de ser uma questão muito pesquisada e nem sempre muito clara!
-A idéia é simples, você está desenvolvendo com .Net Core e precisa publicar sua aplicação, mas produzindo um executável ao invés de uma DLL, que é o padrão da plataforma.
-Mas porque produzir um executável ? Simples, para chamar diretamente sem o comando ‘dotnet’, ou seja, um executável self-contained deployment.</description>
-    </item>
     
     <item>
       <title>Voce se preocupa com performance ou é sempre problema da infra</title>
@@ -239,6 +227,18 @@ Acho que este é um sonho de vários desenvolvedores. Será que dá para executa
 Esta semana tivemos fortes emoções no mundo Microsoft durante o evento Build. Foram tantos anúncios que levaremos semanas para entender tudo que aconteceu e principalmente o que vai acontecer daqui para frente, mas resumindo em poucas palavras: Muita coisa agora é open source, de graça mesmo!
 Nesta onda de ferrmentas gratuitas e open source, gostaria de apresentar a vocês o portal Visual Studio Dev Essentials:
 Bom, mas o que tem de tão especial neste portal ?</description>
+    </item>
+    
+    <item>
+      <title>Sua aplicação web está online neste momento ?</title>
+      <link>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</link>
+      <pubDate>Mon, 28 Mar 2016 11:52:44 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</guid>
+      <description>Esta é realmente uma pergunta complicada não acham ? Como determinar se minha aplicação está funcionando, sem ficar olhando para ela ?
+Existem várias maneiras de resolver este problema, mas vou mostrar como monitorar isto usando o Application Insights do Microsoft Azure.
+É bem simples, vamos lá! Abra o portal do Azure: http://portal.azure.com com seu usuário e senha, caso não tenha um, basta criar uma conta trial.
+Dentro do portal, vá em Application Insights:</description>
     </item>
     
   </channel>

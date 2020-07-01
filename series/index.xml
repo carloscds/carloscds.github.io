@@ -5,7 +5,6 @@
     <link>https://carloscds.net/series/</link>
     <description>Recent content in Series on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -124,15 +123,6 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://carloscds.net/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>ASP.NET Core dá para usar ?</title>
       <link>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</link>
       <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
@@ -235,6 +225,18 @@ Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Manag
       <description>Olá pessoal,
 Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
 A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
+    </item>
+    
+    <item>
+      <title>Gerando um arquivo EXE com .NetCore</title>
+      <link>https://carloscds.net/2017/10/gerando-um-arquivo-exe-com-netcore/</link>
+      <pubDate>Sun, 29 Oct 2017 21:50:13 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/10/gerando-um-arquivo-exe-com-netcore/</guid>
+      <description>Olá pessoal,
+O post de hoje é bem simples e rápido, apesar de ser uma questão muito pesquisada e nem sempre muito clara!
+A idéia é simples, você está desenvolvendo com .Net Core e precisa publicar sua aplicação, mas produzindo um executável ao invés de uma DLL, que é o padrão da plataforma.
+Mas porque produzir um executável ? Simples, para chamar diretamente sem o comando ‘dotnet’, ou seja, um executável self-contained deployment.</description>
     </item>
     
   </channel>
