@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SQL Operations Studio</title>
+      <link>https://carloscds.net/2017/11/sql-operations-studio/</link>
+      <pubDate>Sun, 19 Nov 2017 21:00:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/11/sql-operations-studio/</guid>
+      <description>Olá pessoal,
+Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
+A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
+    </item>
     
     <item>
       <title>Gerando um arquivo EXE com .NetCore</title>
@@ -227,18 +238,6 @@ Só relembrando, Análise Estática de Código, é o fato de conseguirmos analis
       <guid>https://carloscds.net/2016/04/c-interativo-repl/</guid>
       <description>Alguma vez você já pensou em testar aquele trecho de código sem precisar compilar toda a solução ?
 Acho que este é um sonho de vários desenvolvedores. Será que dá para executar só aquele “pedacinho” do código ? Normalmente você tem que executar o codigo todo e fazer um braek point e depois rodar o debug sem parar, ou mais ainda, quem de nós que nunca criou um programa console só para testar um trecho de código ?</description>
-    </item>
-    
-    <item>
-      <title>Desenvolva com Microsoft sem gastar dinheiro</title>
-      <link>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</link>
-      <pubDate>Sat, 02 Apr 2016 19:04:43 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</guid>
-      <description>Ola pessoal,
-Esta semana tivemos fortes emoções no mundo Microsoft durante o evento Build. Foram tantos anúncios que levaremos semanas para entender tudo que aconteceu e principalmente o que vai acontecer daqui para frente, mas resumindo em poucas palavras: Muita coisa agora é open source, de graça mesmo!
-Nesta onda de ferrmentas gratuitas e open source, gostaria de apresentar a vocês o portal Visual Studio Dev Essentials:
-Bom, mas o que tem de tão especial neste portal ?</description>
     </item>
     
   </channel>

@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/dotnet/</link>
     <description>Recent content in DotNet on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Prova Team Foundation Server</title>
+      <link>https://carloscds.net/2010/11/prova-team-foundation-server/</link>
+      <pubDate>Wed, 17 Nov 2010 16:23:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/11/prova-team-foundation-server/</guid>
+      <description>Pessoal, há duas semanas eu fiz a prova do Team Foundation Server Administrator (70-512). A prova relata bem a realidade de um administrador de TFS, com perguntas bem objetivas sobre o dia a dia de uma empresa e situações que realmente acontecem.
+Para os que quiserem fazer esta prova, vai a dica do blog do Daniel Oliveira, que separou vários link com materiais muito interessantes sobre esta prova.
+E para dar uma animada em quem ainda está indecido, seja a cópia do certificado da prova:</description>
+    </item>
     
     <item>
       <title>EcoDevelopers Maringá</title>
@@ -227,19 +238,6 @@ Carlos dos Santos</description>
 O Salmazo abriu o evento falando sobre diversas tecnologias e aplicações que a Microsoft possui, foi muito bom!!!
 Depois eu falei sobre várias funcionalidades do novo Visual Studio 2010, EF 4, WPF, Silverlight e Azure, enfim, fiz um overview da plataforma .Net e do Visual Studio 2010.
 Agradecemos o convite da universidade e esperamos voltar lá em breve.</description>
-    </item>
-    
-    <item>
-      <title>Evento sobre Visual Studio 2010 na PUC em Londrina</title>
-      <link>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</link>
-      <pubDate>Wed, 14 Apr 2010 15:33:23 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</guid>
-      <description>Realizamos ontem (13/04) mais um evento de Visual Studio 2010, desta vez na PUC de Londrina.
-O André Nobre deu um show nas novidades do Visual Studio 2010, depois eu falei do Entity Framework 4.0 e para finalizar o Márcio Althmann falou do Silverlight 4.
-Agradecemos a PUC oportunidade e esperamos estar em breve realizando novos eventos por lá.
-Vejam as fotos:
-Finalmente o André fez um PPT com os dados dele.</description>
     </item>
     
   </channel>

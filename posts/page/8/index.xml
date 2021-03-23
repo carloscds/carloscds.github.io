@@ -5,10 +5,23 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evento sobre Visual Studio 2010 na PUC em Londrina</title>
+      <link>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</link>
+      <pubDate>Wed, 14 Apr 2010 15:33:23 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</guid>
+      <description>Realizamos ontem (13/04) mais um evento de Visual Studio 2010, desta vez na PUC de Londrina.
+O André Nobre deu um show nas novidades do Visual Studio 2010, depois eu falei do Entity Framework 4.0 e para finalizar o Márcio Althmann falou do Silverlight 4.
+Agradecemos a PUC oportunidade e esperamos estar em breve realizando novos eventos por lá.
+Vejam as fotos:
+Finalmente o André fez um PPT com os dados dele.</description>
+    </item>
     
     <item>
       <title>Maringá Techday</title>
@@ -224,18 +237,6 @@ for (int i = 0; i &amp;lt; 100; i++){Console.</description>
 Estou realmente muito contente com as melhorias que estão sendo feitas no Visual Studio 2010 e a cada dia me surpreendo com a velocidade das mudanças.
 Uma coisa que foi muito solicitada durante o http://mvp.support.microsoft.com/MVPsummit (evento de MVPs na Microsoft/USA), foi a lentidão da janela Add Reference. Acredito que muitos de vocês já ficaram algum tempo esperando esta janela abrir para poder adicionar algo ao projeto.
 Agora, no Beta 2, já tivemos o tão esperado ajuste desta janela, ela simplesmente abre instantaneamente e você já pode adicionar as referências.</description>
-    </item>
-    
-    <item>
-      <title>77 Dicas sobre Windows 7</title>
-      <link>https://carloscds.net/2009/10/dicas-sobre-windows-7/</link>
-      <pubDate>Wed, 21 Oct 2009 03:56:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/dicas-sobre-windows-7/</guid>
-      <description>Pessoal,
-Com o lançamento do Windows 7, olha que post super interessante, ele mostra 77 dicas sobre novidades do Windows 7:
-http://technet.microsoft.com/en-us/magazine/2009.10.77windows.aspx
-[]s,</description>
     </item>
     
   </channel>

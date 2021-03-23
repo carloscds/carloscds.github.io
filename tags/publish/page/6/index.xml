@@ -5,10 +5,22 @@
     <link>https://carloscds.net/tags/publish/</link>
     <description>Recent content in publish on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/publish/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
+      <link>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</link>
+      <pubDate>Sun, 02 Oct 2011 20:14:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</guid>
+      <description>Pessoal,
+Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
+Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
+Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.</description>
+    </item>
     
     <item>
       <title>EF Code First-Acessando Stored Procedures</title>
@@ -237,17 +249,6 @@ Carlos.</description>
       <description>Pessoal,
 Hoje fiz a prova beta do Windows Azure (70-583) e posso garantir a vocês que achei a prova excelente, com perguntas muito objetivas e que realmente tem o objetivo de verificar se o candidato entendeu o conceito da plataforma e como aplicá-la. Para quem ainda não conhece a plataforma Azure visite este link.
 A prova tinha 75 questões, sobre todas as áreas do Azure e como ainda é uma prova beta, você tem opção para comentar ou questionar as peguntas, para que elas possam, eventualmente, ser corrigidas para o exame definitivo.</description>
-    </item>
-    
-    <item>
-      <title>Prova Team Foundation Server</title>
-      <link>https://carloscds.net/2010/11/prova-team-foundation-server/</link>
-      <pubDate>Wed, 17 Nov 2010 16:23:07 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/prova-team-foundation-server/</guid>
-      <description>Pessoal, há duas semanas eu fiz a prova do Team Foundation Server Administrator (70-512). A prova relata bem a realidade de um administrador de TFS, com perguntas bem objetivas sobre o dia a dia de uma empresa e situações que realmente acontecem.
-Para os que quiserem fazer esta prova, vai a dica do blog do Daniel Oliveira, que separou vários link com materiais muito interessantes sobre esta prova.
-E para dar uma animada em quem ainda está indecido, seja a cópia do certificado da prova:</description>
     </item>
     
   </channel>

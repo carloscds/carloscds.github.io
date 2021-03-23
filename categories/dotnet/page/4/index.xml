@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/dotnet/</link>
     <description>Recent content in DotNet on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Criando Índices no Entity Framework CodeFirst</title>
+      <link>https://carloscds.net/2014/07/criando-ndices-no-entity-framework-codefirst/</link>
+      <pubDate>Tue, 01 Jul 2014 23:51:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/07/criando-ndices-no-entity-framework-codefirst/</guid>
+      <description>Olá pessoal,
+A partir da versão 6.1 do EntityFramework é possível criar índices no banco de dados, especificando isto diretamente nas classes no código fonte. Esta criação dos índices é feira através do atributo Indexdiretamente sobre o campo da classe. Mas atenção: isto só é possível utilizando o recurso Migrations do EntityFramework.
+Para demonstrar este recurso, vamos criar um projeto do tipo Console no Visual Studio e vamos adicionar o EntityFramework CodeFirst usando o pacote NuGet.</description>
+    </item>
     
     <item>
       <title>SQL Azure&amp;ndash;melhorias de performance</title>
@@ -233,20 +244,6 @@ Para baixar as aplicações usadas no evento, acesse este link do SkyDrive.</des
 Olá pessoal,
 Acontecerá no próximo sábado, 27 de abril, o maior evento de Windows Azure já realizado no mundo. Serão mais de 95 cidades ao redor do globo e no Brasil teremos 12 cidades com mais de 6 horas de puro treinamento 100% prático e presencial.
 Confira abaixo a relação de todas as cidades que estarão executando a ação, veja a mais próxima de você e inscreva-se pois as vagas são limitadas!</description>
-    </item>
-    
-    <item>
-      <title>Windows Azure Bootcamp</title>
-      <link>https://carloscds.net/2013/04/windows-azure-bootcamp/</link>
-      <pubDate>Fri, 12 Apr 2013 17:14:14 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/04/windows-azure-bootcamp/</guid>
-      <description>Pessoal,
-Iremos realizar o evento mundial de Windows Azure em Londrina no dia 27 de abril na PUC. A idéia deste evento é ser totalmente prático, ou seja, como criar e publicar uma aplicação no Windows Azure.
-Fique atento aos pré-requisitos na página de inscrição: http://www.eventick.com.br/GWAB-Londrina-PR
-
-Abraços e até lá!
-Carlos dos Santos</description>
     </item>
     
   </channel>

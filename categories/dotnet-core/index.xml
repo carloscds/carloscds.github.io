@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/dotnet-core/</link>
     <description>Recent content in DotNet Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/dotnet-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Datas Estranhas no Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</link>
+      <pubDate>Mon, 22 Mar 2021 21:30:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</guid>
+      <description>Olá pessoal,
+Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
+Problema O que acontece se você submeter uma consulta do tipo:
+select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?</description>
+    </item>
     
     <item>
       <title>Lendo uma Planilha Excel em C# - MAIS SIMPLES AINDA!</title>
@@ -227,17 +239,6 @@ Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco
       <description>Olá pessoal,
 Hoje em dia, apesar de IDEs super poderosas, com milhares de funcionalidades, às vezes nos deparamos com procedimentos que são necessários na linha de comandos, nosso bom e velho Command Prompt.
 Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Management Studio, o Visual Studio e agora também o Operations Studio ? Isto é simples, você pode estar em um ambiente onde não existe sequer um modo gráfico, o que é muito comum em servidores, principalmente Linux.</description>
-    </item>
-    
-    <item>
-      <title>SQL Operations Studio</title>
-      <link>https://carloscds.net/2017/11/sql-operations-studio/</link>
-      <pubDate>Sun, 19 Nov 2017 21:00:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/11/sql-operations-studio/</guid>
-      <description>Olá pessoal,
-Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
-A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
     </item>
     
   </channel>

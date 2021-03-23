@@ -5,10 +5,24 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 23:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows Azure Bootcamp</title>
+      <link>https://carloscds.net/2013/04/windows-azure-bootcamp/</link>
+      <pubDate>Fri, 12 Apr 2013 17:14:14 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/04/windows-azure-bootcamp/</guid>
+      <description>Pessoal,
+Iremos realizar o evento mundial de Windows Azure em Londrina no dia 27 de abril na PUC. A idéia deste evento é ser totalmente prático, ou seja, como criar e publicar uma aplicação no Windows Azure.
+Fique atento aos pré-requisitos na página de inscrição: http://www.eventick.com.br/GWAB-Londrina-PR
+
+Abraços e até lá!
+Carlos dos Santos</description>
+    </item>
     
     <item>
       <title>Como escolher o modelo ideal de TFS para sua empresa</title>
@@ -230,18 +244,6 @@ Carlos.</description>
       <guid>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</guid>
       <description>Pessoal,
 Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
-    </item>
-    
-    <item>
-      <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
-      <link>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</link>
-      <pubDate>Sun, 02 Oct 2011 20:14:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</guid>
-      <description>Pessoal,
-Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
-Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
-Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.</description>
     </item>
     
   </channel>

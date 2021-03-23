@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Desenvolva com Microsoft sem gastar dinheiro</title>
+      <link>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</link>
+      <pubDate>Sat, 02 Apr 2016 19:04:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</guid>
+      <description>Ola pessoal,
+Esta semana tivemos fortes emoções no mundo Microsoft durante o evento Build. Foram tantos anúncios que levaremos semanas para entender tudo que aconteceu e principalmente o que vai acontecer daqui para frente, mas resumindo em poucas palavras: Muita coisa agora é open source, de graça mesmo!
+Nesta onda de ferrmentas gratuitas e open source, gostaria de apresentar a vocês o portal Visual Studio Dev Essentials:
+Bom, mas o que tem de tão especial neste portal ?</description>
+    </item>
+    
+    <item>
       <title>Sua aplicação web está online neste momento ?</title>
       <link>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</link>
       <pubDate>Mon, 28 Mar 2016 11:52:44 -0300</pubDate>
@@ -221,17 +233,6 @@ Então vamos pensar em um cenário onde você precisa consultar um banco de dado
       <description>Olá pessoal,
 Há algum tempo atrás eu fiz um post falando sobre como proveitar seu banco de dados existente com o EntityFramework PowerTools, mas o modelo do PowerTools não permite escolher as tabelas ou views que você quer ler, e ás vezes isto é bem útil.
 Com o lançamento do Update 2 do Visual Studio 2013 e também do EntityFramework 6.1, foi adicionada uma nova opção nas fontes de dados, que agora permite também fazer engenharia reversa com CodeFirst escolhendo quais tabelas e views serão lidas, a exemplo do que já era possível com o EntityFramework Designer.</description>
-    </item>
-    
-    <item>
-      <title>Criando Índices no Entity Framework CodeFirst</title>
-      <link>https://carloscds.net/2014/07/criando-ndices-no-entity-framework-codefirst/</link>
-      <pubDate>Tue, 01 Jul 2014 23:51:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/07/criando-ndices-no-entity-framework-codefirst/</guid>
-      <description>Olá pessoal,
-A partir da versão 6.1 do EntityFramework é possível criar índices no banco de dados, especificando isto diretamente nas classes no código fonte. Esta criação dos índices é feira através do atributo Indexdiretamente sobre o campo da classe. Mas atenção: isto só é possível utilizando o recurso Migrations do EntityFramework.
-Para demonstrar este recurso, vamos criar um projeto do tipo Console no Visual Studio e vamos adicionar o EntityFramework CodeFirst usando o pacote NuGet.</description>
     </item>
     
   </channel>
