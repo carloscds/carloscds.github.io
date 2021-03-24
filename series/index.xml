@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Inspecionando as Consultas do Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</link>
+      <pubDate>Tue, 23 Mar 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</guid>
+      <description>Olá pessoal,
+Você que é um usuário de EntityFramework, já parou para olhar as queries que são geradas no banco ? Eu sempre faço esta pergunta em empresas que atendo e a resposta na grande maioria das vezes é: NÃO.
+Sempre ouço: o EntityFramework resolve isto para mim! Ele sabe como criar o melhor comando SQL para o banco, e muitas outras respostas!
+Mas a grande verdade é que o EntityFramework não faz milagres!</description>
+    </item>
+    
+    <item>
       <title>Datas Estranhas no Entity Framework Core</title>
       <link>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</link>
       <pubDate>Mon, 22 Mar 2021 21:30:00 +0000</pubDate>
@@ -227,17 +239,6 @@ Primeiro, vamos precisamos entender que o EF Core é um ORM totalmente novo, cri
       <description>Olá pessoal,
 Já utilizando Asp.Net Core ? Entity Framework Core ? Esta nova versão do EF Core está muito boa e para ajudar no processo de desenvolvimento, hoje vou falar da ferramenta EF Core PowerTools.
 Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco existente e fazer engenharia reversa, o que significa gerar todas as classes do EntityFramerwork a partir do seu banco de dados.</description>
-    </item>
-    
-    <item>
-      <title>Trabalhando com SQL na linha de comando</title>
-      <link>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</link>
-      <pubDate>Mon, 25 Dec 2017 21:42:46 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</guid>
-      <description>Olá pessoal,
-Hoje em dia, apesar de IDEs super poderosas, com milhares de funcionalidades, às vezes nos deparamos com procedimentos que são necessários na linha de comandos, nosso bom e velho Command Prompt.
-Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Management Studio, o Visual Studio e agora também o Operations Studio ? Isto é simples, você pode estar em um ambiente onde não existe sequer um modo gráfico, o que é muito comum em servidores, principalmente Linux.</description>
     </item>
     
   </channel>

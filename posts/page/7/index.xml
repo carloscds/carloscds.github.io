@@ -5,10 +5,21 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Prova Beta Windows Azure</title>
+      <link>https://carloscds.net/2010/11/prova-beta-windows-azure/</link>
+      <pubDate>Wed, 17 Nov 2010 16:38:57 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/11/prova-beta-windows-azure/</guid>
+      <description>Pessoal,
+Hoje fiz a prova beta do Windows Azure (70-583) e posso garantir a vocês que achei a prova excelente, com perguntas muito objetivas e que realmente tem o objetivo de verificar se o candidato entendeu o conceito da plataforma e como aplicá-la. Para quem ainda não conhece a plataforma Azure visite este link.
+A prova tinha 75 questões, sobre todas as áreas do Azure e como ainda é uma prova beta, você tem opção para comentar ou questionar as peguntas, para que elas possam, eventualmente, ser corrigidas para o exame definitivo.</description>
+    </item>
     
     <item>
       <title>Prova Team Foundation Server</title>
@@ -226,18 +237,6 @@ O outro mostra quais são as funcionalidades suportadas pelo Silverlight no Wind
 http://msdn.microsoft.com/en-us/library/ff426931(VS.96).aspx
 Abraços,
 Carlos dos Santos</description>
-    </item>
-    
-    <item>
-      <title>Evento sobre Visual Studio 2010 na Unioeste em Cascavel</title>
-      <link>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</link>
-      <pubDate>Wed, 14 Apr 2010 15:40:09 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</guid>
-      <description>Agora pouco eu e o Alexsandro Salmazo (funcionário da Microsoft) fizemos uma palestra na Unioeste em Cascavel/PR.
-O Salmazo abriu o evento falando sobre diversas tecnologias e aplicações que a Microsoft possui, foi muito bom!!!
-Depois eu falei sobre várias funcionalidades do novo Visual Studio 2010, EF 4, WPF, Silverlight e Azure, enfim, fiz um overview da plataforma .Net e do Visual Studio 2010.
-Agradecemos o convite da universidade e esperamos voltar lá em breve.</description>
     </item>
     
   </channel>

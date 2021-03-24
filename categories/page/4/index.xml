@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EntityFramework-Lendo seu banco de dados com o Visual Studio 2013 Update 2</title>
+      <link>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</link>
+      <pubDate>Wed, 02 Jul 2014 09:02:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</guid>
+      <description>Olá pessoal,
+Há algum tempo atrás eu fiz um post falando sobre como proveitar seu banco de dados existente com o EntityFramework PowerTools, mas o modelo do PowerTools não permite escolher as tabelas ou views que você quer ler, e ás vezes isto é bem útil.
+Com o lançamento do Update 2 do Visual Studio 2013 e também do EntityFramework 6.1, foi adicionada uma nova opção nas fontes de dados, que agora permite também fazer engenharia reversa com CodeFirst escolhendo quais tabelas e views serão lidas, a exemplo do que já era possível com o EntityFramework Designer.</description>
+    </item>
     
     <item>
       <title>Criando Índices no Entity Framework CodeFirst</title>
@@ -232,18 +243,6 @@ Gostaria de agradecer a todos que participarem do GWAB de Londrina, tivemos mais
 Obrigado ao professor Eidy da PUC de Londrina, que nos apoiou cedendo o espaço para realizarmos o evento.
 Vejam as fotos aqui no meu Facebook.
 Para baixar as aplicações usadas no evento, acesse este link do SkyDrive.</description>
-    </item>
-    
-    <item>
-      <title>Global Windows Azure Bootcamp</title>
-      <link>https://carloscds.net/2013/04/global-windows-azure-bootcamp/</link>
-      <pubDate>Tue, 23 Apr 2013 18:45:17 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/04/global-windows-azure-bootcamp/</guid>
-      <description>![](http://lucasromao.azurewebsites.net wp-content/uploads/2013/04/bootcamp1-300x202.png)
-Olá pessoal,
-Acontecerá no próximo sábado, 27 de abril, o maior evento de Windows Azure já realizado no mundo. Serão mais de 95 cidades ao redor do globo e no Brasil teremos 12 cidades com mais de 6 horas de puro treinamento 100% prático e presencial.
-Confira abaixo a relação de todas as cidades que estarão executando a ação, veja a mais próxima de você e inscreva-se pois as vagas são limitadas!</description>
     </item>
     
   </channel>

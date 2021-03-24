@@ -5,10 +5,20 @@
     <link>https://carloscds.net/tags/</link>
     <description>Recent content in Tags on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C# Interativo (REPL)</title>
+      <link>https://carloscds.net/2016/04/c-interativo-repl/</link>
+      <pubDate>Sat, 02 Apr 2016 20:34:24 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/04/c-interativo-repl/</guid>
+      <description>Alguma vez você já pensou em testar aquele trecho de código sem precisar compilar toda a solução ?
+Acho que este é um sonho de vários desenvolvedores. Será que dá para executar só aquele “pedacinho” do código ? Normalmente você tem que executar o codigo todo e fazer um braek point e depois rodar o debug sem parar, ou mais ainda, quem de nós que nunca criou um programa console só para testar um trecho de código ?</description>
+    </item>
     
     <item>
       <title>Desenvolva com Microsoft sem gastar dinheiro</title>
@@ -223,17 +233,6 @@ Carlos dos Santos.</description>
       <description>Olá pessoal,
 Eu utilizo muito EntityFramework nos projetos da empresa, pois trabalhar com classes e objetos é muito mais simples do que utulizar acessio a dados tradicionais. Mas recentemente comecei a utilizar o Dapper, que pode ser chamado de um micro ORM, pois ele possui algumas funcionalidades bem pontuais para trabalharmos com acesso a dados.
 Então vamos pensar em um cenário onde você precisa consultar um banco de dados qualquer, e colocar o resultado desta consulta em um objeto.</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework-Lendo seu banco de dados com o Visual Studio 2013 Update 2</title>
-      <link>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</link>
-      <pubDate>Wed, 02 Jul 2014 09:02:31 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</guid>
-      <description>Olá pessoal,
-Há algum tempo atrás eu fiz um post falando sobre como proveitar seu banco de dados existente com o EntityFramework PowerTools, mas o modelo do PowerTools não permite escolher as tabelas ou views que você quer ler, e ás vezes isto é bem útil.
-Com o lançamento do Update 2 do Visual Studio 2013 e também do EntityFramework 6.1, foi adicionada uma nova opção nas fontes de dados, que agora permite também fazer engenharia reversa com CodeFirst escolhendo quais tabelas e views serão lidas, a exemplo do que já era possível com o EntityFramework Designer.</description>
     </item>
     
   </channel>

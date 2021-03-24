@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/entityframework-core/</link>
     <description>Recent content in EntityFramework Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TechEd 2011–Palestra Entity Framework</title>
+      <link>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</link>
+      <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</guid>
+      <description>Pessoal,
+Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
+    </item>
     
     <item>
       <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
@@ -238,17 +248,6 @@ Carlos.</description>
   Instale o programa e cadastre uma foto qualquer no Blob do Azure, como neste exemplo:
   http://anobre.blob.core.windows.net/concursofotonuvem/foto_56afcb65-a410-4b85-8147-bf960c832a16.jpg.
  No Slide do item 1, tem as instruções de como publicar a imagem</description>
-    </item>
-    
-    <item>
-      <title>Prova Beta Windows Azure</title>
-      <link>https://carloscds.net/2010/11/prova-beta-windows-azure/</link>
-      <pubDate>Wed, 17 Nov 2010 16:38:57 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/prova-beta-windows-azure/</guid>
-      <description>Pessoal,
-Hoje fiz a prova beta do Windows Azure (70-583) e posso garantir a vocês que achei a prova excelente, com perguntas muito objetivas e que realmente tem o objetivo de verificar se o candidato entendeu o conceito da plataforma e como aplicá-la. Para quem ainda não conhece a plataforma Azure visite este link.
-A prova tinha 75 questões, sobre todas as áreas do Azure e como ainda é uma prova beta, você tem opção para comentar ou questionar as peguntas, para que elas possam, eventualmente, ser corrigidas para o exame definitivo.</description>
     </item>
     
   </channel>

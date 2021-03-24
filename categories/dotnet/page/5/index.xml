@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/dotnet/</link>
     <description>Recent content in DotNet on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Mar 2021 21:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Global Windows Azure Bootcamp</title>
+      <link>https://carloscds.net/2013/04/global-windows-azure-bootcamp/</link>
+      <pubDate>Tue, 23 Apr 2013 18:45:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/04/global-windows-azure-bootcamp/</guid>
+      <description>![](http://lucasromao.azurewebsites.net wp-content/uploads/2013/04/bootcamp1-300x202.png)
+Olá pessoal,
+Acontecerá no próximo sábado, 27 de abril, o maior evento de Windows Azure já realizado no mundo. Serão mais de 95 cidades ao redor do globo e no Brasil teremos 12 cidades com mais de 6 horas de puro treinamento 100% prático e presencial.
+Confira abaixo a relação de todas as cidades que estarão executando a ação, veja a mais próxima de você e inscreva-se pois as vagas são limitadas!</description>
+    </item>
     
     <item>
       <title>Windows Azure Bootcamp</title>
@@ -234,16 +246,6 @@ O mais incrível foi que o Glebe me chamou para fazer uma palestra sobre Windows
 Neste treinamento os alunos tiveram a oportunidade de conhecer a plataforma Microsoft.Net e o Visual Studio 2010, num total de 8 horas de curso.
 Abraços,
 Carlos.</description>
-    </item>
-    
-    <item>
-      <title>TechEd 2011–Palestra Entity Framework</title>
-      <link>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</link>
-      <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</guid>
-      <description>Pessoal,
-Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
     </item>
     
   </channel>
