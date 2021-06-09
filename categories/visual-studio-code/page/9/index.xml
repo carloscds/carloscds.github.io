@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Programação Paralela com C# 4.0</title>
+      <link>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</link>
+      <pubDate>Tue, 03 Nov 2009 13:09:45 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</guid>
+      <description>Uma das novidades do .Net Framework 4.0 é a programação paralela, ou paralelelismo, que consiste em se utilizar os vários núcleos disponíveis nos computadores atuais, por exemplo, os famosos Core 2 Duo.
+Mas como tirar proveito destes recursos em operações simples ? O que vou mostrar agora é como transformar dois comandos simples da linguagem C# com o uso da programação paralela.
+Primeiramente vou montar um laço for tradicional:
+for (int i = 0; i &amp;lt; 100; i++){Console.</description>
+    </item>
+    
+    <item>
       <title>Visual Studio 2010 – reinvindicação atendida</title>
       <link>https://carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</link>
       <pubDate>Wed, 28 Oct 2009 22:49:53 -0300</pubDate>

@@ -5,10 +5,22 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jun 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Configurando o horário de um App Service em Linux no Azure</title>
+      <link>https://carloscds.net/2021/06/app-services-horario/</link>
+      <pubDate>Tue, 08 Jun 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/06/app-services-horario/</guid>
+      <description>Olá pessoal,
+Estes dias estava configurando um App Service para uma nova API que construimos e precisava deixar o fuso horario do Brasil (GMT -3), lembrando que o Azure trabalha no GMT 0.
+Até aí tudo bem, existem vários tutoriais na web explicando isto, mas problema é que existe uma diferença entre um App Service rodando em Windows e outro rodando em Linux.
+Configuração muda de acordo com o Sistema Operacional Quando o App Service esta configurado para Windows, você ajusta a seguinte propriedade na Configuracação do servico.</description>
+    </item>
     
     <item>
       <title>Inspecionando as Consultas do Entity Framework Core</title>
@@ -229,17 +241,6 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
 Depois um longo tempo sem escrever sobre o EntityFramework, vou retomar com uma série de artigos sobre esta nova versão, o EntityFramework Core.
 Para quem ainda não sabe, o EF Core faz parte do .NET Core, que é multi plataforma.
 Primeiro, vamos precisamos entender que o EF Core é um ORM totalmente novo, criado literalmente do ZERO, e por isto, ainda tem muitas coisas para serem feitas! Lembrando ainda que o EntityFramework 6 continua existindo como parte do .</description>
-    </item>
-    
-    <item>
-      <title>EF Core Powertools</title>
-      <link>https://carloscds.net/2018/05/ef-core-powertools/</link>
-      <pubDate>Mon, 28 May 2018 15:14:26 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/05/ef-core-powertools/</guid>
-      <description>Olá pessoal,
-Já utilizando Asp.Net Core ? Entity Framework Core ? Esta nova versão do EF Core está muito boa e para ajudar no processo de desenvolvimento, hoje vou falar da ferramenta EF Core PowerTools.
-Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco existente e fazer engenharia reversa, o que significa gerar todas as classes do EntityFramerwork a partir do seu banco de dados.</description>
     </item>
     
   </channel>

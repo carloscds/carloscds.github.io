@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>CodeCracker 1.0</title>
+      <link>https://carloscds.net/2016/04/codecracker-1-0/</link>
+      <pubDate>Mon, 04 Apr 2016 08:32:14 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/04/codecracker-1-0/</guid>
+      <description>Depois de um longo tempo e muito trabalho, temos o oriulho de anunciar a versão 1.0 do CodeCracker, uma das mais populares ferramentas para análise estática de código do mercado, e totalmente free e open source.
+Só relembrando, Análise Estática de Código, é o fato de conseguirmos analisar seu código direto no editor, sem a necessidade de compilar. Com o compilador Roslyn (.Net Compiler), que veio junto com o Visual Studio 2015, se tornou possível escrever códigos (analisadores e fixers) que atuam no fluxo da compilação, pois o Roslyn atua como “Compiler as a Service”, um serviço de compilação que podemos consumir.</description>
+    </item>
+    
+    <item>
       <title>C# Interativo (REPL)</title>
       <link>https://carloscds.net/2016/04/c-interativo-repl/</link>
       <pubDate>Sat, 02 Apr 2016 20:34:24 -0300</pubDate>
@@ -221,17 +231,6 @@ Aconteceu no último dia 30 de agosto de 2014, na sede da Microsoft em São Paul
 Confira as fotos do evento
 Um grande abraço e até a próxima,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Dapper - Um Micro ORM muito interessante</title>
-      <link>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</link>
-      <pubDate>Sun, 07 Sep 2014 17:46:32 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</guid>
-      <description>Olá pessoal,
-Eu utilizo muito EntityFramework nos projetos da empresa, pois trabalhar com classes e objetos é muito mais simples do que utulizar acessio a dados tradicionais. Mas recentemente comecei a utilizar o Dapper, que pode ser chamado de um micro ORM, pois ele possui algumas funcionalidades bem pontuais para trabalharmos com acesso a dados.
-Então vamos pensar em um cenário onde você precisa consultar um banco de dados qualquer, e colocar o resultado desta consulta em um objeto.</description>
     </item>
     
   </channel>

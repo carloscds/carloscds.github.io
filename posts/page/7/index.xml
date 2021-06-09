@@ -5,10 +5,25 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jun 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Promoção Indique Azure</title>
+      <link>https://carloscds.net/2010/11/promoo-indique-azure/</link>
+      <pubDate>Fri, 26 Nov 2010 08:36:19 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/11/promoo-indique-azure/</guid>
+      <description>Pessoal,
+ Sobre a promoção Indique Azure (www.indiqueazure.com.br) , segue abaixo um tutorial que explica como participar:
+   Crie sua conta no Portal do Windows Azure: http://www.slideshare.net/indiqueazure/como-assinar-windows-azure
+  Baixe o Programa para fazer o Upload do arquivo: www.sharpcode.com.br/downloads/SetupBlobUp.zip
+  Instale o programa e cadastre uma foto qualquer no Blob do Azure, como neste exemplo:
+  http://anobre.blob.core.windows.net/concursofotonuvem/foto_56afcb65-a410-4b85-8147-bf960c832a16.jpg.
+ No Slide do item 1, tem as instruções de como publicar a imagem</description>
+    </item>
     
     <item>
       <title>Prova Beta Windows Azure</title>
@@ -222,21 +237,6 @@ Carlos.</description>
       <description>Ontem (24/05/2010) eu e o Márcio Althmann realizamos uma palestra na Unipar de Paranavaí/PR onde tivemos a oportunidade de mostrar as novidades do novo Visual Studio 2010 e do Silverlight 4.
 Gostaria de agradecer ao nosso amigo Rodrigo Ghedin, do famoso site WinAjuda e MVP assim como eu, pelo convite e pela oportunidade de mostrarmos um pouco de tecnologia neste evento.
 Agradecemos também a direção da Unipar pelo espaço e pela colaboração na divulgação do evento.</description>
-    </item>
-    
-    <item>
-      <title>Desenvolvimento para Windows Phone com Silverlight</title>
-      <link>https://carloscds.net/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</link>
-      <pubDate>Sun, 18 Apr 2010 08:12:39 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</guid>
-      <description>Gostaria de compartilhar com vocês dois artigos realmente interessantes sobre o desenvolvimento de softwares para a plataforma Windows Phone 7 usando Silverlight.
-O primeiro deles trata das diferenças do Silverlight no Windows Phone 7:
-http://msdn.microsoft.com/en-us/library/ff426930(VS.96).aspx
-O outro mostra quais são as funcionalidades suportadas pelo Silverlight no Windows Phone 7:
-http://msdn.microsoft.com/en-us/library/ff426931(VS.96).aspx
-Abraços,
-Carlos dos Santos</description>
     </item>
     
   </channel>

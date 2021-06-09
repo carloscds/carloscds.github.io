@@ -11,6 +11,21 @@
     
     
     <item>
+      <title>Desenvolvimento para Windows Phone com Silverlight</title>
+      <link>https://carloscds.net/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</link>
+      <pubDate>Sun, 18 Apr 2010 08:12:39 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/04/desenvolvimento-para-windows-phone-com-silverlight/</guid>
+      <description>Gostaria de compartilhar com vocês dois artigos realmente interessantes sobre o desenvolvimento de softwares para a plataforma Windows Phone 7 usando Silverlight.
+O primeiro deles trata das diferenças do Silverlight no Windows Phone 7:
+http://msdn.microsoft.com/en-us/library/ff426930(VS.96).aspx
+O outro mostra quais são as funcionalidades suportadas pelo Silverlight no Windows Phone 7:
+http://msdn.microsoft.com/en-us/library/ff426931(VS.96).aspx
+Abraços,
+Carlos dos Santos</description>
+    </item>
+    
+    <item>
       <title>Evento sobre Visual Studio 2010 na Unioeste em Cascavel</title>
       <link>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</link>
       <pubDate>Wed, 14 Apr 2010 15:40:09 -0300</pubDate>
@@ -225,18 +240,6 @@ Equipe de desenvolvimento da Agili.</description>
       
       <guid>https://carloscds.net/2009/11/cobol-team-foundation-server/</guid>
       <description>O título parece estranho mas é possível :), estamos prestando consultoria para um cliente em Londrina, onde os projetos novos serão feitos com .NET, Team System e tudo que tem direito, mas eles possuem muitos projetos em Cobol ainda, e uma das exigências era versionar o Cobol no Team Foundation Server também, e funcionou perfeitamente, o pessoal adorou, não preciso nem falar a reação deles quando viram a tela de Anotate mostrando o histórico do código.</description>
-    </item>
-    
-    <item>
-      <title>Programação Paralela com C# 4.0</title>
-      <link>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</link>
-      <pubDate>Tue, 03 Nov 2009 13:09:45 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</guid>
-      <description>Uma das novidades do .Net Framework 4.0 é a programação paralela, ou paralelelismo, que consiste em se utilizar os vários núcleos disponíveis nos computadores atuais, por exemplo, os famosos Core 2 Duo.
-Mas como tirar proveito destes recursos em operações simples ? O que vou mostrar agora é como transformar dois comandos simples da linguagem C# com o uso da programação paralela.
-Primeiramente vou montar um laço for tradicional:
-for (int i = 0; i &amp;lt; 100; i++){Console.</description>
     </item>
     
   </channel>

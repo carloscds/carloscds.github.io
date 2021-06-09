@@ -5,10 +5,21 @@
     <link>https://carloscds.net/tags/</link>
     <description>Recent content in Tags on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jun 2021 22:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dapper - Um Micro ORM muito interessante</title>
+      <link>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</link>
+      <pubDate>Sun, 07 Sep 2014 17:46:32 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</guid>
+      <description>Olá pessoal,
+Eu utilizo muito EntityFramework nos projetos da empresa, pois trabalhar com classes e objetos é muito mais simples do que utulizar acessio a dados tradicionais. Mas recentemente comecei a utilizar o Dapper, que pode ser chamado de um micro ORM, pois ele possui algumas funcionalidades bem pontuais para trabalharmos com acesso a dados.
+Então vamos pensar em um cenário onde você precisa consultar um banco de dados qualquer, e colocar o resultado desta consulta em um objeto.</description>
+    </item>
     
     <item>
       <title>EntityFramework-Lendo seu banco de dados com o Visual Studio 2013 Update 2</title>
@@ -230,19 +241,6 @@ Carlos.</description>
 No último sábado, dia 25/05/2013, aconteceu na sede da Microsoft em SP o Visual Studio Summit 2013. Neste ano tive o prazer de realizar duas palestras: Entity Framework 6 e Debug de Aplicações Windows 8 no Device. As duas palestras também foram repetidas, o que tornou o meu dia um pouco mais intenso!
 Gostaria de agradecer a excelente audiência que tive nas palestras, onde tive salas praticamente lotadas!
 Aqui estão as fotos do eventos que publiquei no Facebook.</description>
-    </item>
-    
-    <item>
-      <title>Global Windows Azure Bootcamp – Londrina – Pós Evento</title>
-      <link>https://carloscds.net/2013/04/global-windows-azure-bootcamp-londrina-ps-evento/</link>
-      <pubDate>Sat, 27 Apr 2013 19:52:44 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/04/global-windows-azure-bootcamp-londrina-ps-evento/</guid>
-      <description>Pessoal,
-Gostaria de agradecer a todos que participarem do GWAB de Londrina, tivemos mais de 40 pessoas durante o evento onde foi realizado um treinamento que abordou as principais funcionalidades do Windows Azure. Tudo na prática!
-Obrigado ao professor Eidy da PUC de Londrina, que nos apoiou cedendo o espaço para realizarmos o evento.
-Vejam as fotos aqui no meu Facebook.
-Para baixar as aplicações usadas no evento, acesse este link do SkyDrive.</description>
     </item>
     
   </channel>

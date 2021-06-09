@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>appservice on Carlos dos Santos</title>
+    <link>https://carloscds.net/tags/appservice/</link>
+    <description>Recent content in appservice on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 08 Jun 2021 22:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://carloscds.net/tags/appservice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dapper - Um Micro ORM muito interessante</title>
+      <link>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</link>
+      <pubDate>Sun, 07 Sep 2014 17:46:32 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</guid>
+      <description>Olá pessoal,
+Eu utilizo muito EntityFramework nos projetos da empresa, pois trabalhar com classes e objetos é muito mais simples do que utulizar acessio a dados tradicionais. Mas recentemente comecei a utilizar o Dapper, que pode ser chamado de um micro ORM, pois ele possui algumas funcionalidades bem pontuais para trabalharmos com acesso a dados.
+Então vamos pensar em um cenário onde você precisa consultar um banco de dados qualquer, e colocar o resultado desta consulta em um objeto.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework-Lendo seu banco de dados com o Visual Studio 2013 Update 2</title>
+      <link>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</link>
+      <pubDate>Wed, 02 Jul 2014 09:02:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</guid>
+      <description>Olá pessoal,
+Há algum tempo atrás eu fiz um post falando sobre como proveitar seu banco de dados existente com o EntityFramework PowerTools, mas o modelo do PowerTools não permite escolher as tabelas ou views que você quer ler, e ás vezes isto é bem útil.
+Com o lançamento do Update 2 do Visual Studio 2013 e também do EntityFramework 6.1, foi adicionada uma nova opção nas fontes de dados, que agora permite também fazer engenharia reversa com CodeFirst escolhendo quais tabelas e views serão lidas, a exemplo do que já era possível com o EntityFramework Designer.</description>
+    </item>
+    
+    <item>
+      <title>Criando Índices no Entity Framework CodeFirst</title>
+      <link>https://carloscds.net/2014/07/criando-ndices-no-entity-framework-codefirst/</link>
+      <pubDate>Tue, 01 Jul 2014 23:51:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/07/criando-ndices-no-entity-framework-codefirst/</guid>
+      <description>Olá pessoal,
+A partir da versão 6.1 do EntityFramework é possível criar índices no banco de dados, especificando isto diretamente nas classes no código fonte. Esta criação dos índices é feira através do atributo Indexdiretamente sobre o campo da classe. Mas atenção: isto só é possível utilizando o recurso Migrations do EntityFramework.
+Para demonstrar este recurso, vamos criar um projeto do tipo Console no Visual Studio e vamos adicionar o EntityFramework CodeFirst usando o pacote NuGet.</description>
+    </item>
+    
+    <item>
+      <title>SQL Azure&amp;ndash;melhorias de performance</title>
+      <link>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</link>
+      <pubDate>Mon, 26 May 2014 08:27:02 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</guid>
+      <description>Se você está querendo migrar ou começar a utilizar o Microsoft SQL Server disponível no Azure, durante o último Build foram anunciadas grandes melhorias de performance e funcionalidades.
+Dentre as novidades, surgem 3 categorias de banco de dados:
+  Basic: para aplicações com poucas transações e baixa necessidade de performance**.**
+  Standard: para aplicações de negócios, com médio nível de performance.
+  Premium: para aplicações de missão crítica, com alta necessidade de desempenho e alto volume de transações.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Summit 2014</title>
+      <link>https://carloscds.net/2014/05/visual-studio-summit-2014/</link>
+      <pubDate>Fri, 02 May 2014 09:34:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/05/visual-studio-summit-2014/</guid>
+      <description>Pessoal,
+No último sábado (26/04/2014) aconteceu em São Paulo, na sede da Microsoft, mais uma edição do Visual Studio Summit. Neste ano tive a grata satisfação de realizar 5 palestras, ufa! Foi uma maratona!
+Fiz na verdade 5 palestras sobre dois Temas: Novidades do Visual Studio 2013 e Entity Framework Framework 6, a maioria com lotação máxima das salas.
+Gostaria de agradecer ao Ramon novamente pela oportunidade e a todos que participaram das palestras e principalmente pelas interações durante as palestras.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework&amp;ndash;Apoveitando seu Banco de Dados com PowerTools</title>
+      <link>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</link>
+      <pubDate>Mon, 21 Apr 2014 19:34:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</guid>
+      <description>Olá pessoal,
+Quando uma empresa resolve adotar uma ferramenta de ORM (Mapeamento Objeto Relacional); no nosso caso o EntityFramework), começa uma grande quebra de paradigma, pois você vai deixar de acessar o banco de dados diretamente (Select, Insert, Update, Delete, etc) e vai passar a trabalhar somente com classes e objetos. Isto torna o desenvolvimento muito mais fácil e produtivo, uma vez que você não precisa ficar se preocupando com os comandos que vão para o banco de dados, já que isto é trabalho do ORM.</description>
+    </item>
+    
+    <item>
+      <title>Melhorando a performance do Entity Framework com NGen</title>
+      <link>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</link>
+      <pubDate>Mon, 21 Apr 2014 18:32:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</guid>
+      <description>Olá pessoal,
+Em um outro post eu falei bem rapidamente sobre o NGen, que serve para pré-compilar os assemblies de um aplicação, fazendo antecipadamente o trabalho do JIT (Just in Time Compiler).
+Só para relembrar um pouco, a figura abaixo mostra o processo de execução de uma aplicação em .Net:
+Em um processo natural de desenvolvimento em .Net, o que acontece é basicamente o que está na figura acima, ou seja, você escreve seu código, compila e depois executa.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio OnLine</title>
+      <link>https://carloscds.net/2014/04/visual-studio-online/</link>
+      <pubDate>Mon, 07 Apr 2014 21:25:57 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/04/visual-studio-online/</guid>
+      <description>Olá pessoal,
+Hoje a Micfrosoft liberou de forma definitiva e para todos, o Visual Studio Online. E o que vem a ser isto, talvez você esteja se perguntando ?
+Há algum tempo atrás, a Microsoft começou com uma iniciativa para colocar o Team Foundation Server, sua plataforma de ALM, na nuvem, e desta assim nasceu o que chamamos hoje de Visual Studio Online, que você pode acessar no site: http://www.visualstudio.com/. Com esta ferramenta você pode ter uma versão do Team Foundation Server completo sem a necessidade de nenhum tipo de servidor em sua empresa.</description>
+    </item>
+    
+    <item>
+      <title>DevChamps-EntityFramework6</title>
+      <link>https://carloscds.net/2014/01/devchamps-entityframework6/</link>
+      <pubDate>Thu, 23 Jan 2014 11:50:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/01/devchamps-entityframework6/</guid>
+      <description>Pessoal,
+Acabei de fazer uma apresentação sobre Entity Framework 6 e uma breve introdução ao uso de EF com MVC e WebAPI para grupo DevChamps da Microsoft. Este é grupo seleto com grandes empresas do mercado e me sinto muito honrado e feliz por ter esta oportunidade!
+Nesta apresentação falei de algumas novidades do Entity Framework 6, e mostrei como utilizar o Scaffold em aplicações MVC e webAPI para integração com o EF.</description>
+    </item>
+    
+    <item>
+      <title>E-book sobre cria&amp;ccedil;&amp;atilde;o de Aplica&amp;ccedil;&amp;otilde;es reais para Azure</title>
+      <link>https://carloscds.net/2014/01/e-book-sobre-criao-de-apps-reais-para-azure/</link>
+      <pubDate>Mon, 13 Jan 2014 23:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/01/e-book-sobre-criao-de-apps-reais-para-azure/</guid>
+      <description>Pessoal,
+Acabou de sair um E-book do Scott Guthrie’s sobre como criar aplicações reais para nuvem usando o Windows Azure. Este livro tem um material excelente e sem dúvida irá ajudá-los no desenvolvimento de aplicações para nuvem.
+Eu tive a felicidade de participar do processo de revisão deste material e vale a pena conferir.
+Para conferir o livro, clica aqui.
+Abraços e até a próxima,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Capturando a tela em Windows Forms</title>
+      <link>https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/</link>
+      <pubDate>Wed, 08 Jan 2014 21:55:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/</guid>
+      <description>Olá pessoal,
+Hoje vou demonstrar como é possível capturar a tela ou até mesmo o conteúdo de um controle e salvá-lo como um Bitmap. Imagine que você tem uma solução de atendimento ao cliente e em algum momento precise capturar a tela do seu usuário e depois anexá-la a algum requisito do software ou tratamento de um bug.
+Claro que existem várias ferramentas prontas para captura de tela, mas vamos ver como é possível, através de um código em C# usando o recurso de Interop e acessando a API do Windows, criar um método reusável que pode ser utilizado para capturar vários tipos de tela no Windows.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework–CodeBase Configuration (Interception)</title>
+      <link>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</link>
+      <pubDate>Mon, 30 Dec 2013 00:06:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</guid>
+      <description>Olá pessoal,
+Uma das novidades do Entity Framework 6 é a possibilidade de fazermos as configurações do nosso modelo usando código ao invés dos tradicionais arquivos de configuração (app.config/web.config). Além disto, temos agora muitas outras configurações que podem ser modificadas através da classe DbConfiguration.
+Dentre as várias opções de configuração que temos através do DbConfiguration, existe uma chamada Interception (veja mais aqui), onde podemos interceptar várias operaçoes que são enviadas ao banco de dados pelo Entity Framework.</description>
+    </item>
+    
+    <item>
+      <title>Melhorando o tempo de carga do Entity Framework com NGEN</title>
+      <link>https://carloscds.net/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</link>
+      <pubDate>Sun, 03 Nov 2013 21:49:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</guid>
+      <description>A partir do Entity Framework 6, todos os componentes do EF estão dentro da DLL EntityFramework.dll e não mais divididas entre vários componentes do .Net Framework. Sendo assim, a DLL do EF não está otimizada para o JIT (Just in Time) do computador onde está sendo rodado, assim como o .Net está.
+Nós podemos melhorar isto executando o comando Ngen.exe, que pré-compila a DLL e elimina este processo durante a carga da DLL.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2013–Novidades</title>
+      <link>https://carloscds.net/2013/10/visual-studio-2013novidades/</link>
+      <pubDate>Sun, 20 Oct 2013 12:12:27 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/10/visual-studio-2013novidades/</guid>
+      <description>Olá pessoal,
+O Visual Studio 2013 será lançado no próximo dia 13/11/2013 (para assinantes do MSDN já está disponível) e junto com esta nova versão temos melhorias muito interessantes na IDE, que tornam o nosso dia a dia ainda mais produtivo.
+Neste post vou mostrar algumas destas novas funcionalidades que eu particularmente uso a todo momento e que ajudam muito no desenvolvimento. Enão vamos lá:
+Peek Definition (ALT F12)
+Imagine que você está escrevendo um método qualquer e precisa verificar um método que está em outra classe, normalmente você pressionar o F2 e olha a classe, e depois volta para o seu código.</description>
+    </item>
+    
+    <item>
+      <title>Palestra de Windows Azure–Cesumar</title>
+      <link>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</link>
+      <pubDate>Thu, 19 Sep 2013 10:07:11 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</guid>
+      <description>Pessoal,
+Ontem (18/09/2013) fiz uma palestra sobre Windows Azure no Cesumar em Maringá, onde mostrei as funcionalides do Azure e como é possível criar e migrar aplicações para a nuvem.
+Gostaria de agradecer ao Clodoaldo Assis pelo convite, ao Cesumar pela oportunidade e principalmente pelas pessoas presentes e pela excelente interação que tivemos ao final da palestra.
+Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse minha página no facebook.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework 6–Gerando Log dos comandos SQL</title>
+      <link>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</link>
+      <pubDate>Mon, 02 Sep 2013 21:31:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</guid>
+      <description>Olá,
+O Entity Framework 6 RC já foi lançado! Agora é a hora de começar a trabalhar na migraçãoda versão 5 para a 6 e ver as novas funcionalidades. As especificações sobre as novas funcionalidades podem ser encontradas aqui.
+Dentre as muitas novidades, que vamos explorar nos post seguintes, hoje vou destacar uma que acho bem interessante: o log dos comandos enviados ao banco de dados.
+Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacional traduz comandos de uma linguagem de programação, no nosso caso C# e LINQ, para comandos de banco de dados.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework 6–Trabalhando com os Nightly Builds</title>
+      <link>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</link>
+      <pubDate>Sun, 18 Aug 2013 18:13:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</guid>
+      <description>Olá pessoal,
+Voltando agora a escrever mais sobre o Entity Framework, estamos aguardando a nova versão 6 (ainda sem data definitiva para ser lançado) que trará melhorias muito significativas e vamos explorar algumas delas nos próximos artigos.
+Antes de qualquer coisa é importante saber que o Entity Framework 6 ainda está em versão Alfa (isto mesmo ALFA), sendo assim não é recompendado utilizar em projetos que já estejam em produção, o que não nos impede de já ir testando algumas coisas bem legais.</description>
+    </item>
+    
+    <item>
+      <title>Analise sua Conta do Windows Azure</title>
+      <link>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</link>
+      <pubDate>Sun, 07 Jul 2013 15:59:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</guid>
+      <description>Pessoal,
+Quem já está usando o Windows Azure e tem necessidade de analisar como anda a conta, precisa baixar o arquivo CSV com os dados de movimentação da conta.
+Este arquivo contém informações sobre todos os serviços que você está utilizando na sua conta, mas é um arquivo texto um pouco complicado de se entender.
+Para resolver isto, eu criei uma ferramenta que permite transformar este arquivo texto em uma informação mais simples de se entender e também possível de ser exportada para um arquivo XML, que pode até ser aberto no Excel.</description>
+    </item>
+    
+    <item>
+      <title>Windows Azure Library</title>
+      <link>https://carloscds.net/2013/05/windows-azure-library/</link>
+      <pubDate>Thu, 30 May 2013 22:02:47 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/05/windows-azure-library/</guid>
+      <description>Pessoal,
+Eu disponibilizei um biblioteca para manipular dados no Windows Azure. Este biblioteca possui exemplos para Blob, Table e Queue, através de classes que podem ser reutilizadas.
+Você pode baixar o código fonte completo com exemplos neste endereço aqui.
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Summit 2013</title>
+      <link>https://carloscds.net/2013/05/visual-studio-summit-2013/</link>
+      <pubDate>Sun, 26 May 2013 23:02:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/05/visual-studio-summit-2013/</guid>
+      <description>Pessoal,
+No último sábado, dia 25/05/2013, aconteceu na sede da Microsoft em SP o Visual Studio Summit 2013. Neste ano tive o prazer de realizar duas palestras: Entity Framework 6 e Debug de Aplicações Windows 8 no Device. As duas palestras também foram repetidas, o que tornou o meu dia um pouco mais intenso!
+Gostaria de agradecer a excelente audiência que tive nas palestras, onde tive salas praticamente lotadas!
+Aqui estão as fotos do eventos que publiquei no Facebook.</description>
+    </item>
+    
+  </channel>
+</rss>
