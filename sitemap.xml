@@ -3,6 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carloscds.net/categories/asp.net/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/c-sharp/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2022/03/configurando-tls/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/dotnet/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/dotnet-core/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/posts/</loc>
+    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/tags/appservice/</loc>
     <lastmod>2021-06-08T22:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,13 +60,6 @@
   
   <url>
     <loc>https://carloscds.net/categories/azure/</loc>
-    <lastmod>2021-06-08T22:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/</loc>
     <lastmod>2021-06-08T22:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,13 +80,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/posts/</loc>
-    <lastmod>2021-06-08T22:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/tags/</loc>
     <lastmod>2021-06-08T22:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,27 +89,6 @@
   <url>
     <loc>https://carloscds.net/tags/time-zone/</loc>
     <lastmod>2021-06-08T22:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/c-sharp/</loc>
-    <lastmod>2021-03-23T22:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/dotnet/</loc>
-    <lastmod>2021-03-23T22:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/dotnet-core/</loc>
-    <lastmod>2021-03-23T22:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -138,13 +152,6 @@
   <url>
     <loc>https://carloscds.net/2020/05/migracaoblog/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/asp.net/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

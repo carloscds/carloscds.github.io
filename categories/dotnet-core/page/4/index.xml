@@ -5,10 +5,23 @@
     <link>https://carloscds.net/categories/dotnet-core/</link>
     <description>Recent content in DotNet Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/dotnet-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ALM Summit 2014</title>
+      <link>https://carloscds.net/2014/09/alm-summit-2014/</link>
+      <pubDate>Mon, 08 Sep 2014 10:33:55 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/09/alm-summit-2014/</guid>
+      <description>Olá pessoal,
+Aconteceu no último dia 30 de agosto de 2014, na sede da Microsoft em São Paulo, mais uma edição do ALM Summit Brasil. Neste ano tive a oportunidade de palestrar sobre os novos recursos de telemetria do Visual Studio Online e Microsoft Azure, o Application Insights.
+Confira as fotos do evento
+Um grande abraço e até a próxima,
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Dapper - Um Micro ORM muito interessante</title>
@@ -229,18 +242,6 @@ Eu disponibilizei um biblioteca para manipular dados no Windows Azure. Este bibl
 Você pode baixar o código fonte completo com exemplos neste endereço aqui.
 []s,
 Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Summit 2013</title>
-      <link>https://carloscds.net/2013/05/visual-studio-summit-2013/</link>
-      <pubDate>Sun, 26 May 2013 23:02:41 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/05/visual-studio-summit-2013/</guid>
-      <description>Pessoal,
-No último sábado, dia 25/05/2013, aconteceu na sede da Microsoft em SP o Visual Studio Summit 2013. Neste ano tive o prazer de realizar duas palestras: Entity Framework 6 e Debug de Aplicações Windows 8 no Device. As duas palestras também foram repetidas, o que tornou o meu dia um pouco mais intenso!
-Gostaria de agradecer a excelente audiência que tive nas palestras, onde tive salas praticamente lotadas!
-Aqui estão as fotos do eventos que publiquei no Facebook.</description>
     </item>
     
   </channel>

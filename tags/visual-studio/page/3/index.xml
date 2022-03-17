@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Palesta sobre Microsoft Open Source no FLISOL de Mar&amp;iacute;lia</title>
+      <link>https://carloscds.net/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</link>
+      <pubDate>Sat, 16 Apr 2016 18:15:35 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</guid>
+      <description>Hoje foi dia de Global Azure Boot Camp, um evento sobre Azure realizado no mundo todo, no mesmo dia. Mas eu tive outra missão este ano, falar sobre Microsoft open source em um evento de software livre, o FLISOL.
+Falar de Microsoft Open Source parece ser algo inimaginável, mas é a pura realidade e hoje mostrei isto na palestra em Marília. Fico muito feliz que tenham gostado da apresentação e principalmente entendido que a Microsoft mudou e muito!</description>
+    </item>
+    
+    <item>
       <title>CodeCracker 1.0</title>
       <link>https://carloscds.net/2016/04/codecracker-1-0/</link>
       <pubDate>Mon, 04 Apr 2016 08:32:14 -0300</pubDate>
@@ -219,19 +229,6 @@ Code Fixer: identifica problemas no código e mostrar possíveis soluções:</de
       <description>Esta semana a Microsoft anunciou o novo Visual Studio 2015 e junto com ele o C# 6 com seu novo compilador, anteriormente conhecido como Roslyn e agora oficialmente chamado de .Net Compiler Platform.
 Com o Roslyn possível termos acesso a estrutura do compilador, sua árvore sintática e também mudar o seu comportamento através de componentes chamados Analyzers.
 Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, participei de um hackaton com o time do compilador Roslyn, onde eu e diversos outros MVPs tivemos a oportunidade de escrever alguns analyzers juntamente com o time do Roslyn e durante este mesmo evento surgiu a idéia de criarmos um projeto Open Source contendo diversos analyzers, totalmente aberto e free, disponível para toda a comunidade de desenvolvedores, nascia então o projeto CodeCracker, naquele momento criamos o time inicial, composto por mim, Giovanni Bassi e o Elemar Junior, todos MVPs de C#.</description>
-    </item>
-    
-    <item>
-      <title>ALM Summit 2014</title>
-      <link>https://carloscds.net/2014/09/alm-summit-2014/</link>
-      <pubDate>Mon, 08 Sep 2014 10:33:55 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/09/alm-summit-2014/</guid>
-      <description>Olá pessoal,
-Aconteceu no último dia 30 de agosto de 2014, na sede da Microsoft em São Paulo, mais uma edição do ALM Summit Brasil. Neste ano tive a oportunidade de palestrar sobre os novos recursos de telemetria do Visual Studio Online e Microsoft Azure, o Application Insights.
-Confira as fotos do evento
-Um grande abraço e até a próxima,
-Carlos dos Santos.</description>
     </item>
     
   </channel>

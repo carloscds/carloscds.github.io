@@ -5,10 +5,22 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Jun 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio Summit 2013</title>
+      <link>https://carloscds.net/2013/05/visual-studio-summit-2013/</link>
+      <pubDate>Sun, 26 May 2013 23:02:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/05/visual-studio-summit-2013/</guid>
+      <description>Pessoal,
+No último sábado, dia 25/05/2013, aconteceu na sede da Microsoft em SP o Visual Studio Summit 2013. Neste ano tive o prazer de realizar duas palestras: Entity Framework 6 e Debug de Aplicações Windows 8 no Device. As duas palestras também foram repetidas, o que tornou o meu dia um pouco mais intenso!
+Gostaria de agradecer a excelente audiência que tive nas palestras, onde tive salas praticamente lotadas!
+Aqui estão as fotos do eventos que publiquei no Facebook.</description>
+    </item>
     
     <item>
       <title>Global Windows Azure Bootcamp – Londrina – Pós Evento</title>
@@ -236,17 +248,6 @@ Carlos dos Santos.</description>
       <description>Pessoal,
 Tenho acompanhado que muitas pessoas estão estudando para tirar alguma tipo de certificação Microsoft. Uma boa dica é usarem os livros Self-Paced, que além de conterem material específico para a prova, têm também um software que simula a prova e que você pode usar para ver como está seu conhecimento, antes de realizar a prova.
 Veja um exemplo de livro aqui no Amazon: http://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401. Este é para a prova de Web do .</description>
-    </item>
-    
-    <item>
-      <title>Palestra sobre Windows Phone em Natal/RN</title>
-      <link>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</link>
-      <pubDate>Mon, 14 Nov 2011 14:20:29 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</guid>
-      <description>Pessoal,
-Semana passada estive em Natal/RN para um encontro de Centrais de Negócios do Sebrae e algo inusitado aconteceu. Tenho um grande amigo que mora em Natal, o Glebe Duarte, que trabalha no Senac. Eu já tinha falado com ele que estaria em Natal, e tínhamos até combinado um bate papo sobre comunidades e tecnologia.
-O mais incrível foi que o Glebe me chamou para fazer uma palestra sobre Windows Phone no Senac, algo que eu nem imaginava quando fúi para lá.</description>
     </item>
     
   </channel>
