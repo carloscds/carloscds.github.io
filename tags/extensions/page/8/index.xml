@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Dicas sobre Visual Studio Team System</title>
+      <link>https://carloscds.net/2010/06/dicas-sobre-visual-studio-team-system/</link>
+      <pubDate>Thu, 03 Jun 2010 23:25:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/dicas-sobre-visual-studio-team-system/</guid>
+      <description>Eu separei três dicas interessantes sobre VSTS 2010 para vocês:
+ Migrando para o TFS 2010 Configurando a análise estática de código Introdução as ferramentas de arquitetura  No mesmo site existem diversas outras dicas sobre o VSTS. Os artigos estão em inglês, mas vale a pena dar uma olhada.
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
       <title>Palestra na Unipar de Paranavaí/PR</title>
       <link>https://carloscds.net/2010/05/palestra-na-unipar-de-paranavaipr/</link>
       <pubDate>Tue, 25 May 2010 02:40:31 -0300</pubDate>
@@ -229,19 +241,6 @@ A convite do Prof. Ricardo Delgado, fizemos uma apresentação sobre Windows 7, 
 Procuramos mostrar um overview de todas as tecnologias, onde ficamos cerca de 3 horas fazendo demonstrações.
 Confiram as fotos:
 []s,</description>
-    </item>
-    
-    <item>
-      <title>Palestra sobre Silverlight</title>
-      <link>https://carloscds.net/2009/11/palestra-sobre-silverlight/</link>
-      <pubDate>Wed, 18 Nov 2009 08:19:23 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/palestra-sobre-silverlight/</guid>
-      <description>Estivemos na empresa Agili Desenvolvimento de Sistema na cidade de Londrina, onde fizemos uma apresentação do Silverlight 3.0 e como a empresa pode aproveitar os benefícios desta plataforma para o desenvolvimento de seus sistemas.
-A palestra foi muito interessante e com muita participação da equipe de desenvovimento da empresa.
-Agrademos o convite e esperamos que a palestra tenha mostrado todo o potencial do Silverlight.Net
-Márcio demonstrando Silverlight.
-Equipe de desenvolvimento da Agili.</description>
     </item>
     
   </channel>

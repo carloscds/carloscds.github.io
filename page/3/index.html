@@ -152,7 +152,7 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">7</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">24</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">90</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -369,6 +369,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/" class="title">Como configurar uma Function para acessar dados no KeyVault</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2022-03-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-03-20</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2022/03/configurando-tls/" class="title">Configurando TLS - Erro de Conexão Subjacente</a>
                     </p>
                     <p class="item-date">
@@ -406,16 +416,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/" class="title">Lendo uma Planilha Excel em C# - MAIS SIMPLES AINDA!</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-01-12 23:15:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-01-12</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -431,6 +431,44 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/"
+    >Qual é a versão do framework de um EXE ou DLL ?</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
+Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/" class="">
+  <time datetime="2019-06-02 22:18:30 -0300 -03" itemprop="datePublished">2019-06-02</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/dotnet/"> DotNet </a>
+  <a class="article-category-link" href="/categories/dotnet-core/"> DotNet Core </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 168words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -669,50 +707,6 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 721words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2018/07/ef-core-lazy-loading/"
-    >EF Core – Lazy Loading</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Olá pessoal,
-Depois um longo tempo sem escrever sobre o EntityFramework, vou retomar com uma série de artigos sobre esta nova versão, o EntityFramework Core.
-Para quem ainda não sabe, o EF Core faz parte do .NET Core, que é multi plataforma.
-Primeiro, vamos precisamos entender que o EF Core é um ORM totalmente novo, criado literalmente do ZERO, e por isto, ainda tem muitas coisas para serem feitas! Lembrando ainda que o EntityFramework 6 continua existindo como parte do .
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2018/07/ef-core-lazy-loading/" class="">
-  <time datetime="2018-07-02 13:27:40 -0300 -03" itemprop="datePublished">2018-07-02</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/dotnet-core/"> DotNet Core </a>
-  <a class="article-category-link" href="/categories/entityframework-core/"> EntityFramework Core </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/entityframework-core/"> EntityFramework Core </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2018/07/ef-core-lazy-loading/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 713words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
       </p>
     </article></div>

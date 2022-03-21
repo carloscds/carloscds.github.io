@@ -5,10 +5,20 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como configurar uma Function para acessar dados no KeyVault</title>
+      <link>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</guid>
+      <description>Você já esta usando o conceito de Serverless em suas aplicações ? Se ainda não está, recomendo que dê uma olhada no Azure Functions, uma funcionalidade do Azure que permite trabalhar com o conceito de programação orientada a eventos, ou seja, seu código pode ser acionado por um serviço externo, através de mensagens, arquivos no blob, entre outros. Mais detalhes sobre Functions você encontra aqui: https://docs.microsoft.com/pt-br/azure/azure-functions/functions-overview.
+Azure KeyVault Agora vamos pensar em segurança, onde guardamos as configurações da nossa aplicação ?</description>
+    </item>
     
     <item>
       <title>Configurando TLS - Erro de Conexão Subjacente</title>
@@ -228,17 +238,6 @@ A primeira delas é a nova pagina inicial, agora bem mais simples:
 Somente 4 opções (lado direito) e a lista dos últimos projetos abertos.
 Ao criar um novo projeto, temos uma nova tela::
 Eu, particularmente, gostei desta nova tela, onde você tem alguns filtros, como : linguagem, tipo de projeto, plataforma e também a busca por nome.</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework asNoTracking - Por que preciso saber disto ?</title>
-      <link>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</link>
-      <pubDate>Sun, 02 Dec 2018 19:05:49 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</guid>
-      <description>Fala pessoal,
-Esta semana me deparei com um problema em um cliente que é bem comum, e causa muito transtorno, pois envolve muito o conceito de como o EF trabalha.
-Quando você cria um contexto para o EF e indica as classes do mapeamento, basicamente diz a ele que todos os objetos deverão ser rastreados, ou seja, o simples fato de você criar um objeto ou ler a partir do contexto, coloca este objeto sobre o controle do EF.</description>
     </item>
     
   </channel>
