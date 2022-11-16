@@ -31,6 +31,13 @@
   </url>
   
   <url>
+    <loc>https://carloscds.net/</loc>
+    <lastmod>2022-03-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/categories/asp.net/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -46,13 +53,6 @@
   
   <url>
     <loc>https://carloscds.net/2022/03/configurando-tls/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/dotnet/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -145,6 +145,13 @@
   <url>
     <loc>https://carloscds.net/categories/visual-studio/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/dotnet/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -493,13 +500,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/windows/</loc>
-    <lastmod>2016-08-07T21:38:20-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/categories/windows-10/</loc>
     <lastmod>2016-08-07T21:38:20-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -696,13 +696,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/tags/msdn/</loc>
-    <lastmod>2014-11-16T18:02:58-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/tags/msdnc#/</loc>
     <lastmod>2014-11-16T18:02:58-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -773,13 +766,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/tags/ef-codefirst/</loc>
-    <lastmod>2014-04-21T19:34:06-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/tags/ef-codefirst-ef/</loc>
     <lastmod>2014-04-21T19:34:06-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -796,6 +782,13 @@
   <url>
     <loc>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</loc>
     <lastmod>2014-04-21T18:32:40-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/tags/msdn/</loc>
+    <lastmod>2014-04-07T21:25:57-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -838,6 +831,13 @@
   <url>
     <loc>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</loc>
     <lastmod>2013-12-30T00:06:34-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/tags/ef-codefirst/</loc>
+    <lastmod>2013-11-03T21:49:43-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1550,13 +1550,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/</loc>
-    <lastmod>2010-01-21T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/videos/</loc>
     <lastmod>2010-01-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1607,6 +1600,13 @@
   
   <url>
     <loc>https://carloscds.net/2009/12/skydrive-explorer/</loc>
+    <lastmod>2009-12-13T11:18:02-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/windows/</loc>
     <lastmod>2009-12-13T11:18:02-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

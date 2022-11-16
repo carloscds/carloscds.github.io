@@ -23,7 +23,7 @@
     <meta name="description" content="Fala pessoal,
 Esta semana me deparei com um problema em um cliente que é bem comum, e causa muito transtorno, pois envolve muito o conceito de como o EF trabalha.
 Quando você cria um contexto para o EF e indica as classes do mapeamento, basicamente diz a ele que todos os objetos deverão ser rastreados, ou seja, o simples fato de você criar um objeto ou ler a partir do contexto, coloca este objeto sobre o controle do EF." />
-    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
     <title>EntityFramework asNoTracking - Por que preciso saber disto ? - Carlos dos Santos</title>
     
     
@@ -150,7 +150,7 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
                 </a>
             </li>
             <li class="menu-item menu-item-videos">
-                <a href="/videos/">
+                <a href="https://youtube.com/carloscds10">
                     <i class="icon icon-book-fill"></i>
                   <span class="menu-title">Videos</span>
                 </a>
@@ -592,7 +592,7 @@ Categories_58C84246D9EE9DEB30950140620833728474B6132D2BC59BD4306359B33CE2A1, Unc
 <p>Sendo assim, se enviarmos um comando SaveChanges() e tivermos mudados os dois objetos, mesmo &ldquo;sem querer&rdquo;, este serão enviados para o banco!</p>
 <p><strong>E como resolvemos isto ???</strong></p>
 <p>Exitem várias maneiras de resolvermos, e talvez a primeira que vem a sua cabeça é &ldquo;vamos instanciar outro contexto&rdquo;, mas se eu fizer isto, qual o benefício da injeção de dependência neste caso ?</p>
-<p>Para este tipo de situação temos o método &ldquo;AsNoTracking()&quot;, que em termos bem simples diz ao contexto para não mapear o objeto!</p>
+<p>Para este tipo de situação temos o método &ldquo;AsNoTracking()&rdquo;, que em termos bem simples diz ao contexto para não mapear o objeto!</p>
 <p>Então vamos criar um outro método GetNoTracking() implementando esta chamada:</p>
 <pre><code class="language-csharp">using System;
 using System.Collections.Generic;
@@ -690,7 +690,7 @@ Carlos dos Santos.</p>
             </li>
         </ul>
         <div class="bar-right">
-            <div class="share-component" data-sites="facebook,twitter,linkedin"
+            <div class="share-component" data-sites="facebook,twitter,linkedin, youtube"
                 data-mobile-sites=""></div>
         </div>
     </div>
@@ -706,6 +706,8 @@ Carlos dos Santos.</p>
             <i class="icon icon-rss"></i></a></li>
     <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
             <i class="icon icon-twitter"></i></a></li>
+    <li><a href="https://youtube.com/carloscds10" target="_blank" title="youtube" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-youtube"></i></a></li>
 </ul>
   <div class="copyright">
     &copy;2008  -
