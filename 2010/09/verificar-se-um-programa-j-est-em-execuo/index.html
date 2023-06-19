@@ -22,7 +22,16 @@
     
     <meta name="description" content="Pessoal, neste post sobre C# básico, vou mostrar como identificar se um programa já está em execução. Vamos aproveitar também ver como listar todos os programas que estão em execução no computador.
 Para começar, crie um projeto em C# do tipo Console Application e logo em seguida vamos modificar o program.cs conforme abaixo:
-static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &amp;gt; 1){Console.WriteLine(&amp;quot;Programa em execução&amp;quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa." />
+static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &amp;gt; 1){Console.WriteLine(&amp;quot;Programa em execução&amp;quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa." />// Clarity
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "hmg2a17ahy");
+    </script>
+
+    
     <meta name="generator" content="Hugo 0.72.0 with theme pure" />
     <title>Verificar se um programa já está em execução - Carlos dos Santos</title>
     
@@ -605,7 +614,7 @@ foreach(var proc in Process.GetProcesses())
 </ul>
   <div class="copyright">
     &copy;2008  -
-    2022
+    2023
     
   </div>
 </footer>
