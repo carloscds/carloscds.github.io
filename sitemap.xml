@@ -1039,13 +1039,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/entity-framework/</loc>
-    <lastmod>2012-06-07T13:15:29-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/2012/02/entity-framework-4-3-lanado/</loc>
     <lastmod>2012-02-10T09:41:18-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1055,6 +1048,13 @@
   <url>
     <loc>https://carloscds.net/2012/02/nova-verso-do-debugger-canvas/</loc>
     <lastmod>2012-02-05T19:22:47-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/entity-framework/</loc>
+    <lastmod>2012-01-31T00:20:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
