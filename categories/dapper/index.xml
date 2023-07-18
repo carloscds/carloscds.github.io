@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dapper on Carlos dos Santos</title>
+    <link>https://carloscds.net/categories/dapper/</link>
+    <description>Recent content in Dapper on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 07 Sep 2014 17:46:32 -0300</lastBuildDate>
+    
+        <atom:link href="https://carloscds.net/categories/dapper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EntityFramework Core - Inicio (de novo)</title>
+      <link>https://carloscds.net/2023/07/entityframeworkcore-inicio/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/07/entityframeworkcore-inicio/</guid>
+      <description>Durante muito tempo eu publiquei muito conteúdo sobre EntityFramework (EF), muito antes da versão Core surgir, e durante muito tempo depois desta nova versão eu apenas acompanhei o desenvolvimento, até que na versão 3.1, o EF Core ficou realmente bom para uso em grandes projetos, com a produção de queries &amp;ldquo;muito limpas&amp;rdquo; para o banco de dados. Neste ponto voltei a colocar o EF nos meus projetos.
+Mas antes de contonuar, precisamos fazer uma explicação para você que &amp;ldquo;ainda&amp;rdquo; acha que o EntityFramework é um ORM ruim.</description>
+    </item>
+    
+    <item>
+      <title>Como configurar uma Function para acessar dados no KeyVault</title>
+      <link>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</guid>
+      <description>Você já esta usando o conceito de Serverless em suas aplicações ? Se ainda não está, recomendo que dê uma olhada no Azure Functions, uma funcionalidade do Azure que permite trabalhar com o conceito de programação orientada a eventos, ou seja, seu código pode ser acionado por um serviço externo, através de mensagens, arquivos no blob, entre outros. Mais detalhes sobre Functions você encontra aqui: https://docs.microsoft.com/pt-br/azure/azure-functions/functions-overview.
+Azure KeyVault Agora vamos pensar em segurança, onde guardamos as configurações da nossa aplicação ?</description>
+    </item>
+    
+    <item>
+      <title>Configurando TLS - Erro de Conexão Subjacente</title>
+      <link>https://carloscds.net/2022/03/configurando-tls/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/configurando-tls/</guid>
+      <description>Estamos passando por grandes mudanças na segurança da web, onde a maioria dos serviços tem atualizado o TLS (Transport Layer Security), que garante a proteção os dados nas comunicações HTTPS.
+O Problema da Conexão Subjacente Desta maneira, aplicações que se comunicam via web podem começar a apresentar um erro chamado &amp;ldquo;Conexão Subjacente fechada&amp;rdquo;, o que não é muito intuitivo, mas isto significa que a sua aplicação pode estar usando uma versão mais antiga do TLS.</description>
+    </item>
+    
+    <item>
+      <title>Configurando o horário de um App Service em Linux no Azure</title>
+      <link>https://carloscds.net/2021/06/app-services-horario/</link>
+      <pubDate>Tue, 08 Jun 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/06/app-services-horario/</guid>
+      <description>Olá pessoal,
+Estes dias estava configurando um App Service para uma nova API que construimos e precisava deixar o fuso horario do Brasil (GMT -3), lembrando que o Azure trabalha no GMT 0.
+Até aí tudo bem, existem vários tutoriais na web explicando isto, mas problema é que existe uma diferença entre um App Service rodando em Windows e outro rodando em Linux.
+Configuração muda de acordo com o Sistema Operacional Quando o App Service esta configurado para Windows, você ajusta a seguinte propriedade na Configuracação do servico.</description>
+    </item>
+    
+    <item>
+      <title>Inspecionando as Consultas do Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</link>
+      <pubDate>Tue, 23 Mar 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</guid>
+      <description>Olá pessoal,
+Você que é um usuário de EntityFramework, já parou para olhar as queries que são geradas no banco ? Eu sempre faço esta pergunta em empresas que atendo e a resposta na grande maioria das vezes é: NÃO.
+Sempre ouço: o EntityFramework resolve isto para mim! Ele sabe como criar o melhor comando SQL para o banco, e muitas outras respostas!
+Mas a grande verdade é que o EntityFramework não faz milagres!</description>
+    </item>
+    
+    <item>
+      <title>Datas Estranhas no Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</link>
+      <pubDate>Mon, 22 Mar 2021 21:30:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</guid>
+      <description>Olá pessoal,
+Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
+Problema O que acontece se você submeter uma consulta do tipo:
+select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?</description>
+    </item>
+    
+    <item>
+      <title>Lendo uma Planilha Excel em C# - MAIS SIMPLES AINDA!</title>
+      <link>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</link>
+      <pubDate>Tue, 12 Jan 2021 23:15:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</guid>
+      <description>Olá pessoal,
+Em 2009 eu escrevi um artigo que até hoje é muito acessado no meu blog, se trata de como ler uma planilha Excel em C#. Claro que muita coisa mudou desde então, mas ainda hoje este código funciona e ajuda muita gente.
+Mas será que não dá para melhorar? Sempre dá&amp;hellip;
+Vamos falar do ClosedXML O componente ClosedXML pode ser encontrado no Nuget e funciona tanto em aplicações .</description>
+    </item>
+    
+    <item>
+      <title>Gerar uma classe a partir de um Json no Visual Studio</title>
+      <link>https://carloscds.net/2020/06/past-json/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/06/past-json/</guid>
+      <description>Fala pessoal,
+Hoje é muito comum trabalharmos com APIs e sempre precisamos criar classes para receber os dados serializados. A dica então é bem simples!
+O Visual Studio tem um recurso chamado &amp;ldquo;Paste JSON as Classes&amp;rdquo; que pega o conteúdo da area de transferência e cola como uma classe:
+Agora vamos acessar uma API que retorna dados em Json, por exemplo esta API que retorna a previsão do tempo: http://worldtimeapi.org/api/timezone/America/Sao_Paulo</description>
+    </item>
+    
+    <item>
+      <title>NuKeeper - mantenha seus pacotes atualizados</title>
+      <link>https://carloscds.net/2020/06/nukeeper/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/06/nukeeper/</guid>
+      <description>Todos nós usamos diversos pacotes em nossas aplicações, até mesmo partes essenciais dos projetos estão em pacotes hoje em dia! Ai vem o grande desafio, como manter isto tudo atualizado, e principalmente, como descobrir o que precisa ser atualizado ?
+Conheça o NuKepper O Nukeeper é um &amp;ldquo;atualizador&amp;rdquo; de pacotes, que como o site do GitHub diz: &amp;ldquo;Ele Automagicamente&amp;rdquo; atualiza seus pacotes.
+MAs atualizar pacotes pode ser perigoso, não é? Então você pode usar o NuKeeper para mostrar quais pacotes estão desatualizados, e há quanto tempo!</description>
+    </item>
+    
+    <item>
+      <title>Migração do Blog para Markdown</title>
+      <link>https://carloscds.net/2020/05/migracaoblog/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/05/migracaoblog/</guid>
+      <description>Fala pessoal,
+Hoje conclui a migração do meu blog para Markdown com https://gohugo.io/, transformando todo o conteúdo em estático.
+Há muitos anos que o meu blog está em Wordpress, mas estava muito lento, então resolvi modernizar e migrar tudo para markdown.
+Infelizmente nao conseguir migrar comentários dos posts, mas agora instalei o https://disqus.com/ e todos os comentários ficarão centralizados!
+[]s.</description>
+    </item>
+    
+    <item>
+      <title>Injeção de Dependência em C# - Bônus</title>
+      <link>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</guid>
+      <description>No último artigo desta série, vou mostrar duas coisas bem simples: primeiro como usar o EntityFramework Core em memória e como invocar uma dependência injetada sem usar o construtor da classe!
+Mas porque você não iria injetar a dependência no construtor, como eu mostrei nos artigos anteriores? Bom, as vezes é necessário usarmos mecanismo alternativos para simplificar o desenvolvimento e termos acesso aos objetos!!!
+EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um atraso muito grande no desenvolvimento do EF Core, eu acabei utilizando outros ORMs em projetos.</description>
+    </item>
+    
+    <item>
+      <title>Injeção de Dependência em C# – Parte 2</title>
+      <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</link>
+      <pubDate>Tue, 25 Feb 2020 01:10:29 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</guid>
+      <description>Na parte 1 desta série falamos sobre como funciona a injeção de dependência e até criamos um exemplo usando NInject. um famoso mecanismo de DI (depency injection).
+Neste artigo vamos falar como o ASP.NET Core revolucionou a injeção de dependência, incorporando este mecanismo ao seu núcleo. Isto significa que agora já temos o mecanismo nativamente implementado, sem a necessidade de uma ferramenta de terceiros.
+Uma outra coisa interessante sobre este mecanismo no ASP.</description>
+    </item>
+    
+    <item>
+      <title>Injeção de Dependência em C# - Parte 1</title>
+      <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/</link>
+      <pubDate>Thu, 13 Feb 2020 23:16:24 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/</guid>
+      <description>Olá,
+Hoje em dia muito se tem se falado muito em injeção de dependência, principalmente se você desenvolve ou está começando a desenvolver com ASP.NET Core.
+Mas que realmente significa &amp;ldquo;injetar&amp;rdquo; uma dependência e o que é a tal dependência?
+Conceito Injeção de dependência é um padrão de projeto que permite baixo acoplamento do código!
+Ai você se pergunta, mas o que é acoplamento do código? Sendo bem simplista, é um código que possui uma alta dependência de um outro código, onde o relacionamento entre os dois é muito forte!</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET Core: Minhas Views sumiram no publish?</title>
+      <link>https://carloscds.net/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</link>
+      <pubDate>Sun, 15 Sep 2019 19:49:16 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</guid>
+      <description>Você é do tipo que as vezes muda o conteúdo de uma view no ambiente de produção ?
+Isto pode ser algo &amp;ldquo;questionável&amp;rdquo;, mas é também muito útil se você precisa fazer um pequeno ajuste na parte visual na aplicação.
+Eu já precisei mudar códigos JavaScript nas páginas em uma aplicação onde não poderia executar uma nova publicação, e esta facilidade me poupou muito tempo!
+Mas uma mudança feita no ASP.</description>
+    </item>
+    
+    <item>
+      <title>Você já ouviu falar em Self Contained Application?</title>
+      <link>https://carloscds.net/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</link>
+      <pubDate>Tue, 16 Jul 2019 23:10:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</guid>
+      <description>Se você desenvolve em .NET provavelmente já se perguntou se tudo o que é preciso para a sua aplicação funcionar está na pasta de publicação, certo ? Normalmente temos dezenas, as vezes centenas de DLLs que precisamos levar para o ambiente de produção, e esquecer uma delas pode ser um caos total!
+Bom, se você já está desenvolvendo para .NET Core isto está sendo resolvido de uma forma muito interessante: Bem vindo ao Self Contained App.</description>
+    </item>
+    
+    <item>
+      <title>Qual é a versão do framework de um EXE ou DLL ?</title>
+      <link>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</link>
+      <pubDate>Sun, 02 Jun 2019 22:18:30 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
+      <description>Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
+Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?</description>
+    </item>
+    
+    <item>
+      <title>IT Pros, onde vocês guardam os seus scripts ?</title>
+      <link>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
+      <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
+      <description>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &amp;ldquo;caras do TI&amp;rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &amp;ldquo;Eu guardo lá em um HD no meu PC&amp;rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.
+Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &amp;ldquo;Eu controlo as mudanças em uma planilha!</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET Core dá para usar ?</title>
+      <link>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</link>
+      <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</guid>
+      <description>Esta semana aconteceu algo interessante. Tenho um projeto hospedado em um host, que por sinal é muito eficiente, mas me surpreendeu quando perguntei se eles suportavam ASP.NET Core!
+A resposta foi &amp;ldquo;nosso técnico disse que o ASP.NET Core ainda não é estável&amp;rdquo;
+Isto me deixou surpreso e ao mesmo tempo intrigado, pois a plataforma .NET Core já existe há alguns anos e vem melhorando e supreendendo a cada dia! Basta olharmos os números!</description>
+    </item>
+    
+    <item>
+      <title>Crie um site estático usando Azure Storage</title>
+      <link>https://carloscds.net/2019/01/crie-um-site-estatico-usando-azure-storage/</link>
+      <pubDate>Mon, 21 Jan 2019 22:40:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/01/crie-um-site-estatico-usando-azure-storage/</guid>
+      <description>Olá, é isto mesmo que você leu! Agora é possível criar um site estático a partir de uma Storage no Azure.
+Sem dúvida você já precisou colocar apenas arquivos HTML, Javacript, CSS e Imagens para subir um site, certo! Agora isto é possível com este novo recurso, ainda em Preview!
+Criando uma Storage:
+O primeiro passo é você criar uma Storage. Para isto vá até o portal do Azure em Create Resource (Criar Recurso).</description>
+    </item>
+    
+    <item>
+      <title>C# 8 Range Index</title>
+      <link>https://carloscds.net/2019/01/c-8-range-index/</link>
+      <pubDate>Sun, 06 Jan 2019 21:40:26 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/01/c-8-range-index/</guid>
+      <description>No post anterior eu falei um pouco sobre o Visual Studio 2019 Preview, que alias, eu já estou utilizando para trabalhar em alguns projetos.
+Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
+Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
+Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configurar o C# para versão 8, veja abaixo:</description>
+    </item>
+    
+  </channel>
+</rss>

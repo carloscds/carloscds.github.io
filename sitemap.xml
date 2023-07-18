@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carloscds.net/categories/c#/</loc>
+    <loc>https://carloscds.net/categories/c-sharp/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -53,13 +53,6 @@
   
   <url>
     <loc>https://carloscds.net/categories/asp.net/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/c-sharp/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -304,13 +297,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/entity-framework/</loc>
-    <lastmod>2018-12-02T19:05:49-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</loc>
     <lastmod>2018-12-02T19:05:49-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -319,6 +305,13 @@
   
   <url>
     <loc>https://carloscds.net/2018/07/ef-core-lazy-loading/</loc>
+    <lastmod>2018-07-02T13:27:40-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/tags/entityframework/</loc>
     <lastmod>2018-07-02T13:27:40-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -752,14 +745,14 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</loc>
+    <loc>https://carloscds.net/categories/dapper/</loc>
     <lastmod>2014-09-07T17:46:32-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/orm/</loc>
+    <loc>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</loc>
     <lastmod>2014-09-07T17:46:32-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -830,13 +823,6 @@
   
   <url>
     <loc>https://carloscds.net/2014/01/devchamps-entityframework6/</loc>
-    <lastmod>2014-01-23T11:50:34-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/tags/entity-framework/</loc>
     <lastmod>2014-01-23T11:50:34-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1018,6 +1004,13 @@
   </url>
   
   <url>
+    <loc>https://carloscds.net/tags/entity-framework/</loc>
+    <lastmod>2012-07-15T22:20:07-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/2012/07/entity-framework-code-firstmigrations/</loc>
     <lastmod>2012-07-15T22:20:07-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1040,6 +1033,13 @@
   
   <url>
     <loc>https://carloscds.net/2012/06/academia-de-entity-framework-4/</loc>
+    <lastmod>2012-06-07T13:15:29-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/entity-framework/</loc>
     <lastmod>2012-06-07T13:15:29-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

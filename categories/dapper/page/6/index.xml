@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dapper on Carlos dos Santos</title>
+    <link>https://carloscds.net/categories/dapper/</link>
+    <description>Recent content in Dapper on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 07 Sep 2014 17:46:32 -0300</lastBuildDate>
+    
+        <atom:link href="https://carloscds.net/categories/dapper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entity Framework com Oracle</title>
+      <link>https://carloscds.net/2012/01/entity-framework-com-oracle/</link>
+      <pubDate>Wed, 04 Jan 2012 22:29:16 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/01/entity-framework-com-oracle/</guid>
+      <description>A Oracle acabou de lancar seu provider nativo para o Entity Framework, a versão ODAC 11.2. Agora você já pode acessar nativamente o Oracle com o EF, facilitando o desenvolvimento através do mapeamento objeto relacional.
+Para baixar acesse os links abaixo:
+Usando EF com Oracle: http://www.oracle.com/technetwork/issue-archive/2011/11-sep/o51odt-453447.html
+Provider 32 bits: http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
+Provider 64 bits: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
+ []s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Provas de Certificação</title>
+      <link>https://carloscds.net/2011/12/provas-de-certificao/</link>
+      <pubDate>Wed, 07 Dec 2011 15:53:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/12/provas-de-certificao/</guid>
+      <description>Pessoal,
+Tenho acompanhado que muitas pessoas estão estudando para tirar alguma tipo de certificação Microsoft. Uma boa dica é usarem os livros Self-Paced, que além de conterem material específico para a prova, têm também um software que simula a prova e que você pode usar para ver como está seu conhecimento, antes de realizar a prova.
+Veja um exemplo de livro aqui no Amazon: http://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401. Este é para a prova de Web do .</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Windows Phone em Natal/RN</title>
+      <link>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</link>
+      <pubDate>Mon, 14 Nov 2011 14:20:29 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</guid>
+      <description>Pessoal,
+Semana passada estive em Natal/RN para um encontro de Centrais de Negócios do Sebrae e algo inusitado aconteceu. Tenho um grande amigo que mora em Natal, o Glebe Duarte, que trabalha no Senac. Eu já tinha falado com ele que estaria em Natal, e tínhamos até combinado um bate papo sobre comunidades e tecnologia.
+O mais incrível foi que o Glebe me chamou para fazer uma palestra sobre Windows Phone no Senac, algo que eu nem imaginava quando fúi para lá.</description>
+    </item>
+    
+    <item>
+      <title>Curso de C# no IFPR</title>
+      <link>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</link>
+      <pubDate>Mon, 03 Oct 2011 20:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</guid>
+      <description>Nos dias 14 e 15 de setembro eu ministrei um curso básico de C# para os alunos do curso técnico do Instituto Federal do Paraná (www.ifpr.edu.br) a convite do Prof. Rodolfo Barrivieira.
+Neste treinamento os alunos tiveram a oportunidade de conhecer a plataforma Microsoft.Net e o Visual Studio 2010, num total de 8 horas de curso.
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>TechEd 2011–Palestra Entity Framework</title>
+      <link>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</link>
+      <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</guid>
+      <description>Pessoal,
+Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
+    </item>
+    
+    <item>
+      <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
+      <link>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</link>
+      <pubDate>Sun, 02 Oct 2011 20:14:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</guid>
+      <description>Pessoal,
+Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
+Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
+Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.</description>
+    </item>
+    
+    <item>
+      <title>EF Code First-Acessando Stored Procedures</title>
+      <link>https://carloscds.net/2011/08/ef-code-first-acessando-stored-procedures/</link>
+      <pubDate>Sat, 20 Aug 2011 22:07:01 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/08/ef-code-first-acessando-stored-procedures/</guid>
+      <description>Olá,
+Vou iniciar este post informando que o Entity Framework Code First não tem suporte nativo para Stored Procedures, ainda!!!
+Mas se não é suportado nativamente, então como é possível acessá-las ? Através do método SqlQuery() do contexto, mas existe um inconveniente: o acesso fica vinculado ao banco de dados, ou seja, para cada banco de dados o acesso é feito de uma maneira, mesmo porquê cada banco tem uma maneira específica de chamar e tratar os parâmetros das stored procedures.</description>
+    </item>
+    
+    <item>
+      <title>EF CodeFirst–Gerenciando as Strings de Conexão</title>
+      <link>https://carloscds.net/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</link>
+      <pubDate>Mon, 08 Aug 2011 22:21:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</guid>
+      <description>Olá,
+Hoje vamos falar um pouco sobre o gerenciamento de string de conexões no Entity Framework Code First, uma maneira muito simples e rápida de criar um mapeamento objeto relacional em C# com o Visual Studio 2010.
+Se você ainda não conhece o EF CodeFirst, veja este post e também o Blog do time de ADO.Net.
+O que vou tratar neste post é como podemos armazenar as strings de conexão e os providers que permitem o acesso do EF ao nosso banco de dados.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Debugger Canvas</title>
+      <link>https://carloscds.net/2011/06/visual-studio-debugger-canvas/</link>
+      <pubDate>Tue, 21 Jun 2011 21:43:50 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/06/visual-studio-debugger-canvas/</guid>
+      <description>Olá,
+Acaba de ser lançado um recurso muito legal para o Visual Studio 2010 Ultimate, o Debugger Canvas, que é uma maneira mais visual de fazer debug de suas aplicações.
+Normalmente, ao fazer debug de uma aplicação, você executa e vai percorrendo linha a linha, entrando e saindo de rotinas dentro do código e depois de algum tempo, você acaba com diversas janelas abertas no Visual Studio.
+Agora imagine que ao fazer o debug, os diferentes códigos fontes vão se abrindo e se relacionando, formando um caminho percorrido pelo fluxo de execução, mais visual, não serial muito bom ?</description>
+    </item>
+    
+    <item>
+      <title>Palestra no Cesumar</title>
+      <link>https://carloscds.net/2011/05/palestra-no-cesumar/</link>
+      <pubDate>Sat, 21 May 2011 21:32:58 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/palestra-no-cesumar/</guid>
+      <description>Pessoal,
+hoje fizemos uma palestra no Cesumar em Maringá. O Vladimir Rech mandou muito bem no C# básico e depois eu finalizei com vantagens da plataforma, mercado de trabalho e como é possível começar um negócio usando a plataforma Microsoft.
+Vejam as fotos:
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Code First Power Tools CTP1</title>
+      <link>https://carloscds.net/2011/05/entity-framework-code-first-power-tools-ctp1/</link>
+      <pubDate>Thu, 19 May 2011 09:54:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/entity-framework-code-first-power-tools-ctp1/</guid>
+      <description>Pessoal,
+A Microsoft acabou de lancar o Power Tools para o EF Code First. Com este pacote é possível ler um banco de dados existente e gerar todas as classes, muito interessante se você já tem um banco e quer usar o EF Code First.
+O pacote pode ser instalado via Extension Manager do Visual Studio 2010. Maiores informações neste link: http://blogs.msdn.com/b/adonet/archive/2011/05/18/ef-power-tools-ctp1-released.aspx
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Java SDK para TFS</title>
+      <link>https://carloscds.net/2011/05/java-sdk-para-tfs/</link>
+      <pubDate>Mon, 16 May 2011 08:41:22 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/java-sdk-para-tfs/</guid>
+      <description>Para você que desenvolve em Java e gostaria de acessar o TFS via programação, a Microsoft acaba de lancar o Java SDK para TFS, que permite criar aplicações em Java para acesso aos recursos do TFS.
+É um recurso muito interessante e permite, por exemplo, integrar aplicações de atendimento e controle de desenvolvimento ao TFS, de uma maneira simples e nativa.
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Impressão Matricial 2.0</title>
+      <link>https://carloscds.net/2011/05/impresso-matricial-2-0/</link>
+      <pubDate>Mon, 02 May 2011 21:59:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/impresso-matricial-2-0/</guid>
+      <description>Para quem já conhecia o componente de impressão matricial, eu fiz um update nele e agora é possível usar em Windows 7. Estou também fornecendo os fontes do componente para aqueles que queiram estudar e aprimorar.
+O link para o novo componente é: http://code.msdn.microsoft.com/Impresso-Matricial-20-cb6579af
+Áté a próxima,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Visual Studio e Mercado de Trabalho</title>
+      <link>https://carloscds.net/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</link>
+      <pubDate>Sun, 10 Apr 2011 14:50:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</guid>
+      <description>Na última sexta-feira (08/04/2011) estive no Instituto Federal Tecnológico do Paraná (http://www.ifpr.edu.br/) para ministrar uma palestra para os alunos do curso técnico em informática.
+Neste evento falei sobre o Visual Studio 2010 e a linguagem C# para a criação de aplilcações Windows, WPF, Silverlight e Windows Phone, mostrando todo o ppotencial da plataforma .Net.
+Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano e principalmente da importância da capacitação para quem quer uma vaga no mercado.</description>
+    </item>
+    
+    <item>
+      <title>MSDN Library em Português (MSDN WIKI)</title>
+      <link>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</link>
+      <pubDate>Thu, 07 Apr 2011 16:05:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</guid>
+      <description>Pessoal,
+A MSDN Library é um importante recurso para todos os desenvolvedores da plataforma Microsoft .Net e somo muito gratos por tê-la em portugês (PT-BR), pois nem todos tem o domínio do inglês, principalmente enquanto iniciante em desenvolvimento de software.
+Mas você já pensou em contribuir com a biblioteca, deixando-a melhor ainda ? Você pode se tornar um contribuidor do MSDN, sugerindo novos termos para a tradução, o que deixaria a biblioteca ainda mais com a cara do Brasil.</description>
+    </item>
+    
+    <item>
+      <title>Começe a Desenvolver no Azure agora mesmo!</title>
+      <link>https://carloscds.net/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</link>
+      <pubDate>Tue, 22 Mar 2011 18:53:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</guid>
+      <description>Pessoal,
+Estou com vários promocodes para acesso ao Azure, vejam site. Não precisa de cartão de crédito, simples e rápido para ativar.
+Caso alguem queira começar a desenvolver no Windows Azure, entre em contato comigo pelo twitter: @cdssoftware que fornceço o passcode.
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Como se tornar um desenvolvedor oficial de Windows Phone 7</title>
+      <link>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</link>
+      <pubDate>Mon, 21 Mar 2011 16:49:45 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</guid>
+      <description>Olá pessoal,
+Hoje vou mostrar como você pode se cadastrar para se tornar um desenvolvedor oficial de aplicações para Windows Phone 7. Mas por quê me cadastrar lá ? Simples, você pode criar um aplicativo que pode ser baixado em qualquer lugar do mundo, então imagine as possibilidades.
+Bom, vamos lá:
+ Acesse o site do AppHub com um Live ID (pode ser do seu MSN);  Neste site você também pode baixar as ferramentas de desenvolvimento.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2010 Service Pack 1</title>
+      <link>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</link>
+      <pubDate>Wed, 09 Mar 2011 21:46:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</guid>
+      <description>Pessoal,
+Já está disponível o SP1 do Visual Studio 2010 com diversas melhorias, como suporte a Silverlight 4, HTML 5, teste de performace para Silverlight, IIS Express, suporte a Razor, melhorias no editor XAML, entre diversas correções de problemas (veja lista completa do SP1 aqui).
+Está também disponível o SP1 do Team Foundation Server com diversas melhorias, o link para download é o mesmo do VS2010 (veja lista completa do SP1 aqui).</description>
+    </item>
+    
+    <item>
+      <title>Usando Tuples em C#–retornando vários parâmetros de um método</title>
+      <link>https://carloscds.net/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</link>
+      <pubDate>Mon, 07 Feb 2011 21:53:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</guid>
+      <description>Olá pessoal,
+Uma das coisas interessantes da linguagem C# é a quantidade de opções que temos para resolver o problemas do nosso dia a dia. Um caso interessante e bem comum é termos a necessidade de passar vários parâmetros para um método e às vezes também retornar vários parâmetros, e é bem provável que você se utilize de artifícios como parâmetros de saída (out) ou referência (ref).
+Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description>
+    </item>
+    
+    <item>
+      <title>Integrando Apple XCode com TFS 2010</title>
+      <link>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</link>
+      <pubDate>Wed, 29 Dec 2010 11:01:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</guid>
+      <description>Pessoal,
+Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
+Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
+    </item>
+    
+  </channel>
+</rss>
