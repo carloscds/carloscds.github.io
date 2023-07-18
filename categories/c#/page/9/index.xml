@@ -5,10 +5,81 @@
     <link>https://carloscds.net/categories/c#/</link>
     <description>Recent content in C# on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c#/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows 7 &#43; Visual Studio 2010 &#43; Silverlight</title>
+      <link>https://carloscds.net/2009/11/windows-7-visual-studio-2010-silverlight/</link>
+      <pubDate>Wed, 18 Nov 2009 08:24:08 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/11/windows-7-visual-studio-2010-silverlight/</guid>
+      <description>É isto mesmo, ontem (17/11/2009) fizemos uma maratona de mini-palestras na Universidade Norte do Paraná (UNOPAR) em Londrina.
+A convite do Prof. Ricardo Delgado, fizemos uma apresentação sobre Windows 7, Visual Studio 2010 e Silverlight para os alunos do 8º e 9º períodos de Engenharia da Computação.
+Procuramos mostrar um overview de todas as tecnologias, onde ficamos cerca de 3 horas fazendo demonstrações.
+Confiram as fotos:
+[]s,</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Silverlight</title>
+      <link>https://carloscds.net/2009/11/palestra-sobre-silverlight/</link>
+      <pubDate>Wed, 18 Nov 2009 08:19:23 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/11/palestra-sobre-silverlight/</guid>
+      <description>Estivemos na empresa Agili Desenvolvimento de Sistema na cidade de Londrina, onde fizemos uma apresentação do Silverlight 3.0 e como a empresa pode aproveitar os benefícios desta plataforma para o desenvolvimento de seus sistemas.
+A palestra foi muito interessante e com muita participação da equipe de desenvovimento da empresa.
+Agrademos o convite e esperamos que a palestra tenha mostrado todo o potencial do Silverlight.Net
+Márcio demonstrando Silverlight.
+Equipe de desenvolvimento da Agili.</description>
+    </item>
+    
+    <item>
+      <title>Cobol &#43; Team Foundation Server</title>
+      <link>https://carloscds.net/2009/11/cobol-team-foundation-server/</link>
+      <pubDate>Wed, 18 Nov 2009 08:15:04 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/11/cobol-team-foundation-server/</guid>
+      <description>O título parece estranho mas é possível :), estamos prestando consultoria para um cliente em Londrina, onde os projetos novos serão feitos com .NET, Team System e tudo que tem direito, mas eles possuem muitos projetos em Cobol ainda, e uma das exigências era versionar o Cobol no Team Foundation Server também, e funcionou perfeitamente, o pessoal adorou, não preciso nem falar a reação deles quando viram a tela de Anotate mostrando o histórico do código.</description>
+    </item>
+    
+    <item>
+      <title>Programação Paralela com C# 4.0</title>
+      <link>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</link>
+      <pubDate>Tue, 03 Nov 2009 13:09:45 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</guid>
+      <description>Uma das novidades do .Net Framework 4.0 é a programação paralela, ou paralelelismo, que consiste em se utilizar os vários núcleos disponíveis nos computadores atuais, por exemplo, os famosos Core 2 Duo.
+Mas como tirar proveito destes recursos em operações simples ? O que vou mostrar agora é como transformar dois comandos simples da linguagem C# com o uso da programação paralela.
+Primeiramente vou montar um laço for tradicional:
+for (int i = 0; i &amp;lt; 100; i++){Console.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2010 – reinvindicação atendida</title>
+      <link>https://carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</link>
+      <pubDate>Wed, 28 Oct 2009 22:49:53 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</guid>
+      <description>Pessoal,
+Estou realmente muito contente com as melhorias que estão sendo feitas no Visual Studio 2010 e a cada dia me surpreendo com a velocidade das mudanças.
+Uma coisa que foi muito solicitada durante o http://mvp.support.microsoft.com/MVPsummit (evento de MVPs na Microsoft/USA), foi a lentidão da janela Add Reference. Acredito que muitos de vocês já ficaram algum tempo esperando esta janela abrir para poder adicionar algo ao projeto.
+Agora, no Beta 2, já tivemos o tão esperado ajuste desta janela, ela simplesmente abre instantaneamente e você já pode adicionar as referências.</description>
+    </item>
+    
+    <item>
+      <title>77 Dicas sobre Windows 7</title>
+      <link>https://carloscds.net/2009/10/dicas-sobre-windows-7/</link>
+      <pubDate>Wed, 21 Oct 2009 03:56:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/10/dicas-sobre-windows-7/</guid>
+      <description>Pessoal,
+Com o lançamento do Windows 7, olha que post super interessante, ele mostra 77 dicas sobre novidades do Windows 7:
+http://technet.microsoft.com/en-us/magazine/2009.10.77windows.aspx
+[]s,</description>
+    </item>
     
     <item>
       <title>Visual Studio 2010 – problema antigo resolvido</title>

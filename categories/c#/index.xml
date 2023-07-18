@@ -5,10 +5,88 @@
     <link>https://carloscds.net/categories/c#/</link>
     <description>Recent content in C# on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c#/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EntityFramework Core - Inicio (de novo)</title>
+      <link>https://carloscds.net/2023/07/entityframeworkcore-inicio/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/07/entityframeworkcore-inicio/</guid>
+      <description>Durante muito tempo eu publiquei muito conteúdo sobre EntityFramework (EF), muito antes da versão Core surgir, e durante muito tempo depois desta nova versão eu apenas acompanhei o desenvolvimento, até que na versão 3.1, o EF Core ficou realmente bom para uso em grandes projetos, com a produção de queries &amp;ldquo;muito limpas&amp;rdquo; para o banco de dados. Neste ponto voltei a colocar o EF nos meus projetos.
+Mas antes de contonuar, precisamos fazer uma explicação para você que &amp;ldquo;ainda&amp;rdquo; acha que o EntityFramework é um ORM ruim.</description>
+    </item>
+    
+    <item>
+      <title>Como configurar uma Function para acessar dados no KeyVault</title>
+      <link>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</guid>
+      <description>Você já esta usando o conceito de Serverless em suas aplicações ? Se ainda não está, recomendo que dê uma olhada no Azure Functions, uma funcionalidade do Azure que permite trabalhar com o conceito de programação orientada a eventos, ou seja, seu código pode ser acionado por um serviço externo, através de mensagens, arquivos no blob, entre outros. Mais detalhes sobre Functions você encontra aqui: https://docs.microsoft.com/pt-br/azure/azure-functions/functions-overview.
+Azure KeyVault Agora vamos pensar em segurança, onde guardamos as configurações da nossa aplicação ?</description>
+    </item>
+    
+    <item>
+      <title>Configurando TLS - Erro de Conexão Subjacente</title>
+      <link>https://carloscds.net/2022/03/configurando-tls/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/configurando-tls/</guid>
+      <description>Estamos passando por grandes mudanças na segurança da web, onde a maioria dos serviços tem atualizado o TLS (Transport Layer Security), que garante a proteção os dados nas comunicações HTTPS.
+O Problema da Conexão Subjacente Desta maneira, aplicações que se comunicam via web podem começar a apresentar um erro chamado &amp;ldquo;Conexão Subjacente fechada&amp;rdquo;, o que não é muito intuitivo, mas isto significa que a sua aplicação pode estar usando uma versão mais antiga do TLS.</description>
+    </item>
+    
+    <item>
+      <title>Configurando o horário de um App Service em Linux no Azure</title>
+      <link>https://carloscds.net/2021/06/app-services-horario/</link>
+      <pubDate>Tue, 08 Jun 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/06/app-services-horario/</guid>
+      <description>Olá pessoal,
+Estes dias estava configurando um App Service para uma nova API que construimos e precisava deixar o fuso horario do Brasil (GMT -3), lembrando que o Azure trabalha no GMT 0.
+Até aí tudo bem, existem vários tutoriais na web explicando isto, mas problema é que existe uma diferença entre um App Service rodando em Windows e outro rodando em Linux.
+Configuração muda de acordo com o Sistema Operacional Quando o App Service esta configurado para Windows, você ajusta a seguinte propriedade na Configuracação do servico.</description>
+    </item>
+    
+    <item>
+      <title>Inspecionando as Consultas do Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</link>
+      <pubDate>Tue, 23 Mar 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</guid>
+      <description>Olá pessoal,
+Você que é um usuário de EntityFramework, já parou para olhar as queries que são geradas no banco ? Eu sempre faço esta pergunta em empresas que atendo e a resposta na grande maioria das vezes é: NÃO.
+Sempre ouço: o EntityFramework resolve isto para mim! Ele sabe como criar o melhor comando SQL para o banco, e muitas outras respostas!
+Mas a grande verdade é que o EntityFramework não faz milagres!</description>
+    </item>
+    
+    <item>
+      <title>Datas Estranhas no Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</link>
+      <pubDate>Mon, 22 Mar 2021 21:30:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</guid>
+      <description>Olá pessoal,
+Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
+Problema O que acontece se você submeter uma consulta do tipo:
+select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?</description>
+    </item>
+    
+    <item>
+      <title>Lendo uma Planilha Excel em C# - MAIS SIMPLES AINDA!</title>
+      <link>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</link>
+      <pubDate>Tue, 12 Jan 2021 23:15:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</guid>
+      <description>Olá pessoal,
+Em 2009 eu escrevi um artigo que até hoje é muito acessado no meu blog, se trata de como ler uma planilha Excel em C#. Claro que muita coisa mudou desde então, mas ainda hoje este código funciona e ajuda muita gente.
+Mas será que não dá para melhorar? Sempre dá&amp;hellip;
+Vamos falar do ClosedXML O componente ClosedXML pode ser encontrado no Nuget e funciona tanto em aplicações .</description>
+    </item>
     
     <item>
       <title>Gerar uma classe a partir de um Json no Visual Studio</title>
@@ -124,15 +202,6 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://carloscds.net/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>ASP.NET Core dá para usar ?</title>
       <link>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</link>
       <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
@@ -165,76 +234,6 @@ O primeiro passo é você criar uma Storage. Para isto vá até o portal do Azur
 Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
 Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
 Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configurar o C# para versão 8, veja abaixo:</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2019 - primeiras impressões</title>
-      <link>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</link>
-      <pubDate>Mon, 10 Dec 2018 00:07:49 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</guid>
-      <description>Olá pessoal,
-Esta semana durante o evento Connect foi lançado o novo Visual Studio 2019 - Preview, sim ainda é uma versão inicial, mas já temos muitas novidades!!
-A primeira delas é a nova pagina inicial, agora bem mais simples:
-Somente 4 opções (lado direito) e a lista dos últimos projetos abertos.
-Ao criar um novo projeto, temos uma nova tela::
-Eu, particularmente, gostei desta nova tela, onde você tem alguns filtros, como : linguagem, tipo de projeto, plataforma e também a busca por nome.</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework asNoTracking - Por que preciso saber disto ?</title>
-      <link>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</link>
-      <pubDate>Sun, 02 Dec 2018 19:05:49 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</guid>
-      <description>Fala pessoal,
-Esta semana me deparei com um problema em um cliente que é bem comum, e causa muito transtorno, pois envolve muito o conceito de como o EF trabalha.
-Quando você cria um contexto para o EF e indica as classes do mapeamento, basicamente diz a ele que todos os objetos deverão ser rastreados, ou seja, o simples fato de você criar um objeto ou ler a partir do contexto, coloca este objeto sobre o controle do EF.</description>
-    </item>
-    
-    <item>
-      <title>EF Core – Lazy Loading</title>
-      <link>https://carloscds.net/2018/07/ef-core-lazy-loading/</link>
-      <pubDate>Mon, 02 Jul 2018 13:27:40 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/07/ef-core-lazy-loading/</guid>
-      <description>Olá pessoal,
-Depois um longo tempo sem escrever sobre o EntityFramework, vou retomar com uma série de artigos sobre esta nova versão, o EntityFramework Core.
-Para quem ainda não sabe, o EF Core faz parte do .NET Core, que é multi plataforma.
-Primeiro, vamos precisamos entender que o EF Core é um ORM totalmente novo, criado literalmente do ZERO, e por isto, ainda tem muitas coisas para serem feitas! Lembrando ainda que o EntityFramework 6 continua existindo como parte do .</description>
-    </item>
-    
-    <item>
-      <title>EF Core Powertools</title>
-      <link>https://carloscds.net/2018/05/ef-core-powertools/</link>
-      <pubDate>Mon, 28 May 2018 15:14:26 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/05/ef-core-powertools/</guid>
-      <description>Olá pessoal,
-Já utilizando Asp.Net Core ? Entity Framework Core ? Esta nova versão do EF Core está muito boa e para ajudar no processo de desenvolvimento, hoje vou falar da ferramenta EF Core PowerTools.
-Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco existente e fazer engenharia reversa, o que significa gerar todas as classes do EntityFramerwork a partir do seu banco de dados.</description>
-    </item>
-    
-    <item>
-      <title>Trabalhando com SQL na linha de comando</title>
-      <link>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</link>
-      <pubDate>Mon, 25 Dec 2017 21:42:46 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</guid>
-      <description>Olá pessoal,
-Hoje em dia, apesar de IDEs super poderosas, com milhares de funcionalidades, às vezes nos deparamos com procedimentos que são necessários na linha de comandos, nosso bom e velho Command Prompt.
-Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Management Studio, o Visual Studio e agora também o Operations Studio ? Isto é simples, você pode estar em um ambiente onde não existe sequer um modo gráfico, o que é muito comum em servidores, principalmente Linux.</description>
-    </item>
-    
-    <item>
-      <title>SQL Operations Studio</title>
-      <link>https://carloscds.net/2017/11/sql-operations-studio/</link>
-      <pubDate>Sun, 19 Nov 2017 21:00:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/11/sql-operations-studio/</guid>
-      <description>Olá pessoal,
-Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
-A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
     </item>
     
   </channel>

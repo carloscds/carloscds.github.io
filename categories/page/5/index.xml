@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analise sua Conta do Windows Azure</title>
+      <link>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</link>
+      <pubDate>Sun, 07 Jul 2013 15:59:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</guid>
+      <description>Pessoal,
+Quem já está usando o Windows Azure e tem necessidade de analisar como anda a conta, precisa baixar o arquivo CSV com os dados de movimentação da conta.
+Este arquivo contém informações sobre todos os serviços que você está utilizando na sua conta, mas é um arquivo texto um pouco complicado de se entender.
+Para resolver isto, eu criei uma ferramenta que permite transformar este arquivo texto em uma informação mais simples de se entender e também possível de ser exportada para um arquivo XML, que pode até ser aberto no Excel.</description>
+    </item>
     
     <item>
       <title>Windows Azure Library</title>
@@ -235,21 +247,6 @@ Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do
       <description>Olá pessoal,
 Hoje em um desenvolvimento de projeto é muito comum o programador ter que saber vários comando de bancos de dados (Insert, Delete, Update, Select) para poder desenvolver, além de saber sobre a linguagem de progração. O EntityFramework vem para ajudar nesta tarefa, criando uma correspondência entre as tabelas do banco de dados, o que chamamos de ORM, ou mapeamento Objeto-Relacional.
 Existem, basicamente, duas maneiras de se trabalhar com o Entity Framework, usando o Entity Designer ou o Entity Framework Code First.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework com Oracle</title>
-      <link>https://carloscds.net/2012/01/entity-framework-com-oracle/</link>
-      <pubDate>Wed, 04 Jan 2012 22:29:16 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/01/entity-framework-com-oracle/</guid>
-      <description>A Oracle acabou de lancar seu provider nativo para o Entity Framework, a versão ODAC 11.2. Agora você já pode acessar nativamente o Oracle com o EF, facilitando o desenvolvimento através do mapeamento objeto relacional.
-Para baixar acesse os links abaixo:
-Usando EF com Oracle: http://www.oracle.com/technetwork/issue-archive/2011/11-sep/o51odt-453447.html
-Provider 32 bits: http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
-Provider 64 bits: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
- []s,
-Carlos dos Santos.</description>
     </item>
     
   </channel>

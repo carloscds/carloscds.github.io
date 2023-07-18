@@ -5,10 +5,21 @@
     <link>https://carloscds.net/tags/msdn/</link>
     <description>Recent content in msdn on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Apr 2014 21:25:57 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2014 18:02:58 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio 2015 e C# - Algumas Novidades</title>
+      <link>https://carloscds.net/2014/11/visual-studio-2015-e-c-6algumas-novidades/</link>
+      <pubDate>Sun, 16 Nov 2014 18:02:58 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/11/visual-studio-2015-e-c-6algumas-novidades/</guid>
+      <description>Olá, como todos já devem saber a Microsoft liberou na última quarta-feira (12/11) a versão Public Preview do Visual Studio 2015 e também uma versão free agora chamada de Visual Studio 2013 Community. Junto com o Visual Studio 2015 temos agora o novo C# 6. Neste post vou falar sobre algumas das novidades da IDE e também do C# 6.
+Novidades da IDE:
+Code Fixer: identifica problemas no código e mostrar possíveis soluções:</description>
+    </item>
     
     <item>
       <title>C# Roslyn e Projeto Open Source - CodeCracker</title>
@@ -228,18 +239,6 @@ Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacio
       <description>Olá pessoal,
 Voltando agora a escrever mais sobre o Entity Framework, estamos aguardando a nova versão 6 (ainda sem data definitiva para ser lançado) que trará melhorias muito significativas e vamos explorar algumas delas nos próximos artigos.
 Antes de qualquer coisa é importante saber que o Entity Framework 6 ainda está em versão Alfa (isto mesmo ALFA), sendo assim não é recompendado utilizar em projetos que já estejam em produção, o que não nos impede de já ir testando algumas coisas bem legais.</description>
-    </item>
-    
-    <item>
-      <title>Analise sua Conta do Windows Azure</title>
-      <link>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</link>
-      <pubDate>Sun, 07 Jul 2013 15:59:40 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</guid>
-      <description>Pessoal,
-Quem já está usando o Windows Azure e tem necessidade de analisar como anda a conta, precisa baixar o arquivo CSV com os dados de movimentação da conta.
-Este arquivo contém informações sobre todos os serviços que você está utilizando na sua conta, mas é um arquivo texto um pouco complicado de se entender.
-Para resolver isto, eu criei uma ferramenta que permite transformar este arquivo texto em uma informação mais simples de se entender e também possível de ser exportada para um arquivo XML, que pode até ser aberto no Excel.</description>
     </item>
     
   </channel>

@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio Summit</title>
+      <link>https://carloscds.net/2016/06/visual-studio-summit/</link>
+      <pubDate>Mon, 13 Jun 2016 08:52:01 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/06/visual-studio-summit/</guid>
+      <description>Fala pessoal,
+Neste úiltimo final de semana tive o prazer de novamente ser palestrando do Visual Studio Summit, um evento sensacional que aconteceu na Microsoft em SP e contou com cerca de 300 pessoas.
+Fiquei muito feliz em poder realizar duas palestras (com repeteco) sobre RaspBerry PI e .Net Core. Muito obrigado a todos que assistiram as minhas quatro palestras, todas as vezes estava com a sala cheia!
+Veja aqui algumas fotos e os slides do RaspBerryPI e .</description>
+    </item>
     
     <item>
       <title>JoinCommunity 2016</title>
@@ -218,17 +230,6 @@ O MVP Virtual Conference trará 95 sessões com conteúdo para IT Pros, Develope
 Na última sexta-feira (27/02) eu fiz uma palestra online no Codificando Night Week sobre as novidades do C# 6. O vídeo da minha apresentação já está no Youtube e pode ser baixado aqui. Disponibilizei também os PPT no Slideshare e você pode obter neste link.
 Abraços e até a próxima.
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2015 e C# - Algumas Novidades</title>
-      <link>https://carloscds.net/2014/11/visual-studio-2015-e-c-6algumas-novidades/</link>
-      <pubDate>Sun, 16 Nov 2014 18:02:58 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/11/visual-studio-2015-e-c-6algumas-novidades/</guid>
-      <description>Olá, como todos já devem saber a Microsoft liberou na última quarta-feira (12/11) a versão Public Preview do Visual Studio 2015 e também uma versão free agora chamada de Visual Studio 2013 Community. Junto com o Visual Studio 2015 temos agora o novo C# 6. Neste post vou falar sobre algumas das novidades da IDE e também do C# 6.
-Novidades da IDE:
-Code Fixer: identifica problemas no código e mostrar possíveis soluções:</description>
     </item>
     
   </channel>

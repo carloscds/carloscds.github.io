@@ -11,6 +11,21 @@
     
     
     <item>
+      <title>Entity Framework com Oracle</title>
+      <link>https://carloscds.net/2012/01/entity-framework-com-oracle/</link>
+      <pubDate>Wed, 04 Jan 2012 22:29:16 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/01/entity-framework-com-oracle/</guid>
+      <description>A Oracle acabou de lancar seu provider nativo para o Entity Framework, a versão ODAC 11.2. Agora você já pode acessar nativamente o Oracle com o EF, facilitando o desenvolvimento através do mapeamento objeto relacional.
+Para baixar acesse os links abaixo:
+Usando EF com Oracle: http://www.oracle.com/technetwork/issue-archive/2011/11-sep/o51odt-453447.html
+Provider 32 bits: http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
+Provider 64 bits: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
+ []s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
       <title>Provas de Certificação</title>
       <link>https://carloscds.net/2011/12/provas-de-certificao/</link>
       <pubDate>Wed, 07 Dec 2011 15:53:17 -0300</pubDate>
@@ -229,20 +244,6 @@ Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description
       <description>Pessoal,
 Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
 Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
-    </item>
-    
-    <item>
-      <title>Editora Novatec–Desconto!</title>
-      <link>https://carloscds.net/2010/12/editora-novatecdesconto/</link>
-      <pubDate>Fri, 10 Dec 2010 13:46:04 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/12/editora-novatecdesconto/</guid>
-      <description>Pessoal,
-Fiz uma parceria com a Editora Novatec e consegui 20% de desconto para vocês, leitores do meu blog. Basta acessar o site e ao finalizar a compra informar o código da promoção carloscds.
-Este desconto é válido até 31/12/2011.
-Espero que todos façam boas compras de livros!!!
-Abraços,
-Carlos dos Santos.</description>
     </item>
     
   </channel>

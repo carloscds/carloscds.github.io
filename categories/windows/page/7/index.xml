@@ -5,10 +5,24 @@
     <link>https://carloscds.net/categories/windows/</link>
     <description>Recent content in Windows on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Dec 2009 11:18:02 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2016 21:38:20 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Editora Novatec–Desconto!</title>
+      <link>https://carloscds.net/2010/12/editora-novatecdesconto/</link>
+      <pubDate>Fri, 10 Dec 2010 13:46:04 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/12/editora-novatecdesconto/</guid>
+      <description>Pessoal,
+Fiz uma parceria com a Editora Novatec e consegui 20% de desconto para vocês, leitores do meu blog. Basta acessar o site e ao finalizar a compra informar o código da promoção carloscds.
+Este desconto é válido até 31/12/2011.
+Espero que todos façam boas compras de livros!!!
+Abraços,
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Palestra sobre Mercado e Tecnologias</title>
@@ -224,20 +238,6 @@ Gostaria de agradecer ao convite do Prof.Zanete e espero voltar mais vezes para 
 Vejam as fotos:
 []s,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Scrum para o VSTS 2010</title>
-      <link>https://carloscds.net/2010/06/scrum-para-o-vsts-2010/</link>
-      <pubDate>Mon, 07 Jun 2010 12:24:29 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/scrum-para-o-vsts-2010/</guid>
-      <description>A Microsoft acaba de liberar o template Beta de Scrum para o Team Foundation Server 2010. Eu já tive oportunidade de trabalhar com ele na semana passada durante um curso de Professional Scrum Developer e está realmente muito bom.
-Conheça o novo template no link:
-http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
-http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
-[]s,
-Carlos.</description>
     </item>
     
   </channel>

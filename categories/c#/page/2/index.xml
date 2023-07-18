@@ -5,10 +5,80 @@
     <link>https://carloscds.net/categories/c#/</link>
     <description>Recent content in C# on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c#/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio 2019 - primeiras impressões</title>
+      <link>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</link>
+      <pubDate>Mon, 10 Dec 2018 00:07:49 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</guid>
+      <description>Olá pessoal,
+Esta semana durante o evento Connect foi lançado o novo Visual Studio 2019 - Preview, sim ainda é uma versão inicial, mas já temos muitas novidades!!
+A primeira delas é a nova pagina inicial, agora bem mais simples:
+Somente 4 opções (lado direito) e a lista dos últimos projetos abertos.
+Ao criar um novo projeto, temos uma nova tela::
+Eu, particularmente, gostei desta nova tela, onde você tem alguns filtros, como : linguagem, tipo de projeto, plataforma e também a busca por nome.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework asNoTracking - Por que preciso saber disto ?</title>
+      <link>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</link>
+      <pubDate>Sun, 02 Dec 2018 19:05:49 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</guid>
+      <description>Fala pessoal,
+Esta semana me deparei com um problema em um cliente que é bem comum, e causa muito transtorno, pois envolve muito o conceito de como o EF trabalha.
+Quando você cria um contexto para o EF e indica as classes do mapeamento, basicamente diz a ele que todos os objetos deverão ser rastreados, ou seja, o simples fato de você criar um objeto ou ler a partir do contexto, coloca este objeto sobre o controle do EF.</description>
+    </item>
+    
+    <item>
+      <title>EF Core – Lazy Loading</title>
+      <link>https://carloscds.net/2018/07/ef-core-lazy-loading/</link>
+      <pubDate>Mon, 02 Jul 2018 13:27:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2018/07/ef-core-lazy-loading/</guid>
+      <description>Olá pessoal,
+Depois um longo tempo sem escrever sobre o EntityFramework, vou retomar com uma série de artigos sobre esta nova versão, o EntityFramework Core.
+Para quem ainda não sabe, o EF Core faz parte do .NET Core, que é multi plataforma.
+Primeiro, vamos precisamos entender que o EF Core é um ORM totalmente novo, criado literalmente do ZERO, e por isto, ainda tem muitas coisas para serem feitas! Lembrando ainda que o EntityFramework 6 continua existindo como parte do .</description>
+    </item>
+    
+    <item>
+      <title>EF Core Powertools</title>
+      <link>https://carloscds.net/2018/05/ef-core-powertools/</link>
+      <pubDate>Mon, 28 May 2018 15:14:26 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2018/05/ef-core-powertools/</guid>
+      <description>Olá pessoal,
+Já utilizando Asp.Net Core ? Entity Framework Core ? Esta nova versão do EF Core está muito boa e para ajudar no processo de desenvolvimento, hoje vou falar da ferramenta EF Core PowerTools.
+Mas em que esta ferramenta me ajuda ? Simples, com ela você pode pegar um banco existente e fazer engenharia reversa, o que significa gerar todas as classes do EntityFramerwork a partir do seu banco de dados.</description>
+    </item>
+    
+    <item>
+      <title>Trabalhando com SQL na linha de comando</title>
+      <link>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</link>
+      <pubDate>Mon, 25 Dec 2017 21:42:46 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</guid>
+      <description>Olá pessoal,
+Hoje em dia, apesar de IDEs super poderosas, com milhares de funcionalidades, às vezes nos deparamos com procedimentos que são necessários na linha de comandos, nosso bom e velho Command Prompt.
+Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Management Studio, o Visual Studio e agora também o Operations Studio ? Isto é simples, você pode estar em um ambiente onde não existe sequer um modo gráfico, o que é muito comum em servidores, principalmente Linux.</description>
+    </item>
+    
+    <item>
+      <title>SQL Operations Studio</title>
+      <link>https://carloscds.net/2017/11/sql-operations-studio/</link>
+      <pubDate>Sun, 19 Nov 2017 21:00:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/11/sql-operations-studio/</guid>
+      <description>Olá pessoal,
+Esta foi uma semana de muitas novidades para a comunidade de desenvolvedores. Aconteceu nos Estados Unidos o evento Connect, e um dos destaques foi a nova ferramenta de gerenciamento do SQL Server, baseado no Visual Studio Code.
+A Microsoft tem investido muito nesta ferramenta, principalmente por ser multi plataforma, e a comunidade também tem escrito muitos plugins para o VS Code, o que possibilita desenvolver praticamente qualquer tipo de aplicação nele hoje, de Web a Arduino, tudo é possível.</description>
+    </item>
     
     <item>
       <title>Gerando um arquivo EXE com .NetCore</title>
@@ -174,71 +244,6 @@ Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é lo
 Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
 Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
 Você recebe um dado em Json, que é basicamente um texto, e precisa manipular seu conteúdo através de uma classe!</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Summit</title>
-      <link>https://carloscds.net/2016/06/visual-studio-summit/</link>
-      <pubDate>Mon, 13 Jun 2016 08:52:01 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/06/visual-studio-summit/</guid>
-      <description>Fala pessoal,
-Neste úiltimo final de semana tive o prazer de novamente ser palestrando do Visual Studio Summit, um evento sensacional que aconteceu na Microsoft em SP e contou com cerca de 300 pessoas.
-Fiquei muito feliz em poder realizar duas palestras (com repeteco) sobre RaspBerry PI e .Net Core. Muito obrigado a todos que assistiram as minhas quatro palestras, todas as vezes estava com a sala cheia!
-Veja aqui algumas fotos e os slides do RaspBerryPI e .</description>
-    </item>
-    
-    <item>
-      <title>JoinCommunity 2016</title>
-      <link>https://carloscds.net/2016/05/joincommunity-2016/</link>
-      <pubDate>Mon, 23 May 2016 08:45:56 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/05/joincommunity-2016/</guid>
-      <description>Olá pessoal,
-Neste final de semana tive a grata satisfação de palestrar no evento Join Community em Goiânia, a convite do Marcelo Paiva. Um evento muito bem organizado, quie contou até com tradução para Libras, o que mostra a importância dos organizadores profissionais com deficiência auditiva. Confesso que fiquei supreso!
-Neste evento fiz a palestra de abertura e falei sobre o SonarQube, uma ferramenta fantástica para medir a qualidade do código fonte, e não estou falando apenas de código .</description>
-    </item>
-    
-    <item>
-      <title>Palesta sobre Microsoft Open Source no FLISOL de Mar&amp;iacute;lia</title>
-      <link>https://carloscds.net/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</link>
-      <pubDate>Sat, 16 Apr 2016 18:15:35 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</guid>
-      <description>Hoje foi dia de Global Azure Boot Camp, um evento sobre Azure realizado no mundo todo, no mesmo dia. Mas eu tive outra missão este ano, falar sobre Microsoft open source em um evento de software livre, o FLISOL.
-Falar de Microsoft Open Source parece ser algo inimaginável, mas é a pura realidade e hoje mostrei isto na palestra em Marília. Fico muito feliz que tenham gostado da apresentação e principalmente entendido que a Microsoft mudou e muito!</description>
-    </item>
-    
-    <item>
-      <title>CodeCracker 1.0</title>
-      <link>https://carloscds.net/2016/04/codecracker-1-0/</link>
-      <pubDate>Mon, 04 Apr 2016 08:32:14 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/04/codecracker-1-0/</guid>
-      <description>Depois de um longo tempo e muito trabalho, temos o oriulho de anunciar a versão 1.0 do CodeCracker, uma das mais populares ferramentas para análise estática de código do mercado, e totalmente free e open source.
-Só relembrando, Análise Estática de Código, é o fato de conseguirmos analisar seu código direto no editor, sem a necessidade de compilar. Com o compilador Roslyn (.Net Compiler), que veio junto com o Visual Studio 2015, se tornou possível escrever códigos (analisadores e fixers) que atuam no fluxo da compilação, pois o Roslyn atua como “Compiler as a Service”, um serviço de compilação que podemos consumir.</description>
-    </item>
-    
-    <item>
-      <title>C# Interativo (REPL)</title>
-      <link>https://carloscds.net/2016/04/c-interativo-repl/</link>
-      <pubDate>Sat, 02 Apr 2016 20:34:24 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/04/c-interativo-repl/</guid>
-      <description>Alguma vez você já pensou em testar aquele trecho de código sem precisar compilar toda a solução ?
-Acho que este é um sonho de vários desenvolvedores. Será que dá para executar só aquele “pedacinho” do código ? Normalmente você tem que executar o codigo todo e fazer um braek point e depois rodar o debug sem parar, ou mais ainda, quem de nós que nunca criou um programa console só para testar um trecho de código ?</description>
-    </item>
-    
-    <item>
-      <title>Desenvolva com Microsoft sem gastar dinheiro</title>
-      <link>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</link>
-      <pubDate>Sat, 02 Apr 2016 19:04:43 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</guid>
-      <description>Ola pessoal,
-Esta semana tivemos fortes emoções no mundo Microsoft durante o evento Build. Foram tantos anúncios que levaremos semanas para entender tudo que aconteceu e principalmente o que vai acontecer daqui para frente, mas resumindo em poucas palavras: Muita coisa agora é open source, de graça mesmo!
-Nesta onda de ferrmentas gratuitas e open source, gostaria de apresentar a vocês o portal Visual Studio Dev Essentials:
-Bom, mas o que tem de tão especial neste portal ?</description>
     </item>
     
   </channel>

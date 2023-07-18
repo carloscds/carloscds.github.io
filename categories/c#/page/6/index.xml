@@ -5,10 +5,81 @@
     <link>https://carloscds.net/categories/c#/</link>
     <description>Recent content in C# on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c#/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Entity Framework com Oracle</title>
+      <link>https://carloscds.net/2012/01/entity-framework-com-oracle/</link>
+      <pubDate>Wed, 04 Jan 2012 22:29:16 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/01/entity-framework-com-oracle/</guid>
+      <description>A Oracle acabou de lancar seu provider nativo para o Entity Framework, a versão ODAC 11.2. Agora você já pode acessar nativamente o Oracle com o EF, facilitando o desenvolvimento através do mapeamento objeto relacional.
+Para baixar acesse os links abaixo:
+Usando EF com Oracle: http://www.oracle.com/technetwork/issue-archive/2011/11-sep/o51odt-453447.html
+Provider 32 bits: http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
+Provider 64 bits: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
+ []s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Provas de Certificação</title>
+      <link>https://carloscds.net/2011/12/provas-de-certificao/</link>
+      <pubDate>Wed, 07 Dec 2011 15:53:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/12/provas-de-certificao/</guid>
+      <description>Pessoal,
+Tenho acompanhado que muitas pessoas estão estudando para tirar alguma tipo de certificação Microsoft. Uma boa dica é usarem os livros Self-Paced, que além de conterem material específico para a prova, têm também um software que simula a prova e que você pode usar para ver como está seu conhecimento, antes de realizar a prova.
+Veja um exemplo de livro aqui no Amazon: http://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401. Este é para a prova de Web do .</description>
+    </item>
+    
+    <item>
+      <title>Palestra sobre Windows Phone em Natal/RN</title>
+      <link>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</link>
+      <pubDate>Mon, 14 Nov 2011 14:20:29 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</guid>
+      <description>Pessoal,
+Semana passada estive em Natal/RN para um encontro de Centrais de Negócios do Sebrae e algo inusitado aconteceu. Tenho um grande amigo que mora em Natal, o Glebe Duarte, que trabalha no Senac. Eu já tinha falado com ele que estaria em Natal, e tínhamos até combinado um bate papo sobre comunidades e tecnologia.
+O mais incrível foi que o Glebe me chamou para fazer uma palestra sobre Windows Phone no Senac, algo que eu nem imaginava quando fúi para lá.</description>
+    </item>
+    
+    <item>
+      <title>Curso de C# no IFPR</title>
+      <link>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</link>
+      <pubDate>Mon, 03 Oct 2011 20:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</guid>
+      <description>Nos dias 14 e 15 de setembro eu ministrei um curso básico de C# para os alunos do curso técnico do Instituto Federal do Paraná (www.ifpr.edu.br) a convite do Prof. Rodolfo Barrivieira.
+Neste treinamento os alunos tiveram a oportunidade de conhecer a plataforma Microsoft.Net e o Visual Studio 2010, num total de 8 horas de curso.
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>TechEd 2011–Palestra Entity Framework</title>
+      <link>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</link>
+      <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</guid>
+      <description>Pessoal,
+Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
+    </item>
+    
+    <item>
+      <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
+      <link>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</link>
+      <pubDate>Sun, 02 Oct 2011 20:14:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</guid>
+      <description>Pessoal,
+Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
+Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
+Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.</description>
+    </item>
     
     <item>
       <title>EF Code First-Acessando Stored Procedures</title>
@@ -173,81 +244,6 @@ Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description
       <description>Pessoal,
 Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
 Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
-    </item>
-    
-    <item>
-      <title>Editora Novatec–Desconto!</title>
-      <link>https://carloscds.net/2010/12/editora-novatecdesconto/</link>
-      <pubDate>Fri, 10 Dec 2010 13:46:04 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/12/editora-novatecdesconto/</guid>
-      <description>Pessoal,
-Fiz uma parceria com a Editora Novatec e consegui 20% de desconto para vocês, leitores do meu blog. Basta acessar o site e ao finalizar a compra informar o código da promoção carloscds.
-Este desconto é válido até 31/12/2011.
-Espero que todos façam boas compras de livros!!!
-Abraços,
-Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Palestra sobre Mercado e Tecnologias</title>
-      <link>https://carloscds.net/2010/12/palestra-sobre-mercado-e-tecnologias/</link>
-      <pubDate>Wed, 08 Dec 2010 15:12:03 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/12/palestra-sobre-mercado-e-tecnologias/</guid>
-      <description>Pessoal,
-No último dia 30/11/2010 estive no Colégio Estadual Vicente Rijo em Londrina, para uma palestra sobre o mercado regional de tecnologia e as tecnologias utilizadas. Nesta oprtunidade falei sobre a plataforma Microsoft e como ela está posicionada em relação a outras ferramentas.
-Gostaria de ressaltar que fique impressional com a qualidade das instalações e do ensino técnico mistrado por uma escola pública, realmente um exemplo a ser seguido. Gostaria de agradecer ao Pedro da Incubadora Intuel da Universidade Estadual de Londrina pelo convite.</description>
-    </item>
-    
-    <item>
-      <title>Curso Gratuito de Visual Studio 2010</title>
-      <link>https://carloscds.net/2010/11/curso-gratuito-de-visual-studio-2010/</link>
-      <pubDate>Tue, 30 Nov 2010 08:49:31 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/curso-gratuito-de-visual-studio-2010/</guid>
-      <description>Pessoal,
-Para quem achar interessante, existe um treinamento gratuito de Visual Studio 2010, que pode ser acessado neste site aqui.
-O treinamento está em Inglês mas é muito bom.
-[]s,
-Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Promoção Indique Azure</title>
-      <link>https://carloscds.net/2010/11/promoo-indique-azure/</link>
-      <pubDate>Fri, 26 Nov 2010 08:36:19 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/promoo-indique-azure/</guid>
-      <description>Pessoal,
- Sobre a promoção Indique Azure (www.indiqueazure.com.br) , segue abaixo um tutorial que explica como participar:
-   Crie sua conta no Portal do Windows Azure: http://www.slideshare.net/indiqueazure/como-assinar-windows-azure
-  Baixe o Programa para fazer o Upload do arquivo: www.sharpcode.com.br/downloads/SetupBlobUp.zip
-  Instale o programa e cadastre uma foto qualquer no Blob do Azure, como neste exemplo:
-  http://anobre.blob.core.windows.net/concursofotonuvem/foto_56afcb65-a410-4b85-8147-bf960c832a16.jpg.
- No Slide do item 1, tem as instruções de como publicar a imagem</description>
-    </item>
-    
-    <item>
-      <title>Prova Beta Windows Azure</title>
-      <link>https://carloscds.net/2010/11/prova-beta-windows-azure/</link>
-      <pubDate>Wed, 17 Nov 2010 16:38:57 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/prova-beta-windows-azure/</guid>
-      <description>Pessoal,
-Hoje fiz a prova beta do Windows Azure (70-583) e posso garantir a vocês que achei a prova excelente, com perguntas muito objetivas e que realmente tem o objetivo de verificar se o candidato entendeu o conceito da plataforma e como aplicá-la. Para quem ainda não conhece a plataforma Azure visite este link.
-A prova tinha 75 questões, sobre todas as áreas do Azure e como ainda é uma prova beta, você tem opção para comentar ou questionar as peguntas, para que elas possam, eventualmente, ser corrigidas para o exame definitivo.</description>
-    </item>
-    
-    <item>
-      <title>Prova Team Foundation Server</title>
-      <link>https://carloscds.net/2010/11/prova-team-foundation-server/</link>
-      <pubDate>Wed, 17 Nov 2010 16:23:07 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/prova-team-foundation-server/</guid>
-      <description>Pessoal, há duas semanas eu fiz a prova do Team Foundation Server Administrator (70-512). A prova relata bem a realidade de um administrador de TFS, com perguntas bem objetivas sobre o dia a dia de uma empresa e situações que realmente acontecem.
-Para os que quiserem fazer esta prova, vai a dica do blog do Daniel Oliveira, que separou vários link com materiais muito interessantes sobre esta prova.
-E para dar uma animada em quem ainda está indecido, seja a cópia do certificado da prova:</description>
     </item>
     
   </channel>

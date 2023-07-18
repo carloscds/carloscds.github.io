@@ -29,7 +29,7 @@
     </script>
 
     
-    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
     <title>Carlos dos Santos</title>
     
     <link rel="alternate" type="application/rss+xml" href="https://carloscds.net/index.xml" title="Carlos dos Santos" />
@@ -43,7 +43,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carloscds.net/" />
-<meta property="og:updated_time" content="2022-03-20T00:00:00+00:00" />
+<meta property="og:updated_time" content="2010-01-21T00:00:00+00:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -162,12 +162,14 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">7</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c#/" class="category-list-link">c#</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">90</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet/" class="category-list-link">dotnet</a><span class="category-list-count">8</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet-core/" class="category-list-link">dotnet-core</a><span class="category-list-count">17</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">5</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
@@ -378,6 +380,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2023/07/entityframeworkcore-inicio/" class="title">EntityFramework Core - Inicio (de novo)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2023-07-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-07-17</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/" class="title">Como configurar uma Function para acessar dados no KeyVault</a>
                     </p>
                     <p class="item-date">
@@ -415,16 +427,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/" class="title">Datas Estranhas no Entity Framework Core</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-03-22 21:30:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-03-22</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -440,6 +442,48 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2012/01/entityframework-codefirst/"
+    >EntityFramework CodeFirst</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        No post anterior, eu falei em como trabalhar com Entity Framework usando o Designer, ou seja, um modelo de classes criado a partir de um arquivo EDMX. Este modelo funciona perfeitamente em diversos tipos de projetos, mas o grande incoveniente é ter um arquivo EDMX para cada tipo de banco de dados do seu projeto.
+Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do artigo anterior. Nossa necessidade ainda é manter o isolamento do banco de dados e trabalhar somente com objetos.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2012/01/entityframework-codefirst/" class="">
+  <time datetime="2012-01-07 23:31:48 -0300 -03" itemprop="datePublished">2012-01-07</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/entity-framework/"> Entity Framework </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/ef-codefirst-ef/"> ef codefirst; ef </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2012/01/entityframework-codefirst/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1341words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 7minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -689,45 +733,6 @@ Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsof
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 118words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2011/10/brazilian-translation-wiki-2011-community-participant-award/"
-    >Brazilian Translation Wiki 2011 Community Participant Award</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Pessoal,
-Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
-Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
-Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/" class="">
-  <time datetime="2011-10-02 20:14:06 -0300 -03" itemprop="datePublished">2011-10-02</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/premios/"> Premios </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2011/10/brazilian-translation-wiki-2011-community-participant-award/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 98words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -745,7 +750,7 @@ Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agrade
       </li>
     </ul>
     <div class="total-article bar-right">
-      Page:15/25
+      Page:15/26
     </div>
   </div>
 </nav>

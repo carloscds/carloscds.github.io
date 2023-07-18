@@ -11,6 +11,20 @@
     
     
     <item>
+      <title>Visual Studio 2019 - primeiras impressões</title>
+      <link>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</link>
+      <pubDate>Mon, 10 Dec 2018 00:07:49 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</guid>
+      <description>Olá pessoal,
+Esta semana durante o evento Connect foi lançado o novo Visual Studio 2019 - Preview, sim ainda é uma versão inicial, mas já temos muitas novidades!!
+A primeira delas é a nova pagina inicial, agora bem mais simples:
+Somente 4 opções (lado direito) e a lista dos últimos projetos abertos.
+Ao criar um novo projeto, temos uma nova tela::
+Eu, particularmente, gostei desta nova tela, onde você tem alguns filtros, como : linguagem, tipo de projeto, plataforma e também a busca por nome.</description>
+    </item>
+    
+    <item>
       <title>EntityFramework asNoTracking - Por que preciso saber disto ?</title>
       <link>https://carloscds.net/2018/12/entityframework-asnotracking-por-que-preciso-saber-disto/</link>
       <pubDate>Sun, 02 Dec 2018 19:05:49 -0300</pubDate>
@@ -230,18 +244,6 @@ Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é lo
 Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
 Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
 Você recebe um dado em Json, que é basicamente um texto, e precisa manipular seu conteúdo através de uma classe!</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Summit</title>
-      <link>https://carloscds.net/2016/06/visual-studio-summit/</link>
-      <pubDate>Mon, 13 Jun 2016 08:52:01 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/06/visual-studio-summit/</guid>
-      <description>Fala pessoal,
-Neste úiltimo final de semana tive o prazer de novamente ser palestrando do Visual Studio Summit, um evento sensacional que aconteceu na Microsoft em SP e contou com cerca de 300 pessoas.
-Fiquei muito feliz em poder realizar duas palestras (com repeteco) sobre RaspBerry PI e .Net Core. Muito obrigado a todos que assistiram as minhas quatro palestras, todas as vezes estava com a sala cheia!
-Veja aqui algumas fotos e os slides do RaspBerryPI e .</description>
     </item>
     
   </channel>

@@ -5,10 +5,86 @@
     <link>https://carloscds.net/categories/c#/</link>
     <description>Recent content in C# on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c#/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analise sua Conta do Windows Azure</title>
+      <link>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</link>
+      <pubDate>Sun, 07 Jul 2013 15:59:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/07/analise-sua-conta-do-windows-azure/</guid>
+      <description>Pessoal,
+Quem já está usando o Windows Azure e tem necessidade de analisar como anda a conta, precisa baixar o arquivo CSV com os dados de movimentação da conta.
+Este arquivo contém informações sobre todos os serviços que você está utilizando na sua conta, mas é um arquivo texto um pouco complicado de se entender.
+Para resolver isto, eu criei uma ferramenta que permite transformar este arquivo texto em uma informação mais simples de se entender e também possível de ser exportada para um arquivo XML, que pode até ser aberto no Excel.</description>
+    </item>
+    
+    <item>
+      <title>Windows Azure Library</title>
+      <link>https://carloscds.net/2013/05/windows-azure-library/</link>
+      <pubDate>Thu, 30 May 2013 22:02:47 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/05/windows-azure-library/</guid>
+      <description>Pessoal,
+Eu disponibilizei um biblioteca para manipular dados no Windows Azure. Este biblioteca possui exemplos para Blob, Table e Queue, através de classes que podem ser reutilizadas.
+Você pode baixar o código fonte completo com exemplos neste endereço aqui.
+[]s,
+Carlos.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Summit 2013</title>
+      <link>https://carloscds.net/2013/05/visual-studio-summit-2013/</link>
+      <pubDate>Sun, 26 May 2013 23:02:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/05/visual-studio-summit-2013/</guid>
+      <description>Pessoal,
+No último sábado, dia 25/05/2013, aconteceu na sede da Microsoft em SP o Visual Studio Summit 2013. Neste ano tive o prazer de realizar duas palestras: Entity Framework 6 e Debug de Aplicações Windows 8 no Device. As duas palestras também foram repetidas, o que tornou o meu dia um pouco mais intenso!
+Gostaria de agradecer a excelente audiência que tive nas palestras, onde tive salas praticamente lotadas!
+Aqui estão as fotos do eventos que publiquei no Facebook.</description>
+    </item>
+    
+    <item>
+      <title>Global Windows Azure Bootcamp – Londrina – Pós Evento</title>
+      <link>https://carloscds.net/2013/04/global-windows-azure-bootcamp-londrina-ps-evento/</link>
+      <pubDate>Sat, 27 Apr 2013 19:52:44 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/04/global-windows-azure-bootcamp-londrina-ps-evento/</guid>
+      <description>Pessoal,
+Gostaria de agradecer a todos que participarem do GWAB de Londrina, tivemos mais de 40 pessoas durante o evento onde foi realizado um treinamento que abordou as principais funcionalidades do Windows Azure. Tudo na prática!
+Obrigado ao professor Eidy da PUC de Londrina, que nos apoiou cedendo o espaço para realizarmos o evento.
+Vejam as fotos aqui no meu Facebook.
+Para baixar as aplicações usadas no evento, acesse este link do SkyDrive.</description>
+    </item>
+    
+    <item>
+      <title>Global Windows Azure Bootcamp</title>
+      <link>https://carloscds.net/2013/04/global-windows-azure-bootcamp/</link>
+      <pubDate>Tue, 23 Apr 2013 18:45:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/04/global-windows-azure-bootcamp/</guid>
+      <description>![](http://lucasromao.azurewebsites.net wp-content/uploads/2013/04/bootcamp1-300x202.png)
+Olá pessoal,
+Acontecerá no próximo sábado, 27 de abril, o maior evento de Windows Azure já realizado no mundo. Serão mais de 95 cidades ao redor do globo e no Brasil teremos 12 cidades com mais de 6 horas de puro treinamento 100% prático e presencial.
+Confira abaixo a relação de todas as cidades que estarão executando a ação, veja a mais próxima de você e inscreva-se pois as vagas são limitadas!</description>
+    </item>
+    
+    <item>
+      <title>Windows Azure Bootcamp</title>
+      <link>https://carloscds.net/2013/04/windows-azure-bootcamp/</link>
+      <pubDate>Fri, 12 Apr 2013 17:14:14 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/04/windows-azure-bootcamp/</guid>
+      <description>Pessoal,
+Iremos realizar o evento mundial de Windows Azure em Londrina no dia 27 de abril na PUC. A idéia deste evento é ser totalmente prático, ou seja, como criar e publicar uma aplicação no Windows Azure.
+Fique atento aos pré-requisitos na página de inscrição: http://www.eventick.com.br/GWAB-Londrina-PR
+
+Abraços e até lá!
+Carlos dos Santos</description>
+    </item>
     
     <item>
       <title>Como escolher o modelo ideal de TFS para sua empresa</title>
@@ -171,77 +247,6 @@ Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do
       <description>Olá pessoal,
 Hoje em um desenvolvimento de projeto é muito comum o programador ter que saber vários comando de bancos de dados (Insert, Delete, Update, Select) para poder desenvolver, além de saber sobre a linguagem de progração. O EntityFramework vem para ajudar nesta tarefa, criando uma correspondência entre as tabelas do banco de dados, o que chamamos de ORM, ou mapeamento Objeto-Relacional.
 Existem, basicamente, duas maneiras de se trabalhar com o Entity Framework, usando o Entity Designer ou o Entity Framework Code First.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework com Oracle</title>
-      <link>https://carloscds.net/2012/01/entity-framework-com-oracle/</link>
-      <pubDate>Wed, 04 Jan 2012 22:29:16 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/01/entity-framework-com-oracle/</guid>
-      <description>A Oracle acabou de lancar seu provider nativo para o Entity Framework, a versão ODAC 11.2. Agora você já pode acessar nativamente o Oracle com o EF, facilitando o desenvolvimento através do mapeamento objeto relacional.
-Para baixar acesse os links abaixo:
-Usando EF com Oracle: http://www.oracle.com/technetwork/issue-archive/2011/11-sep/o51odt-453447.html
-Provider 32 bits: http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html
-Provider 64 bits: http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html
- []s,
-Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Provas de Certificação</title>
-      <link>https://carloscds.net/2011/12/provas-de-certificao/</link>
-      <pubDate>Wed, 07 Dec 2011 15:53:17 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/12/provas-de-certificao/</guid>
-      <description>Pessoal,
-Tenho acompanhado que muitas pessoas estão estudando para tirar alguma tipo de certificação Microsoft. Uma boa dica é usarem os livros Self-Paced, que além de conterem material específico para a prova, têm também um software que simula a prova e que você pode usar para ver como está seu conhecimento, antes de realizar a prova.
-Veja um exemplo de livro aqui no Amazon: http://www.amazon.com/MCTS-Self-Paced-Training-Exam-70-515/dp/0735627401. Este é para a prova de Web do .</description>
-    </item>
-    
-    <item>
-      <title>Palestra sobre Windows Phone em Natal/RN</title>
-      <link>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</link>
-      <pubDate>Mon, 14 Nov 2011 14:20:29 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/11/palestra-sobre-windows-phone-em-natalrn/</guid>
-      <description>Pessoal,
-Semana passada estive em Natal/RN para um encontro de Centrais de Negócios do Sebrae e algo inusitado aconteceu. Tenho um grande amigo que mora em Natal, o Glebe Duarte, que trabalha no Senac. Eu já tinha falado com ele que estaria em Natal, e tínhamos até combinado um bate papo sobre comunidades e tecnologia.
-O mais incrível foi que o Glebe me chamou para fazer uma palestra sobre Windows Phone no Senac, algo que eu nem imaginava quando fúi para lá.</description>
-    </item>
-    
-    <item>
-      <title>Curso de C# no IFPR</title>
-      <link>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</link>
-      <pubDate>Mon, 03 Oct 2011 20:32:31 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</guid>
-      <description>Nos dias 14 e 15 de setembro eu ministrei um curso básico de C# para os alunos do curso técnico do Instituto Federal do Paraná (www.ifpr.edu.br) a convite do Prof. Rodolfo Barrivieira.
-Neste treinamento os alunos tiveram a oportunidade de conhecer a plataforma Microsoft.Net e o Visual Studio 2010, num total de 8 horas de curso.
-Abraços,
-Carlos.</description>
-    </item>
-    
-    <item>
-      <title>TechEd 2011–Palestra Entity Framework</title>
-      <link>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</link>
-      <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</guid>
-      <description>Pessoal,
-Este ano tive o prazer de ser palestrante no maior evento de tecnologia Microsoft do Brasil, o TechEd 2011. Confesso que fiquei muito ansioso e também nervoso, pois a responsabilidade em um evento destes é muito grande, e sempre procuramos fazer o melhor. Fiquei muito feliz que a sala ficou praticamente lotada e mais feliz ainda porquê vários amigos foram me prestigiar, então muito obrigado aos amigos Renato Haddad, Fernando Cerqueira, Israel Aece e Bruno Sonnino.</description>
-    </item>
-    
-    <item>
-      <title>Brazilian Translation Wiki 2011 Community Participant Award</title>
-      <link>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</link>
-      <pubDate>Sun, 02 Oct 2011 20:14:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/10/brazilian-translation-wiki-2011-community-participant-award/</guid>
-      <description>Pessoal,
-Acabei de receber um reconhecimento da Microsoft que me deixou muito contente. Já é o segundo prémio do Translation Wiki que recebo por participar dos trabalhos de moderação da MSDN Library (http://msdn.microsoft.com/pt-br/library), onde basicamento corrigimos os textos traduzidos automaticamente e também os textos da comunidade.
-Costumo dizer que é um trabalho interessante e que ajuda também a aumentar meus conhecimentos, pois frequentemente estou acessando os mais variados assuntos.
-Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agradecimentos assinada pelo Somasegar (Senior Vice President a Developer Division) e um Microsoft Arc Mouse.</description>
     </item>
     
   </channel>

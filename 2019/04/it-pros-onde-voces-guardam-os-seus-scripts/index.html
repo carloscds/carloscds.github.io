@@ -31,7 +31,7 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
     </script>
 
     
-    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
     <title>IT Pros, onde vocês guardam os seus scripts ? - Carlos dos Santos</title>
     
     
@@ -174,12 +174,14 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">7</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c#/" class="category-list-link">c#</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">90</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet/" class="category-list-link">dotnet</a><span class="category-list-count">8</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet-core/" class="category-list-link">dotnet-core</a><span class="category-list-count">17</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">31</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">5</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
@@ -390,6 +392,16 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2023/07/entityframeworkcore-inicio/" class="title">EntityFramework Core - Inicio (de novo)</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2023-07-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-07-17</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/" class="title">Como configurar uma Function para acessar dados no KeyVault</a>
                     </p>
                     <p class="item-date">
@@ -424,16 +436,6 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
                     </p>
                     <p class="item-date">
                         <time datetime="2021-03-23 22:00:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-03-23</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/" class="title">Datas Estranhas no Entity Framework Core</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-03-22 21:30:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-03-22</time>
                     </p>
                 </div>
             </li>
@@ -489,7 +491,7 @@ Pergunto também se eles controlam as mudanças feitas nestes scripts e outro di
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &ldquo;caras do TI&rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &ldquo;Eu guardo lá em um HD no meu PC&rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.</p>
-<p>Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &ldquo;Eu controlo as mudanças em uma planilha!&rdquo;.</p>
+<p>Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &ldquo;Eu controlo as mudanças em uma planilha!&quot;.</p>
 <p>Ok, mas vamos pensar uma coisa. A equipe de desenvolvimento usa um versionador de código, certo? Então por quê o TI não pode também versionar seus scripts ?</p>
 <p>Script é código fonte, assim como o código fonte de uma aplicação, certo! Então podemos guardar em um versionador de código, como Git, por exemplo. Mas vamos fazer melhor, vamos guardar no Azure DevOps, que é GRATUITO para até 5 usuários, e protegido com usuário/senha, e também pode se integrar com seu Active Directory da Nuvem (Azure). Se o seu time desenvolvimento já usa o Azure DevOps, melhor ainda!!!</p>
 <p>Se você ainda não tem uma conta no Azure DevOps, é bem simples, acesse <a href="http://dev.azure.com">http://dev.azure.com</a> e crie uma conta gratuita.</p>

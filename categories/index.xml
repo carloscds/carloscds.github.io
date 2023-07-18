@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EntityFramework Core - Inicio (de novo)</title>
+      <link>https://carloscds.net/2023/07/entityframeworkcore-inicio/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/07/entityframeworkcore-inicio/</guid>
+      <description>Durante muito tempo eu publiquei muito conteúdo sobre EntityFramework (EF), muito antes da versão Core surgir, e durante muito tempo depois desta nova versão eu apenas acompanhei o desenvolvimento, até que na versão 3.1, o EF Core ficou realmente bom para uso em grandes projetos, com a produção de queries &amp;ldquo;muito limpas&amp;rdquo; para o banco de dados. Neste ponto voltei a colocar o EF nos meus projetos.
+Mas antes de contonuar, precisamos fazer uma explicação para você que &amp;ldquo;ainda&amp;rdquo; acha que o EntityFramework é um ORM ruim.</description>
+    </item>
     
     <item>
       <title>Como configurar uma Function para acessar dados no KeyVault</title>
@@ -224,20 +234,6 @@ O primeiro passo é você criar uma Storage. Para isto vá até o portal do Azur
 Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
 Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
 Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configurar o C# para versão 8, veja abaixo:</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2019 - primeiras impressões</title>
-      <link>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</link>
-      <pubDate>Mon, 10 Dec 2018 00:07:49 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</guid>
-      <description>Olá pessoal,
-Esta semana durante o evento Connect foi lançado o novo Visual Studio 2019 - Preview, sim ainda é uma versão inicial, mas já temos muitas novidades!!
-A primeira delas é a nova pagina inicial, agora bem mais simples:
-Somente 4 opções (lado direito) e a lista dos últimos projetos abertos.
-Ao criar um novo projeto, temos uma nova tela::
-Eu, particularmente, gostei desta nova tela, onde você tem alguns filtros, como : linguagem, tipo de projeto, plataforma e também a busca por nome.</description>
     </item>
     
   </channel>
