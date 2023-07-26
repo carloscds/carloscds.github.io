@@ -5,10 +5,22 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C# 6</title>
+      <link>https://carloscds.net/2015/03/c-6/</link>
+      <pubDate>Mon, 02 Mar 2015 15:30:53 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/03/c-6/</guid>
+      <description>Fala pessoal,
+Na última sexta-feira (27/02) eu fiz uma palestra online no Codificando Night Week sobre as novidades do C# 6. O vídeo da minha apresentação já está no Youtube e pode ser baixado aqui. Disponibilizei também os PPT no Slideshare e você pode obter neste link.
+Abraços e até a próxima.
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Visual Studio 2015 e C# - Algumas Novidades</title>
@@ -228,17 +240,6 @@ Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse 
 O Entity Framework 6 RC já foi lançado! Agora é a hora de começar a trabalhar na migraçãoda versão 5 para a 6 e ver as novas funcionalidades. As especificações sobre as novas funcionalidades podem ser encontradas aqui.
 Dentre as muitas novidades, que vamos explorar nos post seguintes, hoje vou destacar uma que acho bem interessante: o log dos comandos enviados ao banco de dados.
 Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacional traduz comandos de uma linguagem de programação, no nosso caso C# e LINQ, para comandos de banco de dados.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework 6–Trabalhando com os Nightly Builds</title>
-      <link>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</link>
-      <pubDate>Sun, 18 Aug 2013 18:13:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</guid>
-      <description>Olá pessoal,
-Voltando agora a escrever mais sobre o Entity Framework, estamos aguardando a nova versão 6 (ainda sem data definitiva para ser lançado) que trará melhorias muito significativas e vamos explorar algumas delas nos próximos artigos.
-Antes de qualquer coisa é importante saber que o Entity Framework 6 ainda está em versão Alfa (isto mesmo ALFA), sendo assim não é recompendado utilizar em projetos que já estejam em produção, o que não nos impede de já ir testando algumas coisas bem legais.</description>
     </item>
     
   </channel>

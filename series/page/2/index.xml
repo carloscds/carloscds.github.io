@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>C# 8 Range Index</title>
+      <link>https://carloscds.net/2019/01/c-8-range-index/</link>
+      <pubDate>Sun, 06 Jan 2019 21:40:26 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/01/c-8-range-index/</guid>
+      <description>No post anterior eu falei um pouco sobre o Visual Studio 2019 Preview, que alias, eu já estou utilizando para trabalhar em alguns projetos.
+Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
+Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
+Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configurar o C# para versão 8, veja abaixo:</description>
+    </item>
+    
+    <item>
       <title>Visual Studio 2019 - primeiras impressões</title>
       <link>https://carloscds.net/2018/12/visual-studio-2019-primeiras-impressoes/</link>
       <pubDate>Mon, 10 Dec 2018 00:07:49 -0300</pubDate>
@@ -231,18 +243,6 @@ Para executarmos os exemplos você vai precisar baixar o Visual Studio “15” 
       <description>Fala pessoal,
 É isto mesmo que você leu, tem um Linux dentro do Window 10, e não é uma máquina virtual, como muitos estão pensando, é um sub-sistema baseado no Ubuntu.
 Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é loucura, mas o mundo mudou e a Microsoft também. Nós últimos anos a Microsoft vem trabalhando mais fortemente com comunidades open source, e o Linux é uma delas.</description>
-    </item>
-    
-    <item>
-      <title>Serializando JSon com JIL</title>
-      <link>https://carloscds.net/2016/07/serializando-json-com-jil/</link>
-      <pubDate>Sat, 30 Jul 2016 17:34:11 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/07/serializando-json-com-jil/</guid>
-      <description>Fala pessoal, tudo bem!
-Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
-Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
-Você recebe um dado em Json, que é basicamente um texto, e precisa manipular seu conteúdo através de uma classe!</description>
     </item>
     
   </channel>

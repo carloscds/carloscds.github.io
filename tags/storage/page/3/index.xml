@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Serializando JSon com JIL</title>
+      <link>https://carloscds.net/2016/07/serializando-json-com-jil/</link>
+      <pubDate>Sat, 30 Jul 2016 17:34:11 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/07/serializando-json-com-jil/</guid>
+      <description>Fala pessoal, tudo bem!
+Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
+Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
+Você recebe um dado em Json, que é basicamente um texto, e precisa manipular seu conteúdo através de uma classe!</description>
+    </item>
+    
+    <item>
       <title>Visual Studio Summit</title>
       <link>https://carloscds.net/2016/06/visual-studio-summit/</link>
       <pubDate>Mon, 13 Jun 2016 08:52:01 -0300</pubDate>
@@ -218,18 +230,6 @@ no dia seguinte ao evento, eu e mais dois MVPs fomos convidados a comentar o eve
 Gostaria de convidá-los para o grande evento que a Microsoft e os MVPs estão organizando, e que acontecerá nos dias 14 e 15 de maio, a partir das 12h00 (Horário de Brasilia)
 Junte-se aos MVPs do Brasil, Estados Unidos e Latam que estarão compartilhando o seu conhecimento em sessões práticas e gratuitas, com cenários do mundo real e últimas novidades sobre Tecnologia Microsoft.
 O MVP Virtual Conference trará 95 sessões com conteúdo para IT Pros, Developers e Consumer experts, planejadas para ajudá-lo a navegar no momento mobile-first Cloud first.</description>
-    </item>
-    
-    <item>
-      <title>C# 6</title>
-      <link>https://carloscds.net/2015/03/c-6/</link>
-      <pubDate>Mon, 02 Mar 2015 15:30:53 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/03/c-6/</guid>
-      <description>Fala pessoal,
-Na última sexta-feira (27/02) eu fiz uma palestra online no Codificando Night Week sobre as novidades do C# 6. O vídeo da minha apresentação já está no Youtube e pode ser baixado aqui. Disponibilizei também os PPT no Slideshare e você pode obter neste link.
-Abraços e até a próxima.
-Carlos dos Santos.</description>
     </item>
     
   </channel>

@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Entity Framework 6–Trabalhando com os Nightly Builds</title>
+      <link>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</link>
+      <pubDate>Sun, 18 Aug 2013 18:13:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</guid>
+      <description>Olá pessoal,
+Voltando agora a escrever mais sobre o Entity Framework, estamos aguardando a nova versão 6 (ainda sem data definitiva para ser lançado) que trará melhorias muito significativas e vamos explorar algumas delas nos próximos artigos.
+Antes de qualquer coisa é importante saber que o Entity Framework 6 ainda está em versão Alfa (isto mesmo ALFA), sendo assim não é recompendado utilizar em projetos que já estejam em produção, o que não nos impede de já ir testando algumas coisas bem legais.</description>
+    </item>
     
     <item>
       <title>Analise sua Conta do Windows Azure</title>
@@ -236,17 +247,6 @@ Como eu já comentei em outros posts, quando você utiliza DataAnnotations em cl
       <guid>https://carloscds.net/2012/01/entityframework-codefirst/</guid>
       <description>No post anterior, eu falei em como trabalhar com Entity Framework usando o Designer, ou seja, um modelo de classes criado a partir de um arquivo EDMX. Este modelo funciona perfeitamente em diversos tipos de projetos, mas o grande incoveniente é ter um arquivo EDMX para cada tipo de banco de dados do seu projeto.
 Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do artigo anterior. Nossa necessidade ainda é manter o isolamento do banco de dados e trabalhar somente com objetos.</description>
-    </item>
-    
-    <item>
-      <title>Trabalhando com Entity Framework Designer</title>
-      <link>https://carloscds.net/2012/01/trabalhando-com-entity-framework-designer/</link>
-      <pubDate>Sat, 07 Jan 2012 16:21:11 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/01/trabalhando-com-entity-framework-designer/</guid>
-      <description>Olá pessoal,
-Hoje em um desenvolvimento de projeto é muito comum o programador ter que saber vários comando de bancos de dados (Insert, Delete, Update, Select) para poder desenvolver, além de saber sobre a linguagem de progração. O EntityFramework vem para ajudar nesta tarefa, criando uma correspondência entre as tabelas do banco de dados, o que chamamos de ORM, ou mapeamento Objeto-Relacional.
-Existem, basicamente, duas maneiras de se trabalhar com o Entity Framework, usando o Entity Designer ou o Entity Framework Code First.</description>
     </item>
     
   </channel>

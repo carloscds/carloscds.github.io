@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Integrando Apple XCode com TFS 2010</title>
+      <link>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</link>
+      <pubDate>Wed, 29 Dec 2010 11:01:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</guid>
+      <description>Pessoal,
+Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
+Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
+    </item>
+    
+    <item>
       <title>Editora Novatec–Desconto!</title>
       <link>https://carloscds.net/2010/12/editora-novatecdesconto/</link>
       <pubDate>Fri, 10 Dec 2010 13:46:04 -0300</pubDate>
@@ -222,20 +233,6 @@ Primeiro por reencontrar vários amigos, depois pelos palestrantes, como Martin 
       <description>Pessoal, eu acabei de passar na prova do Professional Scrum Master www.scrum.org. Agora só falta fazer a Professional Scrum Developer, que é baseada no Visual Studio Team System 2010.
 Após realizar este segunda prova, eu poderei ministrar cursos oficiais de Scrum pela Scrum.Org.
 Abraços,
-Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Palestra na Faccar de Rolândia/PR sobre Visual Studio 2010</title>
-      <link>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</link>
-      <pubDate>Sun, 13 Jun 2010 10:09:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</guid>
-      <description>Eu estive na Faculdade Paranaense – FACCAR, de Rolância/PR na última sexta-feira (11/06), para ministrar uma palestra sobre Visual Studio 2010 e as novidades da plataforma.
-Neste evento, tive a oportunidade de mostrar recursos como programação dinâmina, paralelelismo, Entity Framework 4, WPF e Silverlight.
-Gostaria de agradecer ao convite do Prof.Zanete e espero voltar mais vezes para mostrar os avanços tecnológicos da plataforma .Net
-Vejam as fotos:
-[]s,
 Carlos dos Santos.</description>
     </item>
     

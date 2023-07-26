@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Trabalhando com Entity Framework Designer</title>
+      <link>https://carloscds.net/2012/01/trabalhando-com-entity-framework-designer/</link>
+      <pubDate>Sat, 07 Jan 2012 16:21:11 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/01/trabalhando-com-entity-framework-designer/</guid>
+      <description>Olá pessoal,
+Hoje em um desenvolvimento de projeto é muito comum o programador ter que saber vários comando de bancos de dados (Insert, Delete, Update, Select) para poder desenvolver, além de saber sobre a linguagem de progração. O EntityFramework vem para ajudar nesta tarefa, criando uma correspondência entre as tabelas do banco de dados, o que chamamos de ORM, ou mapeamento Objeto-Relacional.
+Existem, basicamente, duas maneiras de se trabalhar com o Entity Framework, usando o Entity Designer ou o Entity Framework Code First.</description>
+    </item>
     
     <item>
       <title>Entity Framework com Oracle</title>
@@ -233,17 +244,6 @@ Está também disponível o SP1 do Team Foundation Server com diversas melhorias
       <description>Olá pessoal,
 Uma das coisas interessantes da linguagem C# é a quantidade de opções que temos para resolver o problemas do nosso dia a dia. Um caso interessante e bem comum é termos a necessidade de passar vários parâmetros para um método e às vezes também retornar vários parâmetros, e é bem provável que você se utilize de artifícios como parâmetros de saída (out) ou referência (ref).
 Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description>
-    </item>
-    
-    <item>
-      <title>Integrando Apple XCode com TFS 2010</title>
-      <link>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</link>
-      <pubDate>Wed, 29 Dec 2010 11:01:48 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</guid>
-      <description>Pessoal,
-Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
-Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
     </item>
     
   </channel>

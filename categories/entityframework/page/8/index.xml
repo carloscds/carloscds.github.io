@@ -5,10 +5,24 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Palestra na Faccar de Rolândia/PR sobre Visual Studio 2010</title>
+      <link>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</link>
+      <pubDate>Sun, 13 Jun 2010 10:09:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</guid>
+      <description>Eu estive na Faculdade Paranaense – FACCAR, de Rolância/PR na última sexta-feira (11/06), para ministrar uma palestra sobre Visual Studio 2010 e as novidades da plataforma.
+Neste evento, tive a oportunidade de mostrar recursos como programação dinâmina, paralelelismo, Entity Framework 4, WPF e Silverlight.
+Gostaria de agradecer ao convite do Prof.Zanete e espero voltar mais vezes para mostrar os avanços tecnológicos da plataforma .Net
+Vejam as fotos:
+[]s,
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Scrum para o VSTS 2010</title>
@@ -231,17 +245,6 @@ Para começar, vamos mostrar como está a nossa planilha no Excel e quais as inf
       <guid>https://carloscds.net/2009/12/skydrive-explorer/</guid>
       <description>Se você costuma usar o SkyDrive para armazenar informações e poder usar em qualquer lugar, vai gostar deste novo utilitário. O SkyDrive Explorer é um aplicativo que permite que você abra o SkyDrive no seu Windows Explorer e consigar ler e gravar arquivos como se fosse um drive do seu computador. Se você ainda não usa o SkyDrive, clique http://skydrive.live.com e comece agora mesmo.
 Primeiro você precisa baixar o utilitário clicando aqui.</description>
-    </item>
-    
-    <item>
-      <title>Londrina TechDay – Segunda Edição</title>
-      <link>https://carloscds.net/2009/11/londrina-techday-segunda-edicao/</link>
-      <pubDate>Wed, 18 Nov 2009 08:37:44 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/londrina-techday-segunda-edicao/</guid>
-      <description>Segunda-feira dia 05 apresentei no Londrina TechDay na Unifil em Londrina as novidades do Visual Studio 2010 Beta 1 e as novidades do C# 4.0, no mesmo dia o Marcio Althmann apresentou as novidades do Silverlight 3.0.
-Em breve teremos mais, principalmente com o lançamento do Windows 7, fiquem atentos.
-[]s,</description>
     </item>
     
   </channel>
