@@ -55,7 +55,7 @@ Até aí nada demais, inclusive eu já abordei o Migrations em diversos artigos 
 Azure Database Default Config Quando você cria um banco de dados no Azure, por exemplo com o comando:">
 <meta itemprop="datePublished" content="2023-09-18T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2023-09-18T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="319">
+<meta itemprop="wordCount" content="352">
 
 
 
@@ -492,7 +492,7 @@ Azure Database Default Config Quando você cria um banco de dados no Azure, por 
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2023/09/entityframeworkcore-databasetier/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 319words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 352words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
       </div>
     </div>
@@ -531,11 +531,13 @@ Neste caso mais de 2 mil reais na data de hoje.</p>
 modelBuilder.HasPerformanceLevel(&quot;Basic&quot;);
 </code></pre>
 <p>Eles informam ao migrations para modificar a camada do SQL para Basic que custa muito, muito menos, cerca de R$ 27,00 hoje!</p>
-<p>No meu exemplo eu usei o Basic porque sempre começo un projeto no Azure com uma camada de banco bem pequena e barata, e a medida que o projeto cresce, vamos aumentando o tamanho do banco! Questão de economia!</p>
+<p>No meu exemplo eu usei o Basic porque sempre começo um projeto no Azure com uma camada de banco bem pequena e barata, e a medida que o projeto cresce, vamos aumentando o tamanho do banco! Questão de economia!</p>
 <p>Você pode conferir mais detalhes sobre os comandos aqui:</p>
 <p><a href="https://learn.microsoft.com/en-us/ef/core/providers/sql-server/azure-sql-database">https://learn.microsoft.com/en-us/ef/core/providers/sql-server/azure-sql-database</a>
 <a href="https://learn.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.sqlservermodelbuilderextensions.hasperformancelevel?view=efcore-7.0">https://learn.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.sqlservermodelbuilderextensions.hasperformancelevel?view=efcore-7.0</a></p>
 <p>Esta opção está disponível desde o EF Core 3.1</p>
+<h3 id="considerações">Considerações</h3>
+<p>O ideal neste caso é utilizar um usuário com acesso restrito ao banco e quando houver necessidade, o responsável pelo Azure pode criar o banco na camada correta, evitando todos estes problemas!</p>
 <p>O código fonte deste exemplo pode ser encontrado no meu GitHub: <a href="https://github.com/carloscds/EntityFramework/tree/main/EFCoreDatabaseTier">https://github.com/carloscds/EntityFramework/tree/main/EFCoreDatabaseTier</a></p>
 <p>Abraços e até a próxima!</p>
 
