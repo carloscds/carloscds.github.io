@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>EntityFramework CodeFirst</title>
+      <link>https://carloscds.net/2012/01/entityframework-codefirst/</link>
+      <pubDate>Sat, 07 Jan 2012 23:31:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/01/entityframework-codefirst/</guid>
+      <description>No post anterior, eu falei em como trabalhar com Entity Framework usando o Designer, ou seja, um modelo de classes criado a partir de um arquivo EDMX. Este modelo funciona perfeitamente em diversos tipos de projetos, mas o grande incoveniente é ter um arquivo EDMX para cada tipo de banco de dados do seu projeto.
+Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do artigo anterior. Nossa necessidade ainda é manter o isolamento do banco de dados e trabalhar somente com objetos.</description>
+    </item>
+    
+    <item>
       <title>Trabalhando com Entity Framework Designer</title>
       <link>https://carloscds.net/2012/01/trabalhando-com-entity-framework-designer/</link>
       <pubDate>Sat, 07 Jan 2012 16:21:11 -0300</pubDate>
@@ -232,17 +242,6 @@ Bom, vamos lá:
       <description>Pessoal,
 Já está disponível o SP1 do Visual Studio 2010 com diversas melhorias, como suporte a Silverlight 4, HTML 5, teste de performace para Silverlight, IIS Express, suporte a Razor, melhorias no editor XAML, entre diversas correções de problemas (veja lista completa do SP1 aqui).
 Está também disponível o SP1 do Team Foundation Server com diversas melhorias, o link para download é o mesmo do VS2010 (veja lista completa do SP1 aqui).</description>
-    </item>
-    
-    <item>
-      <title>Usando Tuples em C#–retornando vários parâmetros de um método</title>
-      <link>https://carloscds.net/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</link>
-      <pubDate>Mon, 07 Feb 2011 21:53:56 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</guid>
-      <description>Olá pessoal,
-Uma das coisas interessantes da linguagem C# é a quantidade de opções que temos para resolver o problemas do nosso dia a dia. Um caso interessante e bem comum é termos a necessidade de passar vários parâmetros para um método e às vezes também retornar vários parâmetros, e é bem provável que você se utilize de artifícios como parâmetros de saída (out) ou referência (ref).
-Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description>
     </item>
     
   </channel>

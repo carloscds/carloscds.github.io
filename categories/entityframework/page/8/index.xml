@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Professional Scrum Master</title>
+      <link>https://carloscds.net/2010/06/professional-scrum-master/</link>
+      <pubDate>Sun, 13 Jun 2010 14:17:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/professional-scrum-master/</guid>
+      <description>Pessoal, eu acabei de passar na prova do Professional Scrum Master www.scrum.org. Agora só falta fazer a Professional Scrum Developer, que é baseada no Visual Studio Team System 2010.
+Após realizar este segunda prova, eu poderei ministrar cursos oficiais de Scrum pela Scrum.Org.
+Abraços,
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Palestra na Faccar de Rolândia/PR sobre Visual Studio 2010</title>
@@ -235,16 +247,6 @@ Você quer fazer tudo que tem no livro, pois o Silverlight por si só já é mui
       <description>Hoje em dia é muito comum recebermos dados em planilhas do Excel e ter que importar ou analisar estes dados em nossas aplicações.
 Com a ajuda do .Net Framework esta tarefa fica muito fácil e vou demonstrar como você pode abrir um arquivo do Excel e executar um comando Select em uma planilha simplesmente usando Ado.Net.
 Para começar, vamos mostrar como está a nossa planilha no Excel e quais as informações importantes para o nosso programa em .</description>
-    </item>
-    
-    <item>
-      <title>SkyDrive Explorer</title>
-      <link>https://carloscds.net/2009/12/skydrive-explorer/</link>
-      <pubDate>Sun, 13 Dec 2009 11:18:02 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/12/skydrive-explorer/</guid>
-      <description>Se você costuma usar o SkyDrive para armazenar informações e poder usar em qualquer lugar, vai gostar deste novo utilitário. O SkyDrive Explorer é um aplicativo que permite que você abra o SkyDrive no seu Windows Explorer e consigar ler e gravar arquivos como se fosse um drive do seu computador. Se você ainda não usa o SkyDrive, clique http://skydrive.live.com e comece agora mesmo.
-Primeiro você precisa baixar o utilitário clicando aqui.</description>
     </item>
     
   </channel>

@@ -162,14 +162,14 @@
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">7</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">92</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">93</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet/" class="category-list-link">dotnet</a><span class="category-list-count">8</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet-core/" class="category-list-link">dotnet-core</a><span class="category-list-count">17</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">32</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">33</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">5</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
@@ -383,6 +383,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2023/09/entityframeworkcore-databasetier/" class="title">EntityFramework - Se você usa Migrations com Azure Database, preste muita atenção!</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2023-09-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-09-18</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2023/07/entityframeworkcore-powertools/" class="title">EntityFramework Core PowerTools - Engenharia Reversa do Banco de Dados</a>
                     </p>
                     <p class="item-date">
@@ -420,16 +430,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2021/06/app-services-horario/" class="title">Configurando o horário de um App Service em Linux no Azure</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-06-08 22:00:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-06-08</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -445,6 +445,51 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2021/03/entity-framework-core-datas-estranhas/"
+    >Datas Estranhas no Entity Framework Core</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Olá pessoal,
+Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
+Problema O que acontece se você submeter uma consulta do tipo:
+select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/" class="">
+  <time datetime="2021-03-22 21:30:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-03-22</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/dotnet-core/"> DotNet Core </a>
+  <a class="article-category-link" href="/categories/entityframework-core/"> EntityFramework Core </a>
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/publish/"> publish </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2021/03/entity-framework-core-datas-estranhas/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 373words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -687,48 +732,6 @@ Uma outra coisa interessante sobre este mecanismo no ASP.
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/02/injecao-de-dependencia-em-c-parte-2/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1172words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2020/02/injecao-de-dependencia-em-c-parte-1/"
-    >Injeção de Dependência em C# - Parte 1</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Olá,
-Hoje em dia muito se tem se falado muito em injeção de dependência, principalmente se você desenvolve ou está começando a desenvolver com ASP.NET Core.
-Mas que realmente significa &ldquo;injetar&rdquo; uma dependência e o que é a tal dependência?
-Conceito Injeção de dependência é um padrão de projeto que permite baixo acoplamento do código!
-Ai você se pergunta, mas o que é acoplamento do código? Sendo bem simplista, é um código que possui uma alta dependência de um outro código, onde o relacionamento entre os dois é muito forte!
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/" class="">
-  <time datetime="2020-02-13 23:16:24 -0300 -03" itemprop="datePublished">2020-02-13</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/dotnet/"> DotNet </a>
-  <a class="article-category-link" href="/categories/dotnet-core/"> DotNet Core </a>
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/02/injecao-de-dependencia-em-c-parte-1/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 893words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 5minutes </span>
       </p>
     </article></div>
   
