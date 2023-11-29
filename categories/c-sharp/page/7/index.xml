@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio 2010 Service Pack 1</title>
+      <link>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</link>
+      <pubDate>Wed, 09 Mar 2011 21:46:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</guid>
+      <description>Pessoal,
+Já está disponível o SP1 do Visual Studio 2010 com diversas melhorias, como suporte a Silverlight 4, HTML 5, teste de performace para Silverlight, IIS Express, suporte a Razor, melhorias no editor XAML, entre diversas correções de problemas (veja lista completa do SP1 aqui).
+Está também disponível o SP1 do Team Foundation Server com diversas melhorias, o link para download é o mesmo do VS2010 (veja lista completa do SP1 aqui).</description>
+    </item>
     
     <item>
       <title>Usando Tuples em C#–retornando vários parâmetros de um método</title>
@@ -224,16 +235,6 @@ Carlos dos Santos.</description>
       <description>Pessoal,
 Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
 No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.</description>
-    </item>
-    
-    <item>
-      <title>Agile Brazil 2010</title>
-      <link>https://carloscds.net/2010/06/agile-brazil-2010/</link>
-      <pubDate>Sun, 27 Jun 2010 15:51:34 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/agile-brazil-2010/</guid>
-      <description>Eu estive na quinta e sexta-feira (24 e 25/06) em Porto Alegre/RS para a Agile Brasil 2010 – Conferência Brasileira sobre Métodos Ageis de Desenvolvimento de Software e foi um evento realmente espetacular.
-Primeiro por reencontrar vários amigos, depois pelos palestrantes, como Martin Flowler, um dos grandes influenciadores das metodologias ágeis. Nestes dias tivemos várias palestras e workshops , de alto nível, onde pudemos aumentar nosso conhecimento e trocar idéias.</description>
     </item>
     
   </channel>

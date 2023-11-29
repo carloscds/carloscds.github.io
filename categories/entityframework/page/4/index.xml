@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build Tour São Paulo</title>
+      <link>https://carloscds.net/2015/05/build-tour-so-paulo/</link>
+      <pubDate>Fri, 29 May 2015 16:47:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/05/build-tour-so-paulo/</guid>
+      <description>Na semana passada tivemos o Build Tour em São Paulo, uma versão compacta do evento americando. Neste evento foram mostradas várias novidades do Windows 10 e da nova plataforma de desenvolvimento, a Windows Universal Apps.
+no dia seguinte ao evento, eu e mais dois MVPs fomos convidados a comentar o evento na sede da Microsoft. Esta nossa conversa foi transmitida ao vivo e agora está disponível no site para quem não pode assisir.</description>
+    </item>
     
     <item>
       <title>MVP Virtual Conference</title>
@@ -228,18 +238,6 @@ O Visual Studio 2013 será lançado no próximo dia 13/11/2013 (para assinantes 
 Neste post vou mostrar algumas destas novas funcionalidades que eu particularmente uso a todo momento e que ajudam muito no desenvolvimento. Enão vamos lá:
 Peek Definition (ALT F12)
 Imagine que você está escrevendo um método qualquer e precisa verificar um método que está em outra classe, normalmente você pressionar o F2 e olha a classe, e depois volta para o seu código.</description>
-    </item>
-    
-    <item>
-      <title>Palestra de Windows Azure–Cesumar</title>
-      <link>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</link>
-      <pubDate>Thu, 19 Sep 2013 10:07:11 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</guid>
-      <description>Pessoal,
-Ontem (18/09/2013) fiz uma palestra sobre Windows Azure no Cesumar em Maringá, onde mostrei as funcionalides do Azure e como é possível criar e migrar aplicações para a nuvem.
-Gostaria de agradecer ao Clodoaldo Assis pelo convite, ao Cesumar pela oportunidade e principalmente pelas pessoas presentes e pela excelente interação que tivemos ao final da palestra.
-Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse minha página no facebook.</description>
     </item>
     
   </channel>

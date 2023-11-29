@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Validando Dados com EntityFramework e WindowsForms</title>
+      <link>https://carloscds.net/2012/01/validando-dados-com-entityframework-e-windowsforms/</link>
+      <pubDate>Tue, 31 Jan 2012 00:20:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/01/validando-dados-com-entityframework-e-windowsforms/</guid>
+      <description>Pessoal,
+Hoje vou mostrar uma maneira bem simples e interessante de fazer validação de dados com EntityFramework, classes POCO e uma aplicação Windows Forms.
+Como eu já comentei em outros posts, quando você utiliza DataAnnotations em classes POCO na sua camada de dados e faz a camada de apresentação com WPF/Silverlight ou MVC, o tratamento dos campos é feito automaticamente, praticamente sem nenhum tipo de código. Mas e se você ainda programa para WindowsForms ou precisa validar os dados da classe em uma camada e retornar o erro para outra camada, como fazer ?</description>
+    </item>
     
     <item>
       <title>EntityFramework CodeFirst</title>
@@ -232,17 +243,6 @@ Carlos.</description>
 Hoje vou mostrar como você pode se cadastrar para se tornar um desenvolvedor oficial de aplicações para Windows Phone 7. Mas por quê me cadastrar lá ? Simples, você pode criar um aplicativo que pode ser baixado em qualquer lugar do mundo, então imagine as possibilidades.
 Bom, vamos lá:
  Acesse o site do AppHub com um Live ID (pode ser do seu MSN);  Neste site você também pode baixar as ferramentas de desenvolvimento.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2010 Service Pack 1</title>
-      <link>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</link>
-      <pubDate>Wed, 09 Mar 2011 21:46:38 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</guid>
-      <description>Pessoal,
-Já está disponível o SP1 do Visual Studio 2010 com diversas melhorias, como suporte a Silverlight 4, HTML 5, teste de performace para Silverlight, IIS Express, suporte a Razor, melhorias no editor XAML, entre diversas correções de problemas (veja lista completa do SP1 aqui).
-Está também disponível o SP1 do Team Foundation Server com diversas melhorias, o link para download é o mesmo do VS2010 (veja lista completa do SP1 aqui).</description>
     </item>
     
   </channel>

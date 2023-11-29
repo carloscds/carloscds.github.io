@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lendo uma Planilha do Excel com C#</title>
+      <link>https://carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</link>
+      <pubDate>Sun, 13 Dec 2009 11:47:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</guid>
+      <description>Hoje em dia é muito comum recebermos dados em planilhas do Excel e ter que importar ou analisar estes dados em nossas aplicações.
+Com a ajuda do .Net Framework esta tarefa fica muito fácil e vou demonstrar como você pode abrir um arquivo do Excel e executar um comando Select em uma planilha simplesmente usando Ado.Net.
+Para começar, vamos mostrar como está a nossa planilha no Excel e quais as informações importantes para o nosso programa em .</description>
+    </item>
     
     <item>
       <title>SkyDrive Explorer</title>
@@ -226,20 +237,6 @@ Resolvi publicar este post devido ao grande número de pessoas que solicitam est
       <description>Para quem está desesenvolvendo para Windows Mobile e precisa acessar dispositivos Bluetooth, tenho duas dicas muito interessantes:
   Existe um projeto Open source da 32Feet.Net que implementa diversas funcionalidades para bluetooth. Tem um post mostrando o funcionando destes componentes no link: http://blogs.microsoft.co.il/blogs/shair/archive/2009/06/21/working-with-bluetooth-devices-using-c-part-1.aspx
   A Microsoft tem uma suite de componentes chamada Code4Fun Developer Kit, que tem, entre diversas outras funcionalidades, uma implementação para controle de bluetooth. Você pode obtê-la no link: http://www.</description>
-    </item>
-    
-    <item>
-      <title>Links úteis sobre Entity Framework e ADO.Net</title>
-      <link>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</link>
-      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</guid>
-      <description>Aqui estão alguns links muito interessantes:&amp;lt;
-ADO.NET Entity Framework
-Entity Framework Design
-Entity Framework Toolkits &amp;amp; Extensions
-ADO.NET
-[]s, Carlos.</description>
     </item>
     
   </channel>

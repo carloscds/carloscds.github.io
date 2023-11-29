@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>C# 7.0 - Tuples</title>
+      <link>https://carloscds.net/2016/09/c-7-0-tuples/</link>
+      <pubDate>Sun, 11 Sep 2016 00:06:21 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/09/c-7-0-tuples/</guid>
+      <description>Olá pessoal,
+Há algum tempo atrás eu publiquei um post falando sobre Tuples em C#, que é um recurso bem interessante para retorno de múltiplos valores, principalmente quando você não quer criar uma classe somente para isto.
+Agora com o C# 7.0 (ainda em preview) as Tuplas ganharam novos recurso que facilitam ainda mais a sua utilização, agora podemos dar nomes aos elementos, faclitando ainda mais o nosso código.
+Para executarmos os exemplos você vai precisar baixar o Visual Studio “15” Preview 4.</description>
+    </item>
     
     <item>
       <title>Tem um Linux no meu Windows 10!</title>
@@ -219,16 +231,6 @@ Teremos também a oportunidade de ver o time de Visual Studio criando uma soluç
 hoje fizemos mais um hangout sobre o projeto CodeCracker que estamos trabalhando desde novembro de 2014. Este projeto trata da criação de analisadores estáticos de código e fixers utilizando o novo compilador Roslyn. É um projeto totalmente open source e está hospedado no GutHub.
 Se você está interessado em aprender como o compilador funciona e escrever analisadores de código, nós estamos procurando você 😊
 Assista ao vídeo que conta um pouco do que está acontecendo no projeto e também onde mostramos as várias formas de contribuição, mesmo que você não entenda muito de GitHub, porque isto podemos ensinar par você.</description>
-    </item>
-    
-    <item>
-      <title>Build Tour São Paulo</title>
-      <link>https://carloscds.net/2015/05/build-tour-so-paulo/</link>
-      <pubDate>Fri, 29 May 2015 16:47:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/05/build-tour-so-paulo/</guid>
-      <description>Na semana passada tivemos o Build Tour em São Paulo, uma versão compacta do evento americando. Neste evento foram mostradas várias novidades do Windows 10 e da nova plataforma de desenvolvimento, a Windows Universal Apps.
-no dia seguinte ao evento, eu e mais dois MVPs fomos convidados a comentar o evento na sede da Microsoft. Esta nossa conversa foi transmitida ao vivo e agora está disponível no site para quem não pode assisir.</description>
     </item>
     
   </channel>

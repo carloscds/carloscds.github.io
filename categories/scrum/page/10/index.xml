@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrum on Carlos dos Santos</title>
+    <link>https://carloscds.net/categories/scrum/</link>
+    <description>Recent content in Scrum on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Jun 2010 14:17:17 -0300</lastBuildDate>
+    
+        <atom:link href="https://carloscds.net/categories/scrum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Links úteis sobre Entity Framework e ADO.Net</title>
+      <link>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</guid>
+      <description>Aqui estão alguns links muito interessantes:&amp;lt;
+ADO.NET Entity Framework
+Entity Framework Design
+Entity Framework Toolkits &amp;amp; Extensions
+ADO.NET
+[]s, Carlos.</description>
+    </item>
+    
+  </channel>
+</rss>
