@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Como se tornar um desenvolvedor oficial de Windows Phone 7</title>
+      <link>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</link>
+      <pubDate>Mon, 21 Mar 2011 16:49:45 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</guid>
+      <description>Olá pessoal,
+Hoje vou mostrar como você pode se cadastrar para se tornar um desenvolvedor oficial de aplicações para Windows Phone 7. Mas por quê me cadastrar lá ? Simples, você pode criar um aplicativo que pode ser baixado em qualquer lugar do mundo, então imagine as possibilidades.
+Bom, vamos lá:
+ Acesse o site do AppHub com um Live ID (pode ser do seu MSN);  Neste site você também pode baixar as ferramentas de desenvolvimento.</description>
+    </item>
+    
+    <item>
       <title>Visual Studio 2010 Service Pack 1</title>
       <link>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</link>
       <pubDate>Wed, 09 Mar 2011 21:46:38 -0300</pubDate>
@@ -224,17 +236,6 @@ Aproveitando esta situação, vou mostrar como é possível criar um método de 
 Acabei de passar em mais uma prova beta do .Net 4.0 – Windows Developer 4. Lembrando que estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
 Abraços,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Certificação em .Net 4.0</title>
-      <link>https://carloscds.net/2010/06/certificao-em-net-4-0/</link>
-      <pubDate>Sun, 27 Jun 2010 15:58:28 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/certificao-em-net-4-0/</guid>
-      <description>Pessoal,
-Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
-No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.</description>
     </item>
     
   </channel>

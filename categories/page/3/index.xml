@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Open Source</title>
+      <link>https://carloscds.net/2016/09/microsoft-open-source/</link>
+      <pubDate>Sat, 24 Sep 2016 18:38:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/09/microsoft-open-source/</guid>
+      <description>Na última quinta-feira (22/09) estive em Ilha Solteira/SP na Unesp falando sobre Microsoft Open Source para o pessoal de Engenharia Elétrica. Valeu pessoal, a papo foi muito legal.
+Nâo sei se todos sabem, mas existe muito código fonte sendo compartilhado pela Microsoft no GitHub, veja: https://github.com/microsoft. Mais interessante ainda é abrir um Linux dentro do Windows 10, quem diria! Eu fiz um outro post sobre isto.
+Recentemente também a Microsoft ficou em primeiro lugar no ranking de empresas que colaboram no GitHub:</description>
+    </item>
     
     <item>
       <title>C# 7.0 - Tuples</title>
@@ -219,18 +230,6 @@ Agradeço a todos pelas presença e principalmente pelos questionamentos, que to
       <description>Em 20 de julho, iremos celebrar a última release do Visual Studio 2015!
 Convidamos a todos a aprender sobre as novas features e tecnologias que acompanharão a nova versão. Você poderá interagir na sessão ao vivo, participar da sessão de perguntas e respostas com o time de engenharia, além de se aprofundar em detalhes técnicos, em mais de 60 sessões on-demand. Para acessar, clique aqui.
 Teremos também a oportunidade de ver o time de Visual Studio criando uma solução fim-a-fim em um projeto open-source, alavancando as mais novas ferramentas e tecnologias.</description>
-    </item>
-    
-    <item>
-      <title>Hangout Projeto CodeCracker</title>
-      <link>https://carloscds.net/2015/06/hangout-projeto-codecracker/</link>
-      <pubDate>Mon, 22 Jun 2015 21:55:46 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/06/hangout-projeto-codecracker/</guid>
-      <description>Pessoal,
-hoje fizemos mais um hangout sobre o projeto CodeCracker que estamos trabalhando desde novembro de 2014. Este projeto trata da criação de analisadores estáticos de código e fixers utilizando o novo compilador Roslyn. É um projeto totalmente open source e está hospedado no GutHub.
-Se você está interessado em aprender como o compilador funciona e escrever analisadores de código, nós estamos procurando você 😊
-Assista ao vídeo que conta um pouco do que está acontecendo no projeto e também onde mostramos as várias formas de contribuição, mesmo que você não entenda muito de GitHub, porque isto podemos ensinar par você.</description>
     </item>
     
   </channel>

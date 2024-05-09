@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/asp.net/</link>
     <description>Recent content in Asp.Net on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nova versão do Debugger Canvas</title>
+      <link>https://carloscds.net/2012/02/nova-verso-do-debugger-canvas/</link>
+      <pubDate>Sun, 05 Feb 2012 19:22:47 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/02/nova-verso-do-debugger-canvas/</guid>
+      <description>Pessoal, eu fiz um post sobre o Debugger Canvas há um tempo atrás. Agora foi lançada a versão 1.1, que conta com diversas melhorias, como por exemplo: ligar/desligar o canvas durante o debug, edição de código dentro do canvas, entre outros.
+Após baixar e instalar o Debugger Canvas, você pode configurar a ativar as opções no menu Tools/Options/Debugger do Visual Studio:
+Depois é só executar o seu código:
+A diferença é aque você pode alternar entre o Debugger Canvas e o Debugger convencional, através da opção “Debugger Canvas” do menu Debug.</description>
+    </item>
     
     <item>
       <title>Validando Dados com EntityFramework e WindowsForms</title>
@@ -231,18 +243,6 @@ Estou com vários promocodes para acesso ao Azure, vejam site. Não precisa de c
 Caso alguem queira começar a desenvolver no Windows Azure, entre em contato comigo pelo twitter: @cdssoftware que fornceço o passcode.
 []s,
 Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Como se tornar um desenvolvedor oficial de Windows Phone 7</title>
-      <link>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</link>
-      <pubDate>Mon, 21 Mar 2011 16:49:45 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</guid>
-      <description>Olá pessoal,
-Hoje vou mostrar como você pode se cadastrar para se tornar um desenvolvedor oficial de aplicações para Windows Phone 7. Mas por quê me cadastrar lá ? Simples, você pode criar um aplicativo que pode ser baixado em qualquer lugar do mundo, então imagine as possibilidades.
-Bom, vamos lá:
- Acesse o site do AppHub com um Live ID (pode ser do seu MSN);  Neste site você também pode baixar as ferramentas de desenvolvimento.</description>
     </item>
     
   </channel>

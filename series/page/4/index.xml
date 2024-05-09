@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Hangout Projeto CodeCracker</title>
+      <link>https://carloscds.net/2015/06/hangout-projeto-codecracker/</link>
+      <pubDate>Mon, 22 Jun 2015 21:55:46 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/06/hangout-projeto-codecracker/</guid>
+      <description>Pessoal,
+hoje fizemos mais um hangout sobre o projeto CodeCracker que estamos trabalhando desde novembro de 2014. Este projeto trata da criação de analisadores estáticos de código e fixers utilizando o novo compilador Roslyn. É um projeto totalmente open source e está hospedado no GutHub.
+Se você está interessado em aprender como o compilador funciona e escrever analisadores de código, nós estamos procurando você 😊
+Assista ao vídeo que conta um pouco do que está acontecendo no projeto e também onde mostramos as várias formas de contribuição, mesmo que você não entenda muito de GitHub, porque isto podemos ensinar par você.</description>
+    </item>
+    
+    <item>
       <title>Build Tour São Paulo</title>
       <link>https://carloscds.net/2015/05/build-tour-so-paulo/</link>
       <pubDate>Fri, 29 May 2015 16:47:36 -0300</pubDate>
@@ -224,19 +236,6 @@ Dentre as várias opções de configuração que temos através do DbConfigurati
       <guid>https://carloscds.net/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</guid>
       <description>A partir do Entity Framework 6, todos os componentes do EF estão dentro da DLL EntityFramework.dll e não mais divididas entre vários componentes do .Net Framework. Sendo assim, a DLL do EF não está otimizada para o JIT (Just in Time) do computador onde está sendo rodado, assim como o .Net está.
 Nós podemos melhorar isto executando o comando Ngen.exe, que pré-compila a DLL e elimina este processo durante a carga da DLL.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2013–Novidades</title>
-      <link>https://carloscds.net/2013/10/visual-studio-2013novidades/</link>
-      <pubDate>Sun, 20 Oct 2013 12:12:27 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/10/visual-studio-2013novidades/</guid>
-      <description>Olá pessoal,
-O Visual Studio 2013 será lançado no próximo dia 13/11/2013 (para assinantes do MSDN já está disponível) e junto com esta nova versão temos melhorias muito interessantes na IDE, que tornam o nosso dia a dia ainda mais produtivo.
-Neste post vou mostrar algumas destas novas funcionalidades que eu particularmente uso a todo momento e que ajudam muito no desenvolvimento. Enão vamos lá:
-Peek Definition (ALT F12)
-Imagine que você está escrevendo um método qualquer e precisa verificar um método que está em outra classe, normalmente você pressionar o F2 e olha a classe, e depois volta para o seu código.</description>
     </item>
     
   </channel>

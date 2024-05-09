@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>IT Pros, onde vocês guardam os seus scripts ?</title>
+      <link>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
+      <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
+      <description>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &amp;ldquo;caras do TI&amp;rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &amp;ldquo;Eu guardo lá em um HD no meu PC&amp;rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.
+Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &amp;ldquo;Eu controlo as mudanças em uma planilha!</description>
+    </item>
+    
+    <item>
       <title>ASP.NET Core dá para usar ?</title>
       <link>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</link>
       <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
@@ -233,17 +243,6 @@ Ontem (12/10) foi publicado o preview do Azure FluentAPI, que permite a criaçã
 A grande novidade aqui, além do Fluent é a compatililidade com o .Net Core, isto mesmo, você pode criar código para gerenciar seu Azure totalmente portável!
 Veja um exemplo de como criar uma VM:
 E neste link existe alguns outros exemplos e também como usar a Fluent API.</description>
-    </item>
-    
-    <item>
-      <title>Microsoft Open Source</title>
-      <link>https://carloscds.net/2016/09/microsoft-open-source/</link>
-      <pubDate>Sat, 24 Sep 2016 18:38:34 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/09/microsoft-open-source/</guid>
-      <description>Na última quinta-feira (22/09) estive em Ilha Solteira/SP na Unesp falando sobre Microsoft Open Source para o pessoal de Engenharia Elétrica. Valeu pessoal, a papo foi muito legal.
-Nâo sei se todos sabem, mas existe muito código fonte sendo compartilhado pela Microsoft no GitHub, veja: https://github.com/microsoft. Mais interessante ainda é abrir um Linux dentro do Windows 10, quem diria! Eu fiz um outro post sobre isto.
-Recentemente também a Microsoft ficou em primeiro lugar no ranking de empresas que colaboram no GitHub:</description>
     </item>
     
   </channel>

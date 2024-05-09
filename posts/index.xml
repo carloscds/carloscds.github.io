@@ -5,10 +5,20 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASP.NET (Core) KeyedServices - uma interface, várias implementações</title>
+      <link>https://carloscds.net/2024/05/aspnetcore-keyedservices/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/05/aspnetcore-keyedservices/</guid>
+      <description>Recentemente tive que fazer uma mudança em um projeto ASP.NET que envolvia usar repositório para acesso ao Azure Storage. Este projeto ja tinha uma storage funcionando, mas o cliente precisava usar uma segunda storage para um endpoint específico na aplicação. Ok, nada que um IF não resolva certo ?
+Não gosto muito deste tipo de solução, então verifiquei a documentação do ASP.NET 8 e temos um novo recurso chamado KeyedServices.</description>
+    </item>
     
     <item>
       <title>EntityFramework - SQL Raw Queries</title>
@@ -221,16 +231,6 @@ Bom, se você já está desenvolvendo para .NET Core isto está sendo resolvido 
       <guid>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
       <description>Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
 Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?</description>
-    </item>
-    
-    <item>
-      <title>IT Pros, onde vocês guardam os seus scripts ?</title>
-      <link>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
-      <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
-      <description>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &amp;ldquo;caras do TI&amp;rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &amp;ldquo;Eu guardo lá em um HD no meu PC&amp;rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.
-Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &amp;ldquo;Eu controlo as mudanças em uma planilha!</description>
     </item>
     
   </channel>

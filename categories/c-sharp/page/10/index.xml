@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Desenvolvimento para Bluetooth com C#</title>
+      <link>https://carloscds.net/2009/09/desenvolvimento-para-bluetooth-com-c/</link>
+      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2009/09/desenvolvimento-para-bluetooth-com-c/</guid>
+      <description>Para quem está desesenvolvendo para Windows Mobile e precisa acessar dispositivos Bluetooth, tenho duas dicas muito interessantes:
+  Existe um projeto Open source da 32Feet.Net que implementa diversas funcionalidades para bluetooth. Tem um post mostrando o funcionando destes componentes no link: http://blogs.microsoft.co.il/blogs/shair/archive/2009/06/21/working-with-bluetooth-devices-using-c-part-1.aspx
+  A Microsoft tem uma suite de componentes chamada Code4Fun Developer Kit, que tem, entre diversas outras funcionalidades, uma implementação para controle de bluetooth. Você pode obtê-la no link: http://www.</description>
+    </item>
     
     <item>
       <title>Links úteis sobre Entity Framework e ADO.Net</title>

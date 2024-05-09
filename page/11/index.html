@@ -160,9 +160,9 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">8</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">94</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">95</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -383,6 +383,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2024/05/aspnetcore-keyedservices/" class="title">ASP.NET (Core) KeyedServices - uma interface, várias implementações</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-05-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2023/11/entityframeworkcore-sqlraw/" class="title">EntityFramework - SQL Raw Queries</a>
                     </p>
                     <p class="item-date">
@@ -420,16 +430,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/" class="title">Como configurar uma Function para acessar dados no KeyVault</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2022-03-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-03-20</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -445,6 +445,46 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2014/05/sql-azuremelhorias-de-performance/"
+    >SQL Azure&amp;ndash;melhorias de performance</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Se você está querendo migrar ou começar a utilizar o Microsoft SQL Server disponível no Azure, durante o último Build foram anunciadas grandes melhorias de performance e funcionalidades.
+Dentre as novidades, surgem 3 categorias de banco de dados:
+  Basic: para aplicações com poucas transações e baixa necessidade de performance**.**
+  Standard: para aplicações de negócios, com médio nível de performance.
+  Premium: para aplicações de missão crítica, com alta necessidade de desempenho e alto volume de transações.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/" class="">
+  <time datetime="2014-05-26 08:27:02 -0300 -03" itemprop="datePublished">2014-05-26</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/azure/"> Azure </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/05/sql-azuremelhorias-de-performance/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 139words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -701,44 +741,6 @@ Carlos dos Santos.
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 68words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2014/01/capturando-a-tela-em-windows-forms/"
-    >Capturando a tela em Windows Forms</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Olá pessoal,
-Hoje vou demonstrar como é possível capturar a tela ou até mesmo o conteúdo de um controle e salvá-lo como um Bitmap. Imagine que você tem uma solução de atendimento ao cliente e em algum momento precise capturar a tela do seu usuário e depois anexá-la a algum requisito do software ou tratamento de um bug.
-Claro que existem várias ferramentas prontas para captura de tela, mas vamos ver como é possível, através de um código em C# usando o recurso de Interop e acessando a API do Windows, criar um método reusável que pode ser utilizado para capturar vários tipos de tela no Windows.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/" class="">
-  <time datetime="2014-01-08 21:55:40 -0300 -03" itemprop="datePublished">2014-01-08</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/01/capturando-a-tela-em-windows-forms/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1112words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -776,7 +778,7 @@ Claro que existem várias ferramentas prontas para captura de tela, mas vamos ve
 </ul>
   <div class="copyright">
     &copy;2008  -
-    2023
+    2024
     
   </div>
 </footer>

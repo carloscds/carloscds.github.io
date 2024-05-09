@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Certificação em .Net 4.0</title>
+      <link>https://carloscds.net/2010/06/certificao-em-net-4-0/</link>
+      <pubDate>Sun, 27 Jun 2010 15:58:28 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/certificao-em-net-4-0/</guid>
+      <description>Pessoal,
+Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
+No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.</description>
+    </item>
     
     <item>
       <title>Agile Brazil 2010</title>
@@ -236,16 +247,6 @@ Para quem está pensando em colocar aplicações na “nuvem” usando o Windows
 Os valores podem ser conferidos no site:
 http://www.microsoft.com/windowsazure/offers/popup.aspx?lang=en&amp;amp;locale=en-US&amp;amp;offer=COMPARE_PUBLIC
 Lembrando que ainda não existem DataCenters no Brasil, mas eu particularmente fiz alguns testes com o SQL Azure e a velocidade impressiona. Pode ser comparada a um sistema rodando sob uma VPN.</description>
-    </item>
-    
-    <item>
-      <title>Livro Sobre Silverlight 3 em C#</title>
-      <link>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</link>
-      <pubDate>Mon, 14 Dec 2009 08:57:21 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</guid>
-      <description>Recentemente eu fiz o review de um livro da editora Apress que se chama Pro Silverlight 3 in C#. Este livro realmente me chamou atenção, pois ele tem uma leitura muito agradável e é cheio de exemplos, o que o torna “viciante”.
-Você quer fazer tudo que tem no livro, pois o Silverlight por si só já é muito show, e um livro que ensina passo a passo melhor ainda.</description>
     </item>
     
   </channel>

@@ -160,9 +160,9 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">8</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">94</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">95</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -383,6 +383,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2024/05/aspnetcore-keyedservices/" class="title">ASP.NET (Core) KeyedServices - uma interface, várias implementações</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-05-09</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2023/11/entityframeworkcore-sqlraw/" class="title">EntityFramework - SQL Raw Queries</a>
                     </p>
                     <p class="item-date">
@@ -420,16 +430,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/" class="title">Como configurar uma Function para acessar dados no KeyVault</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2022-03-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2022-03-20</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -445,6 +445,44 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2024/05/aspnetcore-keyedservices/"
+    >ASP.NET (Core) KeyedServices - uma interface, várias implementações</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Recentemente tive que fazer uma mudança em um projeto ASP.NET que envolvia usar repositório para acesso ao Azure Storage. Este projeto ja tinha uma storage funcionando, mas o cliente precisava usar uma segunda storage para um endpoint específico na aplicação. Ok, nada que um IF não resolva certo ?
+Não gosto muito deste tipo de solução, então verifiquei a documentação do ASP.NET 8 e temos um novo recurso chamado KeyedServices.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2024/05/aspnetcore-keyedservices/" class="">
+  <time datetime="2024-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-05-09</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/asp.net/"> ASP.NET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2024/05/aspnetcore-keyedservices/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 543words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -674,51 +712,6 @@ O Problema da Conexão Subjacente Desta maneira, aplicações que se comunicam v
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 127words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2021/06/app-services-horario/"
-    >Configurando o horário de um App Service em Linux no Azure</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Olá pessoal,
-Estes dias estava configurando um App Service para uma nova API que construimos e precisava deixar o fuso horario do Brasil (GMT -3), lembrando que o Azure trabalha no GMT 0.
-Até aí tudo bem, existem vários tutoriais na web explicando isto, mas problema é que existe uma diferença entre um App Service rodando em Windows e outro rodando em Linux.
-Configuração muda de acordo com o Sistema Operacional Quando o App Service esta configurado para Windows, você ajusta a seguinte propriedade na Configuracação do servico.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2021/06/app-services-horario/" class="">
-  <time datetime="2021-06-08 22:00:00 &#43;0000 &#43;0000" itemprop="datePublished">2021-06-08</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/azure/"> Azure </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/time-zone/"> time zone </a>
-    <a class="article-tag-link" href="/tags/fuso-horario/"> fuso horário </a>
-    <a class="article-tag-link" href="/tags/appservice/"> appservice </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2021/06/app-services-horario/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 218words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -751,7 +744,7 @@ Configuração muda de acordo com o Sistema Operacional Quando o App Service est
 </ul>
   <div class="copyright">
     &copy;2008  -
-    2023
+    2024
     
   </div>
 </footer>
