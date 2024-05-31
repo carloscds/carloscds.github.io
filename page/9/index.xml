@@ -5,10 +5,52 @@
     <link>https://carloscds.net/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 21 Jan 2010 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Livro Sobre Silverlight 3 em C#</title>
+      <link>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</link>
+      <pubDate>Mon, 14 Dec 2009 08:57:21 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</guid>
+      <description>Recentemente eu fiz o review de um livro da editora Apress que se chama Pro Silverlight 3 in C#. Este livro realmente me chamou atenção, pois ele tem uma leitura muito agradável e é cheio de exemplos, o que o torna “viciante”.
+Você quer fazer tudo que tem no livro, pois o Silverlight por si só já é muito show, e um livro que ensina passo a passo melhor ainda.</description>
+    </item>
+    
+    <item>
+      <title>Lendo uma Planilha do Excel com C#</title>
+      <link>https://carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</link>
+      <pubDate>Sun, 13 Dec 2009 11:47:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</guid>
+      <description>Hoje em dia é muito comum recebermos dados em planilhas do Excel e ter que importar ou analisar estes dados em nossas aplicações.
+Com a ajuda do .Net Framework esta tarefa fica muito fácil e vou demonstrar como você pode abrir um arquivo do Excel e executar um comando Select em uma planilha simplesmente usando Ado.Net.
+Para começar, vamos mostrar como está a nossa planilha no Excel e quais as informações importantes para o nosso programa em .</description>
+    </item>
+    
+    <item>
+      <title>SkyDrive Explorer</title>
+      <link>https://carloscds.net/2009/12/skydrive-explorer/</link>
+      <pubDate>Sun, 13 Dec 2009 11:18:02 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/12/skydrive-explorer/</guid>
+      <description>Se você costuma usar o SkyDrive para armazenar informações e poder usar em qualquer lugar, vai gostar deste novo utilitário. O SkyDrive Explorer é um aplicativo que permite que você abra o SkyDrive no seu Windows Explorer e consigar ler e gravar arquivos como se fosse um drive do seu computador. Se você ainda não usa o SkyDrive, clique http://skydrive.live.com e comece agora mesmo.
+Primeiro você precisa baixar o utilitário clicando aqui.</description>
+    </item>
+    
+    <item>
+      <title>Londrina TechDay – Segunda Edição</title>
+      <link>https://carloscds.net/2009/11/londrina-techday-segunda-edicao/</link>
+      <pubDate>Wed, 18 Nov 2009 08:37:44 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/11/londrina-techday-segunda-edicao/</guid>
+      <description>Segunda-feira dia 05 apresentei no Londrina TechDay na Unifil em Londrina as novidades do Visual Studio 2010 Beta 1 e as novidades do C# 4.0, no mesmo dia o Marcio Althmann apresentou as novidades do Silverlight 3.0.
+Em breve teremos mais, principalmente com o lançamento do Windows 7, fiquem atentos.
+[]s,</description>
+    </item>
     
     <item>
       <title>Windows 7 &#43; Visual Studio 2010 &#43; Silverlight</title>
@@ -194,31 +236,6 @@ Carlos.</description>
       <description>Pessoal,
 Resolvi publicar este post devido ao grande número de pessoas que solicitam este tipo de informação no fórum de mobilidade do MSDN. O objetivo é apresentar passo a passo como configurar o emulador do Visual Studio para acessar a rede e tambem a internet. Então vamos lá:
  Abra o emulador do Visual Studio (Tools/Connect to Device) e escolha o emulador de sua preferência (WM 5, 6 ou 6.5). Dentro do emulador, clique em File/Configure:  Escolha NetWork e clique para habilitar a placa de rede (connected network inidica a placa que está ativa no nomendo no seu computador, caso tenha mais que uma):  Para compartilhar a placa de rede, você precsa do Virtual Machine Network Manager, que faz parte do Virtual PC 2007.</description>
-    </item>
-    
-    <item>
-      <title>Desenvolvimento para Bluetooth com C#</title>
-      <link>https://carloscds.net/2009/09/desenvolvimento-para-bluetooth-com-c/</link>
-      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2009/09/desenvolvimento-para-bluetooth-com-c/</guid>
-      <description>Para quem está desesenvolvendo para Windows Mobile e precisa acessar dispositivos Bluetooth, tenho duas dicas muito interessantes:
-  Existe um projeto Open source da 32Feet.Net que implementa diversas funcionalidades para bluetooth. Tem um post mostrando o funcionando destes componentes no link: http://blogs.microsoft.co.il/blogs/shair/archive/2009/06/21/working-with-bluetooth-devices-using-c-part-1.aspx
-  A Microsoft tem uma suite de componentes chamada Code4Fun Developer Kit, que tem, entre diversas outras funcionalidades, uma implementação para controle de bluetooth. Você pode obtê-la no link: http://www.</description>
-    </item>
-    
-    <item>
-      <title>Links úteis sobre Entity Framework e ADO.Net</title>
-      <link>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</link>
-      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2009/09/links-uteis-sobre-entity-framework-e-ado-net/</guid>
-      <description>Aqui estão alguns links muito interessantes:&amp;lt;
-ADO.NET Entity Framework
-Entity Framework Design
-Entity Framework Toolkits &amp;amp; Extensions
-ADO.NET
-[]s, Carlos.</description>
     </item>
     
   </channel>

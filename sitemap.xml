@@ -3,35 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carloscds.net/categories/asp.net/</loc>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2024/05/aspnetcore-keyedservices/</loc>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/categories/c-sharp/</loc>
-    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://carloscds.net/categories/</loc>
-    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/entityframework/</loc>
-    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/2023/07/entityframeworkcore-inicio/</loc>
-    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://carloscds.net/posts/</loc>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/</loc>
+    <lastmod>2024-05-09T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/entityframework/</loc>
+    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</loc>
+    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</loc>
+    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2023/07/entityframeworkcore-powertools/</loc>
+    <lastmod>2023-07-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2023/07/entityframeworkcore-inicio/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -52,21 +94,7 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/asp.net/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/2022/03/configurando-tls/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/dotnet/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -159,6 +187,13 @@
   <url>
     <loc>https://carloscds.net/categories/visual-studio/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/dotnet/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -305,13 +340,6 @@
   
   <url>
     <loc>https://carloscds.net/2018/07/ef-core-lazy-loading/</loc>
-    <lastmod>2018-07-02T13:27:40-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/tags/entityframework/</loc>
     <lastmod>2018-07-02T13:27:40-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -501,13 +529,6 @@
   
   <url>
     <loc>https://carloscds.net/2016/08/tem-um-linux-no-meu-windows-10/</loc>
-    <lastmod>2016-08-07T21:38:20-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/windows/</loc>
     <lastmod>2016-08-07T21:38:20-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -710,13 +731,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/tags/msdn/</loc>
-    <lastmod>2014-11-16T18:02:58-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/tags/msdnc#/</loc>
     <lastmod>2014-11-16T18:02:58-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -787,13 +801,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/tags/ef-codefirst/</loc>
-    <lastmod>2014-04-21T19:34:06-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/tags/ef-codefirst-ef/</loc>
     <lastmod>2014-04-21T19:34:06-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -815,6 +822,13 @@
   </url>
   
   <url>
+    <loc>https://carloscds.net/tags/msdn/</loc>
+    <lastmod>2014-04-07T21:25:57-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/2014/04/visual-studio-online/</loc>
     <lastmod>2014-04-07T21:25:57-03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -823,6 +837,13 @@
   
   <url>
     <loc>https://carloscds.net/2014/01/devchamps-entityframework6/</loc>
+    <lastmod>2014-01-23T11:50:34-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/tags/entityframework/</loc>
     <lastmod>2014-01-23T11:50:34-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -845,6 +866,13 @@
   <url>
     <loc>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</loc>
     <lastmod>2013-12-30T00:06:34-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/tags/ef-codefirst/</loc>
+    <lastmod>2013-11-03T21:49:43-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1571,13 +1599,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/</loc>
-    <lastmod>2010-01-21T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/videos/</loc>
     <lastmod>2010-01-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1628,6 +1649,13 @@
   
   <url>
     <loc>https://carloscds.net/2009/12/skydrive-explorer/</loc>
+    <lastmod>2009-12-13T11:18:02-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/windows/</loc>
     <lastmod>2009-12-13T11:18:02-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -5,10 +5,56 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Microsoft Open Source</title>
+      <link>https://carloscds.net/2016/09/microsoft-open-source/</link>
+      <pubDate>Sat, 24 Sep 2016 18:38:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/09/microsoft-open-source/</guid>
+      <description>Na última quinta-feira (22/09) estive em Ilha Solteira/SP na Unesp falando sobre Microsoft Open Source para o pessoal de Engenharia Elétrica. Valeu pessoal, a papo foi muito legal.
+Nâo sei se todos sabem, mas existe muito código fonte sendo compartilhado pela Microsoft no GitHub, veja: https://github.com/microsoft. Mais interessante ainda é abrir um Linux dentro do Windows 10, quem diria! Eu fiz um outro post sobre isto.
+Recentemente também a Microsoft ficou em primeiro lugar no ranking de empresas que colaboram no GitHub:</description>
+    </item>
+    
+    <item>
+      <title>C# 7.0 - Tuples</title>
+      <link>https://carloscds.net/2016/09/c-7-0-tuples/</link>
+      <pubDate>Sun, 11 Sep 2016 00:06:21 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/09/c-7-0-tuples/</guid>
+      <description>Olá pessoal,
+Há algum tempo atrás eu publiquei um post falando sobre Tuples em C#, que é um recurso bem interessante para retorno de múltiplos valores, principalmente quando você não quer criar uma classe somente para isto.
+Agora com o C# 7.0 (ainda em preview) as Tuplas ganharam novos recurso que facilitam ainda mais a sua utilização, agora podemos dar nomes aos elementos, faclitando ainda mais o nosso código.
+Para executarmos os exemplos você vai precisar baixar o Visual Studio “15” Preview 4.</description>
+    </item>
+    
+    <item>
+      <title>Tem um Linux no meu Windows 10!</title>
+      <link>https://carloscds.net/2016/08/tem-um-linux-no-meu-windows-10/</link>
+      <pubDate>Sun, 07 Aug 2016 21:38:20 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/08/tem-um-linux-no-meu-windows-10/</guid>
+      <description>Fala pessoal,
+É isto mesmo que você leu, tem um Linux dentro do Window 10, e não é uma máquina virtual, como muitos estão pensando, é um sub-sistema baseado no Ubuntu.
+Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é loucura, mas o mundo mudou e a Microsoft também. Nós últimos anos a Microsoft vem trabalhando mais fortemente com comunidades open source, e o Linux é uma delas.</description>
+    </item>
+    
+    <item>
+      <title>Serializando JSon com JIL</title>
+      <link>https://carloscds.net/2016/07/serializando-json-com-jil/</link>
+      <pubDate>Sat, 30 Jul 2016 17:34:11 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/07/serializando-json-com-jil/</guid>
+      <description>Fala pessoal, tudo bem!
+Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
+Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
+Você recebe um dado em Json, que é basicamente um texto, e precisa manipular seu conteúdo através de uma classe!</description>
+    </item>
     
     <item>
       <title>Visual Studio Summit</title>
@@ -184,52 +230,6 @@ Agradeço a todos pelas presença e principalmente pelos questionamentos, que to
       <description>Em 20 de julho, iremos celebrar a última release do Visual Studio 2015!
 Convidamos a todos a aprender sobre as novas features e tecnologias que acompanharão a nova versão. Você poderá interagir na sessão ao vivo, participar da sessão de perguntas e respostas com o time de engenharia, além de se aprofundar em detalhes técnicos, em mais de 60 sessões on-demand. Para acessar, clique aqui.
 Teremos também a oportunidade de ver o time de Visual Studio criando uma solução fim-a-fim em um projeto open-source, alavancando as mais novas ferramentas e tecnologias.</description>
-    </item>
-    
-    <item>
-      <title>Hangout Projeto CodeCracker</title>
-      <link>https://carloscds.net/2015/06/hangout-projeto-codecracker/</link>
-      <pubDate>Mon, 22 Jun 2015 21:55:46 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/06/hangout-projeto-codecracker/</guid>
-      <description>Pessoal,
-hoje fizemos mais um hangout sobre o projeto CodeCracker que estamos trabalhando desde novembro de 2014. Este projeto trata da criação de analisadores estáticos de código e fixers utilizando o novo compilador Roslyn. É um projeto totalmente open source e está hospedado no GutHub.
-Se você está interessado em aprender como o compilador funciona e escrever analisadores de código, nós estamos procurando você 😊
-Assista ao vídeo que conta um pouco do que está acontecendo no projeto e também onde mostramos as várias formas de contribuição, mesmo que você não entenda muito de GitHub, porque isto podemos ensinar par você.</description>
-    </item>
-    
-    <item>
-      <title>Build Tour São Paulo</title>
-      <link>https://carloscds.net/2015/05/build-tour-so-paulo/</link>
-      <pubDate>Fri, 29 May 2015 16:47:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/05/build-tour-so-paulo/</guid>
-      <description>Na semana passada tivemos o Build Tour em São Paulo, uma versão compacta do evento americando. Neste evento foram mostradas várias novidades do Windows 10 e da nova plataforma de desenvolvimento, a Windows Universal Apps.
-no dia seguinte ao evento, eu e mais dois MVPs fomos convidados a comentar o evento na sede da Microsoft. Esta nossa conversa foi transmitida ao vivo e agora está disponível no site para quem não pode assisir.</description>
-    </item>
-    
-    <item>
-      <title>MVP Virtual Conference</title>
-      <link>https://carloscds.net/2015/05/mvp-virtual-conference-2/</link>
-      <pubDate>Sat, 02 May 2015 10:23:38 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/05/mvp-virtual-conference-2/</guid>
-      <description>Olá amigos!
-Gostaria de convidá-los para o grande evento que a Microsoft e os MVPs estão organizando, e que acontecerá nos dias 14 e 15 de maio, a partir das 12h00 (Horário de Brasilia)
-Junte-se aos MVPs do Brasil, Estados Unidos e Latam que estarão compartilhando o seu conhecimento em sessões práticas e gratuitas, com cenários do mundo real e últimas novidades sobre Tecnologia Microsoft.
-O MVP Virtual Conference trará 95 sessões com conteúdo para IT Pros, Developers e Consumer experts, planejadas para ajudá-lo a navegar no momento mobile-first Cloud first.</description>
-    </item>
-    
-    <item>
-      <title>C# 6</title>
-      <link>https://carloscds.net/2015/03/c-6/</link>
-      <pubDate>Mon, 02 Mar 2015 15:30:53 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/03/c-6/</guid>
-      <description>Fala pessoal,
-Na última sexta-feira (27/02) eu fiz uma palestra online no Codificando Night Week sobre as novidades do C# 6. O vídeo da minha apresentação já está no Youtube e pode ser baixado aqui. Disponibilizei também os PPT no Slideshare e você pode obter neste link.
-Abraços e até a próxima.
-Carlos dos Santos.</description>
     </item>
     
   </channel>

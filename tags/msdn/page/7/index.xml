@@ -5,10 +5,55 @@
     <link>https://carloscds.net/tags/msdn/</link>
     <description>Recent content in msdn on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Nov 2014 18:02:58 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2014 21:25:57 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como se tornar um desenvolvedor oficial de Windows Phone 7</title>
+      <link>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</link>
+      <pubDate>Mon, 21 Mar 2011 16:49:45 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/como-se-tornar-um-desenvolvedor-oficial-de-windows-phone-7/</guid>
+      <description>Olá pessoal,
+Hoje vou mostrar como você pode se cadastrar para se tornar um desenvolvedor oficial de aplicações para Windows Phone 7. Mas por quê me cadastrar lá ? Simples, você pode criar um aplicativo que pode ser baixado em qualquer lugar do mundo, então imagine as possibilidades.
+Bom, vamos lá:
+ Acesse o site do AppHub com um Live ID (pode ser do seu MSN);  Neste site você também pode baixar as ferramentas de desenvolvimento.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2010 Service Pack 1</title>
+      <link>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</link>
+      <pubDate>Wed, 09 Mar 2011 21:46:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/visual-studio-2010-service-pack-1/</guid>
+      <description>Pessoal,
+Já está disponível o SP1 do Visual Studio 2010 com diversas melhorias, como suporte a Silverlight 4, HTML 5, teste de performace para Silverlight, IIS Express, suporte a Razor, melhorias no editor XAML, entre diversas correções de problemas (veja lista completa do SP1 aqui).
+Está também disponível o SP1 do Team Foundation Server com diversas melhorias, o link para download é o mesmo do VS2010 (veja lista completa do SP1 aqui).</description>
+    </item>
+    
+    <item>
+      <title>Usando Tuples em C#–retornando vários parâmetros de um método</title>
+      <link>https://carloscds.net/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</link>
+      <pubDate>Mon, 07 Feb 2011 21:53:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/02/usando-tuples-em-cretornando-vrios-parmetros-de-um-mtodo/</guid>
+      <description>Olá pessoal,
+Uma das coisas interessantes da linguagem C# é a quantidade de opções que temos para resolver o problemas do nosso dia a dia. Um caso interessante e bem comum é termos a necessidade de passar vários parâmetros para um método e às vezes também retornar vários parâmetros, e é bem provável que você se utilize de artifícios como parâmetros de saída (out) ou referência (ref).
+Mas existe algo bem mais interessante, que são as tuplas (Tuples).</description>
+    </item>
+    
+    <item>
+      <title>Integrando Apple XCode com TFS 2010</title>
+      <link>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</link>
+      <pubDate>Wed, 29 Dec 2010 11:01:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/12/integrando-apple-xcode-com-tfs-2010/</guid>
+      <description>Pessoal,
+Para quem está desenvolvendo para IPhone/IPad com XCode e precisa de uma ferramenta de ALM completa, é possível fazer a integração com o Team Foundation Server 2010 usando o SVNBridge, um projeto OpenSource que está no CodePlex.
+Basicamente o SVNBridge cria uma ponte entre o client do Subversion (SVN) e o Team Foundation Server, e para configurar o serviço, basta seguir este tutorial. Uma maneira simples de testar todo o processo é usar o TortoiseSVN, que é um client para SVN que se integra ao Windows Explorer.</description>
+    </item>
     
     <item>
       <title>Editora Novatec–Desconto!</title>
@@ -190,53 +235,6 @@ Aproveitando esta situação, vou mostrar como é possível criar um método de 
       <description>Pessoal,
 Acabei de passar em mais uma prova beta do .Net 4.0 – Windows Developer 4. Lembrando que estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
 Abraços,
-Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Certificação em .Net 4.0</title>
-      <link>https://carloscds.net/2010/06/certificao-em-net-4-0/</link>
-      <pubDate>Sun, 27 Jun 2010 15:58:28 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/certificao-em-net-4-0/</guid>
-      <description>Pessoal,
-Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
-No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.</description>
-    </item>
-    
-    <item>
-      <title>Agile Brazil 2010</title>
-      <link>https://carloscds.net/2010/06/agile-brazil-2010/</link>
-      <pubDate>Sun, 27 Jun 2010 15:51:34 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/agile-brazil-2010/</guid>
-      <description>Eu estive na quinta e sexta-feira (24 e 25/06) em Porto Alegre/RS para a Agile Brasil 2010 – Conferência Brasileira sobre Métodos Ageis de Desenvolvimento de Software e foi um evento realmente espetacular.
-Primeiro por reencontrar vários amigos, depois pelos palestrantes, como Martin Flowler, um dos grandes influenciadores das metodologias ágeis. Nestes dias tivemos várias palestras e workshops , de alto nível, onde pudemos aumentar nosso conhecimento e trocar idéias.</description>
-    </item>
-    
-    <item>
-      <title>Professional Scrum Master</title>
-      <link>https://carloscds.net/2010/06/professional-scrum-master/</link>
-      <pubDate>Sun, 13 Jun 2010 14:17:17 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/professional-scrum-master/</guid>
-      <description>Pessoal, eu acabei de passar na prova do Professional Scrum Master www.scrum.org. Agora só falta fazer a Professional Scrum Developer, que é baseada no Visual Studio Team System 2010.
-Após realizar este segunda prova, eu poderei ministrar cursos oficiais de Scrum pela Scrum.Org.
-Abraços,
-Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Palestra na Faccar de Rolândia/PR sobre Visual Studio 2010</title>
-      <link>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</link>
-      <pubDate>Sun, 13 Jun 2010 10:09:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</guid>
-      <description>Eu estive na Faculdade Paranaense – FACCAR, de Rolância/PR na última sexta-feira (11/06), para ministrar uma palestra sobre Visual Studio 2010 e as novidades da plataforma.
-Neste evento, tive a oportunidade de mostrar recursos como programação dinâmina, paralelelismo, Entity Framework 4, WPF e Silverlight.
-Gostaria de agradecer ao convite do Prof.Zanete e espero voltar mais vezes para mostrar os avanços tecnológicos da plataforma .Net
-Vejam as fotos:
-[]s,
 Carlos dos Santos.</description>
     </item>
     

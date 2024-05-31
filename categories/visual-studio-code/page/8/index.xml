@@ -11,6 +11,53 @@
     
     
     <item>
+      <title>Certificação em .Net 4.0</title>
+      <link>https://carloscds.net/2010/06/certificao-em-net-4-0/</link>
+      <pubDate>Sun, 27 Jun 2010 15:58:28 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/certificao-em-net-4-0/</guid>
+      <description>Pessoal,
+Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
+No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.</description>
+    </item>
+    
+    <item>
+      <title>Agile Brazil 2010</title>
+      <link>https://carloscds.net/2010/06/agile-brazil-2010/</link>
+      <pubDate>Sun, 27 Jun 2010 15:51:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/agile-brazil-2010/</guid>
+      <description>Eu estive na quinta e sexta-feira (24 e 25/06) em Porto Alegre/RS para a Agile Brasil 2010 – Conferência Brasileira sobre Métodos Ageis de Desenvolvimento de Software e foi um evento realmente espetacular.
+Primeiro por reencontrar vários amigos, depois pelos palestrantes, como Martin Flowler, um dos grandes influenciadores das metodologias ágeis. Nestes dias tivemos várias palestras e workshops , de alto nível, onde pudemos aumentar nosso conhecimento e trocar idéias.</description>
+    </item>
+    
+    <item>
+      <title>Professional Scrum Master</title>
+      <link>https://carloscds.net/2010/06/professional-scrum-master/</link>
+      <pubDate>Sun, 13 Jun 2010 14:17:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/professional-scrum-master/</guid>
+      <description>Pessoal, eu acabei de passar na prova do Professional Scrum Master www.scrum.org. Agora só falta fazer a Professional Scrum Developer, que é baseada no Visual Studio Team System 2010.
+Após realizar este segunda prova, eu poderei ministrar cursos oficiais de Scrum pela Scrum.Org.
+Abraços,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Palestra na Faccar de Rolândia/PR sobre Visual Studio 2010</title>
+      <link>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</link>
+      <pubDate>Sun, 13 Jun 2010 10:09:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/palestra-na-faccar-de-rolandiapr-sobre-visual-studio-2010/</guid>
+      <description>Eu estive na Faculdade Paranaense – FACCAR, de Rolância/PR na última sexta-feira (11/06), para ministrar uma palestra sobre Visual Studio 2010 e as novidades da plataforma.
+Neste evento, tive a oportunidade de mostrar recursos como programação dinâmina, paralelelismo, Entity Framework 4, WPF e Silverlight.
+Gostaria de agradecer ao convite do Prof.Zanete e espero voltar mais vezes para mostrar os avanços tecnológicos da plataforma .Net
+Vejam as fotos:
+[]s,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
       <title>Scrum para o VSTS 2010</title>
       <link>https://carloscds.net/2010/06/scrum-para-o-vsts-2010/</link>
       <pubDate>Mon, 07 Jun 2010 12:24:29 -0300</pubDate>
@@ -200,48 +247,6 @@ Para quem está pensando em colocar aplicações na “nuvem” usando o Windows
 Os valores podem ser conferidos no site:
 http://www.microsoft.com/windowsazure/offers/popup.aspx?lang=en&amp;amp;locale=en-US&amp;amp;offer=COMPARE_PUBLIC
 Lembrando que ainda não existem DataCenters no Brasil, mas eu particularmente fiz alguns testes com o SQL Azure e a velocidade impressiona. Pode ser comparada a um sistema rodando sob uma VPN.</description>
-    </item>
-    
-    <item>
-      <title>Livro Sobre Silverlight 3 em C#</title>
-      <link>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</link>
-      <pubDate>Mon, 14 Dec 2009 08:57:21 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</guid>
-      <description>Recentemente eu fiz o review de um livro da editora Apress que se chama Pro Silverlight 3 in C#. Este livro realmente me chamou atenção, pois ele tem uma leitura muito agradável e é cheio de exemplos, o que o torna “viciante”.
-Você quer fazer tudo que tem no livro, pois o Silverlight por si só já é muito show, e um livro que ensina passo a passo melhor ainda.</description>
-    </item>
-    
-    <item>
-      <title>Lendo uma Planilha do Excel com C#</title>
-      <link>https://carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</link>
-      <pubDate>Sun, 13 Dec 2009 11:47:07 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/12/lendo-uma-planilha-do-excel-com-c/</guid>
-      <description>Hoje em dia é muito comum recebermos dados em planilhas do Excel e ter que importar ou analisar estes dados em nossas aplicações.
-Com a ajuda do .Net Framework esta tarefa fica muito fácil e vou demonstrar como você pode abrir um arquivo do Excel e executar um comando Select em uma planilha simplesmente usando Ado.Net.
-Para começar, vamos mostrar como está a nossa planilha no Excel e quais as informações importantes para o nosso programa em .</description>
-    </item>
-    
-    <item>
-      <title>SkyDrive Explorer</title>
-      <link>https://carloscds.net/2009/12/skydrive-explorer/</link>
-      <pubDate>Sun, 13 Dec 2009 11:18:02 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/12/skydrive-explorer/</guid>
-      <description>Se você costuma usar o SkyDrive para armazenar informações e poder usar em qualquer lugar, vai gostar deste novo utilitário. O SkyDrive Explorer é um aplicativo que permite que você abra o SkyDrive no seu Windows Explorer e consigar ler e gravar arquivos como se fosse um drive do seu computador. Se você ainda não usa o SkyDrive, clique http://skydrive.live.com e comece agora mesmo.
-Primeiro você precisa baixar o utilitário clicando aqui.</description>
-    </item>
-    
-    <item>
-      <title>Londrina TechDay – Segunda Edição</title>
-      <link>https://carloscds.net/2009/11/londrina-techday-segunda-edicao/</link>
-      <pubDate>Wed, 18 Nov 2009 08:37:44 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/londrina-techday-segunda-edicao/</guid>
-      <description>Segunda-feira dia 05 apresentei no Londrina TechDay na Unifil em Londrina as novidades do Visual Studio 2010 Beta 1 e as novidades do C# 4.0, no mesmo dia o Marcio Althmann apresentou as novidades do Silverlight 3.0.
-Em breve teremos mais, principalmente com o lançamento do Windows 7, fiquem atentos.
-[]s,</description>
     </item>
     
   </channel>

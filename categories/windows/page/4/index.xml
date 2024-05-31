@@ -5,10 +5,56 @@
     <link>https://carloscds.net/categories/windows/</link>
     <description>Recent content in Windows on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Aug 2016 21:38:20 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Dec 2009 11:18:02 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hangout Projeto CodeCracker</title>
+      <link>https://carloscds.net/2015/06/hangout-projeto-codecracker/</link>
+      <pubDate>Mon, 22 Jun 2015 21:55:46 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/06/hangout-projeto-codecracker/</guid>
+      <description>Pessoal,
+hoje fizemos mais um hangout sobre o projeto CodeCracker que estamos trabalhando desde novembro de 2014. Este projeto trata da criação de analisadores estáticos de código e fixers utilizando o novo compilador Roslyn. É um projeto totalmente open source e está hospedado no GutHub.
+Se você está interessado em aprender como o compilador funciona e escrever analisadores de código, nós estamos procurando você 😊
+Assista ao vídeo que conta um pouco do que está acontecendo no projeto e também onde mostramos as várias formas de contribuição, mesmo que você não entenda muito de GitHub, porque isto podemos ensinar par você.</description>
+    </item>
+    
+    <item>
+      <title>Build Tour São Paulo</title>
+      <link>https://carloscds.net/2015/05/build-tour-so-paulo/</link>
+      <pubDate>Fri, 29 May 2015 16:47:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/05/build-tour-so-paulo/</guid>
+      <description>Na semana passada tivemos o Build Tour em São Paulo, uma versão compacta do evento americando. Neste evento foram mostradas várias novidades do Windows 10 e da nova plataforma de desenvolvimento, a Windows Universal Apps.
+no dia seguinte ao evento, eu e mais dois MVPs fomos convidados a comentar o evento na sede da Microsoft. Esta nossa conversa foi transmitida ao vivo e agora está disponível no site para quem não pode assisir.</description>
+    </item>
+    
+    <item>
+      <title>MVP Virtual Conference</title>
+      <link>https://carloscds.net/2015/05/mvp-virtual-conference-2/</link>
+      <pubDate>Sat, 02 May 2015 10:23:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/05/mvp-virtual-conference-2/</guid>
+      <description>Olá amigos!
+Gostaria de convidá-los para o grande evento que a Microsoft e os MVPs estão organizando, e que acontecerá nos dias 14 e 15 de maio, a partir das 12h00 (Horário de Brasilia)
+Junte-se aos MVPs do Brasil, Estados Unidos e Latam que estarão compartilhando o seu conhecimento em sessões práticas e gratuitas, com cenários do mundo real e últimas novidades sobre Tecnologia Microsoft.
+O MVP Virtual Conference trará 95 sessões com conteúdo para IT Pros, Developers e Consumer experts, planejadas para ajudá-lo a navegar no momento mobile-first Cloud first.</description>
+    </item>
+    
+    <item>
+      <title>C# 6</title>
+      <link>https://carloscds.net/2015/03/c-6/</link>
+      <pubDate>Mon, 02 Mar 2015 15:30:53 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/03/c-6/</guid>
+      <description>Fala pessoal,
+Na última sexta-feira (27/02) eu fiz uma palestra online no Codificando Night Week sobre as novidades do C# 6. O vídeo da minha apresentação já está no Youtube e pode ser baixado aqui. Disponibilizei também os PPT no Slideshare e você pode obter neste link.
+Abraços e até a próxima.
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Visual Studio 2015 e C# - Algumas Novidades</title>
@@ -191,54 +237,6 @@ Dentre as várias opções de configuração que temos através do DbConfigurati
       <guid>https://carloscds.net/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</guid>
       <description>A partir do Entity Framework 6, todos os componentes do EF estão dentro da DLL EntityFramework.dll e não mais divididas entre vários componentes do .Net Framework. Sendo assim, a DLL do EF não está otimizada para o JIT (Just in Time) do computador onde está sendo rodado, assim como o .Net está.
 Nós podemos melhorar isto executando o comando Ngen.exe, que pré-compila a DLL e elimina este processo durante a carga da DLL.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2013–Novidades</title>
-      <link>https://carloscds.net/2013/10/visual-studio-2013novidades/</link>
-      <pubDate>Sun, 20 Oct 2013 12:12:27 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/10/visual-studio-2013novidades/</guid>
-      <description>Olá pessoal,
-O Visual Studio 2013 será lançado no próximo dia 13/11/2013 (para assinantes do MSDN já está disponível) e junto com esta nova versão temos melhorias muito interessantes na IDE, que tornam o nosso dia a dia ainda mais produtivo.
-Neste post vou mostrar algumas destas novas funcionalidades que eu particularmente uso a todo momento e que ajudam muito no desenvolvimento. Enão vamos lá:
-Peek Definition (ALT F12)
-Imagine que você está escrevendo um método qualquer e precisa verificar um método que está em outra classe, normalmente você pressionar o F2 e olha a classe, e depois volta para o seu código.</description>
-    </item>
-    
-    <item>
-      <title>Palestra de Windows Azure–Cesumar</title>
-      <link>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</link>
-      <pubDate>Thu, 19 Sep 2013 10:07:11 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</guid>
-      <description>Pessoal,
-Ontem (18/09/2013) fiz uma palestra sobre Windows Azure no Cesumar em Maringá, onde mostrei as funcionalides do Azure e como é possível criar e migrar aplicações para a nuvem.
-Gostaria de agradecer ao Clodoaldo Assis pelo convite, ao Cesumar pela oportunidade e principalmente pelas pessoas presentes e pela excelente interação que tivemos ao final da palestra.
-Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse minha página no facebook.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework 6–Gerando Log dos comandos SQL</title>
-      <link>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</link>
-      <pubDate>Mon, 02 Sep 2013 21:31:15 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</guid>
-      <description>Olá,
-O Entity Framework 6 RC já foi lançado! Agora é a hora de começar a trabalhar na migraçãoda versão 5 para a 6 e ver as novas funcionalidades. As especificações sobre as novas funcionalidades podem ser encontradas aqui.
-Dentre as muitas novidades, que vamos explorar nos post seguintes, hoje vou destacar uma que acho bem interessante: o log dos comandos enviados ao banco de dados.
-Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacional traduz comandos de uma linguagem de programação, no nosso caso C# e LINQ, para comandos de banco de dados.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework 6–Trabalhando com os Nightly Builds</title>
-      <link>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</link>
-      <pubDate>Sun, 18 Aug 2013 18:13:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</guid>
-      <description>Olá pessoal,
-Voltando agora a escrever mais sobre o Entity Framework, estamos aguardando a nova versão 6 (ainda sem data definitiva para ser lançado) que trará melhorias muito significativas e vamos explorar algumas delas nos próximos artigos.
-Antes de qualquer coisa é importante saber que o Entity Framework 6 ainda está em versão Alfa (isto mesmo ALFA), sendo assim não é recompendado utilizar em projetos que já estejam em produção, o que não nos impede de já ir testando algumas coisas bem legais.</description>
     </item>
     
   </channel>

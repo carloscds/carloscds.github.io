@@ -5,10 +5,55 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IT Pros, onde vocês guardam os seus scripts ?</title>
+      <link>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
+      <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
+      <description>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &amp;ldquo;caras do TI&amp;rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &amp;ldquo;Eu guardo lá em um HD no meu PC&amp;rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.
+Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &amp;ldquo;Eu controlo as mudanças em uma planilha!</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET Core dá para usar ?</title>
+      <link>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</link>
+      <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</guid>
+      <description>Esta semana aconteceu algo interessante. Tenho um projeto hospedado em um host, que por sinal é muito eficiente, mas me surpreendeu quando perguntei se eles suportavam ASP.NET Core!
+A resposta foi &amp;ldquo;nosso técnico disse que o ASP.NET Core ainda não é estável&amp;rdquo;
+Isto me deixou surpreso e ao mesmo tempo intrigado, pois a plataforma .NET Core já existe há alguns anos e vem melhorando e supreendendo a cada dia! Basta olharmos os números!</description>
+    </item>
+    
+    <item>
+      <title>Crie um site estático usando Azure Storage</title>
+      <link>https://carloscds.net/2019/01/crie-um-site-estatico-usando-azure-storage/</link>
+      <pubDate>Mon, 21 Jan 2019 22:40:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/01/crie-um-site-estatico-usando-azure-storage/</guid>
+      <description>Olá, é isto mesmo que você leu! Agora é possível criar um site estático a partir de uma Storage no Azure.
+Sem dúvida você já precisou colocar apenas arquivos HTML, Javacript, CSS e Imagens para subir um site, certo! Agora isto é possível com este novo recurso, ainda em Preview!
+Criando uma Storage:
+O primeiro passo é você criar uma Storage. Para isto vá até o portal do Azure em Create Resource (Criar Recurso).</description>
+    </item>
+    
+    <item>
+      <title>C# 8 Range Index</title>
+      <link>https://carloscds.net/2019/01/c-8-range-index/</link>
+      <pubDate>Sun, 06 Jan 2019 21:40:26 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/01/c-8-range-index/</guid>
+      <description>No post anterior eu falei um pouco sobre o Visual Studio 2019 Preview, que alias, eu já estou utilizando para trabalhar em alguns projetos.
+Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
+Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
+Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configurar o C# para versão 8, veja abaixo:</description>
+    </item>
     
     <item>
       <title>Visual Studio 2019 - primeiras impressões</title>
@@ -198,52 +243,6 @@ Ontem (12/10) foi publicado o preview do Azure FluentAPI, que permite a criaçã
 A grande novidade aqui, além do Fluent é a compatililidade com o .Net Core, isto mesmo, você pode criar código para gerenciar seu Azure totalmente portável!
 Veja um exemplo de como criar uma VM:
 E neste link existe alguns outros exemplos e também como usar a Fluent API.</description>
-    </item>
-    
-    <item>
-      <title>Microsoft Open Source</title>
-      <link>https://carloscds.net/2016/09/microsoft-open-source/</link>
-      <pubDate>Sat, 24 Sep 2016 18:38:34 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/09/microsoft-open-source/</guid>
-      <description>Na última quinta-feira (22/09) estive em Ilha Solteira/SP na Unesp falando sobre Microsoft Open Source para o pessoal de Engenharia Elétrica. Valeu pessoal, a papo foi muito legal.
-Nâo sei se todos sabem, mas existe muito código fonte sendo compartilhado pela Microsoft no GitHub, veja: https://github.com/microsoft. Mais interessante ainda é abrir um Linux dentro do Windows 10, quem diria! Eu fiz um outro post sobre isto.
-Recentemente também a Microsoft ficou em primeiro lugar no ranking de empresas que colaboram no GitHub:</description>
-    </item>
-    
-    <item>
-      <title>C# 7.0 - Tuples</title>
-      <link>https://carloscds.net/2016/09/c-7-0-tuples/</link>
-      <pubDate>Sun, 11 Sep 2016 00:06:21 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/09/c-7-0-tuples/</guid>
-      <description>Olá pessoal,
-Há algum tempo atrás eu publiquei um post falando sobre Tuples em C#, que é um recurso bem interessante para retorno de múltiplos valores, principalmente quando você não quer criar uma classe somente para isto.
-Agora com o C# 7.0 (ainda em preview) as Tuplas ganharam novos recurso que facilitam ainda mais a sua utilização, agora podemos dar nomes aos elementos, faclitando ainda mais o nosso código.
-Para executarmos os exemplos você vai precisar baixar o Visual Studio “15” Preview 4.</description>
-    </item>
-    
-    <item>
-      <title>Tem um Linux no meu Windows 10!</title>
-      <link>https://carloscds.net/2016/08/tem-um-linux-no-meu-windows-10/</link>
-      <pubDate>Sun, 07 Aug 2016 21:38:20 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/08/tem-um-linux-no-meu-windows-10/</guid>
-      <description>Fala pessoal,
-É isto mesmo que você leu, tem um Linux dentro do Window 10, e não é uma máquina virtual, como muitos estão pensando, é um sub-sistema baseado no Ubuntu.
-Se alguém falasse isto há alguns anos atrás, eu provevalmente diria que é loucura, mas o mundo mudou e a Microsoft também. Nós últimos anos a Microsoft vem trabalhando mais fortemente com comunidades open source, e o Linux é uma delas.</description>
-    </item>
-    
-    <item>
-      <title>Serializando JSon com JIL</title>
-      <link>https://carloscds.net/2016/07/serializando-json-com-jil/</link>
-      <pubDate>Sat, 30 Jul 2016 17:34:11 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/07/serializando-json-com-jil/</guid>
-      <description>Fala pessoal, tudo bem!
-Hoje vou falar sobre uma biblioteca muito legal para serializar e deserializar objetos Json, pois este tipo de dados está cada vez mais comum com o advento das APIs web.
-Um exemplo de dado em Json é o próprio WebAPI que faz parte do Asp.Net MVC, pois ele retorna basicamente dados em Json. Então qual o problema a ser resolvido ?
-Você recebe um dado em Json, que é basicamente um texto, e precisa manipular seu conteúdo através de uma classe!</description>
     </item>
     
   </channel>

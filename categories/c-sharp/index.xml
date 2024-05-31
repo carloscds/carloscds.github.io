@@ -5,10 +5,52 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASP.NET (Core) KeyedServices - uma interface, várias implementações</title>
+      <link>https://carloscds.net/2024/05/aspnetcore-keyedservices/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/05/aspnetcore-keyedservices/</guid>
+      <description>Recentemente tive que fazer uma mudança em um projeto ASP.NET que envolvia usar repositório para acesso ao Azure Storage. Este projeto ja tinha uma storage funcionando, mas o cliente precisava usar uma segunda storage para um endpoint específico na aplicação. Ok, nada que um IF não resolva certo ?
+Não gosto muito deste tipo de solução, então verifiquei a documentação do ASP.NET 8 e temos um novo recurso chamado KeyedServices.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework - SQL Raw Queries</title>
+      <link>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</guid>
+      <description>Recentemente foi lancado o EF 8, juntamente com o .NET 8 e com ele muitas novidades! Mas dentre todas, uma que &amp;lsquo;volta&amp;rsquo;, sim, ela já existiu no passado, é o uso de queries diretas sem uso do contexto, também conhecidas como RAW Queries.
+Podemos afirmar que o seu uso é muito parecido com o Dapper, mas em um contexto do EF.
+Como funciona ? Imagine que você tem um banco de dados de Livros, como o script abaixo:</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework - Se você usa Migrations com Azure Database, preste muita atenção!</title>
+      <link>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</link>
+      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</guid>
+      <description>O EntityFramework possui o recurso de migrations que ajuda demais no desenvolvimento de aplicações, pois com a abordagem do CodeFirst você vai criando as suas classes e ao rodar o migrations tudo é aplicado no banco de dados. Muito útil durante o desenvolvimento!
+Até aí nada demais, inclusive eu já abordei o Migrations em diversos artigos aqui no blog, então onde está o problema ?
+Azure Database Default Config Quando você cria um banco de dados no Azure, por exemplo com o comando:</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework Core PowerTools - Engenharia Reversa do Banco de Dados</title>
+      <link>https://carloscds.net/2023/07/entityframeworkcore-powertools/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/07/entityframeworkcore-powertools/</guid>
+      <description>Este artigo é uma dica rápida, mas extremamente útil! Imagine que você já tem um banco de dados e quer usar o EF, o que você faz ? Cria tudo na mão ? Esera que tem um jeito muito mais interessante!
+Apresentando o EF Core PowerTools Este é uma ferramenta que considero essencial para trabalhar com EF. Não é uma ferramenta nova, já escrevi sobre ela há muitos anos atrás, mas ainda considero bastante útil no cenário que mencionei acima, você já tem o banco e precisa criar as classes.</description>
+    </item>
     
     <item>
       <title>EntityFramework Core - Inicio (de novo)</title>
@@ -189,51 +231,6 @@ Bom, se você já está desenvolvendo para .NET Core isto está sendo resolvido 
       <guid>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
       <description>Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
 Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?</description>
-    </item>
-    
-    <item>
-      <title>IT Pros, onde vocês guardam os seus scripts ?</title>
-      <link>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
-      <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</guid>
-      <description>Sempre que vou falar sobre versionamento de código em alguma empresa ou evento, eu pergunto para os &amp;ldquo;caras do TI&amp;rdquo; (IT Pros), como eles guardam os scripts para trabalhar em servidor, banco de dados, etc. A resposta é muito parecida e sempre curiosa: &amp;ldquo;Eu guardo lá em um HD no meu PC&amp;rdquo;, ou seja, tá na minha máquina de trabalho, no máximo em um Drive de Nuvem.
-Pergunto também se eles controlam as mudanças feitas nestes scripts e outro dia recebi uma resposta curiosa: &amp;ldquo;Eu controlo as mudanças em uma planilha!</description>
-    </item>
-    
-    <item>
-      <title>ASP.NET Core dá para usar ?</title>
-      <link>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</link>
-      <pubDate>Mon, 04 Mar 2019 11:19:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/03/asp-net-core-da-para-usar/</guid>
-      <description>Esta semana aconteceu algo interessante. Tenho um projeto hospedado em um host, que por sinal é muito eficiente, mas me surpreendeu quando perguntei se eles suportavam ASP.NET Core!
-A resposta foi &amp;ldquo;nosso técnico disse que o ASP.NET Core ainda não é estável&amp;rdquo;
-Isto me deixou surpreso e ao mesmo tempo intrigado, pois a plataforma .NET Core já existe há alguns anos e vem melhorando e supreendendo a cada dia! Basta olharmos os números!</description>
-    </item>
-    
-    <item>
-      <title>Crie um site estático usando Azure Storage</title>
-      <link>https://carloscds.net/2019/01/crie-um-site-estatico-usando-azure-storage/</link>
-      <pubDate>Mon, 21 Jan 2019 22:40:56 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/01/crie-um-site-estatico-usando-azure-storage/</guid>
-      <description>Olá, é isto mesmo que você leu! Agora é possível criar um site estático a partir de uma Storage no Azure.
-Sem dúvida você já precisou colocar apenas arquivos HTML, Javacript, CSS e Imagens para subir um site, certo! Agora isto é possível com este novo recurso, ainda em Preview!
-Criando uma Storage:
-O primeiro passo é você criar uma Storage. Para isto vá até o portal do Azure em Create Resource (Criar Recurso).</description>
-    </item>
-    
-    <item>
-      <title>C# 8 Range Index</title>
-      <link>https://carloscds.net/2019/01/c-8-range-index/</link>
-      <pubDate>Sun, 06 Jan 2019 21:40:26 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/01/c-8-range-index/</guid>
-      <description>No post anterior eu falei um pouco sobre o Visual Studio 2019 Preview, que alias, eu já estou utilizando para trabalhar em alguns projetos.
-Juntamente com esta nova versão do Visual Studio, temos também o Preview do .NET Core 3 e do C# 8.
-Neste post vamos criar um pequeno projeto Console e mostrar a funcionalidade chamada Range Index!
-Antes de iniciarmos, vou criar o projeto exemplo no Visual Studio 2019 e configurar o C# para versão 8, veja abaixo:</description>
     </item>
     
   </channel>
