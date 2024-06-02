@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Entity Framework 4.3 lançado!</title>
+      <link>https://carloscds.net/2012/02/entity-framework-4-3-lanado/</link>
+      <pubDate>Fri, 10 Feb 2012 09:41:18 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/02/entity-framework-4-3-lanado/</guid>
+      <description>Pessoal,
+A Microsoft acaba de lancar a versão 4.3 do Entity Framework CodeFirst, agora com todas as novidades que vinham sendo trabalhadas nos betas, consolidadas nesta versão.
+Um dos pontos mais trabalhados foi o Migrations, que permite que você atualize o banco de dados, seja de desenvolvimento ou produção, simplesmente através das mudanças em suas classes POCO.
+Muitas novidades ainda estão por vir na versão que deverá sair logo após o lançamento do novo Visual Studio, pois muitas das mudanças anunciadas para o Entity Framework, como por exempo suporte a enums, necessita de mudanças também no .</description>
+    </item>
+    
+    <item>
       <title>Nova versão do Debugger Canvas</title>
       <link>https://carloscds.net/2012/02/nova-verso-do-debugger-canvas/</link>
       <pubDate>Sun, 05 Feb 2012 19:22:47 -0300</pubDate>
@@ -229,19 +241,6 @@ Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano 
       <description>Pessoal,
 A MSDN Library é um importante recurso para todos os desenvolvedores da plataforma Microsoft .Net e somo muito gratos por tê-la em portugês (PT-BR), pois nem todos tem o domínio do inglês, principalmente enquanto iniciante em desenvolvimento de software.
 Mas você já pensou em contribuir com a biblioteca, deixando-a melhor ainda ? Você pode se tornar um contribuidor do MSDN, sugerindo novos termos para a tradução, o que deixaria a biblioteca ainda mais com a cara do Brasil.</description>
-    </item>
-    
-    <item>
-      <title>Começe a Desenvolver no Azure agora mesmo!</title>
-      <link>https://carloscds.net/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</link>
-      <pubDate>Tue, 22 Mar 2011 18:53:07 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</guid>
-      <description>Pessoal,
-Estou com vários promocodes para acesso ao Azure, vejam site. Não precisa de cartão de crédito, simples e rápido para ativar.
-Caso alguem queira começar a desenvolver no Windows Azure, entre em contato comigo pelo twitter: @cdssoftware que fornceço o passcode.
-[]s,
-Carlos.</description>
     </item>
     
   </channel>

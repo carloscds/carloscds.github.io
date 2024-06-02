@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Swagger vai acabar e agora ? Vamos conhecer o Scalar</title>
+      <link>https://carloscds.net/2024/06/aspnetcore-swagger-scalar/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/06/aspnetcore-swagger-scalar/</guid>
+      <description>Criar uma boa doumentação para uma API é essencial para quem vai consumir os serviços, pois ajuda no uso, reduz chamados de suporte e mais que tudo,mostra que você é um desenvolver organizado!
+É extremanemte desagradável, e digo isto pois trabalho com muitas APIs diariamente, trabalhar com documentações desatializadas e incorretas!
+Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em milhares de APIs, visto que seu uso é bastante simples e o resultado é muito bom, pois cria uma excelente documentação para nossas APIs.</description>
+    </item>
     
     <item>
       <title>ASP.NET (Core) KeyedServices - uma interface, várias implementações</title>
@@ -221,16 +232,6 @@ Mas uma mudança feita no ASP.</description>
       <guid>https://carloscds.net/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</guid>
       <description>Se você desenvolve em .NET provavelmente já se perguntou se tudo o que é preciso para a sua aplicação funcionar está na pasta de publicação, certo ? Normalmente temos dezenas, as vezes centenas de DLLs que precisamos levar para o ambiente de produção, e esquecer uma delas pode ser um caos total!
 Bom, se você já está desenvolvendo para .NET Core isto está sendo resolvido de uma forma muito interessante: Bem vindo ao Self Contained App.</description>
-    </item>
-    
-    <item>
-      <title>Qual é a versão do framework de um EXE ou DLL ?</title>
-      <link>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</link>
-      <pubDate>Sun, 02 Jun 2019 22:18:30 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
-      <description>Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
-Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?</description>
     </item>
     
   </channel>

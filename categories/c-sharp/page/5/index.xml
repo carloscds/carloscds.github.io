@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Melhorando o tempo de carga do Entity Framework com NGEN</title>
+      <link>https://carloscds.net/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</link>
+      <pubDate>Sun, 03 Nov 2013 21:49:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/11/melhorando-o-tempo-de-carga-do-entity-framework-com-ngen/</guid>
+      <description>A partir do Entity Framework 6, todos os componentes do EF estão dentro da DLL EntityFramework.dll e não mais divididas entre vários componentes do .Net Framework. Sendo assim, a DLL do EF não está otimizada para o JIT (Just in Time) do computador onde está sendo rodado, assim como o .Net está.
+Nós podemos melhorar isto executando o comando Ngen.exe, que pré-compila a DLL e elimina este processo durante a carga da DLL.</description>
+    </item>
     
     <item>
       <title>Visual Studio 2013–Novidades</title>
@@ -239,18 +249,6 @@ Está no ar o Microsoft Virtual Academy (MVA) do Entity Framework 4. É um trein
 O MVA é composto de vídeos explicativos e também de artigos e de uma prova. Para quem está começando com EF, é uma excelente fonte de aprendizado.
 Esta academia foi grava por mim, Renato Haddad e pelo Fernando Henrique.
 O link é https://www.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework 4.3 lançado!</title>
-      <link>https://carloscds.net/2012/02/entity-framework-4-3-lanado/</link>
-      <pubDate>Fri, 10 Feb 2012 09:41:18 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/02/entity-framework-4-3-lanado/</guid>
-      <description>Pessoal,
-A Microsoft acaba de lancar a versão 4.3 do Entity Framework CodeFirst, agora com todas as novidades que vinham sendo trabalhadas nos betas, consolidadas nesta versão.
-Um dos pontos mais trabalhados foi o Migrations, que permite que você atualize o banco de dados, seja de desenvolvimento ou produção, simplesmente através das mudanças em suas classes POCO.
-Muitas novidades ainda estão por vir na versão que deverá sair logo após o lançamento do novo Visual Studio, pois muitas das mudanças anunciadas para o Entity Framework, como por exempo suporte a enums, necessita de mudanças também no .</description>
     </item>
     
   </channel>

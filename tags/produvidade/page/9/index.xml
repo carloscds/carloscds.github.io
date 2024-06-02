@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Windows Azure – tabela de preços</title>
+      <link>https://carloscds.net/2010/01/windows-azure-tabela-de-precos/</link>
+      <pubDate>Mon, 04 Jan 2010 11:43:28 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/01/windows-azure-tabela-de-precos/</guid>
+      <description>Pessoal,
+Para quem está pensando em colocar aplicações na “nuvem” usando o Windows Azure, a Microsoft publicou a tabela de preços para os serviços que estão sendo oferecidos na plataforma.
+Os valores podem ser conferidos no site:
+http://www.microsoft.com/windowsazure/offers/popup.aspx?lang=en&amp;amp;locale=en-US&amp;amp;offer=COMPARE_PUBLIC
+Lembrando que ainda não existem DataCenters no Brasil, mas eu particularmente fiz alguns testes com o SQL Azure e a velocidade impressiona. Pode ser comparada a um sistema rodando sob uma VPN.</description>
+    </item>
+    
+    <item>
       <title>Livro Sobre Silverlight 3 em C#</title>
       <link>https://carloscds.net/2009/12/livro-sobre-silverlight-3-em-c/</link>
       <pubDate>Mon, 14 Dec 2009 08:57:21 -0300</pubDate>
@@ -225,17 +238,6 @@ Carlos.</description>
       <description>Na próxima quarta-feira (16/09/2009) estarei fazendo uma palestra sobre Windows 7 no evento que terá a participação do presidente da Microsoft Brasil, o Sr. Michel Levy.
 []s,
 Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Configurar Emulador do Visual Studio para Acessar Internet</title>
-      <link>https://carloscds.net/2009/09/configurar-emulador-do-visual-studio-para-acessar-internet/</link>
-      <pubDate>Sat, 12 Sep 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2009/09/configurar-emulador-do-visual-studio-para-acessar-internet/</guid>
-      <description>Pessoal,
-Resolvi publicar este post devido ao grande número de pessoas que solicitam este tipo de informação no fórum de mobilidade do MSDN. O objetivo é apresentar passo a passo como configurar o emulador do Visual Studio para acessar a rede e tambem a internet. Então vamos lá:
- Abra o emulador do Visual Studio (Tools/Connect to Device) e escolha o emulador de sua preferência (WM 5, 6 ou 6.5). Dentro do emulador, clique em File/Configure:  Escolha NetWork e clique para habilitar a placa de rede (connected network inidica a placa que está ativa no nomendo no seu computador, caso tenha mais que uma):  Para compartilhar a placa de rede, você precsa do Virtual Machine Network Manager, que faz parte do Virtual PC 2007.</description>
     </item>
     
   </channel>

@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>Qual é a versão do framework de um EXE ou DLL ?</title>
+      <link>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</link>
+      <pubDate>Sun, 02 Jun 2019 22:18:30 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</guid>
+      <description>Nestes tempos de migrações e vários Frameworks, é comum termos aplicações feitas em várias versões, desde o .NET Framework até as mais recentes versões do .NET Core.
+Em um cenário ainda mais complicado, temos códigos produzidos em varias versões do mesmo framework, por exemplo: 3.0, 3.5,4.0, 4.5, etc. Mas e quando precisamos verificar se uma determinada DLL ou até mesmo um EXE estão na versão do framework que precisamos ? Qual o caminho ?</description>
+    </item>
+    
+    <item>
       <title>IT Pros, onde vocês guardam os seus scripts ?</title>
       <link>https://carloscds.net/2019/04/it-pros-onde-voces-guardam-os-seus-scripts/</link>
       <pubDate>Mon, 29 Apr 2019 23:01:15 -0300</pubDate>
@@ -229,19 +239,6 @@ Existem muitas maneiras de se trabalhar com .</description>
       <description>Olá a todos,
 Neste primeiro post de 2017 vou falar de algo que já está afetando a vida dos desenvolvedores: criar software multi plataforma! Há muito tempo se fala neste tipo de desenvolvimento e muito se prometeu com ferramentas e linguagens, algumas um tanto mirabolantes!
 Me lembro de ter ido conhecer uma ferramenta Windows que havia sido portada para Linux e quando comecei a fazer perguntas sobre funcionalidades bem básicas a resposta foi: “Bem, isto ainda não fizemos…”, e nem preciso dizer que instalar a tal ferramenta era coisa para alguns dias de muitos comandos em um sistema Linux.</description>
-    </item>
-    
-    <item>
-      <title>Criando Recursos no Azure com a FluentAPI em C#</title>
-      <link>https://carloscds.net/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</link>
-      <pubDate>Fri, 14 Oct 2016 15:49:48 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</guid>
-      <description>Fala pessoal, tudo bem?
-Ontem (12/10) foi publicado o preview do Azure FluentAPI, que permite a criação de vários recursos do Azure, como VMs, Storage e muito mais, diretamente do .Net usando Fluent.
-A grande novidade aqui, além do Fluent é a compatililidade com o .Net Core, isto mesmo, você pode criar código para gerenciar seu Azure totalmente portável!
-Veja um exemplo de como criar uma VM:
-E neste link existe alguns outros exemplos e também como usar a Fluent API.</description>
     </item>
     
   </channel>

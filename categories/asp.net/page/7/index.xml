@@ -5,10 +5,23 @@
     <link>https://carloscds.net/categories/asp.net/</link>
     <description>Recent content in Asp.Net on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Começe a Desenvolver no Azure agora mesmo!</title>
+      <link>https://carloscds.net/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</link>
+      <pubDate>Tue, 22 Mar 2011 18:53:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/03/comee-a-desenvolver-no-azure-agora-mesmo/</guid>
+      <description>Pessoal,
+Estou com vários promocodes para acesso ao Azure, vejam site. Não precisa de cartão de crédito, simples e rápido para ativar.
+Caso alguem queira começar a desenvolver no Windows Azure, entre em contato comigo pelo twitter: @cdssoftware que fornceço o passcode.
+[]s,
+Carlos.</description>
+    </item>
     
     <item>
       <title>Como se tornar um desenvolvedor oficial de Windows Phone 7</title>
@@ -224,18 +237,6 @@ Uma tarefa relativamente simples, mas que pode causar um certo transtorno justam
       <guid>https://carloscds.net/2010/07/consultas-genricas-com-linq/</guid>
       <description>No conceito de orientação a objeto, sempre temos em mente criar códigos que possam ser reutilizados dentro da aplicação ou mesmo em aplicações diferentes, e neste contexto eu tenho sido questionado sobre como é possível usar Linq, que é totalmente orientado a objeto e fortemente tipado, e ainda sim criar códigos reusáveis.
 Aproveitando esta situação, vou mostrar como é possível criar um método de consulta usando Linq, que serve para consultar praticamente qualquer entidade (tabela) do seu modelo, ou seja, iremos criar uma consulta totalmente genérica, e um dos possíveis lugares que você pode utilizar este tipo de método, é em uma rotina de consulta que você chama em todo o seu sistema, por exemplo.</description>
-    </item>
-    
-    <item>
-      <title>Certificação .Net 4– Windows Developer</title>
-      <link>https://carloscds.net/2010/06/certificao-net-4-windows-developer/</link>
-      <pubDate>Wed, 30 Jun 2010 09:31:55 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/certificao-net-4-windows-developer/</guid>
-      <description>Pessoal,
-Acabei de passar em mais uma prova beta do .Net 4.0 – Windows Developer 4. Lembrando que estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
-Abraços,
-Carlos dos Santos.</description>
     </item>
     
   </channel>

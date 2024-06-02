@@ -10,6 +10,19 @@
     
     
     <item>
+      <title>Criando Recursos no Azure com a FluentAPI em C#</title>
+      <link>https://carloscds.net/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</link>
+      <pubDate>Fri, 14 Oct 2016 15:49:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</guid>
+      <description>Fala pessoal, tudo bem?
+Ontem (12/10) foi publicado o preview do Azure FluentAPI, que permite a criação de vários recursos do Azure, como VMs, Storage e muito mais, diretamente do .Net usando Fluent.
+A grande novidade aqui, além do Fluent é a compatililidade com o .Net Core, isto mesmo, você pode criar código para gerenciar seu Azure totalmente portável!
+Veja um exemplo de como criar uma VM:
+E neste link existe alguns outros exemplos e também como usar a Fluent API.</description>
+    </item>
+    
+    <item>
       <title>Microsoft Open Source</title>
       <link>https://carloscds.net/2016/09/microsoft-open-source/</link>
       <pubDate>Sat, 24 Sep 2016 18:38:34 -0300</pubDate>
@@ -218,17 +231,6 @@ Se você é um iniciante na ferramenta ou até mesmo quer entender melhor o que 
       <guid>https://carloscds.net/2015/09/palestra-azure-univem/</guid>
       <description>Ontem estive na Univem de Marília falando sobre o Microsoft Azure. o que chamou a atenção neste evento é que fui convidado para dar entrevista em um canal local de televisão, para o programa 4 Notícias. Achei bem legal a iniciativa de divulgar o evento, que é a Semana de Computação, bem como o conteúdo, em um programa de televisão local.
 Agradeço a todos pelas presença e principalmente pelos questionamentos, que tornam a palestra ainda mais produtiva!</description>
-    </item>
-    
-    <item>
-      <title>Participe do lançamento do Visual Studio 2015 #visualstudiortm</title>
-      <link>https://carloscds.net/2015/07/participe-do-lanamento-do-visual-studio-2015-visualstudiortm/</link>
-      <pubDate>Wed, 08 Jul 2015 10:04:33 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/07/participe-do-lanamento-do-visual-studio-2015-visualstudiortm/</guid>
-      <description>Em 20 de julho, iremos celebrar a última release do Visual Studio 2015!
-Convidamos a todos a aprender sobre as novas features e tecnologias que acompanharão a nova versão. Você poderá interagir na sessão ao vivo, participar da sessão de perguntas e respostas com o time de engenharia, além de se aprofundar em detalhes técnicos, em mais de 60 sessões on-demand. Para acessar, clique aqui.
-Teremos também a oportunidade de ver o time de Visual Studio criando uma solução fim-a-fim em um projeto open-source, alavancando as mais novas ferramentas e tecnologias.</description>
     </item>
     
   </channel>

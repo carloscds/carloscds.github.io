@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Certificação .Net 4– Windows Developer</title>
+      <link>https://carloscds.net/2010/06/certificao-net-4-windows-developer/</link>
+      <pubDate>Wed, 30 Jun 2010 09:31:55 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/certificao-net-4-windows-developer/</guid>
+      <description>Pessoal,
+Acabei de passar em mais uma prova beta do .Net 4.0 – Windows Developer 4. Lembrando que estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
+Abraços,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
       <title>Certificação em .Net 4.0</title>
       <link>https://carloscds.net/2010/06/certificao-em-net-4-0/</link>
       <pubDate>Sun, 27 Jun 2010 15:58:28 -0300</pubDate>
@@ -233,19 +245,6 @@ As opiniões colocadas neste blog são minhas e pessoais e não expressam necess
       <guid>https://carloscds.net/videos/</guid>
       <description> Estes são alguns de meus vídeos no YouTube:
  Migrando um projeto para SDK Project: https://www.youtube.com/watch?v=A_3lvMOAazE Você executa planos de execução de query: https://www.youtube.com/watch?v=ATLLqcLFkl4&amp;amp;t=1s Publicando uma aplicação em ASP.NET Core no Azure: https://www.youtube.com/watch?v=CnoJ3gtfAhU&amp;amp;t=203s Visual Studio Container Tools: https://www.youtube.com/watch?v=YW8JVGAGZDA&amp;amp;t=7s  </description>
-    </item>
-    
-    <item>
-      <title>Windows Azure – tabela de preços</title>
-      <link>https://carloscds.net/2010/01/windows-azure-tabela-de-precos/</link>
-      <pubDate>Mon, 04 Jan 2010 11:43:28 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/01/windows-azure-tabela-de-precos/</guid>
-      <description>Pessoal,
-Para quem está pensando em colocar aplicações na “nuvem” usando o Windows Azure, a Microsoft publicou a tabela de preços para os serviços que estão sendo oferecidos na plataforma.
-Os valores podem ser conferidos no site:
-http://www.microsoft.com/windowsazure/offers/popup.aspx?lang=en&amp;amp;locale=en-US&amp;amp;offer=COMPARE_PUBLIC
-Lembrando que ainda não existem DataCenters no Brasil, mas eu particularmente fiz alguns testes com o SQL Azure e a velocidade impressiona. Pode ser comparada a um sistema rodando sob uma VPN.</description>
     </item>
     
   </channel>
