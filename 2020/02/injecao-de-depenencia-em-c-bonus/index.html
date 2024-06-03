@@ -32,7 +32,7 @@ EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um 
     </script>
 
     
-    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
     <title>Injeção de Dependência em C# - Bônus - Carlos dos Santos</title>
     
     
@@ -73,6 +73,7 @@ EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um 
         <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
       <![endif]-->
+    
   </head>
 
   
@@ -705,7 +706,7 @@ namespace InjecaoDependenciaDiretaEF.Controllers
 <p>Vamos entender:<br>
 _<em>httpContextAccessor</em> é o contexto Http da aplicação, que tem o <em>HttpContext</em> e o <em>Request</em>, que é a requisição para a página.</p>
 <p>Usamos o <em>RequestServices.GetServices<!-- raw HTML omitted -->()</em> que basicamente &ldquo;pede&rdquo; para o injetor de dependências nos &ldquo;dar&rdquo; o objeto correspondente a interface <em>IEnvioEmail</em>.</p>
-<p>Isto é muito legal, pois você está &ldquo;injetando&rdquo; um objeto na mão, ou seja, está pegando um objeto que já está criado e trazendo para a variável &ldquo;<em>email</em>&quot;.</p>
+<p>Isto é muito legal, pois você está &ldquo;injetando&rdquo; um objeto na mão, ou seja, está pegando um objeto que já está criado e trazendo para a variável &ldquo;<em>email</em>&rdquo;.</p>
 <p>E agora é só usar o email!</p>
 <p>Executando a aplicação teremos o seguinte resultado:</p>
 <p><img src="wp-content/uploads/2020/02/image-6.png" alt=""></p>
@@ -713,7 +714,7 @@ _<em>httpContextAccessor</em> é o contexto Http da aplicação, que tem o <em>H
 <p><img src="wp-content/uploads/2020/02/image-7.png" alt=""></p>
 <h4 id="conclusão">Conclusão</h4>
 <p>O mecanismo de injeção de dependência nos permite simplificar muito o desenvolvimento! Mas use com cuidado, pois tudo em excesso é prejudicial!</p>
-<p>Um agradecimento especial ao meu amigo <a href="http://ralms.net/">Rafael Almeida</a>, com quem &ldquo;discuto&rdquo; frequentemente sobre EntityFramework!!! Alias estas discussões ja geraram melhorias no EF Core, como por exemplo &ldquo;WithNoLock()&quot;.</p>
+<p>Um agradecimento especial ao meu amigo <a href="http://ralms.net/">Rafael Almeida</a>, com quem &ldquo;discuto&rdquo; frequentemente sobre EntityFramework!!! Alias estas discussões ja geraram melhorias no EF Core, como por exemplo &ldquo;WithNoLock()&rdquo;.</p>
 <p>Como sempre, o código do exemplo está no meu <a href="https://github.com/carloscds/CSharpSamples/tree/master/InjecaoDependenciaDiretaEF">Github</a>.</p>
 <p>Abraços e até a próxima!</p>
 
