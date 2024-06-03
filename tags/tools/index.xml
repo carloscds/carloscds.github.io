@@ -17,7 +17,7 @@
       
       <guid>https://carloscds.net/2024/06/aspnetcore-swagger-scalar/</guid>
       <description>Criar uma boa doumentação para uma API é essencial para quem vai consumir os serviços, pois ajuda no uso, reduz chamados de suporte e mais que tudo,mostra que você é um desenvolver organizado!
-É extremanemte desagradável, e digo isto pois trabalho com muitas APIs diariamente, trabalhar com documentações desatializadas e incorretas!
+É extremanemte desagradável, e digo isto pois trabalho com muitas APIs diariamente, trabalhar com documentações desatualizadas e incorretas!
 Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em milhares de APIs, visto que seu uso é bastante simples e o resultado é muito bom, pois cria uma excelente documentação para nossas APIs.</description>
     </item>
     
