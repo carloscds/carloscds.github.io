@@ -32,7 +32,7 @@ Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em
     </script>
 
     
-    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
     <title>Swagger vai acabar e agora ? Vamos conhecer o Scalar - Carlos dos Santos</title>
     
     
@@ -177,9 +177,9 @@ Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">9</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">96</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">97</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -400,6 +400,16 @@ Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/" class="title">Você está tratando corretamente os erros na sua aplicação ?</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-07-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2024/06/aspnetcore-swagger-scalar/" class="title">Swagger vai acabar e agora ? Vamos conhecer o Scalar</a>
                     </p>
                     <p class="item-date">
@@ -434,16 +444,6 @@ Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em
                     </p>
                     <p class="item-date">
                         <time datetime="2023-09-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-09-18</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2023/07/entityframeworkcore-powertools/" class="title">EntityFramework Core PowerTools - Engenharia Reversa do Banco de Dados</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2023-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-07-25</time>
                     </p>
                 </div>
             </li>
@@ -543,7 +543,7 @@ app.Run();
 <p>Aqui temos o OpenAPI adicionado, seguindo o novo padrão, através dos métodos AddOpenApi() e MapOpenApi().</p>
 <p>Viu a diferença ? Não tem mais o Swagger, somente o OpenAPI.</p>
 <h3 id="como-eu-uso-o-scalar-">Como eu uso o Scalar ?</h3>
-<p>A grande vantagem aqui é que você pode adicionar o Scalar em um projeto que já tem o Swagger, e os dois podem funcionar juntos. Eu recentemente fiz isto em uma API de um cliente e quando ele viu o que o Scalar pode fazer me falou: &ldquo;Agora só vou usar este!&rdquo;.</p>
+<p>A grande vantagem aqui é que você pode adicionar o Scalar em um projeto que já tem o Swagger, e os dois podem funcionar juntos. Eu recentemente fiz isto em uma API de um cliente e quando ele viu o que o Scalar pode fazer me falou: &ldquo;Agora só vou usar este!&quot;.</p>
 <p>Para adicionar o Scalar você precisa deste pacote:</p>
 <pre><code class="language-nuget">dotnet add package AspNetCore.Scalar --version 1.0.1
 </code></pre>
@@ -571,7 +571,7 @@ app.Run();
 <p>Veja que existe umao pequena diferença na configuração e na chamada em relação ao .NET 9, e acredito que ainda irá mudar mais, pois ainda estamos na versão preview.</p>
 <h3 id="considerações">Considerações</h3>
 <p>O Scalar é sem dúvida uma poderosa ferramenta para documentação de API, mesmo para códigos existentes em .NET (Core), que podem se beneficiar agora mesmo, dando um belo upgrade na sua API.</p>
-<p>Aproveite é já experimente!</p>
+<p>Aproveite e já experimente!</p>
 <p>Abraços e até a próxima!</p>
 
     </div>
@@ -611,6 +611,11 @@ app.Run();
                 <a href="https://carloscds.net/2024/05/aspnetcore-keyedservices/" title="ASP.NET (Core) KeyedServices - uma interface, várias implementações"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/"
+                    title="Você está tratando corretamente os erros na sua aplicação ?"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
             <li class="toggle-toc">

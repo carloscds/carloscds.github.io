@@ -32,7 +32,7 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
     </script>
 
     
-    <meta name="generator" content="Hugo 0.72.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
     <title>EntityFramework asNoTracking - Por que preciso saber disto ? - Carlos dos Santos</title>
     
     
@@ -177,9 +177,9 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">9</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">10</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">96</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">97</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -400,6 +400,16 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/" class="title">Você está tratando corretamente os erros na sua aplicação ?</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-07-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2024/06/aspnetcore-swagger-scalar/" class="title">Swagger vai acabar e agora ? Vamos conhecer o Scalar</a>
                     </p>
                     <p class="item-date">
@@ -434,16 +444,6 @@ Quando você cria um contexto para o EF e indica as classes do mapeamento, basic
                     </p>
                     <p class="item-date">
                         <time datetime="2023-09-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-09-18</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2023/07/entityframeworkcore-powertools/" class="title">EntityFramework Core PowerTools - Engenharia Reversa do Banco de Dados</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2023-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-07-25</time>
                     </p>
                 </div>
             </li>
@@ -607,7 +607,7 @@ Categories_58C84246D9EE9DEB30950140620833728474B6132D2BC59BD4306359B33CE2A1, Unc
 <p>Sendo assim, se enviarmos um comando SaveChanges() e tivermos mudados os dois objetos, mesmo &ldquo;sem querer&rdquo;, este serão enviados para o banco!</p>
 <p><strong>E como resolvemos isto ???</strong></p>
 <p>Exitem várias maneiras de resolvermos, e talvez a primeira que vem a sua cabeça é &ldquo;vamos instanciar outro contexto&rdquo;, mas se eu fizer isto, qual o benefício da injeção de dependência neste caso ?</p>
-<p>Para este tipo de situação temos o método &ldquo;AsNoTracking()&rdquo;, que em termos bem simples diz ao contexto para não mapear o objeto!</p>
+<p>Para este tipo de situação temos o método &ldquo;AsNoTracking()&quot;, que em termos bem simples diz ao contexto para não mapear o objeto!</p>
 <p>Então vamos criar um outro método GetNoTracking() implementando esta chamada:</p>
 <pre><code class="language-csharp">using System;
 using System.Collections.Generic;

@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Agora é multi plataforma!</title>
+      <link>https://carloscds.net/2017/01/agora-multi-plataforma/</link>
+      <pubDate>Sun, 01 Jan 2017 22:24:01 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/01/agora-multi-plataforma/</guid>
+      <description>Olá a todos,
+Neste primeiro post de 2017 vou falar de algo que já está afetando a vida dos desenvolvedores: criar software multi plataforma! Há muito tempo se fala neste tipo de desenvolvimento e muito se prometeu com ferramentas e linguagens, algumas um tanto mirabolantes!
+Me lembro de ter ido conhecer uma ferramenta Windows que havia sido portada para Linux e quando comecei a fazer perguntas sobre funcionalidades bem básicas a resposta foi: “Bem, isto ainda não fizemos…”, e nem preciso dizer que instalar a tal ferramenta era coisa para alguns dias de muitos comandos em um sistema Linux.</description>
+    </item>
+    
+    <item>
       <title>Criando Recursos no Azure com a FluentAPI em C#</title>
       <link>https://carloscds.net/2016/10/criando-recursos-no-azure-com-a-fluentapi-em-c/</link>
       <pubDate>Fri, 14 Oct 2016 15:49:48 -0300</pubDate>
@@ -222,16 +233,6 @@ Se você é um iniciante na ferramenta ou até mesmo quer entender melhor o que 
       
       <guid>https://carloscds.net/2015/09/teched-2015/</guid>
       <description>Este foi um evento sensacional, uma tela gigante no keynote e palestrantes incríveis, como o chefe do Microsoft Research (Rico Malvar), que é um brasileiro e fez uma demonstração ao vivo do Skype Translator em Português. Bom também foi rever os amigos e principalmente ser palestrante em duas sessões deste que foi o maior evento de tecnologia da América Latina. Tivemos também uma participação especial do maestro João Carlos Martins, uma pessoa com uma história de vida e superação incríveis!</description>
-    </item>
-    
-    <item>
-      <title>Palestra Azure Univem</title>
-      <link>https://carloscds.net/2015/09/palestra-azure-univem/</link>
-      <pubDate>Fri, 11 Sep 2015 18:50:53 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/09/palestra-azure-univem/</guid>
-      <description>Ontem estive na Univem de Marília falando sobre o Microsoft Azure. o que chamou a atenção neste evento é que fui convidado para dar entrevista em um canal local de televisão, para o programa 4 Notícias. Achei bem legal a iniciativa de divulgar o evento, que é a Semana de Computação, bem como o conteúdo, em um programa de televisão local.
-Agradeço a todos pelas presença e principalmente pelos questionamentos, que tornam a palestra ainda mais produtiva!</description>
     </item>
     
   </channel>

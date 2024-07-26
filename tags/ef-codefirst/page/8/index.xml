@@ -5,10 +5,20 @@
     <link>https://carloscds.net/tags/ef-codefirst/</link>
     <description>Recent content in ef codefirst on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Nov 2013 21:49:43 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2014 19:34:06 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/ef-codefirst/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Consultas Genéricas com Linq</title>
+      <link>https://carloscds.net/2010/07/consultas-genricas-com-linq/</link>
+      <pubDate>Mon, 19 Jul 2010 23:22:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/07/consultas-genricas-com-linq/</guid>
+      <description>No conceito de orientação a objeto, sempre temos em mente criar códigos que possam ser reutilizados dentro da aplicação ou mesmo em aplicações diferentes, e neste contexto eu tenho sido questionado sobre como é possível usar Linq, que é totalmente orientado a objeto e fortemente tipado, e ainda sim criar códigos reusáveis.
+Aproveitando esta situação, vou mostrar como é possível criar um método de consulta usando Linq, que serve para consultar praticamente qualquer entidade (tabela) do seu modelo, ou seja, iremos criar uma consulta totalmente genérica, e um dos possíveis lugares que você pode utilizar este tipo de método, é em uma rotina de consulta que você chama em todo o seu sistema, por exemplo.</description>
+    </item>
     
     <item>
       <title>Certificação .Net 4– Windows Developer</title>
@@ -236,16 +246,6 @@ Espero que a dica ajude.</description>
       <description>Tenho mais de 20 anos de experiência no desenvolvimento de softwares. Sou certificado Microsoft MCP, Microsoft MVP C#. Sou palestrante em diversos eventos Microsoft, tenho diversos artigos publicados em revistas e participo dos fóruns do MSDN.
 Ministro treinamentos e consultorias in-company para evolução tecnológica de aplicações, melhora de performance e Cloud.
 As opiniões colocadas neste blog são minhas e pessoais e não expressam necessariamente as opiniões de meus empregadores, parceiros e amigos.</description>
-    </item>
-    
-    <item>
-      <title>Videos</title>
-      <link>https://carloscds.net/videos/</link>
-      <pubDate>Thu, 21 Jan 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/videos/</guid>
-      <description> Estes são alguns de meus vídeos no YouTube:
- Migrando um projeto para SDK Project: https://www.youtube.com/watch?v=A_3lvMOAazE Você executa planos de execução de query: https://www.youtube.com/watch?v=ATLLqcLFkl4&amp;amp;t=1s Publicando uma aplicação em ASP.NET Core no Azure: https://www.youtube.com/watch?v=CnoJ3gtfAhU&amp;amp;t=203s Visual Studio Container Tools: https://www.youtube.com/watch?v=YW8JVGAGZDA&amp;amp;t=7s  </description>
     </item>
     
   </channel>

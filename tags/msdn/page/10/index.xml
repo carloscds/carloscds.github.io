@@ -5,10 +5,21 @@
     <link>https://carloscds.net/tags/msdn/</link>
     <description>Recent content in msdn on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Apr 2014 21:25:57 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2014 18:02:58 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Palestra na Universidade Estadual de Londrina</title>
+      <link>https://carloscds.net/2009/09/palestra-na-universidade-estadual-de-londrina/</link>
+      <pubDate>Sat, 12 Sep 2009 15:58:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/09/palestra-na-universidade-estadual-de-londrina/</guid>
+      <description>Na próxima quarta-feira (16/09/2009) estarei fazendo uma palestra sobre Windows 7 no evento que terá a participação do presidente da Microsoft Brasil, o Sr. Michel Levy.
+[]s,
+Carlos.</description>
+    </item>
     
     <item>
       <title>Configurar Emulador do Visual Studio para Acessar Internet</title>

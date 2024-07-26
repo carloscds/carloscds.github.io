@@ -5,10 +5,23 @@
     <link>https://carloscds.net/tags/msdn/</link>
     <description>Recent content in msdn on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 07 Apr 2014 21:25:57 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2014 18:02:58 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Academia de Entity Framework 4</title>
+      <link>https://carloscds.net/2012/06/academia-de-entity-framework-4/</link>
+      <pubDate>Thu, 07 Jun 2012 13:15:29 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/06/academia-de-entity-framework-4/</guid>
+      <description>Pessoal,
+Está no ar o Microsoft Virtual Academy (MVA) do Entity Framework 4. É um treinamento básico sobre o EF, com seus conceitos fundamentais e vários exemplos de códigos.
+O MVA é composto de vídeos explicativos e também de artigos e de uma prova. Para quem está começando com EF, é uma excelente fonte de aprendizado.
+Esta academia foi grava por mim, Renato Haddad e pelo Fernando Henrique.
+O link é https://www.</description>
+    </item>
     
     <item>
       <title>Entity Framework 4.3 lançado!</title>
@@ -231,17 +244,6 @@ Carlos dos Santos.</description>
       <description>Na última sexta-feira (08/04/2011) estive no Instituto Federal Tecnológico do Paraná (http://www.ifpr.edu.br/) para ministrar uma palestra para os alunos do curso técnico em informática.
 Neste evento falei sobre o Visual Studio 2010 e a linguagem C# para a criação de aplilcações Windows, WPF, Silverlight e Windows Phone, mostrando todo o ppotencial da plataforma .Net.
 Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano e principalmente da importância da capacitação para quem quer uma vaga no mercado.</description>
-    </item>
-    
-    <item>
-      <title>MSDN Library em Português (MSDN WIKI)</title>
-      <link>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</link>
-      <pubDate>Thu, 07 Apr 2011 16:05:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</guid>
-      <description>Pessoal,
-A MSDN Library é um importante recurso para todos os desenvolvedores da plataforma Microsoft .Net e somo muito gratos por tê-la em portugês (PT-BR), pois nem todos tem o domínio do inglês, principalmente enquanto iniciante em desenvolvimento de software.
-Mas você já pensou em contribuir com a biblioteca, deixando-a melhor ainda ? Você pode se tornar um contribuidor do MSDN, sugerindo novos termos para a tradução, o que deixaria a biblioteca ainda mais com a cara do Brasil.</description>
     </item>
     
   </channel>

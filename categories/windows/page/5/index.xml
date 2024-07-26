@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/windows/</link>
     <description>Recent content in Windows on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Dec 2009 11:18:02 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2016 21:38:20 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Entity Framework–CodeBase Configuration (Interception)</title>
+      <link>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</link>
+      <pubDate>Mon, 30 Dec 2013 00:06:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</guid>
+      <description>Olá pessoal,
+Uma das novidades do Entity Framework 6 é a possibilidade de fazermos as configurações do nosso modelo usando código ao invés dos tradicionais arquivos de configuração (app.config/web.config). Além disto, temos agora muitas outras configurações que podem ser modificadas através da classe DbConfiguration.
+Dentre as várias opções de configuração que temos através do DbConfiguration, existe uma chamada Interception (veja mais aqui), onde podemos interceptar várias operaçoes que são enviadas ao banco de dados pelo Entity Framework.</description>
+    </item>
     
     <item>
       <title>Melhorando o tempo de carga do Entity Framework com NGEN</title>
@@ -236,19 +247,6 @@ Carlos dos Santos.</description>
       <description>Pessoal, eu migrei todo o meu blog para o Windows Azure usando o WordPerss com MySQL. A migração foi feita usando as próprias ferramentas do wordpress, ou seja, exportar dados de um lado e importar do outro.
 Fora o backup, precisei copiar os plug-ins e reativá-los, mas isto foi tranquilo. O site ficou muito, mas muito mais rapido no Azure, sem perder nenhum recurso em relação ao site original.
 Agora vou esperar só a liberação de mais tráfego para download para finalizar a migração e usar tudo no Azure.</description>
-    </item>
-    
-    <item>
-      <title>Academia de Entity Framework 4</title>
-      <link>https://carloscds.net/2012/06/academia-de-entity-framework-4/</link>
-      <pubDate>Thu, 07 Jun 2012 13:15:29 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/06/academia-de-entity-framework-4/</guid>
-      <description>Pessoal,
-Está no ar o Microsoft Virtual Academy (MVA) do Entity Framework 4. É um treinamento básico sobre o EF, com seus conceitos fundamentais e vários exemplos de códigos.
-O MVA é composto de vídeos explicativos e também de artigos e de uma prova. Para quem está começando com EF, é uma excelente fonte de aprendizado.
-Esta academia foi grava por mim, Renato Haddad e pelo Fernando Henrique.
-O link é https://www.</description>
     </item>
     
   </channel>

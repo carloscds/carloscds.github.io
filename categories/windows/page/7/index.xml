@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/windows/</link>
     <description>Recent content in Windows on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Dec 2009 11:18:02 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2016 21:38:20 -0300</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/windows/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MSDN Library em Português (MSDN WIKI)</title>
+      <link>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</link>
+      <pubDate>Thu, 07 Apr 2011 16:05:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</guid>
+      <description>Pessoal,
+A MSDN Library é um importante recurso para todos os desenvolvedores da plataforma Microsoft .Net e somo muito gratos por tê-la em portugês (PT-BR), pois nem todos tem o domínio do inglês, principalmente enquanto iniciante em desenvolvimento de software.
+Mas você já pensou em contribuir com a biblioteca, deixando-a melhor ainda ? Você pode se tornar um contribuidor do MSDN, sugerindo novos termos para a tradução, o que deixaria a biblioteca ainda mais com a cara do Brasil.</description>
+    </item>
     
     <item>
       <title>Começe a Desenvolver no Azure agora mesmo!</title>
@@ -227,16 +238,6 @@ Para o profiler funciona, você precisa adicionar a referência de um DLL do Pro
       <guid>https://carloscds.net/2010/08/windows-forms-atualizando-o-formulrio-de-uma-thread/</guid>
       <description>É relativamente comum termos uma aplicação que precise usar uma ou mais threads para realizar algum processo demorado onde o usuário não precise ficar esperando, mas às vezes é necessário também que esta thread faça algum tipo de interação com a tela, talvez atualizando alguma informação, barra de progresso, enfim, mostrar ao usuário que algo está acontecendo.
 Uma tarefa relativamente simples, mas que pode causar um certo transtorno justamente por ser uma thread.</description>
-    </item>
-    
-    <item>
-      <title>Consultas Genéricas com Linq</title>
-      <link>https://carloscds.net/2010/07/consultas-genricas-com-linq/</link>
-      <pubDate>Mon, 19 Jul 2010 23:22:31 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/07/consultas-genricas-com-linq/</guid>
-      <description>No conceito de orientação a objeto, sempre temos em mente criar códigos que possam ser reutilizados dentro da aplicação ou mesmo em aplicações diferentes, e neste contexto eu tenho sido questionado sobre como é possível usar Linq, que é totalmente orientado a objeto e fortemente tipado, e ainda sim criar códigos reusáveis.
-Aproveitando esta situação, vou mostrar como é possível criar um método de consulta usando Linq, que serve para consultar praticamente qualquer entidade (tabela) do seu modelo, ou seja, iremos criar uma consulta totalmente genérica, e um dos possíveis lugares que você pode utilizar este tipo de método, é em uma rotina de consulta que você chama em todo o seu sistema, por exemplo.</description>
     </item>
     
   </channel>

@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Você já ouviu falar em Self Contained Application?</title>
+      <link>https://carloscds.net/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</link>
+      <pubDate>Tue, 16 Jul 2019 23:10:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/07/voce-ja-ouviu-falar-em-self-contained-application/</guid>
+      <description>Se você desenvolve em .NET provavelmente já se perguntou se tudo o que é preciso para a sua aplicação funcionar está na pasta de publicação, certo ? Normalmente temos dezenas, as vezes centenas de DLLs que precisamos levar para o ambiente de produção, e esquecer uma delas pode ser um caos total!
+Bom, se você já está desenvolvendo para .NET Core isto está sendo resolvido de uma forma muito interessante: Bem vindo ao Self Contained App.</description>
+    </item>
     
     <item>
       <title>Qual é a versão do framework de um EXE ou DLL ?</title>
@@ -229,17 +239,6 @@ Veja aqui algumas dicas bem legais para configurar o Visual Studio 2017 e aument
 Muita gente já está trabalhando com .Net Core e eu espero que você seja uma delas! Mas se não for, aproveite e já baixe o DotNetCore agora mesmo neste link.
 Só para relembrar, o DotNet Core é uma nova versão da plataforma .Net que roda multi plataforma, ou seja, você pode desenvolver agora para Windows, Linux e Mac, usando o mesmo código fonte 😊
 Existem muitas maneiras de se trabalhar com .</description>
-    </item>
-    
-    <item>
-      <title>Agora é multi plataforma!</title>
-      <link>https://carloscds.net/2017/01/agora-multi-plataforma/</link>
-      <pubDate>Sun, 01 Jan 2017 22:24:01 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/01/agora-multi-plataforma/</guid>
-      <description>Olá a todos,
-Neste primeiro post de 2017 vou falar de algo que já está afetando a vida dos desenvolvedores: criar software multi plataforma! Há muito tempo se fala neste tipo de desenvolvimento e muito se prometeu com ferramentas e linguagens, algumas um tanto mirabolantes!
-Me lembro de ter ido conhecer uma ferramenta Windows que havia sido portada para Linux e quando comecei a fazer perguntas sobre funcionalidades bem básicas a resposta foi: “Bem, isto ainda não fizemos…”, e nem preciso dizer que instalar a tal ferramenta era coisa para alguns dias de muitos comandos em um sistema Linux.</description>
     </item>
     
   </channel>

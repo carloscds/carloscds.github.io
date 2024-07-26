@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Videos</title>
+      <link>https://carloscds.net/videos/</link>
+      <pubDate>Thu, 21 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/videos/</guid>
+      <description> Estes são alguns de meus vídeos no YouTube:
+ Migrando um projeto para SDK Project: https://www.youtube.com/watch?v=A_3lvMOAazE Você executa planos de execução de query: https://www.youtube.com/watch?v=ATLLqcLFkl4&amp;amp;t=1s Publicando uma aplicação em ASP.NET Core no Azure: https://www.youtube.com/watch?v=CnoJ3gtfAhU&amp;amp;t=203s Visual Studio Container Tools: https://www.youtube.com/watch?v=YW8JVGAGZDA&amp;amp;t=7s  </description>
+    </item>
     
     <item>
       <title>Windows Azure – tabela de preços</title>
@@ -225,17 +235,6 @@ O MSE está disponível em oito idiomas e 19 países, incluindo Austrália, Áus
       <guid>https://carloscds.net/2009/09/evento-sobre-windows-7-na-uellondrina/</guid>
       <description>Aconteceu ontem, dia 16/09 na UEL (Universidade Estadual de Londrina) o evento de assinatura de convênio entre a Microsoft e a Universidade e nesta oportunidade eu falei sobre o Windows 7. O evento contou com a presença do presidente da Microsoft Brasil, Sr. Michel Levy.
 Vejam as fotos:
-[]s,
-Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Palestra na Universidade Estadual de Londrina</title>
-      <link>https://carloscds.net/2009/09/palestra-na-universidade-estadual-de-londrina/</link>
-      <pubDate>Sat, 12 Sep 2009 15:58:31 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/09/palestra-na-universidade-estadual-de-londrina/</guid>
-      <description>Na próxima quarta-feira (16/09/2009) estarei fazendo uma palestra sobre Windows 7 no evento que terá a participação do presidente da Microsoft Brasil, o Sr. Michel Levy.
 []s,
 Carlos.</description>
     </item>

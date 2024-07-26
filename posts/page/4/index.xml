@@ -5,10 +5,20 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Palestra Azure Univem</title>
+      <link>https://carloscds.net/2015/09/palestra-azure-univem/</link>
+      <pubDate>Fri, 11 Sep 2015 18:50:53 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/09/palestra-azure-univem/</guid>
+      <description>Ontem estive na Univem de Marília falando sobre o Microsoft Azure. o que chamou a atenção neste evento é que fui convidado para dar entrevista em um canal local de televisão, para o programa 4 Notícias. Achei bem legal a iniciativa de divulgar o evento, que é a Semana de Computação, bem como o conteúdo, em um programa de televisão local.
+Agradeço a todos pelas presença e principalmente pelos questionamentos, que tornam a palestra ainda mais produtiva!</description>
+    </item>
     
     <item>
       <title>Participe do lançamento do Visual Studio 2015 #visualstudiortm</title>
@@ -227,17 +237,6 @@ Carlos dos Santos.</description>
       <description>Olá pessoal,
 Hoje vou demonstrar como é possível capturar a tela ou até mesmo o conteúdo de um controle e salvá-lo como um Bitmap. Imagine que você tem uma solução de atendimento ao cliente e em algum momento precise capturar a tela do seu usuário e depois anexá-la a algum requisito do software ou tratamento de um bug.
 Claro que existem várias ferramentas prontas para captura de tela, mas vamos ver como é possível, através de um código em C# usando o recurso de Interop e acessando a API do Windows, criar um método reusável que pode ser utilizado para capturar vários tipos de tela no Windows.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework–CodeBase Configuration (Interception)</title>
-      <link>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</link>
-      <pubDate>Mon, 30 Dec 2013 00:06:34 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/12/entity-frameworkcodebase-configuration-interception/</guid>
-      <description>Olá pessoal,
-Uma das novidades do Entity Framework 6 é a possibilidade de fazermos as configurações do nosso modelo usando código ao invés dos tradicionais arquivos de configuração (app.config/web.config). Além disto, temos agora muitas outras configurações que podem ser modificadas através da classe DbConfiguration.
-Dentre as várias opções de configuração que temos através do DbConfiguration, existe uma chamada Interception (veja mais aqui), onde podemos interceptar várias operaçoes que são enviadas ao banco de dados pelo Entity Framework.</description>
     </item>
     
   </channel>
