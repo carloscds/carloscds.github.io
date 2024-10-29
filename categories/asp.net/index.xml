@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/asp.net/</link>
     <description>Recent content in Asp.Net on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0</title>
+      <link>https://carloscds.net/2024/10/tratamento-erros-global-error-handler/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/10/tratamento-erros-global-error-handler/</guid>
+      <description>No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
+Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
+Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :</description>
+    </item>
     
     <item>
       <title>Você está tratando corretamente os erros na sua aplicação ?</title>
@@ -222,18 +233,6 @@ Hoje em dia muito se tem se falado muito em injeção de dependência, principal
 Mas que realmente significa &amp;ldquo;injetar&amp;rdquo; uma dependência e o que é a tal dependência?
 Conceito Injeção de dependência é um padrão de projeto que permite baixo acoplamento do código!
 Ai você se pergunta, mas o que é acoplamento do código? Sendo bem simplista, é um código que possui uma alta dependência de um outro código, onde o relacionamento entre os dois é muito forte!</description>
-    </item>
-    
-    <item>
-      <title>ASP.NET Core: Minhas Views sumiram no publish?</title>
-      <link>https://carloscds.net/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</link>
-      <pubDate>Sun, 15 Sep 2019 19:49:16 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</guid>
-      <description>Você é do tipo que as vezes muda o conteúdo de uma view no ambiente de produção ?
-Isto pode ser algo &amp;ldquo;questionável&amp;rdquo;, mas é também muito útil se você precisa fazer um pequeno ajuste na parte visual na aplicação.
-Eu já precisei mudar códigos JavaScript nas páginas em uma aplicação onde não poderia executar uma nova publicação, e esta facilidade me poupou muito tempo!
-Mas uma mudança feita no ASP.</description>
     </item>
     
   </channel>

@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Palestra sobre Visual Studio e Mercado de Trabalho</title>
+      <link>https://carloscds.net/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</link>
+      <pubDate>Sun, 10 Apr 2011 14:50:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</guid>
+      <description>Na última sexta-feira (08/04/2011) estive no Instituto Federal Tecnológico do Paraná (http://www.ifpr.edu.br/) para ministrar uma palestra para os alunos do curso técnico em informática.
+Neste evento falei sobre o Visual Studio 2010 e a linguagem C# para a criação de aplilcações Windows, WPF, Silverlight e Windows Phone, mostrando todo o ppotencial da plataforma .Net.
+Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano e principalmente da importância da capacitação para quem quer uma vaga no mercado.</description>
+    </item>
+    
+    <item>
       <title>MSDN Library em Português (MSDN WIKI)</title>
       <link>https://carloscds.net/2011/04/msdn-library-em-portugus-msdn-wiki/</link>
       <pubDate>Thu, 07 Apr 2011 16:05:36 -0300</pubDate>
@@ -228,16 +239,6 @@ Mas se você usa outros bancos de dados, ou está criando uma aplicação multi-
       <description>Se você está trabalhando com EF4, provavelmente já se perguntou se os comandos SQL gerados estão realmente otimizados, ou talvez quando você tem algum problema de performance. Para responder a isto existem várias ferramentas de análise, ou profilers, e um destes é o EFProfiler.
 A ferramenta é bastante simples, você baixa um executável do site www.efprof.com e segue as instruções contidas no arquivo “How to use.txt”.
 Para o profiler funciona, você precisa adicionar a referência de um DLL do Profiler ao seu projeto:</description>
-    </item>
-    
-    <item>
-      <title>Windows Forms – atualizando o formulário de dentro de uma Thread</title>
-      <link>https://carloscds.net/2010/08/windows-forms-atualizando-o-formulrio-de-uma-thread/</link>
-      <pubDate>Mon, 02 Aug 2010 21:44:53 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/08/windows-forms-atualizando-o-formulrio-de-uma-thread/</guid>
-      <description>É relativamente comum termos uma aplicação que precise usar uma ou mais threads para realizar algum processo demorado onde o usuário não precise ficar esperando, mas às vezes é necessário também que esta thread faça algum tipo de interação com a tela, talvez atualizando alguma informação, barra de progresso, enfim, mostrar ao usuário que algo está acontecendo.
-Uma tarefa relativamente simples, mas que pode causar um certo transtorno justamente por ser uma thread.</description>
     </item>
     
   </channel>

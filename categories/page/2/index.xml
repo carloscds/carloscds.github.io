@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASP.NET Core: Minhas Views sumiram no publish?</title>
+      <link>https://carloscds.net/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</link>
+      <pubDate>Sun, 15 Sep 2019 19:49:16 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2019/09/asp-net-core-minhas-views-sumiram-no-publish/</guid>
+      <description>Você é do tipo que as vezes muda o conteúdo de uma view no ambiente de produção ?
+Isto pode ser algo &amp;ldquo;questionável&amp;rdquo;, mas é também muito útil se você precisa fazer um pequeno ajuste na parte visual na aplicação.
+Eu já precisei mudar códigos JavaScript nas páginas em uma aplicação onde não poderia executar uma nova publicação, e esta facilidade me poupou muito tempo!
+Mas uma mudança feita no ASP.</description>
+    </item>
     
     <item>
       <title>Você já ouviu falar em Self Contained Application?</title>
@@ -227,18 +239,6 @@ Abaixo será transmitido o keynote na abertura do evento:</description>
       <description>Ola pessoal,
 Veja aqui algumas dicas bem legais para configurar o Visual Studio 2017 e aumentar a sua produtividade?
 • Análise completa da solução – Mostra erros / avisos na lista de erros para toda a sua solução. No VS2015 Update 3 e VS2017 isso foi desativado por padrão, de modo que, por padrão, agora você só vê erros / avisos em seus arquivos abertos. Para ativar a Análise de solução completa, acesse Tools/Options/Text Editor/C#/Advanced/Enable Full Solution Analysis.</description>
-    </item>
-    
-    <item>
-      <title>Algumas dicas de DotNet Core com linha de comando</title>
-      <link>https://carloscds.net/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</link>
-      <pubDate>Wed, 29 Mar 2017 09:19:34 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</guid>
-      <description>Olá pessoal,
-Muita gente já está trabalhando com .Net Core e eu espero que você seja uma delas! Mas se não for, aproveite e já baixe o DotNetCore agora mesmo neste link.
-Só para relembrar, o DotNet Core é uma nova versão da plataforma .Net que roda multi plataforma, ou seja, você pode desenvolver agora para Windows, Linux e Mac, usando o mesmo código fonte 😊
-Existem muitas maneiras de se trabalhar com .</description>
     </item>
     
   </channel>

@@ -5,10 +5,19 @@
     <link>https://carloscds.net/categories/asp.net/</link>
     <description>Recent content in Asp.Net on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TechEd 2015</title>
+      <link>https://carloscds.net/2015/09/teched-2015/</link>
+      <pubDate>Mon, 28 Sep 2015 08:13:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/09/teched-2015/</guid>
+      <description>Este foi um evento sensacional, uma tela gigante no keynote e palestrantes incríveis, como o chefe do Microsoft Research (Rico Malvar), que é um brasileiro e fez uma demonstração ao vivo do Skype Translator em Português. Bom também foi rever os amigos e principalmente ser palestrante em duas sessões deste que foi o maior evento de tecnologia da América Latina. Tivemos também uma participação especial do maestro João Carlos Martins, uma pessoa com uma história de vida e superação incríveis!</description>
+    </item>
     
     <item>
       <title>Palestra Azure Univem</title>
@@ -226,17 +235,6 @@ Eu tive a felicidade de participar do processo de revisão deste material e vale
 Para conferir o livro, clica aqui.
 Abraços e até a próxima,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Capturando a tela em Windows Forms</title>
-      <link>https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/</link>
-      <pubDate>Wed, 08 Jan 2014 21:55:40 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/</guid>
-      <description>Olá pessoal,
-Hoje vou demonstrar como é possível capturar a tela ou até mesmo o conteúdo de um controle e salvá-lo como um Bitmap. Imagine que você tem uma solução de atendimento ao cliente e em algum momento precise capturar a tela do seu usuário e depois anexá-la a algum requisito do software ou tratamento de um bug.
-Claro que existem várias ferramentas prontas para captura de tela, mas vamos ver como é possível, através de um código em C# usando o recurso de Interop e acessando a API do Windows, criar um método reusável que pode ser utilizado para capturar vários tipos de tela no Windows.</description>
     </item>
     
   </channel>

@@ -5,10 +5,21 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Capturando a tela em Windows Forms</title>
+      <link>https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/</link>
+      <pubDate>Wed, 08 Jan 2014 21:55:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/01/capturando-a-tela-em-windows-forms/</guid>
+      <description>Olá pessoal,
+Hoje vou demonstrar como é possível capturar a tela ou até mesmo o conteúdo de um controle e salvá-lo como um Bitmap. Imagine que você tem uma solução de atendimento ao cliente e em algum momento precise capturar a tela do seu usuário e depois anexá-la a algum requisito do software ou tratamento de um bug.
+Claro que existem várias ferramentas prontas para captura de tela, mas vamos ver como é possível, através de um código em C# usando o recurso de Interop e acessando a API do Windows, criar um método reusável que pode ser utilizado para capturar vários tipos de tela no Windows.</description>
+    </item>
     
     <item>
       <title>Entity Framework–CodeBase Configuration (Interception)</title>
@@ -236,17 +247,6 @@ O material está muito interessante e vários exemplos. Se você trabalha com en
 Para acessar o material acesse este link: http://msdn.microsoft.com/en-us/library/jj159344
 Abraços,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Migrando Blog para o Azure</title>
-      <link>https://carloscds.net/2012/06/migrando-blog-para-o-azure/</link>
-      <pubDate>Thu, 07 Jun 2012 22:00:28 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/06/migrando-blog-para-o-azure/</guid>
-      <description>Pessoal, eu migrei todo o meu blog para o Windows Azure usando o WordPerss com MySQL. A migração foi feita usando as próprias ferramentas do wordpress, ou seja, exportar dados de um lado e importar do outro.
-Fora o backup, precisei copiar os plug-ins e reativá-los, mas isto foi tranquilo. O site ficou muito, mas muito mais rapido no Azure, sem perder nenhum recurso em relação ao site original.
-Agora vou esperar só a liberação de mais tráfego para download para finalizar a migração e usar tudo no Azure.</description>
     </item>
     
   </channel>

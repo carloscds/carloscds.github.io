@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Migrando Blog para o Azure</title>
+      <link>https://carloscds.net/2012/06/migrando-blog-para-o-azure/</link>
+      <pubDate>Thu, 07 Jun 2012 22:00:28 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/06/migrando-blog-para-o-azure/</guid>
+      <description>Pessoal, eu migrei todo o meu blog para o Windows Azure usando o WordPerss com MySQL. A migração foi feita usando as próprias ferramentas do wordpress, ou seja, exportar dados de um lado e importar do outro.
+Fora o backup, precisei copiar os plug-ins e reativá-los, mas isto foi tranquilo. O site ficou muito, mas muito mais rapido no Azure, sem perder nenhum recurso em relação ao site original.
+Agora vou esperar só a liberação de mais tráfego para download para finalizar a migração e usar tudo no Azure.</description>
+    </item>
+    
+    <item>
       <title>Academia de Entity Framework 4</title>
       <link>https://carloscds.net/2012/06/academia-de-entity-framework-4/</link>
       <pubDate>Thu, 07 Jun 2012 13:15:29 -0300</pubDate>
@@ -233,17 +244,6 @@ Carlos.</description>
 O link para o novo componente é: http://code.msdn.microsoft.com/Impresso-Matricial-20-cb6579af
 Áté a próxima,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Palestra sobre Visual Studio e Mercado de Trabalho</title>
-      <link>https://carloscds.net/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</link>
-      <pubDate>Sun, 10 Apr 2011 14:50:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/04/palestra-sobre-visual-studio-e-mercado-de-trabalho/</guid>
-      <description>Na última sexta-feira (08/04/2011) estive no Instituto Federal Tecnológico do Paraná (http://www.ifpr.edu.br/) para ministrar uma palestra para os alunos do curso técnico em informática.
-Neste evento falei sobre o Visual Studio 2010 e a linguagem C# para a criação de aplilcações Windows, WPF, Silverlight e Windows Phone, mostrando todo o ppotencial da plataforma .Net.
-Falei também sobre o mercado de trabalho em .Net, que vem crescendo a cada ano e principalmente da importância da capacitação para quem quer uma vaga no mercado.</description>
     </item>
     
   </channel>

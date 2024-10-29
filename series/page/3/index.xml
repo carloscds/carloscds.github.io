@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Algumas dicas de DotNet Core com linha de comando</title>
+      <link>https://carloscds.net/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</link>
+      <pubDate>Wed, 29 Mar 2017 09:19:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/03/algumas-dicas-de-dotnet-core-com-linha-de-comando/</guid>
+      <description>Olá pessoal,
+Muita gente já está trabalhando com .Net Core e eu espero que você seja uma delas! Mas se não for, aproveite e já baixe o DotNetCore agora mesmo neste link.
+Só para relembrar, o DotNet Core é uma nova versão da plataforma .Net que roda multi plataforma, ou seja, você pode desenvolver agora para Windows, Linux e Mac, usando o mesmo código fonte 😊
+Existem muitas maneiras de se trabalhar com .</description>
+    </item>
+    
+    <item>
       <title>Agora é multi plataforma!</title>
       <link>https://carloscds.net/2017/01/agora-multi-plataforma/</link>
       <pubDate>Sun, 01 Jan 2017 22:24:01 -0300</pubDate>
@@ -223,15 +235,6 @@ O link para o vídeo é este aqui.</description>
       <description>Olá pessoal,
 Recentemente eu gravei um vídeo sobre o Visual Studio 2015 para o programa Student to Business. Neste vídeo eu dou uma visão geral do Visual Studio e da Plataforma .Net, mostro também algumas das plataformas e o que é possível fazer com ela.
 Se você é um iniciante na ferramenta ou até mesmo quer entender melhor o que ela faz, recomendo que você assista ao vídeo clicando aqui.</description>
-    </item>
-    
-    <item>
-      <title>TechEd 2015</title>
-      <link>https://carloscds.net/2015/09/teched-2015/</link>
-      <pubDate>Mon, 28 Sep 2015 08:13:40 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/09/teched-2015/</guid>
-      <description>Este foi um evento sensacional, uma tela gigante no keynote e palestrantes incríveis, como o chefe do Microsoft Research (Rico Malvar), que é um brasileiro e fez uma demonstração ao vivo do Skype Translator em Português. Bom também foi rever os amigos e principalmente ser palestrante em duas sessões deste que foi o maior evento de tecnologia da América Latina. Tivemos também uma participação especial do maestro João Carlos Martins, uma pessoa com uma história de vida e superação incríveis!</description>
     </item>
     
   </channel>
