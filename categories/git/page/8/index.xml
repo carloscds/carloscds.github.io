@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>EFProfiler– Entity Framework Profiler</title>
+      <link>https://carloscds.net/2010/08/efprofiler-entity-framework-profiler/</link>
+      <pubDate>Fri, 20 Aug 2010 15:31:27 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/08/efprofiler-entity-framework-profiler/</guid>
+      <description>Se você está trabalhando com EF4, provavelmente já se perguntou se os comandos SQL gerados estão realmente otimizados, ou talvez quando você tem algum problema de performance. Para responder a isto existem várias ferramentas de análise, ou profilers, e um destes é o EFProfiler.
+A ferramenta é bastante simples, você baixa um executável do site www.efprof.com e segue as instruções contidas no arquivo “How to use.txt”.
+Para o profiler funciona, você precisa adicionar a referência de um DLL do Profiler ao seu projeto:</description>
+    </item>
+    
+    <item>
       <title>Windows Forms – atualizando o formulário de dentro de uma Thread</title>
       <link>https://carloscds.net/2010/08/windows-forms-atualizando-o-formulrio-de-uma-thread/</link>
       <pubDate>Mon, 02 Aug 2010 21:44:53 -0300</pubDate>
@@ -233,18 +244,6 @@ Para ver isto no seu projeto, no Visual Studio 2010 Ultimate, abra o menu Archit
 Você pode gerar o gráfico de várias maneiras, mas no meu exemplo, escolhi By Class:
 Agora você clica em alguma classe:
 E vai vendo os métodos e as dependências.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2008 – Modificando a tecla F1 para não chamar o Help padrão</title>
-      <link>https://carloscds.net/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</link>
-      <pubDate>Sun, 24 Jan 2010 12:00:15 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</guid>
-      <description>Olá,
-Quantos de nós já não pressionou a tecla F1 dentro da IDE do Visual Studio ? Isto normalmente inicia um processo de geração do help que pode levar alguns minutos e deixar a IDE travada.
-Felizmente no Visual Studio 2010 isto foi modificado, conforme eu já mostrei aqui, mas por enquanto, existe uma maneira de contornar este problema, modificando a função da tecla F1, como mostrado neste blog.
-Espero que a dica ajude.</description>
     </item>
     
   </channel>

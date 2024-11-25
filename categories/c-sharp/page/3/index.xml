@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aumente sua produtividade no Visual Studio 2017</title>
+      <link>https://carloscds.net/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</link>
+      <pubDate>Mon, 10 Apr 2017 22:15:14 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</guid>
+      <description>Ola pessoal,
+Veja aqui algumas dicas bem legais para configurar o Visual Studio 2017 e aumentar a sua produtividade?
+• Análise completa da solução – Mostra erros / avisos na lista de erros para toda a sua solução. No VS2015 Update 3 e VS2017 isso foi desativado por padrão, de modo que, por padrão, agora você só vê erros / avisos em seus arquivos abertos. Para ativar a Análise de solução completa, acesse Tools/Options/Text Editor/C#/Advanced/Enable Full Solution Analysis.</description>
+    </item>
     
     <item>
       <title>Algumas dicas de DotNet Core com linha de comando</title>
@@ -225,17 +236,6 @@ Fio um conteúdo muito denso, mas espero que tenham conseguido pegar a essência
       <description>Pessoal,
 Durante o último MVP Summit, em Redmond nos Estados Unidos, tive o prazer de gravar um vídeo (em inglês) com o Phill Hack e mais alguns MVPs e RDs sobre boas práticas em projetos open source no Github. Se você trabalha com GitHub ou com projetos open source, vale a pena assistir ao vídeo e entender um pouco mais do que é praticado mundo afora!
 O link para o vídeo é este aqui.</description>
-    </item>
-    
-    <item>
-      <title>MVA Student to Business&amp;ndash;Desenvolvimento de Sistemas</title>
-      <link>https://carloscds.net/2015/11/mva-student-to-businessdesenvolvimento-de-sistemas/</link>
-      <pubDate>Mon, 30 Nov 2015 14:57:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/11/mva-student-to-businessdesenvolvimento-de-sistemas/</guid>
-      <description>Olá pessoal,
-Recentemente eu gravei um vídeo sobre o Visual Studio 2015 para o programa Student to Business. Neste vídeo eu dou uma visão geral do Visual Studio e da Plataforma .Net, mostro também algumas das plataformas e o que é possível fazer com ela.
-Se você é um iniciante na ferramenta ou até mesmo quer entender melhor o que ela faz, recomendo que você assista ao vídeo clicando aqui.</description>
     </item>
     
   </channel>

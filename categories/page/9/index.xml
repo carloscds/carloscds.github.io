@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio 2008 – Modificando a tecla F1 para não chamar o Help padrão</title>
+      <link>https://carloscds.net/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</link>
+      <pubDate>Sun, 24 Jan 2010 12:00:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/01/visual-studio-2008-modificando-a-tecla-f1-para-nao-chamar-o-help-padrao/</guid>
+      <description>Olá,
+Quantos de nós já não pressionou a tecla F1 dentro da IDE do Visual Studio ? Isto normalmente inicia um processo de geração do help que pode levar alguns minutos e deixar a IDE travada.
+Felizmente no Visual Studio 2010 isto foi modificado, conforme eu já mostrei aqui, mas por enquanto, existe uma maneira de contornar este problema, modificando a função da tecla F1, como mostrado neste blog.
+Espero que a dica ajude.</description>
+    </item>
     
     <item>
       <title>Carlos dos Santos</title>
@@ -225,17 +237,6 @@ Inicialmente, chegando lá, fomos conhecer as vinícolas, que produzem um vinho 
       <guid>https://carloscds.net/2009/10/evento-abavsc/</guid>
       <description>Estive no último dia 26 de setembro no Parque do Beto Carreo World em Penha/SC participando do evento da ABAV (Associação Brasileira de Agências de Viagens). Neste evento tive a oportunidade de mostrar como a mobilidade, através do Windows Mobile 6.5, poderia ser útil no dia a dia das agências de viagens.
 A palestra foi para um público não técnico, em um sistema de debate, onde estiveram mais dois palestrantes, falando sobre Marketing Digital e Como Contratar empresas de TI.</description>
-    </item>
-    
-    <item>
-      <title>Microsoft Security Essentials</title>
-      <link>https://carloscds.net/2009/10/microsoft-security-essentials/</link>
-      <pubDate>Thu, 01 Oct 2009 07:26:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/microsoft-security-essentials/</guid>
-      <description>A Microsoft lançou hoje o Microsoft Security Essentials, ferramenta que protege o computador de vírus, spyware e outros softwares maliciosos.
-Desenvolvido com grande participação da subsidiária brasileira, o Microsoft Security Essentials é fácil de usar e todos os usuários de Windows original podem ter acesso a uma ferramenta eficiente, que junto com todo o ecossistema de segurança do Windows pode tornar o computador mais seguro.
-O MSE está disponível em oito idiomas e 19 países, incluindo Austrália, Áustria, Bélgica,Brasil, Canadá, França, Alemanha, Irlanda, Israel, Itália, Japão, México, Holanda, Nova Zelândia, Cingapura, Espanha, Suíça, Reino Unido e os Estados Unidos.</description>
     </item>
     
   </channel>

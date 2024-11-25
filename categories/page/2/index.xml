@@ -5,10 +5,23 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Injeção de Dependência em C# - Parte 1</title>
+      <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/</link>
+      <pubDate>Thu, 13 Feb 2020 23:16:24 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/</guid>
+      <description>Olá,
+Hoje em dia muito se tem se falado muito em injeção de dependência, principalmente se você desenvolve ou está começando a desenvolver com ASP.NET Core.
+Mas que realmente significa &amp;ldquo;injetar&amp;rdquo; uma dependência e o que é a tal dependência?
+Conceito Injeção de dependência é um padrão de projeto que permite baixo acoplamento do código!
+Ai você se pergunta, mas o que é acoplamento do código? Sendo bem simplista, é um código que possui uma alta dependência de um outro código, onde o relacionamento entre os dois é muito forte!</description>
+    </item>
     
     <item>
       <title>ASP.NET Core: Minhas Views sumiram no publish?</title>
@@ -228,17 +241,6 @@ As fotos estão no meu facebook e as fotos do eventos estão aqui.</description>
       <guid>https://carloscds.net/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</guid>
       <description>O Build acontece nos dia 10 a 12 de maio de 2017, em Seattle: https://build.microsoft.com
 Abaixo será transmitido o keynote na abertura do evento:</description>
-    </item>
-    
-    <item>
-      <title>Aumente sua produtividade no Visual Studio 2017</title>
-      <link>https://carloscds.net/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</link>
-      <pubDate>Mon, 10 Apr 2017 22:15:14 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/04/aumente-sua-produtividade-no-visual-studio-2017/</guid>
-      <description>Ola pessoal,
-Veja aqui algumas dicas bem legais para configurar o Visual Studio 2017 e aumentar a sua produtividade?
-• Análise completa da solução – Mostra erros / avisos na lista de erros para toda a sua solução. No VS2015 Update 3 e VS2017 isso foi desativado por padrão, de modo que, por padrão, agora você só vê erros / avisos em seus arquivos abertos. Para ativar a Análise de solução completa, acesse Tools/Options/Text Editor/C#/Advanced/Enable Full Solution Analysis.</description>
     </item>
     
   </channel>

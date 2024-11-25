@@ -22,7 +22,7 @@
     
     <meta name="description" content="No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
 Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
-Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :" />
+Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :" />
     <script type="text/javascript">
       (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -44,7 +44,7 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
     <meta property="og:title" content="Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0" />
 <meta property="og:description" content="No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
 Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
-Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :" />
+Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://carloscds.net/2024/10/tratamento-erros-global-error-handler/" />
 <meta property="article:published_time" content="2024-10-28T00:00:00+00:00" />
@@ -52,7 +52,7 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
 <meta itemprop="name" content="Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0">
 <meta itemprop="description" content="No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
 Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
-Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :">
+Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :">
 <meta itemprop="datePublished" content="2024-10-28T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2024-10-28T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="642">
@@ -63,7 +63,7 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
 <meta name="twitter:title" content="Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0"/>
 <meta name="twitter:description" content="No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
 Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
-Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :"/>
+Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -177,9 +177,9 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">11</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">12</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">98</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">99</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -400,6 +400,16 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2024/11/openapi-support/" class="title">.NET 9 agora suporta o OpenAPI nativamente</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-11-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-11-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2024/10/tratamento-erros-global-error-handler/" class="title">Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0</a>
                     </p>
                     <p class="item-date">
@@ -434,16 +444,6 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
                     </p>
                     <p class="item-date">
                         <time datetime="2024-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-05-09</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2023/11/entityframeworkcore-sqlraw/" class="title">EntityFramework - SQL Raw Queries</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2023-11-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2023-11-28</time>
                     </p>
                 </div>
             </li>
@@ -501,7 +501,7 @@ Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas bas
       <p>No <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception">último artigo</a> falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.</p>
 <p>Agora no .NET 8 temos um recurso mais simples e poderoso chamado <em>Global Error Handler</em>, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.</p>
 <h2 id="como-usar-o-global-error-handler">Como usar o Global Error Handler</h2>
-<p>Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface <em>IExceptionHandler</em> :</p>
+<p>Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface <em>IExceptionHandler</em> :</p>
 <pre><code class="language-csharp">public class GlobalExceptionHandler(ILogger&lt;GlobalExceptionHandler&gt; logger) : IExceptionHandler
 {
     public async ValueTask&lt;bool&gt; TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
@@ -658,6 +658,11 @@ builder.Services.AddProblemDetails();
                 <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/" title="Você está tratando corretamente os erros na sua aplicação ?"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://carloscds.net/2024/11/openapi-support/"
+                    title=".NET 9 agora suporta o OpenAPI nativamente"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
             <li class="toggle-toc">

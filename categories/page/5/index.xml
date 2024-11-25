@@ -5,10 +5,24 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>E-book sobre cria&amp;ccedil;&amp;atilde;o de Aplica&amp;ccedil;&amp;otilde;es reais para Azure</title>
+      <link>https://carloscds.net/2014/01/e-book-sobre-criao-de-apps-reais-para-azure/</link>
+      <pubDate>Mon, 13 Jan 2014 23:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/01/e-book-sobre-criao-de-apps-reais-para-azure/</guid>
+      <description>Pessoal,
+Acabou de sair um E-book do Scott Guthrie’s sobre como criar aplicações reais para nuvem usando o Windows Azure. Este livro tem um material excelente e sem dúvida irá ajudá-los no desenvolvimento de aplicações para nuvem.
+Eu tive a felicidade de participar do processo de revisão deste material e vale a pena conferir.
+Para conferir o livro, clica aqui.
+Abraços e até a próxima,
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Capturando a tela em Windows Forms</title>
@@ -233,20 +247,6 @@ Se você tem interesse em conhecer o código fonte, e principalmente, contribuir
 Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
 O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
 Na prática temos duas maneiras de trabalhar com o Migrations:</description>
-    </item>
-    
-    <item>
-      <title>Testes para Entrega Contínua com Visual Studio 2012 RC</title>
-      <link>https://carloscds.net/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/</link>
-      <pubDate>Thu, 21 Jun 2012 15:44:19 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/</guid>
-      <description>Pessoal,
-Recentemente eu participei do processo de revisão do material sobre Testes para Entrega Contínua com Visual Studio 2012 RC juntamente com o time de Patterns &amp;amp; Practices da Microsoft.
-O material está muito interessante e vários exemplos. Se você trabalha com entrega contínua integrada ao processo de desenvolvimento, sem dúvida é um material essencial para você.
-Para acessar o material acesse este link: http://msdn.microsoft.com/en-us/library/jj159344
-Abraços,
-Carlos dos Santos.</description>
     </item>
     
   </channel>

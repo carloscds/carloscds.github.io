@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>.NET 9 agora suporta o OpenAPI nativamente</title>
+      <link>https://carloscds.net/2024/11/openapi-support/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/11/openapi-support/</guid>
+      <description>Na última semana foi lançado o .NET 9 durante o .NET Conf 2024 e com ele muitas e muitas novidades na plataforma que renderiam facilmente diversos posts, mas dentre os muitos recursos anunciados, hoje vamos falar sobre documentação de APIs e suporte a Open API.
+Mas o que é o OpenAPI ? É um padrão aberto para documentação de APIs, e é claro que você, como um bom desenvolvedor, quer documentar muito bem a sua API.</description>
+    </item>
+    
+    <item>
       <title>Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0</title>
       <link>https://carloscds.net/2024/10/tratamento-erros-global-error-handler/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
@@ -17,7 +27,7 @@
       <guid>https://carloscds.net/2024/10/tratamento-erros-global-error-handler/</guid>
       <description>No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
 Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
-Como usar o Global Error Handler Eiste muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :</description>
+Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :</description>
     </item>
     
     <item>
@@ -219,19 +229,6 @@ EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um 
       <description>Na parte 1 desta série falamos sobre como funciona a injeção de dependência e até criamos um exemplo usando NInject. um famoso mecanismo de DI (depency injection).
 Neste artigo vamos falar como o ASP.NET Core revolucionou a injeção de dependência, incorporando este mecanismo ao seu núcleo. Isto significa que agora já temos o mecanismo nativamente implementado, sem a necessidade de uma ferramenta de terceiros.
 Uma outra coisa interessante sobre este mecanismo no ASP.</description>
-    </item>
-    
-    <item>
-      <title>Injeção de Dependência em C# - Parte 1</title>
-      <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/</link>
-      <pubDate>Thu, 13 Feb 2020 23:16:24 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-1/</guid>
-      <description>Olá,
-Hoje em dia muito se tem se falado muito em injeção de dependência, principalmente se você desenvolve ou está começando a desenvolver com ASP.NET Core.
-Mas que realmente significa &amp;ldquo;injetar&amp;rdquo; uma dependência e o que é a tal dependência?
-Conceito Injeção de dependência é um padrão de projeto que permite baixo acoplamento do código!
-Ai você se pergunta, mas o que é acoplamento do código? Sendo bem simplista, é um código que possui uma alta dependência de um outro código, onde o relacionamento entre os dois é muito forte!</description>
     </item>
     
   </channel>

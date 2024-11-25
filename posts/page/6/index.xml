@@ -5,10 +5,24 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testes para Entrega Contínua com Visual Studio 2012 RC</title>
+      <link>https://carloscds.net/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/</link>
+      <pubDate>Thu, 21 Jun 2012 15:44:19 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/06/testes-para-entrega-contnua-com-visual-studio-2012-rc/</guid>
+      <description>Pessoal,
+Recentemente eu participei do processo de revisão do material sobre Testes para Entrega Contínua com Visual Studio 2012 RC juntamente com o time de Patterns &amp;amp; Practices da Microsoft.
+O material está muito interessante e vários exemplos. Se você trabalha com entrega contínua integrada ao processo de desenvolvimento, sem dúvida é um material essencial para você.
+Para acessar o material acesse este link: http://msdn.microsoft.com/en-us/library/jj159344
+Abraços,
+Carlos dos Santos.</description>
+    </item>
     
     <item>
       <title>Migrando Blog para o Azure</title>
@@ -232,18 +246,6 @@ Carlos.</description>
 É um recurso muito interessante e permite, por exemplo, integrar aplicações de atendimento e controle de desenvolvimento ao TFS, de uma maneira simples e nativa.
 Abraços,
 Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Impressão Matricial 2.0</title>
-      <link>https://carloscds.net/2011/05/impresso-matricial-2-0/</link>
-      <pubDate>Mon, 02 May 2011 21:59:15 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/05/impresso-matricial-2-0/</guid>
-      <description>Para quem já conhecia o componente de impressão matricial, eu fiz um update nele e agora é possível usar em Windows 7. Estou também fornecendo os fontes do componente para aqueles que queiram estudar e aprimorar.
-O link para o novo componente é: http://code.msdn.microsoft.com/Impresso-Matricial-20-cb6579af
-Áté a próxima,
-Carlos dos Santos.</description>
     </item>
     
   </channel>
