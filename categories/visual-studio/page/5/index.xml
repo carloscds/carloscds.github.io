@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/visual-studio/</link>
     <description>Recent content in Visual Studio on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DevChamps-EntityFramework6</title>
+      <link>https://carloscds.net/2014/01/devchamps-entityframework6/</link>
+      <pubDate>Thu, 23 Jan 2014 11:50:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/01/devchamps-entityframework6/</guid>
+      <description>Pessoal,
+Acabei de fazer uma apresentação sobre Entity Framework 6 e uma breve introdução ao uso de EF com MVC e WebAPI para grupo DevChamps da Microsoft. Este é grupo seleto com grandes empresas do mercado e me sinto muito honrado e feliz por ter esta oportunidade!
+Nesta apresentação falei de algumas novidades do Entity Framework 6, e mostrei como utilizar o Scaffold em aplicações MVC e webAPI para integração com o EF.</description>
+    </item>
     
     <item>
       <title>E-book sobre cria&amp;ccedil;&amp;atilde;o de Aplica&amp;ccedil;&amp;otilde;es reais para Azure</title>
@@ -235,18 +246,6 @@ Para quem trabalha fora do ambiente e quer ter um versionador local de código, 
 A Microsoft anunciou hoje que o Entity Framework terá seu código fonte Open Source e ela vai contar com a ajuda da comunidade para poder melhorá-lo.
 Mesmo sendo Open Source, a Microsoft irá continuar o desevolvimento do produto, e já fala inclusive no roadmap do Entity Framework 6.
 Se você tem interesse em conhecer o código fonte, e principalmente, contribuir, acesse o portal do projeto no CodePlex no link: http://entityframework.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework Code First–Migrations</title>
-      <link>https://carloscds.net/2012/07/entity-framework-code-firstmigrations/</link>
-      <pubDate>Sun, 15 Jul 2012 22:20:07 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/07/entity-framework-code-firstmigrations/</guid>
-      <description>Olá pessoal,
-Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
-O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
-Na prática temos duas maneiras de trabalhar com o Migrations:</description>
     </item>
     
   </channel>

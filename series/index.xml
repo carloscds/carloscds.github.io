@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Visual Studio CodeSearch - Ficou muito bom!</title>
+      <link>https://carloscds.net/2024/12/visualstudio-codesearch/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/12/visualstudio-codesearch/</guid>
+      <description>Se você já está usando o Visual Studio 2022 ou 2022 Preview, pode usar este novo recurso que encontra qualquer coisa no seu código! Se você ainda não usa, baixe agora mesmo uma das versões do Visual Studio 2022.
+Esta é uma dica simples, mas que pode te animar a usar o Visual Studio 2022.
+Busca no código ? Se você já usa Visual Studio há agum tempo deve estar acostumado a usar o Find in Files certo ?</description>
+    </item>
+    
+    <item>
       <title>.NET 9 agora suporta o OpenAPI nativamente</title>
       <link>https://carloscds.net/2024/11/openapi-support/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
@@ -218,17 +229,6 @@ Infelizmente nao conseguir migrar comentários dos posts, mas agora instalei o h
       <description>No último artigo desta série, vou mostrar duas coisas bem simples: primeiro como usar o EntityFramework Core em memória e como invocar uma dependência injetada sem usar o construtor da classe!
 Mas porque você não iria injetar a dependência no construtor, como eu mostrei nos artigos anteriores? Bom, as vezes é necessário usarmos mecanismo alternativos para simplificar o desenvolvimento e termos acesso aos objetos!!!
 EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um atraso muito grande no desenvolvimento do EF Core, eu acabei utilizando outros ORMs em projetos.</description>
-    </item>
-    
-    <item>
-      <title>Injeção de Dependência em C# – Parte 2</title>
-      <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</link>
-      <pubDate>Tue, 25 Feb 2020 01:10:29 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</guid>
-      <description>Na parte 1 desta série falamos sobre como funciona a injeção de dependência e até criamos um exemplo usando NInject. um famoso mecanismo de DI (depency injection).
-Neste artigo vamos falar como o ASP.NET Core revolucionou a injeção de dependência, incorporando este mecanismo ao seu núcleo. Isto significa que agora já temos o mecanismo nativamente implementado, sem a necessidade de uma ferramenta de terceiros.
-Uma outra coisa interessante sobre este mecanismo no ASP.</description>
     </item>
     
   </channel>

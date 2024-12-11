@@ -5,10 +5,24 @@
     <link>https://carloscds.net/categories/visual-studio/</link>
     <description>Recent content in Visual Studio on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio 2010 – Fantástico recurso de visualização de classes</title>
+      <link>https://carloscds.net/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</link>
+      <pubDate>Sat, 06 Feb 2010 11:21:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</guid>
+      <description>Pessoal,
+Eu estava vendo um post sobre um recurso excelente do Visual Studio 2010. O recurso, é a visualização das classes do projetos e as dependências.
+Para ver isto no seu projeto, no Visual Studio 2010 Ultimate, abra o menu Architecture/Generate Dependency Graph:
+Você pode gerar o gráfico de várias maneiras, mas no meu exemplo, escolhi By Class:
+Agora você clica em alguma classe:
+E vai vendo os métodos e as dependências.</description>
+    </item>
     
     <item>
       <title>Visual Studio 2008 – Modificando a tecla F1 para não chamar o Help padrão</title>
@@ -227,16 +241,6 @@ As grandes vantagens da computação na nuvem, na minha opnião são principalme
       <description>Caros amigos, no final do mês passado estive no Chile, juntamente com o meu amigo MVP Jamil Lopes, para participarmos do TechDays (www.techdays.cl), que é a versão do Chile para o nosso TechED (www.teched.com.br), só que acontece em apenas um dia.
 Nesta nossa viagem, tivemos a satisfação de termos como nosso “guia” o MVP &amp;ldquo;chileno-brasileiro” Jorge Diaz, que reside na cidade de Sntiago.
 Inicialmente, chegando lá, fomos conhecer as vinícolas, que produzem um vinho de altíssima qualidade, de padrão internacional.</description>
-    </item>
-    
-    <item>
-      <title>Evento ABAV/SC</title>
-      <link>https://carloscds.net/2009/10/evento-abavsc/</link>
-      <pubDate>Thu, 01 Oct 2009 09:59:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/evento-abavsc/</guid>
-      <description>Estive no último dia 26 de setembro no Parque do Beto Carreo World em Penha/SC participando do evento da ABAV (Associação Brasileira de Agências de Viagens). Neste evento tive a oportunidade de mostrar como a mobilidade, através do Windows Mobile 6.5, poderia ser útil no dia a dia das agências de viagens.
-A palestra foi para um público não técnico, em um sistema de debate, onde estiveram mais dois palestrantes, falando sobre Marketing Digital e Como Contratar empresas de TI.</description>
     </item>
     
   </channel>

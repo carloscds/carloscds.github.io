@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/visual-studio/</link>
     <description>Recent content in Visual Studio on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Entity Framework Code First–Migrations</title>
+      <link>https://carloscds.net/2012/07/entity-framework-code-firstmigrations/</link>
+      <pubDate>Sun, 15 Jul 2012 22:20:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/07/entity-framework-code-firstmigrations/</guid>
+      <description>Olá pessoal,
+Uma das grandes funcionalidades do Entity Framework Code First é o processo de atualização automatica do banco de dados através do pacote chamado Migrations.
+O Migrations permite que você, que já trabalha com o CodeFirst, gere atualizações gerenciáveis no seu banco de dados, ou se preferir, deixar que o próprio Migrations cuide de tudo de forma automatica, mantendo seu banco de dados sempre atualizado com suas classes.
+Na prática temos duas maneiras de trabalhar com o Migrations:</description>
+    </item>
     
     <item>
       <title>Testes para Entrega Contínua com Visual Studio 2012 RC</title>
@@ -232,18 +244,6 @@ Carlos.</description>
       <description>Pessoal,
 A Microsoft acabou de lancar o Power Tools para o EF Code First. Com este pacote é possível ler um banco de dados existente e gerar todas as classes, muito interessante se você já tem um banco e quer usar o EF Code First.
 O pacote pode ser instalado via Extension Manager do Visual Studio 2010. Maiores informações neste link: http://blogs.msdn.com/b/adonet/archive/2011/05/18/ef-power-tools-ctp1-released.aspx
-Abraços,
-Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Java SDK para TFS</title>
-      <link>https://carloscds.net/2011/05/java-sdk-para-tfs/</link>
-      <pubDate>Mon, 16 May 2011 08:41:22 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/05/java-sdk-para-tfs/</guid>
-      <description>Para você que desenvolve em Java e gostaria de acessar o TFS via programação, a Microsoft acaba de lancar o Java SDK para TFS, que permite criar aplicações em Java para acesso aos recursos do TFS.
-É um recurso muito interessante e permite, por exemplo, integrar aplicações de atendimento e controle de desenvolvimento ao TFS, de uma maneira simples e nativa.
 Abraços,
 Carlos.</description>
     </item>

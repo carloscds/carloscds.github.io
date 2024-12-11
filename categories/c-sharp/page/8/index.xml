@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ferramentas para Relatórios</title>
+      <link>https://carloscds.net/2010/09/ferramentas-para-relatrios/</link>
+      <pubDate>Mon, 06 Sep 2010 21:36:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/09/ferramentas-para-relatrios/</guid>
+      <description>Para quem está desenvolvendo aplicações comerciais em .Net, uma dúvida muito comum é como criar os relatórios da aplicação. Se você usa o Microsoft SQL Server, poderá usar o Reporting Services (), que é um excelente ferramenta para relatórios.
+Mas se você usa outros bancos de dados, ou está criando uma aplicação multi-banco, talvez o Reporting Services não seja uma boa opção, mas não se preocupe pois existem várias alternativas e excelentes ferramentas para relatórios, vejamos algumas delas que considero muito boas:</description>
+    </item>
     
     <item>
       <title>EFProfiler– Entity Framework Profiler</title>
@@ -230,20 +240,6 @@ Community Launch: Ação coordenada pelo time de comunidades da Microsoft com o 
       <guid>https://carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</guid>
       <description>Para você que está querendo começar a programar, a Microsoft tem uma ferramenta muito interessante chamada Small Basic, que consiste em um ambiente onde você consegue executar programas, mas sem uma linguagem específica, ou seja, você não vai usar C# ou VB.Net, mas uma linguagem que vai mais para o lado funcional, sem tipos pré-definidos.
 O Small Basic não é uma ferramenta nova, ela já existe há mais de um ano, mas a grande novidade é que agora o ambiente está totalmente em português, vejam:</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2010 – Fantástico recurso de visualização de classes</title>
-      <link>https://carloscds.net/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</link>
-      <pubDate>Sat, 06 Feb 2010 11:21:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/02/visual-studio-2010-fantastico-recurso-de-visualizacao-de-classes/</guid>
-      <description>Pessoal,
-Eu estava vendo um post sobre um recurso excelente do Visual Studio 2010. O recurso, é a visualização das classes do projetos e as dependências.
-Para ver isto no seu projeto, no Visual Studio 2010 Ultimate, abra o menu Architecture/Generate Dependency Graph:
-Você pode gerar o gráfico de várias maneiras, mas no meu exemplo, escolhi By Class:
-Agora você clica em alguma classe:
-E vai vendo os métodos e as dependências.</description>
     </item>
     
   </channel>

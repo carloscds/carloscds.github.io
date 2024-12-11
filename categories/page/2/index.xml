@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Injeção de Dependência em C# – Parte 2</title>
+      <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</link>
+      <pubDate>Tue, 25 Feb 2020 01:10:29 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</guid>
+      <description>Na parte 1 desta série falamos sobre como funciona a injeção de dependência e até criamos um exemplo usando NInject. um famoso mecanismo de DI (depency injection).
+Neste artigo vamos falar como o ASP.NET Core revolucionou a injeção de dependência, incorporando este mecanismo ao seu núcleo. Isto significa que agora já temos o mecanismo nativamente implementado, sem a necessidade de uma ferramenta de terceiros.
+Uma outra coisa interessante sobre este mecanismo no ASP.</description>
+    </item>
     
     <item>
       <title>Injeção de Dependência em C# - Parte 1</title>
@@ -231,16 +242,6 @@ Existem vários comandos.</description>
       <description>No último dia 03 de junho tive novamente a felicidade de ser palestrante do Visual Studio Summit em São Paulo, um evento incrível, com pessoas incríveis!
 Agradeço ao Ramon e ao Davi pela oportunidade e principalmente a todos que assistiram as minhas duas palestras sobre C# 7.0, as duas salas estavam lotadas e a galera interagiu muito!
 As fotos estão no meu facebook e as fotos do eventos estão aqui.</description>
-    </item>
-    
-    <item>
-      <title>Assista ao Build 2017 - Keynote com legenda em português</title>
-      <link>https://carloscds.net/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</link>
-      <pubDate>Wed, 03 May 2017 13:21:13 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/05/assista-ao-build-2017-keynote-com-legenda-em-portugues/</guid>
-      <description>O Build acontece nos dia 10 a 12 de maio de 2017, em Seattle: https://build.microsoft.com
-Abaixo será transmitido o keynote na abertura do evento:</description>
     </item>
     
   </channel>

@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Java SDK para TFS</title>
+      <link>https://carloscds.net/2011/05/java-sdk-para-tfs/</link>
+      <pubDate>Mon, 16 May 2011 08:41:22 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/java-sdk-para-tfs/</guid>
+      <description>Para você que desenvolve em Java e gostaria de acessar o TFS via programação, a Microsoft acaba de lancar o Java SDK para TFS, que permite criar aplicações em Java para acesso aos recursos do TFS.
+É um recurso muito interessante e permite, por exemplo, integrar aplicações de atendimento e controle de desenvolvimento ao TFS, de uma maneira simples e nativa.
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
       <title>Impressão Matricial 2.0</title>
       <link>https://carloscds.net/2011/05/impresso-matricial-2-0/</link>
       <pubDate>Mon, 02 May 2011 21:59:15 -0300</pubDate>
@@ -229,16 +241,6 @@ static void Main(string[] args){string Processo = Process.GetCurrentProcess().
 Primeiramente crie uma aplicação Windows Forms:
 Eu estou usando o Visual Studio 2010 e o Framework 4, mas você pode usar qualquer versão do Visual Studio para executar este exemplo.
 Após criar a aplicação vamos ao arquivo Program.cs, onde vamos colocar a variável que irá receber os parâmetros:</description>
-    </item>
-    
-    <item>
-      <title>Ferramentas para Relatórios</title>
-      <link>https://carloscds.net/2010/09/ferramentas-para-relatrios/</link>
-      <pubDate>Mon, 06 Sep 2010 21:36:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/09/ferramentas-para-relatrios/</guid>
-      <description>Para quem está desenvolvendo aplicações comerciais em .Net, uma dúvida muito comum é como criar os relatórios da aplicação. Se você usa o Microsoft SQL Server, poderá usar o Reporting Services (), que é um excelente ferramenta para relatórios.
-Mas se você usa outros bancos de dados, ou está criando uma aplicação multi-banco, talvez o Reporting Services não seja uma boa opção, mas não se preocupe pois existem várias alternativas e excelentes ferramentas para relatórios, vejamos algumas delas que considero muito boas:</description>
     </item>
     
   </channel>
