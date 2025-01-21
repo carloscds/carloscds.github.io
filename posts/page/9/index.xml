@@ -5,10 +5,20 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Você quer aprender a programar, use o SmallBasic da Microsoft</title>
+      <link>https://carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</link>
+      <pubDate>Sun, 07 Feb 2010 12:57:16 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</guid>
+      <description>Para você que está querendo começar a programar, a Microsoft tem uma ferramenta muito interessante chamada Small Basic, que consiste em um ambiente onde você consegue executar programas, mas sem uma linguagem específica, ou seja, você não vai usar C# ou VB.Net, mas uma linguagem que vai mais para o lado funcional, sem tipos pré-definidos.
+O Small Basic não é uma ferramenta nova, ela já existe há mais de um ano, mas a grande novidade é que agora o ambiente está totalmente em português, vejam:</description>
+    </item>
     
     <item>
       <title>Visual Studio 2010 – Fantástico recurso de visualização de classes</title>
@@ -230,17 +240,6 @@ O bate papo foi muito interessante e conseguimos entender um pouco do funcioname
 Acho que a maioria de vocês já ouvir falar com Cloud Computing, ou Computação na Nuvem, pois isto está sendo falado e muito nos canais de tecnologia.
 Mas o que vem a ser isto e como eu posso colocar isto na minha empresa, é o que todos querem saber!
 As grandes vantagens da computação na nuvem, na minha opnião são principalmente duas: segurança e escalabilidade, ou seja, usar um ambiente altamente seguro, com replicação de dados em vários servidores é certamente o sonho de todo gerente de TI e este tipo de computação nos proporciona isto.</description>
-    </item>
-    
-    <item>
-      <title>Viagem ao TechDays Chile</title>
-      <link>https://carloscds.net/2009/10/viagem-ao-techdays-chile/</link>
-      <pubDate>Thu, 08 Oct 2009 09:45:38 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/viagem-ao-techdays-chile/</guid>
-      <description>Caros amigos, no final do mês passado estive no Chile, juntamente com o meu amigo MVP Jamil Lopes, para participarmos do TechDays (www.techdays.cl), que é a versão do Chile para o nosso TechED (www.teched.com.br), só que acontece em apenas um dia.
-Nesta nossa viagem, tivemos a satisfação de termos como nosso “guia” o MVP &amp;ldquo;chileno-brasileiro” Jorge Diaz, que reside na cidade de Sntiago.
-Inicialmente, chegando lá, fomos conhecer as vinícolas, que produzem um vinho de altíssima qualidade, de padrão internacional.</description>
     </item>
     
   </channel>

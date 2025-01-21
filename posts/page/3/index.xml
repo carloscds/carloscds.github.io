@@ -5,10 +5,21 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio Summit 2017</title>
+      <link>https://carloscds.net/2017/06/visual-studio-summit-2017/</link>
+      <pubDate>Wed, 07 Jun 2017 07:55:55 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/06/visual-studio-summit-2017/</guid>
+      <description>No último dia 03 de junho tive novamente a felicidade de ser palestrante do Visual Studio Summit em São Paulo, um evento incrível, com pessoas incríveis!
+Agradeço ao Ramon e ao Davi pela oportunidade e principalmente a todos que assistiram as minhas duas palestras sobre C# 7.0, as duas salas estavam lotadas e a galera interagiu muito!
+As fotos estão no meu facebook e as fotos do eventos estão aqui.</description>
+    </item>
     
     <item>
       <title>Assista ao Build 2017 - Keynote com legenda em português</title>
@@ -224,17 +235,6 @@ Existem também para o Visual Studio Team Services (anteriormente conhecido como
       <description>Olá,
 Se você usa bastante o EF CodeFirst como eu e já está no Visual Studio 2015, deve ter sentido falta do EF PowerTools. Infelizmente ele ainda não foi portado para esta versão do Visual Studio.
 Mas calma aí, existe uma maneira de instalar a versão atual no VS 2015. Para isto, primeiro baixe o componente da Visual Studio Galery. Veja na imagem abaixo que ele não suporta o VS 2015:</description>
-    </item>
-    
-    <item>
-      <title>Aula no Student to Business Maring&amp;aacute;</title>
-      <link>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</link>
-      <pubDate>Mon, 14 Dec 2015 08:53:41 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</guid>
-      <description>Olá pessoal,
-Este último sábado (12/12/2015) tive a felicidade de participar do Student to Business (S2B) em Maringá, ministrando uma aula sobre Aplicações Móveis e Azure. Foi muito legal poder conversar com uma galera jovem e entusiasmada com tecnologia. Realmente muito gratificante!
-Fio um conteúdo muito denso, mas espero que tenham conseguido pegar a essência, pois o tempo foi muiti curso. Falamos sobre uso do Azure para Mobilidade, publicação de Apps no DevCenter, Telemetria usando Insights e muito mais!</description>
     </item>
     
   </channel>

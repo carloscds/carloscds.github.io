@@ -5,10 +5,23 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Entity Framework Code First Power Tools CTP1</title>
+      <link>https://carloscds.net/2011/05/entity-framework-code-first-power-tools-ctp1/</link>
+      <pubDate>Thu, 19 May 2011 09:54:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/entity-framework-code-first-power-tools-ctp1/</guid>
+      <description>Pessoal,
+A Microsoft acabou de lancar o Power Tools para o EF Code First. Com este pacote é possível ler um banco de dados existente e gerar todas as classes, muito interessante se você já tem um banco e quer usar o EF Code First.
+O pacote pode ser instalado via Extension Manager do Visual Studio 2010. Maiores informações neste link: http://blogs.msdn.com/b/adonet/archive/2011/05/18/ef-power-tools-ctp1-released.aspx
+Abraços,
+Carlos.</description>
+    </item>
     
     <item>
       <title>Java SDK para TFS</title>
@@ -230,18 +243,6 @@ Publicar uma aplicação na sua rede local ou computador pessoal é um pouco dif
       <description>Pessoal, neste post sobre C# básico, vou mostrar como identificar se um programa já está em execução. Vamos aproveitar também ver como listar todos os programas que estão em execução no computador.
 Para começar, crie um projeto em C# do tipo Console Application e logo em seguida vamos modificar o program.cs conforme abaixo:
 static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &amp;gt; 1){Console.WriteLine(&amp;quot;Programa em execução&amp;quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa.</description>
-    </item>
-    
-    <item>
-      <title>Passando parâmetros para uma aplicação .Net</title>
-      <link>https://carloscds.net/2010/09/passando-parmetros-para-uma-aplicao-net/</link>
-      <pubDate>Sun, 12 Sep 2010 21:17:01 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/09/passando-parmetros-para-uma-aplicao-net/</guid>
-      <description>Pessoal, seguindo com os posts sobre C# básico, vou mostrar como passar parâmetros para uma aplicação em .Net usando C# em um Windows Forms.
-Primeiramente crie uma aplicação Windows Forms:
-Eu estou usando o Visual Studio 2010 e o Framework 4, mas você pode usar qualquer versão do Visual Studio para executar este exemplo.
-Após criar a aplicação vamos ao arquivo Program.cs, onde vamos colocar a variável que irá receber os parâmetros:</description>
     </item>
     
   </channel>

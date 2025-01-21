@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aula no Student to Business Maring&amp;aacute;</title>
+      <link>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</link>
+      <pubDate>Mon, 14 Dec 2015 08:53:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</guid>
+      <description>Olá pessoal,
+Este último sábado (12/12/2015) tive a felicidade de participar do Student to Business (S2B) em Maringá, ministrando uma aula sobre Aplicações Móveis e Azure. Foi muito legal poder conversar com uma galera jovem e entusiasmada com tecnologia. Realmente muito gratificante!
+Fio um conteúdo muito denso, mas espero que tenham conseguido pegar a essência, pois o tempo foi muiti curso. Falamos sobre uso do Azure para Mobilidade, publicação de Apps no DevCenter, Telemetria usando Insights e muito mais!</description>
+    </item>
     
     <item>
       <title>GitHub&amp;ndash;Boas Pr&amp;aacute;ticas</title>
@@ -221,17 +232,6 @@ Quando uma empresa resolve adotar uma ferramenta de ORM (Mapeamento Objeto Relac
 Em um outro post eu falei bem rapidamente sobre o NGen, que serve para pré-compilar os assemblies de um aplicação, fazendo antecipadamente o trabalho do JIT (Just in Time Compiler).
 Só para relembrar um pouco, a figura abaixo mostra o processo de execução de uma aplicação em .Net:
 Em um processo natural de desenvolvimento em .Net, o que acontece é basicamente o que está na figura acima, ou seja, você escreve seu código, compila e depois executa.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio OnLine</title>
-      <link>https://carloscds.net/2014/04/visual-studio-online/</link>
-      <pubDate>Mon, 07 Apr 2014 21:25:57 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/04/visual-studio-online/</guid>
-      <description>Olá pessoal,
-Hoje a Micfrosoft liberou de forma definitiva e para todos, o Visual Studio Online. E o que vem a ser isto, talvez você esteja se perguntando ?
-Há algum tempo atrás, a Microsoft começou com uma iniciativa para colocar o Team Foundation Server, sua plataforma de ALM, na nuvem, e desta assim nasceu o que chamamos hoje de Visual Studio Online, que você pode acessar no site: http://www.visualstudio.com/. Com esta ferramenta você pode ter uma versão do Team Foundation Server completo sem a necessidade de nenhum tipo de servidor em sua empresa.</description>
     </item>
     
   </channel>

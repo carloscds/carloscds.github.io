@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Passando parâmetros para uma aplicação .Net</title>
+      <link>https://carloscds.net/2010/09/passando-parmetros-para-uma-aplicao-net/</link>
+      <pubDate>Sun, 12 Sep 2010 21:17:01 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/09/passando-parmetros-para-uma-aplicao-net/</guid>
+      <description>Pessoal, seguindo com os posts sobre C# básico, vou mostrar como passar parâmetros para uma aplicação em .Net usando C# em um Windows Forms.
+Primeiramente crie uma aplicação Windows Forms:
+Eu estou usando o Visual Studio 2010 e o Framework 4, mas você pode usar qualquer versão do Visual Studio para executar este exemplo.
+Após criar a aplicação vamos ao arquivo Program.cs, onde vamos colocar a variável que irá receber os parâmetros:</description>
+    </item>
+    
+    <item>
       <title>Ferramentas para Relatórios</title>
       <link>https://carloscds.net/2010/09/ferramentas-para-relatrios/</link>
       <pubDate>Mon, 06 Sep 2010 21:36:36 -0300</pubDate>
@@ -230,16 +242,6 @@ Você pode baixar o CTP para Desenvolvimento e começar a fazer os primeiros tes
       <guid>https://carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</guid>
       <description>Foi dada a largada! Atenção a todos, o Community Launch está começando! A Copa Microsoft de Talentos, que é uma grande iniciativa da Microsoft mais as suas comunidades de profissionais começa agora com vários pilares:
 Community Launch: Ação coordenada pelo time de comunidades da Microsoft com o apoio do GITCA e INETA, e realizada pela comunidade técnica. Os grupos de usuários realizarão uma onda de eventos para a Comunidade, contando com o apoio da Microsoft com conteúdo técnico exclusivo para preparação dos palestrantes, nos moldes do HCL (Heroes Community Launch).</description>
-    </item>
-    
-    <item>
-      <title>Você quer aprender a programar, use o SmallBasic da Microsoft</title>
-      <link>https://carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</link>
-      <pubDate>Sun, 07 Feb 2010 12:57:16 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</guid>
-      <description>Para você que está querendo começar a programar, a Microsoft tem uma ferramenta muito interessante chamada Small Basic, que consiste em um ambiente onde você consegue executar programas, mas sem uma linguagem específica, ou seja, você não vai usar C# ou VB.Net, mas uma linguagem que vai mais para o lado funcional, sem tipos pré-definidos.
-O Small Basic não é uma ferramenta nova, ela já existe há mais de um ano, mas a grande novidade é que agora o ambiente está totalmente em português, vejam:</description>
     </item>
     
   </channel>

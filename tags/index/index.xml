@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</title>
+      <link>https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/</guid>
+      <description>Se você já trabalhou em um projeto onde existe um DBA então o título deste post é muito familiar para você, pois o DBA jamais vai deixar você rodar qualquer tipo de &amp;lsquo;coisa&amp;rsquo; no banco de produção. Em um ambiente bem controlado, mesmo sem a presença de um DBA, isto também é uma EXCELENTE prática, afinal deixar o DEV rodar qualquer tipo de coisa no banco de produção pode ser um tanto perigoso!</description>
+    </item>
+    
+    <item>
       <title>Visual Studio CodeSearch - Ficou muito bom!</title>
       <link>https://carloscds.net/2024/12/visualstudio-codesearch/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
@@ -218,17 +227,6 @@ Hoje conclui a migração do meu blog para Markdown com https://gohugo.io/, tran
 Há muitos anos que o meu blog está em Wordpress, mas estava muito lento, então resolvi modernizar e migrar tudo para markdown.
 Infelizmente nao conseguir migrar comentários dos posts, mas agora instalei o https://disqus.com/ e todos os comentários ficarão centralizados!
 []s.</description>
-    </item>
-    
-    <item>
-      <title>Injeção de Dependência em C# - Bônus</title>
-      <link>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</guid>
-      <description>No último artigo desta série, vou mostrar duas coisas bem simples: primeiro como usar o EntityFramework Core em memória e como invocar uma dependência injetada sem usar o construtor da classe!
-Mas porque você não iria injetar a dependência no construtor, como eu mostrei nos artigos anteriores? Bom, as vezes é necessário usarmos mecanismo alternativos para simplificar o desenvolvimento e termos acesso aos objetos!!!
-EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um atraso muito grande no desenvolvimento do EF Core, eu acabei utilizando outros ORMs em projetos.</description>
     </item>
     
   </channel>

@@ -4,21 +4,49 @@
   
   <url>
     <loc>https://carloscds.net/categories/c-sharp/</loc>
-    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://carloscds.net/categories/</loc>
-    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/ef-core/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/entityframework/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/entityframework-core/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://carloscds.net/posts/</loc>
-    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -75,13 +103,6 @@
   <url>
     <loc>https://carloscds.net/2024/05/aspnetcore-keyedservices/</loc>
     <lastmod>2024-05-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/entityframework/</loc>
-    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -180,13 +201,6 @@
   <url>
     <loc>https://carloscds.net/tags/time-zone/</loc>
     <lastmod>2021-06-08T22:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/entityframework-core/</loc>
-    <lastmod>2021-03-23T22:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/entityframework-core/</link>
     <description>Recent content in EntityFramework Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 23 Mar 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio OnLine</title>
+      <link>https://carloscds.net/2014/04/visual-studio-online/</link>
+      <pubDate>Mon, 07 Apr 2014 21:25:57 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/04/visual-studio-online/</guid>
+      <description>Olá pessoal,
+Hoje a Micfrosoft liberou de forma definitiva e para todos, o Visual Studio Online. E o que vem a ser isto, talvez você esteja se perguntando ?
+Há algum tempo atrás, a Microsoft começou com uma iniciativa para colocar o Team Foundation Server, sua plataforma de ALM, na nuvem, e desta assim nasceu o que chamamos hoje de Visual Studio Online, que você pode acessar no site: http://www.visualstudio.com/. Com esta ferramenta você pode ter uma versão do Team Foundation Server completo sem a necessidade de nenhum tipo de servidor em sua empresa.</description>
+    </item>
     
     <item>
       <title>DevChamps-EntityFramework6</title>
@@ -234,18 +245,6 @@ A primeira aplicação eu fiz no final do ano passado, apenas com o intuito de v
 A Microsoft acaba de anunciar a integração do TFS com o GIT para versionamento local, ou DCVS (Distributed Concurrent Versions System), ou basicamente, versionamento local integrado ao servidor de código.
 Na prática você pode estar fora do seu ambiente TFS, trabalhlar normalmente no seu código, fazendo Check-in e Check-out e depois você publica tudo no servidor TFS, integrando o código.
 Para quem trabalha fora do ambiente e quer ter um versionador local de código, ou seja, você quer manter mais do que a cópia atual do seu código, este recurso sem dúvida fará a diferença.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework–Open Source</title>
-      <link>https://carloscds.net/2012/07/entity-frameworkopen-source/</link>
-      <pubDate>Thu, 19 Jul 2012 17:04:36 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/07/entity-frameworkopen-source/</guid>
-      <description>Pessoal,
-A Microsoft anunciou hoje que o Entity Framework terá seu código fonte Open Source e ela vai contar com a ajuda da comunidade para poder melhorá-lo.
-Mesmo sendo Open Source, a Microsoft irá continuar o desevolvimento do produto, e já fala inclusive no roadmap do Entity Framework 6.
-Se você tem interesse em conhecer o código fonte, e principalmente, contribuir, acesse o portal do projeto no CodePlex no link: http://entityframework.</description>
     </item>
     
   </channel>

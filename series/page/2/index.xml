@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Injeção de Dependência em C# - Bônus</title>
+      <link>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</guid>
+      <description>No último artigo desta série, vou mostrar duas coisas bem simples: primeiro como usar o EntityFramework Core em memória e como invocar uma dependência injetada sem usar o construtor da classe!
+Mas porque você não iria injetar a dependência no construtor, como eu mostrei nos artigos anteriores? Bom, as vezes é necessário usarmos mecanismo alternativos para simplificar o desenvolvimento e termos acesso aos objetos!!!
+EntityFramework Core Durante muitos anos eu escrevi sobre EF, mas como houve um atraso muito grande no desenvolvimento do EF Core, eu acabei utilizando outros ORMs em projetos.</description>
+    </item>
+    
+    <item>
       <title>Injeção de Dependência em C# – Parte 2</title>
       <link>https://carloscds.net/2020/02/injecao-de-dependencia-em-c-parte-2/</link>
       <pubDate>Tue, 25 Feb 2020 01:10:29 -0300</pubDate>
@@ -230,17 +241,6 @@ Depois pesquisa por mssql e instale!
 Para usar é muito simples, primeiro criamos ou abrimos um arquivo com a extensão .SQL:
 Agora abra o Command Palete, pressionando CTRL + SHIFT + P:
 Existem vários comandos.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Summit 2017</title>
-      <link>https://carloscds.net/2017/06/visual-studio-summit-2017/</link>
-      <pubDate>Wed, 07 Jun 2017 07:55:55 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/06/visual-studio-summit-2017/</guid>
-      <description>No último dia 03 de junho tive novamente a felicidade de ser palestrante do Visual Studio Summit em São Paulo, um evento incrível, com pessoas incríveis!
-Agradeço ao Ramon e ao Davi pela oportunidade e principalmente a todos que assistiram as minhas duas palestras sobre C# 7.0, as duas salas estavam lotadas e a galera interagiu muito!
-As fotos estão no meu facebook e as fotos do eventos estão aqui.</description>
     </item>
     
   </channel>
