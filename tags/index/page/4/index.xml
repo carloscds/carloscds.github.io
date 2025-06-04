@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Entity Framework PowerTool no Visual Studio 2015</title>
+      <link>https://carloscds.net/2015/12/entity-framework-powertool-no-visual-studio-2015/</link>
+      <pubDate>Mon, 21 Dec 2015 20:35:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/entity-framework-powertool-no-visual-studio-2015/</guid>
+      <description>Olá,
+Se você usa bastante o EF CodeFirst como eu e já está no Visual Studio 2015, deve ter sentido falta do EF PowerTools. Infelizmente ele ainda não foi portado para esta versão do Visual Studio.
+Mas calma aí, existe uma maneira de instalar a versão atual no VS 2015. Para isto, primeiro baixe o componente da Visual Studio Galery. Veja na imagem abaixo que ele não suporta o VS 2015:</description>
+    </item>
+    
+    <item>
       <title>Aula no Student to Business Maring&amp;aacute;</title>
       <link>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</link>
       <pubDate>Mon, 14 Dec 2015 08:53:41 -0300</pubDate>
@@ -219,18 +230,6 @@ Gostaria de agradecer ao Ramon novamente pela oportunidade e a todos que partici
       <guid>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</guid>
       <description>Olá pessoal,
 Quando uma empresa resolve adotar uma ferramenta de ORM (Mapeamento Objeto Relacional); no nosso caso o EntityFramework), começa uma grande quebra de paradigma, pois você vai deixar de acessar o banco de dados diretamente (Select, Insert, Update, Delete, etc) e vai passar a trabalhar somente com classes e objetos. Isto torna o desenvolvimento muito mais fácil e produtivo, uma vez que você não precisa ficar se preocupando com os comandos que vão para o banco de dados, já que isto é trabalho do ORM.</description>
-    </item>
-    
-    <item>
-      <title>Melhorando a performance do Entity Framework com NGen</title>
-      <link>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</link>
-      <pubDate>Mon, 21 Apr 2014 18:32:40 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</guid>
-      <description>Olá pessoal,
-Em um outro post eu falei bem rapidamente sobre o NGen, que serve para pré-compilar os assemblies de um aplicação, fazendo antecipadamente o trabalho do JIT (Just in Time Compiler).
-Só para relembrar um pouco, a figura abaixo mostra o processo de execução de uma aplicação em .Net:
-Em um processo natural de desenvolvimento em .Net, o que acontece é basicamente o que está na figura acima, ou seja, você escreve seu código, compila e depois executa.</description>
     </item>
     
   </channel>

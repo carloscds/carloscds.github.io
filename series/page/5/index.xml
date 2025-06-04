@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Melhorando a performance do Entity Framework com NGen</title>
+      <link>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</link>
+      <pubDate>Mon, 21 Apr 2014 18:32:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/04/melhorando-a-performance-do-entity-framework-com-ngen/</guid>
+      <description>Olá pessoal,
+Em um outro post eu falei bem rapidamente sobre o NGen, que serve para pré-compilar os assemblies de um aplicação, fazendo antecipadamente o trabalho do JIT (Just in Time Compiler).
+Só para relembrar um pouco, a figura abaixo mostra o processo de execução de uma aplicação em .Net:
+Em um processo natural de desenvolvimento em .Net, o que acontece é basicamente o que está na figura acima, ou seja, você escreve seu código, compila e depois executa.</description>
+    </item>
+    
+    <item>
       <title>Visual Studio OnLine</title>
       <link>https://carloscds.net/2014/04/visual-studio-online/</link>
       <pubDate>Mon, 07 Apr 2014 21:25:57 -0300</pubDate>
@@ -232,18 +244,6 @@ Aproveite essa oportunidade de entender e tirar suas dúvidas sobre como as tecn
       <description>Olá pessoal,
 Neste primeiro post de 2013 vou falar um pouco somente a minha experiência no desenvolvimento de duas aplicações para Windows 8.
 A primeira aplicação eu fiz no final do ano passado, apenas com o intuito de validar o processo de desenvolvimento e publicação na Store da Microsoft. É uma aplicação bem simples, para lista de compras, onde o usuário cria uma lista de compras e relaciona os produtos que vai comprar, podendo enviar esta lista por email através do Share do Windows.</description>
-    </item>
-    
-    <item>
-      <title>TFS com GIT para versionamento local</title>
-      <link>https://carloscds.net/2012/08/tfs-com-git-para-versionamento-local/</link>
-      <pubDate>Mon, 13 Aug 2012 15:00:04 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/08/tfs-com-git-para-versionamento-local/</guid>
-      <description>Olás pessoal,
-A Microsoft acaba de anunciar a integração do TFS com o GIT para versionamento local, ou DCVS (Distributed Concurrent Versions System), ou basicamente, versionamento local integrado ao servidor de código.
-Na prática você pode estar fora do seu ambiente TFS, trabalhlar normalmente no seu código, fazendo Check-in e Check-out e depois você publica tudo no servidor TFS, integrando o código.
-Para quem trabalha fora do ambiente e quer ter um versionador local de código, ou seja, você quer manter mais do que a cópia atual do seu código, este recurso sem dúvida fará a diferença.</description>
     </item>
     
   </channel>

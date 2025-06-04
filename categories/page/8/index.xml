@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Verificar se um programa já está em execução</title>
+      <link>https://carloscds.net/2010/09/verificar-se-um-programa-j-est-em-execuo/</link>
+      <pubDate>Sun, 19 Sep 2010 18:19:28 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/09/verificar-se-um-programa-j-est-em-execuo/</guid>
+      <description>Pessoal, neste post sobre C# básico, vou mostrar como identificar se um programa já está em execução. Vamos aproveitar também ver como listar todos os programas que estão em execução no computador.
+Para começar, crie um projeto em C# do tipo Console Application e logo em seguida vamos modificar o program.cs conforme abaixo:
+static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &amp;gt; 1){Console.WriteLine(&amp;quot;Programa em execução&amp;quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa.</description>
+    </item>
     
     <item>
       <title>Passando parâmetros para uma aplicação .Net</title>
@@ -232,16 +243,6 @@ Carlos dos Santos.</description>
       <description>Esta semana a Microsoft apresentou o novo Windows Phone 7 no MIX10 em Las Vegas e junto com ele as novas ferramentas para desenvolvimento usando o Visual Studio 2010.
 A partir de agora o desenvolvimento será todo feito em Silverlight e XNA, o que torna o desenvolvimento mais simples e com um potencial incrível para o designer.
 Você pode baixar o CTP para Desenvolvimento e começar a fazer os primeiros testes.</description>
-    </item>
-    
-    <item>
-      <title>Community Launch &amp;#8211; Copa Microsoft de Talentos</title>
-      <link>https://carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</link>
-      <pubDate>Tue, 02 Mar 2010 05:42:58 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</guid>
-      <description>Foi dada a largada! Atenção a todos, o Community Launch está começando! A Copa Microsoft de Talentos, que é uma grande iniciativa da Microsoft mais as suas comunidades de profissionais começa agora com vários pilares:
-Community Launch: Ação coordenada pelo time de comunidades da Microsoft com o apoio do GITCA e INETA, e realizada pela comunidade técnica. Os grupos de usuários realizarão uma onda de eventos para a Comunidade, contando com o apoio da Microsoft com conteúdo técnico exclusivo para preparação dos palestrantes, nos moldes do HCL (Heroes Community Launch).</description>
     </item>
     
   </channel>

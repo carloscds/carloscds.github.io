@@ -161,9 +161,9 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">12</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">101</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">102</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -385,6 +385,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2025/06/aspnet-worker/" class="title">ASP.NET Worker - Criando jobs dentro da sua aplicação</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/" class="title">EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</a>
                     </p>
                     <p class="item-date">
@@ -422,16 +432,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/" class="title">Você está tratando corretamente os erros na sua aplicação ?</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2024-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-07-25</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -447,6 +447,49 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2010/09/verificar-se-um-programa-j-est-em-execuo/"
+    >Verificar se um programa já está em execução</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Pessoal, neste post sobre C# básico, vou mostrar como identificar se um programa já está em execução. Vamos aproveitar também ver como listar todos os programas que estão em execução no computador.
+Para começar, crie um projeto em C# do tipo Console Application e logo em seguida vamos modificar o program.cs conforme abaixo:
+static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &gt; 1){Console.WriteLine(&quot;Programa em execução&quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2010/09/verificar-se-um-programa-j-est-em-execuo/" class="">
+  <time datetime="2010-09-19 18:19:28 -0300 -03" itemprop="datePublished">2010-09-19</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/visual-studio/"> Visual Studio </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/msdnc/"> msdn;c# </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2010/09/verificar-se-um-programa-j-est-em-execuo/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 219words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -677,45 +720,6 @@ Carlos dos Santos.
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2010/06/certificao-net-4-windows-developer/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 66words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2010/06/certificao-em-net-4-0/"
-    >Certificação em .Net 4.0</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Pessoal,
-Eu passei na prova beta do .Net 4.0 – Windows Application. Estas provas beta são lançadas gratuitamente antes do lançamento oficial do produto e servem para avaliar o conteúdo da prova, pois eles sempre têm mais questões que o normal, cerca de 80 questões cada prova, mas elas valem como certificação oficial, caso você passe.
-No meu caso, eu fiz 3 provas do .Net 4.0 e recebi o resultado da primeira delas.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2010/06/certificao-em-net-4-0/" class="">
-  <time datetime="2010-06-27 15:58:28 -0300 -03" itemprop="datePublished">2010-06-27</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-  <a class="article-category-link" href="/categories/certificacao/"> Certificação </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2010/06/certificao-em-net-4-0/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 87words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article></div>

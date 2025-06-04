@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        ASP.NET Worker - Criando jobs dentro da sua aplicação - Carlos dos Santos
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Vamos começar este artigo explicando o que é um &amp;ldquo;job&amp;rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional." />
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "hmg2a17ahy");
+    </script>
+
+    
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
+    <title>ASP.NET Worker - Criando jobs dentro da sua aplicação - Carlos dos Santos</title>
+    
+    
+    <link rel="stylesheet" href="https://carloscds.net/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
+    
+    <base href="https://carloscds.net/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="ASP.NET Worker - Criando jobs dentro da sua aplicação" />
+<meta property="og:description" content="Vamos começar este artigo explicando o que é um &ldquo;job&rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carloscds.net/2025/06/aspnet-worker/" />
+<meta property="article:published_time" content="2025-06-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-06-03T00:00:00+00:00" />
+<meta itemprop="name" content="ASP.NET Worker - Criando jobs dentro da sua aplicação">
+<meta itemprop="description" content="Vamos começar este artigo explicando o que é um &ldquo;job&rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional.">
+<meta itemprop="datePublished" content="2025-06-03T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2025-06-03T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="834">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ASP.NET Worker - Criando jobs dentro da sua aplicação"/>
+<meta name="twitter:description" content="Vamos começar este artigo explicando o que é um &ldquo;job&rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional."/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="http://carloscds.net" target="_blank">
+            <img class="img-circle img-rotate" src="https://avatars0.githubusercontent.com/u/1697221?s=460&amp;u=409a6ac4e0cca9f7302962ae6f6e375507c7d38f&amp;v=4" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Carlos dos Santos</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Technology and Code</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Developer world!</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-contact">
+                <a href="mailto:cdssoftware@hotmail.com?subject=Contato_Blog">
+                    <i class="icon icon-project"></i>
+                  <span class="menu-title">Contact</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-videos">
+                <a href="https://youtube.com/carloscds10">
+                    <i class="icon icon-book-fill"></i>
+                  <span class="menu-title">Videos</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">102</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet/" class="category-list-link">dotnet</a><span class="category-list-count">8</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet-core/" class="category-list-link">dotnet-core</a><span class="category-list-count">17</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/ef-core/" class="category-list-link">ef-core</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">34</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">9</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/premios/" class="category-list-link">premios</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/videos/" class="category-list-link">videos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">55</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">3</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/appservice/" class="tag-list-link">appservice</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/azure/" class="tag-list-link">azure</a><span
+                    class="tag-list-count">11</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/c-sharp/" class="tag-list-link">c-sharp</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/certificacao/" class="tag-list-link">certificacao</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/consultoria/" class="tag-list-link">consultoria</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/csharp/" class="tag-list-link">csharp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/devops/" class="tag-list-link">devops</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-4/" class="tag-list-link">ef-4</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-codefirst/" class="tag-list-link">ef-codefirst</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-codefirst-ef/" class="tag-list-link">ef-codefirst-ef</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/eforacle/" class="tag-list-link">eforacle</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entity-framework/" class="tag-list-link">entity-framework</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entityframework/" class="tag-list-link">entityframework</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/eventos/" class="tag-list-link">eventos</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/excel/" class="tag-list-link">excel</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/extensions/" class="tag-list-link">extensions</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/fuso-horario/" class="tag-list-link">fuso-horario</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/index/" class="tag-list-link">index</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/json/" class="tag-list-link">json</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/live/" class="tag-list-link">live</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdn/" class="tag-list-link">msdn</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/produvidade/" class="tag-list-link">produvidade</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/publish/" class="tag-list-link">publish</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/scrum/" class="tag-list-link">scrum</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/silverlight/" class="tag-list-link">silverlight</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/storage/" class="tag-list-link">storage</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tfs/" class="tag-list-link">tfs</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/time-zone/" class="tag-list-link">time-zone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tools/" class="tag-list-link">tools</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tuple/" class="tag-list-link">tuple</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/website/" class="tag-list-link">website</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows-8/" class="tag-list-link">windows-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows10/" class="tag-list-link">windows10</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2025/06/aspnet-worker/" class="title">ASP.NET Worker - Criando jobs dentro da sua aplicação</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/" class="title">EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-01-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-01-20</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2024/12/visualstudio-codesearch/" class="title">Visual Studio CodeSearch - Ficou muito bom!</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-12-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-12-10</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2024/11/openapi-support/" class="title">.NET 9 agora suporta o OpenAPI nativamente</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-11-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-11-25</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2024/10/tratamento-erros-global-error-handler/" class="title">Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2024-10-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-10-28</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="post-" class="article article-type-post" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2025/06/aspnet-worker/"
+    >ASP.NET Worker - Criando jobs dentro da sua aplicação</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2025/06/aspnet-worker/" class="article-date">
+  <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/asp.net/"> ASP.NET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2025/06/aspnet-worker/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 834words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Vamos começar este artigo explicando o que é um &ldquo;job&rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.</p>
+<p>Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional.</p>
+<h2 id="antes-de-iniciarmos-vamos-criar-um-projeto-base-para-os-nossos-testes">Antes de iniciarmos, vamos criar um projeto base para os nossos testes</h2>
+<p>Neste exemplo estou criando um projeto console ASP.NET 9, do tipo &ldquo;ASP.NET Core Web Api&rdquo;, bem padrão do Visual Studio, deixando o Top Level e sem Controllers.</p>
+<p>Após criarmos o projeto teremos a seguinte estrutura:</p>
+<p><img src="wp-content/uploads/2025/06/ASPNETCore-Worker-ProjetoBasico.png" alt=""></p>
+<p>E o código do Program.cs:</p>
+<pre><code class="language-csharp">var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddOpenApi();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+}
+
+app.UseHttpsRedirection();
+app.MapGet(&quot;/&quot;, () =&gt; &quot;Exemplo de API com Worker&quot;);
+app.Run();
+</code></pre>
+<p>Até aqui temos o famoso &ldquo;Hello World&rdquo;.</p>
+<h2 id="agora-vamos-colocar-um-worker">Agora vamos colocar um Worker</h2>
+<p>Para adicionar um Worker, vou criar uma pasta &ldquo;Workers&rdquo; no projeto e dentro dela vou criar um arquivo chamado &ldquo;TimerWorker.cs&rdquo;, que terá este conteúdo:</p>
+<pre><code class="language-csharp">namespace ExemploWorker.Workers
+{
+    public class TimerWorker : IHostedService
+    {
+        private readonly ILogger&lt;TimerWorker&gt; _logger;
+        private Timer? _timer;
+
+        public TimerWorker(ILogger&lt;TimerWorker&gt; logger)
+        {
+            _logger = logger;
+        }
+        public Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation(&quot;Iniciando o Timer Worker.&quot;);
+            _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromSeconds(1));
+            return Task.CompletedTask;
+        }
+        private void DoWork(object? state)
+        {
+            _logger.LogInformation(&quot;Tempo contando: {time}&quot;, DateTimeOffset.Now);
+        }
+        public Task StopAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation(&quot;Parando o Timer Worker.&quot;);
+            _timer?.Change(Timeout.Infinite, 0);
+            return Task.CompletedTask;
+        }
+    }
+}
+</code></pre>
+<p>Um worker basicamente herda a clase <strong>IHostedService</strong>, que implementa o <em>StartAsync()</em> e o <em>StopAsync()</em>, que são chamados no inicio da execução e ao término.</p>
+<p>O nosso exemplo é um worker baseado em um timer, e sendo assim, temos uma classe <strong>Timer</strong> que estsá configurada para disparar a cada 1 segundo, e executar o método <strong>DoWork</strong>, que é quem de fato irá realizar o trabalho.</p>
+<p>No exemplo estou usando a interface padrão <strong>ILogger</strong> para mostrar várias mensagens na console da aplicação, sendo uma delas a execução do timer a cada segundo.</p>
+<p><strong>Resumindo:</strong> temos uma classe que tem um timer, que é disparado a cada segundo e executa uma ação!</p>
+<p>Mas veja que não é somente criar a classe do Worker, você também precisa adicionar o <em>middleware</em> para iniciar este código, e isto nós fazemos no <em>Program.cs</em> colocando a linha abaixo:</p>
+<pre><code class="language-csharp">builder.Services.AddHostedService&lt;TimerWorker&gt;();
+</code></pre>
+<p>Agora temos o TimerWorker adicionado ao nosso pipeline de execução, e ao rodar a aplicação temos a seguinte saída:</p>
+<p><img src="wp-content/uploads/2025/06/ASPNETCore-Worker-SaidaTela.png" alt=""></p>
+<p>Viram como é bem simples!</p>
+<h2 id="dica-valiosa-para-injeção-de-dependência-no-worker">Dica valiosa para injeção de dependência no Worker</h2>
+<p>Provavelmente você irá usar a injeção de dependência dentro do seu worker (não sabe o que é isto, tenho vários artigos sobre o tema aqui no blog), mas um worker funciona como uma classe estática e tem uma maneira um pouco diferente para fazermos a injeção.</p>
+<p>Para ilustrar uma injeção de dependência eu vou adicionar uma interface <em>ISendEmail.cs</em> e uma classe <em>SendEmail.cs</em>, que vão simular um código para envio de email.</p>
+<p>Primeiro a interface:</p>
+<pre><code class="language-csharp">namespace ExemploWorker.Services
+{
+    public interface ISendEmail
+    {
+        void Enviar();
+    }
+}
+</code></pre>
+<p>E agora a classe:</p>
+<pre><code class="language-csharp">namespace ExemploWorker.Services
+{
+    public class SendEmail : ISendEmail
+    {
+        private readonly ILogger&lt;SendEmail&gt; _logger;
+        public SendEmail(ILogger&lt;SendEmail&gt; logger)
+        {
+            _logger = logger;
+        }
+        public void Enviar()
+        {
+            _logger.LogInformation(&quot;E-mail enviado com sucesso!&quot;);
+        }
+    }
+}
+</code></pre>
+<p>Por fim, vamos adicionar ao DI (Dependency Injection) no <em>Program.cs</em></p>
+<pre><code class="language-csharp">builder.Services.AddScoped&lt;ISendEmail, SendEmail&gt;();
+</code></pre>
+<p>Até agora tudo normal, então vamos usar o <em>SendEmail</em> no nosso worker através da DI:</p>
+<pre><code class="language-csharp">using ExemploWorker.Services;
+
+namespace ExemploWorker.Workers
+{
+    public class TimerWorker : IHostedService
+    {
+        private readonly ILogger&lt;TimerWorker&gt; _logger;
+        private Timer? _timer;
+        private readonly ISendEmail _sendEmail; // enviar email
+
+        public TimerWorker(ILogger&lt;TimerWorker&gt; logger, ISendEmail sendEmail)
+        {
+            _logger = logger;
+            _sendEmail = sendEmail; // enviar email 
+        }
+        public Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation(&quot;Iniciando o Timer Worker.&quot;);
+            _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromSeconds(1));
+            return Task.CompletedTask;
+        }
+        private void DoWork(object? state)
+        {
+            _logger.LogInformation(&quot;Tempo contando: {time}&quot;, DateTimeOffset.Now);
+            _sendEmail.Enviar(); // enviar email
+        }
+        public Task StopAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation(&quot;Parando o Timer Worker.&quot;);
+            _timer?.Change(Timeout.Infinite, 0);
+            return Task.CompletedTask;
+        }
+    }
+}
+</code></pre>
+<p>Vamos executar e ver resultado!</p>
+<p><img src="wp-content/uploads/2025/06/ASPNETCore-Worker-ErroDI.png" alt=""></p>
+<p>Um belo de um erro! Mas por que ?</p>
+<p>Simples, o Worker funciona como uma classe estática, um Singleton, e assim, não é possivel pegar um objeto instanciado.</p>
+<p>Como resolvemos isto ???</p>
+<h3 id="injeção-de-dependências-com-scoped">Injeção de dependências com Scoped</h3>
+<p>Vamos buscar a classe de email de uma outra maneira, usando o ServiceProvider, veja:</p>
+<pre><code class="language-csharp">private Timer? _timer;
+private readonly ISendEmail _sendEmail; // enviar email
+
+public TimerWorker(ILogger&lt;TimerWorker&gt; logger, IServiceProvider service)
+{
+    _logger = logger;
+    var scope = service.CreateScope().ServiceProvider; // criar escopo para injeção de dependência
+    _sendEmail = scope.GetRequiredService&lt;ISendEmail&gt;(); // enviar email
+}
+</code></pre>
+<p>Mudamos apenas o construtor do Worker, nele criamos o <em>scope</em>  com o <em>ServiceProvider</em> e depois buscamos a instância da classe que queremos!</p>
+<p>Pronto, agora você tem uma API em ASP.NET com um Worker funcionando:</p>
+<p><img src="wp-content/uploads/2025/06/ASPNETCore-Worker-EmailEnviado.png" alt=""></p>
+<h3 id="considerações">Considerações</h3>
+<p>As vezes é necessário criarmos um job dentro de uma aplicação web e neste cenário, o Worker pode ser bastante útil!</p>
+<p>O código fonte do exemplo está no meu <a href="https://github.com/carloscds/CSharpSamples/tree/master/ASPNET-Worker/ExemploWorker">GitHub</a>.</p>
+<p>Abraços e até a próxima!</p>
+
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+
+        <script type="text/javascript">
+
+            var disqus_config = function () {
+                this.page.url = 'https:\/\/carloscds.net\/2025\/06\/aspnet-worker\/';
+                this.page.identifier = 'ASP.NET Worker - Criando jobs dentro da sua aplicação';
+                this.page.title = 'ASP.NET Worker - Criando jobs dentro da sua aplicação';
+            };
+    
+            (function() {  
+                var d = document, s = d.createElement('script');
+
+                s.src = '//carloscds.disqus.com/embed.js';  
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+
+        </script>
+
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/" title="EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="facebook,twitter,linkedin, youtube"
+                data-mobile-sites=""></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://www.facebook.com/carloscds" target="_blank" title="facebook" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-facebook"></i></a></li>
+    <li><a href="https://github.com/carloscds" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://carloscds.net/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+    <li><a href="https://youtube.com/carloscds10" target="_blank" title="youtube" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-youtube"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2008  -
+    2025
+    
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/csharp.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://carloscds.net/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://carloscds.net/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/carloscds.net\/',
+            CONTENT_URL: 'https:\/\/carloscds.net\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://carloscds.net/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/carloscds.net\/2025\/06\/aspnet-worker\/';
+        this.page.identifier = 'ASP.NET Worker - Criando jobs dentro da sua aplicação';
+        this.page.title = 'ASP.NET Worker - Criando jobs dentro da sua aplicação';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'carloscds' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8863591-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

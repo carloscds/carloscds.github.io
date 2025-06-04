@@ -5,10 +5,23 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Palestra no Cesumar</title>
+      <link>https://carloscds.net/2011/05/palestra-no-cesumar/</link>
+      <pubDate>Sat, 21 May 2011 21:32:58 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/05/palestra-no-cesumar/</guid>
+      <description>Pessoal,
+hoje fizemos uma palestra no Cesumar em Maringá. O Vladimir Rech mandou muito bem no C# básico e depois eu finalizei com vantagens da plataforma, mercado de trabalho e como é possível começar um negócio usando a plataforma Microsoft.
+Vejam as fotos:
+[]s,
+Carlos.</description>
+    </item>
     
     <item>
       <title>Entity Framework Code First Power Tools CTP1</title>
@@ -232,17 +245,6 @@ Gostaria de compartilhar com vocês uma história muito interessante que ocorreu
       <guid>https://carloscds.net/2010/10/publicando-uma-aplicao-web-no-iis-7/</guid>
       <description>Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
 Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting.</description>
-    </item>
-    
-    <item>
-      <title>Verificar se um programa já está em execução</title>
-      <link>https://carloscds.net/2010/09/verificar-se-um-programa-j-est-em-execuo/</link>
-      <pubDate>Sun, 19 Sep 2010 18:19:28 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/09/verificar-se-um-programa-j-est-em-execuo/</guid>
-      <description>Pessoal, neste post sobre C# básico, vou mostrar como identificar se um programa já está em execução. Vamos aproveitar também ver como listar todos os programas que estão em execução no computador.
-Para começar, crie um projeto em C# do tipo Console Application e logo em seguida vamos modificar o program.cs conforme abaixo:
-static void Main(string[] args){string Processo = Process.GetCurrentProcess().ProcessName;if(Process.GetProcessesByName(Processo).Length &amp;gt; 1){Console.WriteLine(&amp;quot;Programa em execução&amp;quot;);return;}} Veja que é bem simples, basicamente estamos verificando se o nosso processo (que é o programa), está na lista de processos em execução, e se estiver, mostramos uma mensagem e finalizamos o programa.</description>
     </item>
     
   </channel>

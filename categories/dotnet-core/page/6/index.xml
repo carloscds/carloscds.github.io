@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>TFS com GIT para versionamento local</title>
+      <link>https://carloscds.net/2012/08/tfs-com-git-para-versionamento-local/</link>
+      <pubDate>Mon, 13 Aug 2012 15:00:04 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2012/08/tfs-com-git-para-versionamento-local/</guid>
+      <description>Olás pessoal,
+A Microsoft acaba de anunciar a integração do TFS com o GIT para versionamento local, ou DCVS (Distributed Concurrent Versions System), ou basicamente, versionamento local integrado ao servidor de código.
+Na prática você pode estar fora do seu ambiente TFS, trabalhlar normalmente no seu código, fazendo Check-in e Check-out e depois você publica tudo no servidor TFS, integrando o código.
+Para quem trabalha fora do ambiente e quer ter um versionador local de código, ou seja, você quer manter mais do que a cópia atual do seu código, este recurso sem dúvida fará a diferença.</description>
+    </item>
+    
+    <item>
       <title>Entity Framework–Open Source</title>
       <link>https://carloscds.net/2012/07/entity-frameworkopen-source/</link>
       <pubDate>Thu, 19 Jul 2012 17:04:36 -0300</pubDate>
@@ -232,19 +244,6 @@ O que vou tratar neste post é como podemos armazenar as strings de conexão e o
 Acaba de ser lançado um recurso muito legal para o Visual Studio 2010 Ultimate, o Debugger Canvas, que é uma maneira mais visual de fazer debug de suas aplicações.
 Normalmente, ao fazer debug de uma aplicação, você executa e vai percorrendo linha a linha, entrando e saindo de rotinas dentro do código e depois de algum tempo, você acaba com diversas janelas abertas no Visual Studio.
 Agora imagine que ao fazer o debug, os diferentes códigos fontes vão se abrindo e se relacionando, formando um caminho percorrido pelo fluxo de execução, mais visual, não serial muito bom ?</description>
-    </item>
-    
-    <item>
-      <title>Palestra no Cesumar</title>
-      <link>https://carloscds.net/2011/05/palestra-no-cesumar/</link>
-      <pubDate>Sat, 21 May 2011 21:32:58 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/05/palestra-no-cesumar/</guid>
-      <description>Pessoal,
-hoje fizemos uma palestra no Cesumar em Maringá. O Vladimir Rech mandou muito bem no C# básico e depois eu finalizei com vantagens da plataforma, mercado de trabalho e como é possível começar um negócio usando a plataforma Microsoft.
-Vejam as fotos:
-[]s,
-Carlos.</description>
     </item>
     
   </channel>

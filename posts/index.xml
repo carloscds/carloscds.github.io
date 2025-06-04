@@ -5,10 +5,20 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ASP.NET Worker - Criando jobs dentro da sua aplicação</title>
+      <link>https://carloscds.net/2025/06/aspnet-worker/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2025/06/aspnet-worker/</guid>
+      <description>Vamos começar este artigo explicando o que é um &amp;ldquo;job&amp;rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional.</description>
+    </item>
     
     <item>
       <title>EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</title>
@@ -215,19 +225,6 @@ Agora vamos acessar uma API que retorna dados em Json, por exemplo esta API que 
       <description>Todos nós usamos diversos pacotes em nossas aplicações, até mesmo partes essenciais dos projetos estão em pacotes hoje em dia! Ai vem o grande desafio, como manter isto tudo atualizado, e principalmente, como descobrir o que precisa ser atualizado ?
 Conheça o NuKepper O Nukeeper é um &amp;ldquo;atualizador&amp;rdquo; de pacotes, que como o site do GitHub diz: &amp;ldquo;Ele Automagicamente&amp;rdquo; atualiza seus pacotes.
 MAs atualizar pacotes pode ser perigoso, não é? Então você pode usar o NuKeeper para mostrar quais pacotes estão desatualizados, e há quanto tempo!</description>
-    </item>
-    
-    <item>
-      <title>Migração do Blog para Markdown</title>
-      <link>https://carloscds.net/2020/05/migracaoblog/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2020/05/migracaoblog/</guid>
-      <description>Fala pessoal,
-Hoje conclui a migração do meu blog para Markdown com https://gohugo.io/, transformando todo o conteúdo em estático.
-Há muitos anos que o meu blog está em Wordpress, mas estava muito lento, então resolvi modernizar e migrar tudo para markdown.
-Infelizmente nao conseguir migrar comentários dos posts, mas agora instalei o https://disqus.com/ e todos os comentários ficarão centralizados!
-[]s.</description>
     </item>
     
   </channel>

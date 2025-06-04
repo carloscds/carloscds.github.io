@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/asp.net/</link>
     <description>Recent content in Asp.Net on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SQL Azure – O banco de dados na nuvem</title>
+      <link>https://carloscds.net/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</link>
+      <pubDate>Fri, 09 Oct 2009 11:36:00 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</guid>
+      <description>Pessoal,
+Acho que a maioria de vocês já ouvir falar com Cloud Computing, ou Computação na Nuvem, pois isto está sendo falado e muito nos canais de tecnologia.
+Mas o que vem a ser isto e como eu posso colocar isto na minha empresa, é o que todos querem saber!
+As grandes vantagens da computação na nuvem, na minha opnião são principalmente duas: segurança e escalabilidade, ou seja, usar um ambiente altamente seguro, com replicação de dados em vários servidores é certamente o sonho de todo gerente de TI e este tipo de computação nos proporciona isto.</description>
+    </item>
     
     <item>
       <title>Viagem ao TechDays Chile</title>

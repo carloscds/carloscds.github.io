@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>Community Launch &amp;#8211; Copa Microsoft de Talentos</title>
+      <link>https://carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</link>
+      <pubDate>Tue, 02 Mar 2010 05:42:58 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</guid>
+      <description>Foi dada a largada! Atenção a todos, o Community Launch está começando! A Copa Microsoft de Talentos, que é uma grande iniciativa da Microsoft mais as suas comunidades de profissionais começa agora com vários pilares:
+Community Launch: Ação coordenada pelo time de comunidades da Microsoft com o apoio do GITCA e INETA, e realizada pela comunidade técnica. Os grupos de usuários realizarão uma onda de eventos para a Comunidade, contando com o apoio da Microsoft com conteúdo técnico exclusivo para preparação dos palestrantes, nos moldes do HCL (Heroes Community Launch).</description>
+    </item>
+    
+    <item>
       <title>Você quer aprender a programar, use o SmallBasic da Microsoft</title>
       <link>https://carloscds.net/2010/02/voce-quer-aprender-a-programar-use-o-smallbasic-da-microsoft/</link>
       <pubDate>Sun, 07 Feb 2010 12:57:16 -0300</pubDate>
@@ -227,18 +237,6 @@ Agora vou trabalhar um pouco mais nele e já já publico mais novidades!
 Desculpem o post meio atrasado, mas como eu troquei de blog, só agora consegui colocar as coisas em ordem.
 Durante o TechED Brasil 2009, realizamos um evento de comunidades, onde convidamos os líderes de grupos para um bate papo sobre as ações de cada um, suas expectativas e também o que esperam do http://www.inetabr.org.
 O bate papo foi muito interessante e conseguimos entender um pouco do funcionamento de cada grupo que estava presente.</description>
-    </item>
-    
-    <item>
-      <title>SQL Azure – O banco de dados na nuvem</title>
-      <link>https://carloscds.net/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</link>
-      <pubDate>Fri, 09 Oct 2009 11:36:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/sql-azure-o-banco-de-dados-na-nuvem/</guid>
-      <description>Pessoal,
-Acho que a maioria de vocês já ouvir falar com Cloud Computing, ou Computação na Nuvem, pois isto está sendo falado e muito nos canais de tecnologia.
-Mas o que vem a ser isto e como eu posso colocar isto na minha empresa, é o que todos querem saber!
-As grandes vantagens da computação na nuvem, na minha opnião são principalmente duas: segurança e escalabilidade, ou seja, usar um ambiente altamente seguro, com replicação de dados em vários servidores é certamente o sonho de todo gerente de TI e este tipo de computação nos proporciona isto.</description>
     </item>
     
   </channel>

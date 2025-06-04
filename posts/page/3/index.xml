@@ -5,10 +5,25 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Extensão para SQL Server no Visual Studio Code</title>
+      <link>https://carloscds.net/2017/07/extensao-para-sql-server-no-visual-studio-code/</link>
+      <pubDate>Mon, 17 Jul 2017 14:09:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/07/extensao-para-sql-server-no-visual-studio-code/</guid>
+      <description>Olá,
+Você que trabalha com o VS Code e com SQL Server, não pode deixar de instalar esta extensão. É muito simples instalar e utilizar!
+Vamos lá! Abra o seu Visual Studio Code e vá em Extensions:
+Depois pesquisa por mssql e instale!
+Para usar é muito simples, primeiro criamos ou abrimos um arquivo com a extensão .SQL:
+Agora abra o Command Palete, pressionando CTRL + SHIFT + P:
+Existem vários comandos.</description>
+    </item>
     
     <item>
       <title>Visual Studio Summit 2017</title>
@@ -224,17 +239,6 @@ Carlos dos Santos.</description>
 Você ja teve aquele necessidade de instalar uma extensão para o Visual Studio e não sabia onde começar a procurar ? Bem, para resolver isto a Microsoft criou o Visual Studio Marketplace, que tem o objetivo de centralizar extensões e assinaturas do Visual Studio.
 Para acessar, entre no site https://marketplace.visualstudio.com/, mas vejam que não é somente para o Visual Studio que existem extensões…
 Existem também para o Visual Studio Team Services (anteriormente conhecido como Visual Studio Online), para o Visual Studio Code (editor de código multi plataforma) e também um link para você fazer assinaturas da plataforma Visual Studio.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework PowerTool no Visual Studio 2015</title>
-      <link>https://carloscds.net/2015/12/entity-framework-powertool-no-visual-studio-2015/</link>
-      <pubDate>Mon, 21 Dec 2015 20:35:17 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/12/entity-framework-powertool-no-visual-studio-2015/</guid>
-      <description>Olá,
-Se você usa bastante o EF CodeFirst como eu e já está no Visual Studio 2015, deve ter sentido falta do EF PowerTools. Infelizmente ele ainda não foi portado para esta versão do Visual Studio.
-Mas calma aí, existe uma maneira de instalar a versão atual no VS 2015. Para isto, primeiro baixe o componente da Visual Studio Galery. Veja na imagem abaixo que ele não suporta o VS 2015:</description>
     </item>
     
   </channel>

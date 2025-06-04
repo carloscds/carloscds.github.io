@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Migração do Blog para Markdown</title>
+      <link>https://carloscds.net/2020/05/migracaoblog/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/05/migracaoblog/</guid>
+      <description>Fala pessoal,
+Hoje conclui a migração do meu blog para Markdown com https://gohugo.io/, transformando todo o conteúdo em estático.
+Há muitos anos que o meu blog está em Wordpress, mas estava muito lento, então resolvi modernizar e migrar tudo para markdown.
+Infelizmente nao conseguir migrar comentários dos posts, mas agora instalei o https://disqus.com/ e todos os comentários ficarão centralizados!
+[]s.</description>
+    </item>
+    
+    <item>
       <title>Injeção de Dependência em C# - Bônus</title>
       <link>https://carloscds.net/2020/02/injecao-de-depenencia-em-c-bonus/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
@@ -227,21 +240,6 @@ Carlos dos Santos</description>
 Mas por quê desenvolver em .Net Core ?
 Existem centenas de artigos explicando as vantagens, mas vou colocar aqui apenas dois pontos: Velocidade e facilidade no desenvolvimento!
 Velocidade porque o Asp.Net Core é muitas vezes mais rápido que o Asp.</description>
-    </item>
-    
-    <item>
-      <title>Extensão para SQL Server no Visual Studio Code</title>
-      <link>https://carloscds.net/2017/07/extensao-para-sql-server-no-visual-studio-code/</link>
-      <pubDate>Mon, 17 Jul 2017 14:09:38 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/07/extensao-para-sql-server-no-visual-studio-code/</guid>
-      <description>Olá,
-Você que trabalha com o VS Code e com SQL Server, não pode deixar de instalar esta extensão. É muito simples instalar e utilizar!
-Vamos lá! Abra o seu Visual Studio Code e vá em Extensions:
-Depois pesquisa por mssql e instale!
-Para usar é muito simples, primeiro criamos ou abrimos um arquivo com a extensão .SQL:
-Agora abra o Command Palete, pressionando CTRL + SHIFT + P:
-Existem vários comandos.</description>
     </item>
     
   </channel>

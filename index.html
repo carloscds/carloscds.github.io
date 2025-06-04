@@ -161,9 +161,9 @@
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">12</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">101</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">102</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -385,6 +385,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2025/06/aspnet-worker/" class="title">ASP.NET Worker - Criando jobs dentro da sua aplicação</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/" class="title">EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</a>
                     </p>
                     <p class="item-date">
@@ -422,16 +432,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/" class="title">Você está tratando corretamente os erros na sua aplicação ?</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2024-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-07-25</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -447,6 +447,44 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2025/06/aspnet-worker/"
+    >ASP.NET Worker - Criando jobs dentro da sua aplicação</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Vamos começar este artigo explicando o que é um &ldquo;job&rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2025/06/aspnet-worker/" class="">
+  <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/asp.net/"> ASP.NET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2025/06/aspnet-worker/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 834words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -677,44 +715,6 @@ Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2024/06/aspnetcore-swagger-scalar/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 574words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2024/05/aspnetcore-keyedservices/"
-    >ASP.NET (Core) KeyedServices - uma interface, várias implementações</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Recentemente tive que fazer uma mudança em um projeto ASP.NET que envolvia usar repositório para acesso ao Azure Storage. Este projeto ja tinha uma storage funcionando, mas o cliente precisava usar uma segunda storage para um endpoint específico na aplicação. Ok, nada que um IF não resolva certo ?
-Não gosto muito deste tipo de solução, então verifiquei a documentação do ASP.NET 8 e temos um novo recurso chamado KeyedServices.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2024/05/aspnetcore-keyedservices/" class="">
-  <time datetime="2024-05-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-05-09</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-  <a class="article-category-link" href="/categories/asp.net/"> ASP.NET </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2024/05/aspnetcore-keyedservices/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 543words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
       </p>
     </article></div>
