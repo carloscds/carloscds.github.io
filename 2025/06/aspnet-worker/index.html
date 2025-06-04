@@ -52,7 +52,7 @@ Então podemos criar em uma aplicação ASP.NET, um código que é sempre execut
 Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional.">
 <meta itemprop="datePublished" content="2025-06-03T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2025-06-03T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="834">
+<meta itemprop="wordCount" content="847">
 
 
 
@@ -490,7 +490,7 @@ Então podemos criar em uma aplicação ASP.NET, um código que é sempre execut
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2025/06/aspnet-worker/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 834words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 847words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
       </div>
     </div>
@@ -636,16 +636,23 @@ namespace ExemploWorker.Workers
 <h3 id="injeção-de-dependências-com-scoped">Injeção de dependências com Scoped</h3>
 <p>Vamos buscar a classe de email de uma outra maneira, usando o ServiceProvider, veja:</p>
 <pre><code class="language-csharp">private Timer? _timer;
-private readonly ISendEmail _sendEmail; // enviar email
+private readonly IServiceProvider _serviceProvider;
 
 public TimerWorker(ILogger&lt;TimerWorker&gt; logger, IServiceProvider service)
 {
     _logger = logger;
-    var scope = service.CreateScope().ServiceProvider; // criar escopo para injeção de dependência
-    _sendEmail = scope.GetRequiredService&lt;ISendEmail&gt;(); // enviar email
+    _serviceProvider = service;
 }
 </code></pre>
-<p>Mudamos apenas o construtor do Worker, nele criamos o <em>scope</em>  com o <em>ServiceProvider</em> e depois buscamos a instância da classe que queremos!</p>
+<p>Modificamos o construtor do Worker colocando o <em>ServiceProvider</em>, e agora vamos mudar o <em>DoWork</em> para buscar a instância da classe que queremos!</p>
+<pre><code class="language-csharp">private void DoWork(object? state)
+{
+    _logger.LogInformation(&quot;Tempo contando: {time}&quot;, DateTimeOffset.Now);
+    using var scope = _serviceProvider.CreateScope(); // criar escopo para injeção de dependência
+    var sendEmail = scope.ServiceProvider.GetRequiredService&lt;ISendEmail&gt;();  
+    sendEmail.Enviar(); // enviar email
+}
+</code></pre>
 <p>Pronto, agora você tem uma API em ASP.NET com um Worker funcionando:</p>
 <p><img src="wp-content/uploads/2025/06/ASPNETCore-Worker-EmailEnviado.png" alt=""></p>
 <h3 id="considerações">Considerações</h3>
