@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Desenvolvimento para Windows 8</title>
+      <link>https://carloscds.net/2013/01/desenvolvimento-para-windows-8/</link>
+      <pubDate>Thu, 17 Jan 2013 17:25:08 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/01/desenvolvimento-para-windows-8/</guid>
+      <description>Olá pessoal,
+Neste primeiro post de 2013 vou falar um pouco somente a minha experiência no desenvolvimento de duas aplicações para Windows 8.
+A primeira aplicação eu fiz no final do ano passado, apenas com o intuito de validar o processo de desenvolvimento e publicação na Store da Microsoft. É uma aplicação bem simples, para lista de compras, onde o usuário cria uma lista de compras e relaciona os produtos que vai comprar, podendo enviar esta lista por email através do Share do Windows.</description>
+    </item>
     
     <item>
       <title>TFS com GIT para versionamento local</title>
@@ -232,18 +243,6 @@ Mas se não é suportado nativamente, então como é possível acessá-las ? Atr
 Hoje vamos falar um pouco sobre o gerenciamento de string de conexões no Entity Framework Code First, uma maneira muito simples e rápida de criar um mapeamento objeto relacional em C# com o Visual Studio 2010.
 Se você ainda não conhece o EF CodeFirst, veja este post e também o Blog do time de ADO.Net.
 O que vou tratar neste post é como podemos armazenar as strings de conexão e os providers que permitem o acesso do EF ao nosso banco de dados.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio Debugger Canvas</title>
-      <link>https://carloscds.net/2011/06/visual-studio-debugger-canvas/</link>
-      <pubDate>Tue, 21 Jun 2011 21:43:50 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/06/visual-studio-debugger-canvas/</guid>
-      <description>Olá,
-Acaba de ser lançado um recurso muito legal para o Visual Studio 2010 Ultimate, o Debugger Canvas, que é uma maneira mais visual de fazer debug de suas aplicações.
-Normalmente, ao fazer debug de uma aplicação, você executa e vai percorrendo linha a linha, entrando e saindo de rotinas dentro do código e depois de algum tempo, você acaba com diversas janelas abertas no Visual Studio.
-Agora imagine que ao fazer o debug, os diferentes códigos fontes vão se abrindo e se relacionando, formando um caminho percorrido pelo fluxo de execução, mais visual, não serial muito bom ?</description>
     </item>
     
   </channel>

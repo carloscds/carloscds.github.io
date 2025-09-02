@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/ef-core/</link>
     <description>Recent content in EF Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/ef-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publicando uma aplicação web no IIS 7</title>
+      <link>https://carloscds.net/2010/10/publicando-uma-aplicao-web-no-iis-7/</link>
+      <pubDate>Sun, 03 Oct 2010 16:39:28 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/10/publicando-uma-aplicao-web-no-iis-7/</guid>
+      <description>Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
+Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting.</description>
+    </item>
     
     <item>
       <title>Verificar se um programa já está em execução</title>
@@ -232,17 +242,6 @@ Gostaria de agradecer novamente o Prof. Rosmar do Senai, por apoiar nosso evento
 Vejam as fotos:
 []s,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Desenvolvimento para Windows Phone 7 – primeiras impressões</title>
-      <link>https://carloscds.net/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</link>
-      <pubDate>Wed, 17 Mar 2010 13:57:10 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</guid>
-      <description>Esta semana a Microsoft apresentou o novo Windows Phone 7 no MIX10 em Las Vegas e junto com ele as novas ferramentas para desenvolvimento usando o Visual Studio 2010.
-A partir de agora o desenvolvimento será todo feito em Silverlight e XNA, o que torna o desenvolvimento mais simples e com um potencial incrível para o designer.
-Você pode baixar o CTP para Desenvolvimento e começar a fazer os primeiros testes.</description>
     </item>
     
   </channel>

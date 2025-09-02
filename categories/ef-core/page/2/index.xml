@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/ef-core/</link>
     <description>Recent content in EF Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/ef-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NuKeeper - mantenha seus pacotes atualizados</title>
+      <link>https://carloscds.net/2020/06/nukeeper/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2020/06/nukeeper/</guid>
+      <description>Todos nós usamos diversos pacotes em nossas aplicações, até mesmo partes essenciais dos projetos estão em pacotes hoje em dia! Ai vem o grande desafio, como manter isto tudo atualizado, e principalmente, como descobrir o que precisa ser atualizado ?
+Conheça o NuKepper O Nukeeper é um &amp;ldquo;atualizador&amp;rdquo; de pacotes, que como o site do GitHub diz: &amp;ldquo;Ele Automagicamente&amp;rdquo; atualiza seus pacotes.
+MAs atualizar pacotes pode ser perigoso, não é? Então você pode usar o NuKeeper para mostrar quais pacotes estão desatualizados, e há quanto tempo!</description>
+    </item>
     
     <item>
       <title>Migração do Blog para Markdown</title>
@@ -228,18 +239,6 @@ Mas porque produzir um executável ? Simples, para chamar diretamente sem o coma
  Os slides estão no meu SlideShare e algumas fotos estão no facebook.
  Abraços, e até a próxima,
 Carlos dos Santos</description>
-    </item>
-    
-    <item>
-      <title>Publicando uma aplicação Asp.NET Core no IIS</title>
-      <link>https://carloscds.net/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</link>
-      <pubDate>Sun, 06 Aug 2017 17:38:30 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</guid>
-      <description>Olá pessoal, ja faz um tempo do meu post sobre como publicar uma aplicação no IIS, e agora, como temos novas tecnologias, chegou a hora de mostrar como fazer a publicação de uma aplicação Asp.Net Core!
-Mas por quê desenvolver em .Net Core ?
-Existem centenas de artigos explicando as vantagens, mas vou colocar aqui apenas dois pontos: Velocidade e facilidade no desenvolvimento!
-Velocidade porque o Asp.Net Core é muitas vezes mais rápido que o Asp.</description>
     </item>
     
   </channel>

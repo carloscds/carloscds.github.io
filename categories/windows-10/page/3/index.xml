@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Publicando uma aplicação Asp.NET Core no IIS</title>
+      <link>https://carloscds.net/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</link>
+      <pubDate>Sun, 06 Aug 2017 17:38:30 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/08/publicando-uma-aplicao-asp-net-core-no-iis/</guid>
+      <description>Olá pessoal, ja faz um tempo do meu post sobre como publicar uma aplicação no IIS, e agora, como temos novas tecnologias, chegou a hora de mostrar como fazer a publicação de uma aplicação Asp.Net Core!
+Mas por quê desenvolver em .Net Core ?
+Existem centenas de artigos explicando as vantagens, mas vou colocar aqui apenas dois pontos: Velocidade e facilidade no desenvolvimento!
+Velocidade porque o Asp.Net Core é muitas vezes mais rápido que o Asp.</description>
+    </item>
+    
+    <item>
       <title>Extensão para SQL Server no Visual Studio Code</title>
       <link>https://carloscds.net/2017/07/extensao-para-sql-server-no-visual-studio-code/</link>
       <pubDate>Mon, 17 Jul 2017 14:09:38 -0300</pubDate>
@@ -227,18 +239,6 @@ Gostaria de compartilhar com vocês um vídeo que acabou de entrar no Channel9 s
 Lembrando que você precisa do Visual Studio 2015 para poder trabalhar com o CodeCracker, pois ele é baseado no compilador Roslyn.
 Abraços e até a próxima,
 Carlos dos Santos.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio MarketPlace</title>
-      <link>https://carloscds.net/2015/12/visual-studio-marketplace/</link>
-      <pubDate>Mon, 28 Dec 2015 21:13:17 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2015/12/visual-studio-marketplace/</guid>
-      <description>Olá pessoal,
-Você ja teve aquele necessidade de instalar uma extensão para o Visual Studio e não sabia onde começar a procurar ? Bem, para resolver isto a Microsoft criou o Visual Studio Marketplace, que tem o objetivo de centralizar extensões e assinaturas do Visual Studio.
-Para acessar, entre no site https://marketplace.visualstudio.com/, mas vejam que não é somente para o Visual Studio que existem extensões…
-Existem também para o Visual Studio Team Services (anteriormente conhecido como Visual Studio Online), para o Visual Studio Code (editor de código multi plataforma) e também um link para você fazer assinaturas da plataforma Visual Studio.</description>
     </item>
     
   </channel>

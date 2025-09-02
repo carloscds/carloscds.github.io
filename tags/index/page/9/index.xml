@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Desenvolvimento para Windows Phone 7 – primeiras impressões</title>
+      <link>https://carloscds.net/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</link>
+      <pubDate>Wed, 17 Mar 2010 13:57:10 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/03/desenvolvimento-para-windows-phone-7-primeiras-impressoes/</guid>
+      <description>Esta semana a Microsoft apresentou o novo Windows Phone 7 no MIX10 em Las Vegas e junto com ele as novas ferramentas para desenvolvimento usando o Visual Studio 2010.
+A partir de agora o desenvolvimento será todo feito em Silverlight e XNA, o que torna o desenvolvimento mais simples e com um potencial incrível para o designer.
+Você pode baixar o CTP para Desenvolvimento e começar a fazer os primeiros testes.</description>
+    </item>
+    
+    <item>
       <title>Community Launch &amp;#8211; Copa Microsoft de Talentos</title>
       <link>https://carloscds.net/2010/03/community-launch-copa-microsoft-de-talentos/</link>
       <pubDate>Tue, 02 Mar 2010 05:42:58 -0300</pubDate>
@@ -225,18 +236,6 @@ Acabei de instalar o novo beta do Visual Studio 2010. O que mais me impressiona 
 Olha como ficou a home:
 Agora vou trabalhar um pouco mais nele e já já publico mais novidades!
 []s,</description>
-    </item>
-    
-    <item>
-      <title>Evento Comunidades no TechEd Brasil 2009</title>
-      <link>https://carloscds.net/2009/10/evento-comunidades-no-teched-brasil-2009/</link>
-      <pubDate>Mon, 12 Oct 2009 11:22:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/evento-comunidades-no-teched-brasil-2009/</guid>
-      <description>Pessoal,
-Desculpem o post meio atrasado, mas como eu troquei de blog, só agora consegui colocar as coisas em ordem.
-Durante o TechED Brasil 2009, realizamos um evento de comunidades, onde convidamos os líderes de grupos para um bate papo sobre as ações de cada um, suas expectativas e também o que esperam do http://www.inetabr.org.
-O bate papo foi muito interessante e conseguimos entender um pouco do funcionamento de cada grupo que estava presente.</description>
     </item>
     
   </channel>

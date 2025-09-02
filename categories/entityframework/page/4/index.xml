@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/entityframework/</link>
     <description>Recent content in EntityFramework on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/entityframework/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio MarketPlace</title>
+      <link>https://carloscds.net/2015/12/visual-studio-marketplace/</link>
+      <pubDate>Mon, 28 Dec 2015 21:13:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/visual-studio-marketplace/</guid>
+      <description>Olá pessoal,
+Você ja teve aquele necessidade de instalar uma extensão para o Visual Studio e não sabia onde começar a procurar ? Bem, para resolver isto a Microsoft criou o Visual Studio Marketplace, que tem o objetivo de centralizar extensões e assinaturas do Visual Studio.
+Para acessar, entre no site https://marketplace.visualstudio.com/, mas vejam que não é somente para o Visual Studio que existem extensões…
+Existem também para o Visual Studio Team Services (anteriormente conhecido como Visual Studio Online), para o Visual Studio Code (editor de código multi plataforma) e também um link para você fazer assinaturas da plataforma Visual Studio.</description>
+    </item>
     
     <item>
       <title>Entity Framework PowerTool no Visual Studio 2015</title>
@@ -221,16 +233,6 @@ Dentre as novidades, surgem 3 categorias de banco de dados:
 No último sábado (26/04/2014) aconteceu em São Paulo, na sede da Microsoft, mais uma edição do Visual Studio Summit. Neste ano tive a grata satisfação de realizar 5 palestras, ufa! Foi uma maratona!
 Fiz na verdade 5 palestras sobre dois Temas: Novidades do Visual Studio 2013 e Entity Framework Framework 6, a maioria com lotação máxima das salas.
 Gostaria de agradecer ao Ramon novamente pela oportunidade e a todos que participaram das palestras e principalmente pelas interações durante as palestras.</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework&amp;ndash;Apoveitando seu Banco de Dados com PowerTools</title>
-      <link>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</link>
-      <pubDate>Mon, 21 Apr 2014 19:34:06 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</guid>
-      <description>Olá pessoal,
-Quando uma empresa resolve adotar uma ferramenta de ORM (Mapeamento Objeto Relacional); no nosso caso o EntityFramework), começa uma grande quebra de paradigma, pois você vai deixar de acessar o banco de dados diretamente (Select, Insert, Update, Delete, etc) e vai passar a trabalhar somente com classes e objetos. Isto torna o desenvolvimento muito mais fácil e produtivo, uma vez que você não precisa ficar se preocupando com os comandos que vão para o banco de dados, já que isto é trabalho do ORM.</description>
     </item>
     
   </channel>

@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/ef-core/</link>
     <description>Recent content in EF Core on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/ef-core/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EntityFramework&amp;ndash;Apoveitando seu Banco de Dados com PowerTools</title>
+      <link>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</link>
+      <pubDate>Mon, 21 Apr 2014 19:34:06 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</guid>
+      <description>Olá pessoal,
+Quando uma empresa resolve adotar uma ferramenta de ORM (Mapeamento Objeto Relacional); no nosso caso o EntityFramework), começa uma grande quebra de paradigma, pois você vai deixar de acessar o banco de dados diretamente (Select, Insert, Update, Delete, etc) e vai passar a trabalhar somente com classes e objetos. Isto torna o desenvolvimento muito mais fácil e produtivo, uma vez que você não precisa ficar se preocupando com os comandos que vão para o banco de dados, já que isto é trabalho do ORM.</description>
+    </item>
     
     <item>
       <title>Melhorando a performance do Entity Framework com NGen</title>
@@ -234,17 +244,6 @@ O PPT da apresentação está disponível no slideshare no endereço: http://www
       <guid>https://carloscds.net/2013/03/mvp-virtual-conference/</guid>
       <description>A comunidade de Microsoft Most Valuable Professionals (MVP) convida você para participar do MVP Virtual Conference dias 26, 27 e 28 de Março de forma 100% online.
 Aproveite essa oportunidade de entender e tirar suas dúvidas sobre como as tecnologias e produtos Microsoft podem te ajudar a solucionar problemas e/ou otimizar tarefas do seu dia a dia. Aprenda diretamente com MVPs, profissionais reconhecidos pela Microsoft, independentes e especialistas, além de convidados especiais da comunidade técnica brasileira e da Microsoft, como os arquitetos do Microsoft Technology Center (MTC).</description>
-    </item>
-    
-    <item>
-      <title>Desenvolvimento para Windows 8</title>
-      <link>https://carloscds.net/2013/01/desenvolvimento-para-windows-8/</link>
-      <pubDate>Thu, 17 Jan 2013 17:25:08 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/01/desenvolvimento-para-windows-8/</guid>
-      <description>Olá pessoal,
-Neste primeiro post de 2013 vou falar um pouco somente a minha experiência no desenvolvimento de duas aplicações para Windows 8.
-A primeira aplicação eu fiz no final do ano passado, apenas com o intuito de validar o processo de desenvolvimento e publicação na Store da Microsoft. É uma aplicação bem simples, para lista de compras, onde o usuário cria uma lista de compras e relaciona os produtos que vai comprar, podendo enviar esta lista por email através do Share do Windows.</description>
     </item>
     
   </channel>

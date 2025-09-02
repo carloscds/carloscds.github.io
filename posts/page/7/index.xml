@@ -5,10 +5,22 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio Debugger Canvas</title>
+      <link>https://carloscds.net/2011/06/visual-studio-debugger-canvas/</link>
+      <pubDate>Tue, 21 Jun 2011 21:43:50 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/06/visual-studio-debugger-canvas/</guid>
+      <description>Olá,
+Acaba de ser lançado um recurso muito legal para o Visual Studio 2010 Ultimate, o Debugger Canvas, que é uma maneira mais visual de fazer debug de suas aplicações.
+Normalmente, ao fazer debug de uma aplicação, você executa e vai percorrendo linha a linha, entrando e saindo de rotinas dentro do código e depois de algum tempo, você acaba com diversas janelas abertas no Visual Studio.
+Agora imagine que ao fazer o debug, os diferentes códigos fontes vão se abrindo e se relacionando, formando um caminho percorrido pelo fluxo de execução, mais visual, não serial muito bom ?</description>
+    </item>
     
     <item>
       <title>Palestra no Cesumar</title>
@@ -235,16 +247,6 @@ Gostaria de agradecer ao professor Freud e também ao Clodoaldo pelo convite e t
       <guid>https://carloscds.net/2010/10/uma-histria-interessante/</guid>
       <description>Pessoal,
 Gostaria de compartilhar com vocês uma história muito interessante que ocorreu comigo ontem. Como MVP, temos acesso a diversas ferramentas, mesmo antes de serem lançadas para o público em geral, com o intuito de ajudarmos no processo de testes e refinamento das funcionalidades. Recentemente eu comecei a testar o novo Visual Studio Power Tools (versão ainda beta privado) e percebi que o Visual Studio ficou mais lento para carregar soluções.</description>
-    </item>
-    
-    <item>
-      <title>Publicando uma aplicação web no IIS 7</title>
-      <link>https://carloscds.net/2010/10/publicando-uma-aplicao-web-no-iis-7/</link>
-      <pubDate>Sun, 03 Oct 2010 16:39:28 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/10/publicando-uma-aplicao-web-no-iis-7/</guid>
-      <description>Olá pessoal, neste artigo vou mostrar como é simples publicar uma aplicação web no IIS 7 (Internet Information Server), que está presente no Windows Vista, Windows 7 e Windows Server 2008 e 2008 R2.
-Publicar uma aplicação na sua rede local ou computador pessoal é um pouco diferente do que publicar em um webhost, que traz ferramentas específicas que ajudam e facilitam o trabalho, visto que dificilmente você terá acesso direto ao IIS do hosting.</description>
     </item>
     
   </channel>
