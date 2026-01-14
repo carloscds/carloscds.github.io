@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASPNET on Carlos dos Santos</title>
+    <link>https://carloscds.net/categories/aspnet/</link>
+    <description>Recent content in ASPNET on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://carloscds.net/categories/aspnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Melhorando a organização do seu projeto - Exemplo básico de arquitetura</title>
+      <link>https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/</guid>
+      <description>Como você tem organizado seus projetos, dependências e o código em geral ? Está separando tudo por projeto, isolando dependências e responsabilidades ?
+Se não está, veja aqui um jeito simples e eficaz de organizar seu código e deixar os projetos mais claros!
+Vamos considerar este projeto como exemplo:
+É exemplo bem interessante de uma arquitetura Clean, com alguns projetos:
+ APIComIoC.API - API básica (CRUD) APIComIoC.Core - Serviços Core (podemos considerar aqui a regra do negócio) APIComIoC.</description>
+    </item>
+    
+    <item>
+      <title>EFCore.Visualizer - veja a sua query produzida pelo EF Core</title>
+      <link>https://carloscds.net/2025/09/efcore-queryview/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2025/09/efcore-queryview/</guid>
+      <description>Você ja precisou ver como a consulta do EntityFramework Core é traduzida para o banco de dados ? Já teve aquela sensação de &amp;ldquo;será que a query ficou boa?&amp;rdquo;
+Isto é um grande dilema para quem usa algum tipo de ORM, certo ? Você manipula classes e não tem muito controle sobre as queries que vão para o banco. Logicamente que você pode ativar algum tipo de LOG, mostrar na console, etc.</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET Worker - Criando jobs dentro da sua aplicação</title>
+      <link>https://carloscds.net/2025/06/aspnet-worker/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2025/06/aspnet-worker/</guid>
+      <description>Vamos começar este artigo explicando o que é um &amp;ldquo;job&amp;rdquo;. Um job é um serviço que vai rodar de forma autônoma na nossa aplicação, sem a interferência de nenhuma chamada ou usuário, apenas respeitando uma regra básica, que pode ser um timer, um loop, etc.
+Então podemos criar em uma aplicação ASP.NET, um código que é sempre executado em um determinado tempo, com um timer, e o melhor, este mecanismo é nativo da plataforma, não precisamos instalar nenhum pacote adicional.</description>
+    </item>
+    
+    <item>
+      <title>EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</title>
+      <link>https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/</guid>
+      <description>Se você já trabalhou em um projeto onde existe um DBA então o título deste post é muito familiar para você, pois o DBA jamais vai deixar você rodar qualquer tipo de &amp;lsquo;coisa&amp;rsquo; no banco de produção. Em um ambiente bem controlado, mesmo sem a presença de um DBA, isto também é uma EXCELENTE prática, afinal deixar o DEV rodar qualquer tipo de coisa no banco de produção pode ser um tanto perigoso!</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio CodeSearch - Ficou muito bom!</title>
+      <link>https://carloscds.net/2024/12/visualstudio-codesearch/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/12/visualstudio-codesearch/</guid>
+      <description>Se você já está usando o Visual Studio 2022 ou 2022 Preview, pode usar este novo recurso que encontra qualquer coisa no seu código! Se você ainda não usa, baixe agora mesmo uma das versões do Visual Studio 2022.
+Esta é uma dica simples, mas que pode te animar a usar o Visual Studio 2022.
+Busca no código ? Se você já usa Visual Studio há agum tempo deve estar acostumado a usar o Find in Files certo ?</description>
+    </item>
+    
+    <item>
+      <title>.NET 9 agora suporta o OpenAPI nativamente</title>
+      <link>https://carloscds.net/2024/11/openapi-support/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/11/openapi-support/</guid>
+      <description>Na última semana foi lançado o .NET 9 durante o .NET Conf 2024 e com ele muitas e muitas novidades na plataforma que renderiam facilmente diversos posts, mas dentre os muitos recursos anunciados, hoje vamos falar sobre documentação de APIs e suporte a Open API.
+Mas o que é o OpenAPI ? É um padrão aberto para documentação de APIs, e é claro que você, como um bom desenvolvedor, quer documentar muito bem a sua API.</description>
+    </item>
+    
+    <item>
+      <title>Conheça o Global Error Handler - Novo Recurso do ASP.NET 8.0</title>
+      <link>https://carloscds.net/2024/10/tratamento-erros-global-error-handler/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/10/tratamento-erros-global-error-handler/</guid>
+      <description>No último artigo falamos de tratamento de exceções usando um Middeware, que é um recurso muito útil e versátil.
+Agora no .NET 8 temos um recurso mais simples e poderoso chamado Global Error Handler, que faz basicamente o que o Middleware de Exception do nosso último artigo, só que de maneira um tanto mais simples e eficiente.
+Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas basicamente você implementa uma classe que herda da interface IExceptionHandler :</description>
+    </item>
+    
+    <item>
+      <title>Você está tratando corretamente os erros na sua aplicação ?</title>
+      <link>https://carloscds.net/2024/07/tratamento-erros-inner-exception/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/07/tratamento-erros-inner-exception/</guid>
+      <description>Aplicações apresentam erros, isto é um fato inegável. Por mais que você teste, automatize, verifique, em algum momento algum código poderá causar um erro na sua aplicação!
+A partir daí como você pega e trata este erro é o que vai indicar quando e como você poderá resolver o problema.
+Como assim tratar corretamente o erro ? É muito comum em aplicações estes tipos de abordagem:
+try{// algum código}catch (Exception ex){} Sim, você nao está vendo errado, o bloco exception nao tem nada!</description>
+    </item>
+    
+    <item>
+      <title>Swagger vai acabar e agora ? Vamos conhecer o Scalar</title>
+      <link>https://carloscds.net/2024/06/aspnetcore-swagger-scalar/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/06/aspnetcore-swagger-scalar/</guid>
+      <description>Criar uma boa doumentação para uma API é essencial para quem vai consumir os serviços, pois ajuda no uso, reduz chamados de suporte e mais que tudo,mostra que você é um desenvolver organizado!
+É extremanemte desagradável, e digo isto pois trabalho com muitas APIs diariamente, trabalhar com documentações desatualizadas e incorretas!
+Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em milhares de APIs, visto que seu uso é bastante simples e o resultado é muito bom, pois cria uma excelente documentação para nossas APIs.</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET (Core) KeyedServices - uma interface, várias implementações</title>
+      <link>https://carloscds.net/2024/05/aspnetcore-keyedservices/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2024/05/aspnetcore-keyedservices/</guid>
+      <description>Recentemente tive que fazer uma mudança em um projeto ASP.NET que envolvia usar repositório para acesso ao Azure Storage. Este projeto ja tinha uma storage funcionando, mas o cliente precisava usar uma segunda storage para um endpoint específico na aplicação. Ok, nada que um IF não resolva certo ?
+Não gosto muito deste tipo de solução, então verifiquei a documentação do ASP.NET 8 e temos um novo recurso chamado KeyedServices.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework - SQL Raw Queries</title>
+      <link>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</link>
+      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</guid>
+      <description>Recentemente foi lancado o EF 8, juntamente com o .NET 8 e com ele muitas novidades! Mas dentre todas, uma que &amp;lsquo;volta&amp;rsquo;, sim, ela já existiu no passado, é o uso de queries diretas sem uso do contexto, também conhecidas como RAW Queries.
+Podemos afirmar que o seu uso é muito parecido com o Dapper, mas em um contexto do EF.
+Como funciona ? Imagine que você tem um banco de dados de Livros, como o script abaixo:</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework - Se você usa Migrations com Azure Database, preste muita atenção!</title>
+      <link>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</link>
+      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</guid>
+      <description>O EntityFramework possui o recurso de migrations que ajuda demais no desenvolvimento de aplicações, pois com a abordagem do CodeFirst você vai criando as suas classes e ao rodar o migrations tudo é aplicado no banco de dados. Muito útil durante o desenvolvimento!
+Até aí nada demais, inclusive eu já abordei o Migrations em diversos artigos aqui no blog, então onde está o problema ?
+Azure Database Default Config Quando você cria um banco de dados no Azure, por exemplo com o comando:</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework Core PowerTools - Engenharia Reversa do Banco de Dados</title>
+      <link>https://carloscds.net/2023/07/entityframeworkcore-powertools/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/07/entityframeworkcore-powertools/</guid>
+      <description>Este artigo é uma dica rápida, mas extremamente útil! Imagine que você já tem um banco de dados e quer usar o EF, o que você faz ? Cria tudo na mão ? Esera que tem um jeito muito mais interessante!
+Apresentando o EF Core PowerTools Este é uma ferramenta que considero essencial para trabalhar com EF. Não é uma ferramenta nova, já escrevi sobre ela há muitos anos atrás, mas ainda considero bastante útil no cenário que mencionei acima, você já tem o banco e precisa criar as classes.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework Core - Inicio (de novo)</title>
+      <link>https://carloscds.net/2023/07/entityframeworkcore-inicio/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2023/07/entityframeworkcore-inicio/</guid>
+      <description>Durante muito tempo eu publiquei muito conteúdo sobre EntityFramework (EF), muito antes da versão Core surgir, e durante muito tempo depois desta nova versão eu apenas acompanhei o desenvolvimento, até que na versão 3.1, o EF Core ficou realmente bom para uso em grandes projetos, com a produção de queries &amp;ldquo;muito limpas&amp;rdquo; para o banco de dados. Neste ponto voltei a colocar o EF nos meus projetos.
+Mas antes de contonuar, precisamos fazer uma explicação para você que &amp;ldquo;ainda&amp;rdquo; acha que o EntityFramework é um ORM ruim.</description>
+    </item>
+    
+    <item>
+      <title>Como configurar uma Function para acessar dados no KeyVault</title>
+      <link>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/conectando-uma-function-ao-keyvault/</guid>
+      <description>Você já esta usando o conceito de Serverless em suas aplicações ? Se ainda não está, recomendo que dê uma olhada no Azure Functions, uma funcionalidade do Azure que permite trabalhar com o conceito de programação orientada a eventos, ou seja, seu código pode ser acionado por um serviço externo, através de mensagens, arquivos no blob, entre outros. Mais detalhes sobre Functions você encontra aqui: https://docs.microsoft.com/pt-br/azure/azure-functions/functions-overview.
+Azure KeyVault Agora vamos pensar em segurança, onde guardamos as configurações da nossa aplicação ?</description>
+    </item>
+    
+    <item>
+      <title>Configurando TLS - Erro de Conexão Subjacente</title>
+      <link>https://carloscds.net/2022/03/configurando-tls/</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2022/03/configurando-tls/</guid>
+      <description>Estamos passando por grandes mudanças na segurança da web, onde a maioria dos serviços tem atualizado o TLS (Transport Layer Security), que garante a proteção os dados nas comunicações HTTPS.
+O Problema da Conexão Subjacente Desta maneira, aplicações que se comunicam via web podem começar a apresentar um erro chamado &amp;ldquo;Conexão Subjacente fechada&amp;rdquo;, o que não é muito intuitivo, mas isto significa que a sua aplicação pode estar usando uma versão mais antiga do TLS.</description>
+    </item>
+    
+    <item>
+      <title>Configurando o horário de um App Service em Linux no Azure</title>
+      <link>https://carloscds.net/2021/06/app-services-horario/</link>
+      <pubDate>Tue, 08 Jun 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/06/app-services-horario/</guid>
+      <description>Olá pessoal,
+Estes dias estava configurando um App Service para uma nova API que construimos e precisava deixar o fuso horario do Brasil (GMT -3), lembrando que o Azure trabalha no GMT 0.
+Até aí tudo bem, existem vários tutoriais na web explicando isto, mas problema é que existe uma diferença entre um App Service rodando em Windows e outro rodando em Linux.
+Configuração muda de acordo com o Sistema Operacional Quando o App Service esta configurado para Windows, você ajusta a seguinte propriedade na Configuracação do servico.</description>
+    </item>
+    
+    <item>
+      <title>Inspecionando as Consultas do Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</link>
+      <pubDate>Tue, 23 Mar 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-inspecionando-a-consulta/</guid>
+      <description>Olá pessoal,
+Você que é um usuário de EntityFramework, já parou para olhar as queries que são geradas no banco ? Eu sempre faço esta pergunta em empresas que atendo e a resposta na grande maioria das vezes é: NÃO.
+Sempre ouço: o EntityFramework resolve isto para mim! Ele sabe como criar o melhor comando SQL para o banco, e muitas outras respostas!
+Mas a grande verdade é que o EntityFramework não faz milagres!</description>
+    </item>
+    
+    <item>
+      <title>Datas Estranhas no Entity Framework Core</title>
+      <link>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</link>
+      <pubDate>Mon, 22 Mar 2021 21:30:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</guid>
+      <description>Olá pessoal,
+Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
+Problema O que acontece se você submeter uma consulta do tipo:
+select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?</description>
+    </item>
+    
+    <item>
+      <title>Lendo uma Planilha Excel em C# - MAIS SIMPLES AINDA!</title>
+      <link>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</link>
+      <pubDate>Tue, 12 Jan 2021 23:15:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</guid>
+      <description>Olá pessoal,
+Em 2009 eu escrevi um artigo que até hoje é muito acessado no meu blog, se trata de como ler uma planilha Excel em C#. Claro que muita coisa mudou desde então, mas ainda hoje este código funciona e ajuda muita gente.
+Mas será que não dá para melhorar? Sempre dá&amp;hellip;
+Vamos falar do ClosedXML O componente ClosedXML pode ser encontrado no Nuget e funciona tanto em aplicações .</description>
+    </item>
+    
+  </channel>
+</rss>

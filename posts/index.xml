@@ -5,10 +5,23 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Melhorando a organização do seu projeto - Exemplo básico de arquitetura</title>
+      <link>https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/</guid>
+      <description>Como você tem organizado seus projetos, dependências e o código em geral ? Está separando tudo por projeto, isolando dependências e responsabilidades ?
+Se não está, veja aqui um jeito simples e eficaz de organizar seu código e deixar os projetos mais claros!
+Vamos considerar este projeto como exemplo:
+É exemplo bem interessante de uma arquitetura Clean, com alguns projetos:
+ APIComIoC.API - API básica (CRUD) APIComIoC.Core - Serviços Core (podemos considerar aqui a regra do negócio) APIComIoC.</description>
+    </item>
     
     <item>
       <title>EFCore.Visualizer - veja a sua query produzida pelo EF Core</title>
@@ -212,18 +225,6 @@ select numero,data,valor from pedido where cast(data as date) = cast(getdate() a
 Em 2009 eu escrevi um artigo que até hoje é muito acessado no meu blog, se trata de como ler uma planilha Excel em C#. Claro que muita coisa mudou desde então, mas ainda hoje este código funciona e ajuda muita gente.
 Mas será que não dá para melhorar? Sempre dá&amp;hellip;
 Vamos falar do ClosedXML O componente ClosedXML pode ser encontrado no Nuget e funciona tanto em aplicações .</description>
-    </item>
-    
-    <item>
-      <title>Gerar uma classe a partir de um Json no Visual Studio</title>
-      <link>https://carloscds.net/2020/06/past-json/</link>
-      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2020/06/past-json/</guid>
-      <description>Fala pessoal,
-Hoje é muito comum trabalharmos com APIs e sempre precisamos criar classes para receber os dados serializados. A dica então é bem simples!
-O Visual Studio tem um recurso chamado &amp;ldquo;Paste JSON as Classes&amp;rdquo; que pega o conteúdo da area de transferência e cola como uma classe:
-Agora vamos acessar uma API que retorna dados em Json, por exemplo esta API que retorna a previsão do tempo: http://worldtimeapi.org/api/timezone/America/Sao_Paulo</description>
     </item>
     
   </channel>

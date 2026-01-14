@@ -162,8 +162,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">103</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">104</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -385,6 +386,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/" class="title">Melhorando a organização do seu projeto - Exemplo básico de arquitetura</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-01-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2025/09/efcore-queryview/" class="title">EFCore.Visualizer - veja a sua query produzida pelo EF Core</a>
                     </p>
                     <p class="item-date">
@@ -422,16 +433,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2024/11/openapi-support/" class="title">.NET 9 agora suporta o OpenAPI nativamente</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2024-11-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-11-25</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -447,6 +448,43 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2010/10/uma-histria-interessante/"
+    >Uma história interessante</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Pessoal,
+Gostaria de compartilhar com vocês uma história muito interessante que ocorreu comigo ontem. Como MVP, temos acesso a diversas ferramentas, mesmo antes de serem lançadas para o público em geral, com o intuito de ajudarmos no processo de testes e refinamento das funcionalidades. Recentemente eu comecei a testar o novo Visual Studio Power Tools (versão ainda beta privado) e percebi que o Visual Studio ficou mais lento para carregar soluções.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2010/10/uma-histria-interessante/" class="">
+  <time datetime="2010-10-15 18:34:44 -0300 -03" itemprop="datePublished">2010-10-15</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/visual-studio/"> Visual Studio </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2010/10/uma-histria-interessante/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 352words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -683,44 +721,6 @@ Uma tarefa relativamente simples, mas que pode causar um certo transtorno justam
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 330words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2010/07/consultas-genricas-com-linq/"
-    >Consultas Genéricas com Linq</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        No conceito de orientação a objeto, sempre temos em mente criar códigos que possam ser reutilizados dentro da aplicação ou mesmo em aplicações diferentes, e neste contexto eu tenho sido questionado sobre como é possível usar Linq, que é totalmente orientado a objeto e fortemente tipado, e ainda sim criar códigos reusáveis.
-Aproveitando esta situação, vou mostrar como é possível criar um método de consulta usando Linq, que serve para consultar praticamente qualquer entidade (tabela) do seu modelo, ou seja, iremos criar uma consulta totalmente genérica, e um dos possíveis lugares que você pode utilizar este tipo de método, é em uma rotina de consulta que você chama em todo o seu sistema, por exemplo.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2010/07/consultas-genricas-com-linq/" class="">
-  <time datetime="2010-07-19 23:22:31 -0300 -03" itemprop="datePublished">2010-07-19</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-  <a class="article-category-link" href="/categories/entityframework/"> EntityFramework </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2010/07/consultas-genricas-com-linq/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 487words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -758,7 +758,7 @@ Aproveitando esta situação, vou mostrar como é possível criar um método de 
 </ul>
   <div class="copyright">
     &copy;2008  -
-    2025
+    2026
     
   </div>
 </footer>

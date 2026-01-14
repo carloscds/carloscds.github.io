@@ -162,8 +162,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">103</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">104</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
@@ -385,6 +386,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/" class="title">Melhorando a organização do seu projeto - Exemplo básico de arquitetura</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-01-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2025/09/efcore-queryview/" class="title">EFCore.Visualizer - veja a sua query produzida pelo EF Core</a>
                     </p>
                     <p class="item-date">
@@ -422,16 +433,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2024/11/openapi-support/" class="title">.NET 9 agora suporta o OpenAPI nativamente</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2024-11-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-11-25</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -447,6 +448,47 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2026/01/melhorandoorganizacaoprojeto/"
+    >Melhorando a organização do seu projeto - Exemplo básico de arquitetura</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Como você tem organizado seus projetos, dependências e o código em geral ? Está separando tudo por projeto, isolando dependências e responsabilidades ?
+Se não está, veja aqui um jeito simples e eficaz de organizar seu código e deixar os projetos mais claros!
+Vamos considerar este projeto como exemplo:
+É exemplo bem interessante de uma arquitetura Clean, com alguns projetos:
+ APIComIoC.API - API básica (CRUD) APIComIoC.Core - Serviços Core (podemos considerar aqui a regra do negócio) APIComIoC.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/" class="">
+  <time datetime="2026-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-01-13</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/aspnet/"> ASPNET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2026/01/melhorandoorganizacaoprojeto/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 537words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -677,46 +719,6 @@ Como usar o Global Error Handler Existe muita maneiras de usar o recurso, mas ba
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 642words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2024/07/tratamento-erros-inner-exception/"
-    >Você está tratando corretamente os erros na sua aplicação ?</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Aplicações apresentam erros, isto é um fato inegável. Por mais que você teste, automatize, verifique, em algum momento algum código poderá causar um erro na sua aplicação!
-A partir daí como você pega e trata este erro é o que vai indicar quando e como você poderá resolver o problema.
-Como assim tratar corretamente o erro ? É muito comum em aplicações estes tipos de abordagem:
-try{// algum código}catch (Exception ex){} Sim, você nao está vendo errado, o bloco exception nao tem nada!
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/" class="">
-  <time datetime="2024-07-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-07-25</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-  <a class="article-category-link" href="/categories/asp.net/"> ASP.NET </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2024/07/tratamento-erros-inner-exception/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1045words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 5minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -749,7 +751,7 @@ try{// algum código}catch (Exception ex){} Sim, você nao está vendo er
 </ul>
   <div class="copyright">
     &copy;2008  -
-    2025
+    2026
     
   </div>
 </footer>

@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>MVP Virtual Conference</title>
+      <link>https://carloscds.net/2013/03/mvp-virtual-conference/</link>
+      <pubDate>Sun, 17 Mar 2013 14:47:46 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/03/mvp-virtual-conference/</guid>
+      <description>A comunidade de Microsoft Most Valuable Professionals (MVP) convida você para participar do MVP Virtual Conference dias 26, 27 e 28 de Março de forma 100% online.
+Aproveite essa oportunidade de entender e tirar suas dúvidas sobre como as tecnologias e produtos Microsoft podem te ajudar a solucionar problemas e/ou otimizar tarefas do seu dia a dia. Aprenda diretamente com MVPs, profissionais reconhecidos pela Microsoft, independentes e especialistas, além de convidados especiais da comunidade técnica brasileira e da Microsoft, como os arquitetos do Microsoft Technology Center (MTC).</description>
+    </item>
+    
+    <item>
       <title>Desenvolvimento para Windows 8</title>
       <link>https://carloscds.net/2013/01/desenvolvimento-para-windows-8/</link>
       <pubDate>Thu, 17 Jan 2013 17:25:08 -0300</pubDate>
@@ -230,18 +240,6 @@ Vejam abaixo o belíssimo troféu que recebi, juntamente com uma carta de agrade
       <description>Olá,
 Vou iniciar este post informando que o Entity Framework Code First não tem suporte nativo para Stored Procedures, ainda!!!
 Mas se não é suportado nativamente, então como é possível acessá-las ? Através do método SqlQuery() do contexto, mas existe um inconveniente: o acesso fica vinculado ao banco de dados, ou seja, para cada banco de dados o acesso é feito de uma maneira, mesmo porquê cada banco tem uma maneira específica de chamar e tratar os parâmetros das stored procedures.</description>
-    </item>
-    
-    <item>
-      <title>EF CodeFirst–Gerenciando as Strings de Conexão</title>
-      <link>https://carloscds.net/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</link>
-      <pubDate>Mon, 08 Aug 2011 22:21:48 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</guid>
-      <description>Olá,
-Hoje vamos falar um pouco sobre o gerenciamento de string de conexões no Entity Framework Code First, uma maneira muito simples e rápida de criar um mapeamento objeto relacional em C# com o Visual Studio 2010.
-Se você ainda não conhece o EF CodeFirst, veja este post e também o Blog do time de ADO.Net.
-O que vou tratar neste post é como podemos armazenar as strings de conexão e os providers que permitem o acesso do EF ao nosso banco de dados.</description>
     </item>
     
   </channel>

@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Visual Studio Summit 2014</title>
+      <link>https://carloscds.net/2014/05/visual-studio-summit-2014/</link>
+      <pubDate>Fri, 02 May 2014 09:34:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/05/visual-studio-summit-2014/</guid>
+      <description>Pessoal,
+No último sábado (26/04/2014) aconteceu em São Paulo, na sede da Microsoft, mais uma edição do Visual Studio Summit. Neste ano tive a grata satisfação de realizar 5 palestras, ufa! Foi uma maratona!
+Fiz na verdade 5 palestras sobre dois Temas: Novidades do Visual Studio 2013 e Entity Framework Framework 6, a maioria com lotação máxima das salas.
+Gostaria de agradecer ao Ramon novamente pela oportunidade e a todos que participaram das palestras e principalmente pelas interações durante as palestras.</description>
+    </item>
+    
+    <item>
       <title>EntityFramework&amp;ndash;Apoveitando seu Banco de Dados com PowerTools</title>
       <link>https://carloscds.net/2014/04/entityframeworkapoveitando-seu-banco-de-dados-com-powertools/</link>
       <pubDate>Mon, 21 Apr 2014 19:34:06 -0300</pubDate>
@@ -234,16 +246,6 @@ Carlos dos Santos</description>
 Semana passada aconteceu o MVP Virtual Conference (http://mvpvirtualconference.azurewebsites.net), um evento totalmente online, com várias trilhas de mais de 45 palestras, e eu tive a honra de participar da organização deste evento cuidando também da trilha de Gerenciamento de Equipes de Desenvolvimento junto com o André Dias.
 Gostaria de agradecer a todos que participaram também da minha palestra no dia 26/03/2013. Foram mais de 120 pessoas online. Muitíssimo obrigado!!!
 O PPT da apresentação está disponível no slideshare no endereço: http://www.</description>
-    </item>
-    
-    <item>
-      <title>MVP Virtual Conference</title>
-      <link>https://carloscds.net/2013/03/mvp-virtual-conference/</link>
-      <pubDate>Sun, 17 Mar 2013 14:47:46 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/03/mvp-virtual-conference/</guid>
-      <description>A comunidade de Microsoft Most Valuable Professionals (MVP) convida você para participar do MVP Virtual Conference dias 26, 27 e 28 de Março de forma 100% online.
-Aproveite essa oportunidade de entender e tirar suas dúvidas sobre como as tecnologias e produtos Microsoft podem te ajudar a solucionar problemas e/ou otimizar tarefas do seu dia a dia. Aprenda diretamente com MVPs, profissionais reconhecidos pela Microsoft, independentes e especialistas, além de convidados especiais da comunidade técnica brasileira e da Microsoft, como os arquitetos do Microsoft Technology Center (MTC).</description>
     </item>
     
   </channel>

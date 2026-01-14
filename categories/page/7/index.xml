@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EF CodeFirst–Gerenciando as Strings de Conexão</title>
+      <link>https://carloscds.net/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</link>
+      <pubDate>Mon, 08 Aug 2011 22:21:48 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/08/ef-codefirstgerenciando-as-strings-de-conexo/</guid>
+      <description>Olá,
+Hoje vamos falar um pouco sobre o gerenciamento de string de conexões no Entity Framework Code First, uma maneira muito simples e rápida de criar um mapeamento objeto relacional em C# com o Visual Studio 2010.
+Se você ainda não conhece o EF CodeFirst, veja este post e também o Blog do time de ADO.Net.
+O que vou tratar neste post é como podemos armazenar as strings de conexão e os providers que permitem o acesso do EF ao nosso banco de dados.</description>
+    </item>
     
     <item>
       <title>Visual Studio Debugger Canvas</title>
@@ -237,16 +249,6 @@ E para dar uma animada em quem ainda está indecido, seja a cópia do certificad
 Estivemos ontem na última quinta-feira (21/10) no Cesumar em Maringá para o EcoDevelopers. Foi um evento muito legal, com cerca de 300 pessoas e palestras muito interessantes sobre responsabilidade ambiental e também tecnologia.
 Eu falei sobre algo diferente, Virtualização com Hyper-V, infra mesmo, pois eu, além de desenvolvedor, gosto muito de infra. O André Nobre falou sobre Windows Azure e desenvolvimento para nuvem.
 Gostaria de agradecer ao professor Freud e também ao Clodoaldo pelo convite e também pela calorosa recepção.</description>
-    </item>
-    
-    <item>
-      <title>Uma história interessante</title>
-      <link>https://carloscds.net/2010/10/uma-histria-interessante/</link>
-      <pubDate>Fri, 15 Oct 2010 18:34:44 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/10/uma-histria-interessante/</guid>
-      <description>Pessoal,
-Gostaria de compartilhar com vocês uma história muito interessante que ocorreu comigo ontem. Como MVP, temos acesso a diversas ferramentas, mesmo antes de serem lançadas para o público em geral, com o intuito de ajudarmos no processo de testes e refinamento das funcionalidades. Recentemente eu comecei a testar o novo Visual Studio Power Tools (versão ainda beta privado) e percebi que o Visual Studio ficou mais lento para carregar soluções.</description>
     </item>
     
   </channel>
