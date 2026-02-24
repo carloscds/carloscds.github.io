@@ -10,6 +10,19 @@
     
     
     <item>
+      <title>SQL Azure&amp;ndash;melhorias de performance</title>
+      <link>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</link>
+      <pubDate>Mon, 26 May 2014 08:27:02 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/05/sql-azuremelhorias-de-performance/</guid>
+      <description>Se você está querendo migrar ou começar a utilizar o Microsoft SQL Server disponível no Azure, durante o último Build foram anunciadas grandes melhorias de performance e funcionalidades.
+Dentre as novidades, surgem 3 categorias de banco de dados:
+  Basic: para aplicações com poucas transações e baixa necessidade de performance**.**
+  Standard: para aplicações de negócios, com médio nível de performance.
+  Premium: para aplicações de missão crítica, com alta necessidade de desempenho e alto volume de transações.</description>
+    </item>
+    
+    <item>
       <title>Visual Studio Summit 2014</title>
       <link>https://carloscds.net/2014/05/visual-studio-summit-2014/</link>
       <pubDate>Fri, 02 May 2014 09:34:41 -0300</pubDate>
@@ -233,18 +246,6 @@ Fique atento aos pré-requisitos na página de inscrição: http://www.eventick.
 
 Abraços e até lá!
 Carlos dos Santos</description>
-    </item>
-    
-    <item>
-      <title>Como escolher o modelo ideal de TFS para sua empresa</title>
-      <link>https://carloscds.net/2013/03/como-escolher-o-modelo-ideal-de-tfs-para-sua-empresa/</link>
-      <pubDate>Sun, 31 Mar 2013 21:03:35 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/03/como-escolher-o-modelo-ideal-de-tfs-para-sua-empresa/</guid>
-      <description>Pessoal,
-Semana passada aconteceu o MVP Virtual Conference (http://mvpvirtualconference.azurewebsites.net), um evento totalmente online, com várias trilhas de mais de 45 palestras, e eu tive a honra de participar da organização deste evento cuidando também da trilha de Gerenciamento de Equipes de Desenvolvimento junto com o André Dias.
-Gostaria de agradecer a todos que participaram também da minha palestra no dia 26/03/2013. Foram mais de 120 pessoas online. Muitíssimo obrigado!!!
-O PPT da apresentação está disponível no slideshare no endereço: http://www.</description>
     </item>
     
   </channel>

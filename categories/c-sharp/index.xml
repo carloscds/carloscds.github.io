@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tratando a resiliência em chamadas HTTP</title>
+      <link>https://carloscds.net/2026/02/http-resilience/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/02/http-resilience/</guid>
+      <description>O que é ser resiliente ? E uma aplicação resiliente ?
+Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.
+No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &amp;ldquo;roupagem&amp;rdquo; nas últimas versões do .</description>
+    </item>
     
     <item>
       <title>Melhorando a organização do seu projeto - Exemplo básico de arquitetura</title>
@@ -213,18 +224,6 @@ Mas a grande verdade é que o EntityFramework não faz milagres!</description>
 Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
 Problema O que acontece se você submeter uma consulta do tipo:
 select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?</description>
-    </item>
-    
-    <item>
-      <title>Lendo uma Planilha Excel em C# - MAIS SIMPLES AINDA!</title>
-      <link>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</link>
-      <pubDate>Tue, 12 Jan 2021 23:15:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2021/01/lendo-planilha-excel-mais-simples/</guid>
-      <description>Olá pessoal,
-Em 2009 eu escrevi um artigo que até hoje é muito acessado no meu blog, se trata de como ler uma planilha Excel em C#. Claro que muita coisa mudou desde então, mas ainda hoje este código funciona e ajuda muita gente.
-Mas será que não dá para melhorar? Sempre dá&amp;hellip;
-Vamos falar do ClosedXML O componente ClosedXML pode ser encontrado no Nuget e funciona tanto em aplicações .</description>
     </item>
     
   </channel>

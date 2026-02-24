@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Tratando a resiliência em chamadas HTTP - Carlos dos Santos
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="O que é ser resiliente ? E uma aplicação resiliente ?
+Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.
+No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &amp;ldquo;roupagem&amp;rdquo; nas últimas versões do ." />
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "hmg2a17ahy");
+    </script>
+
+    
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
+    <title>Tratando a resiliência em chamadas HTTP - Carlos dos Santos</title>
+    
+    
+    <link rel="stylesheet" href="https://carloscds.net/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
+    
+    <base href="https://carloscds.net/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Tratando a resiliência em chamadas HTTP" />
+<meta property="og:description" content="O que é ser resiliente ? E uma aplicação resiliente ?
+Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.
+No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &ldquo;roupagem&rdquo; nas últimas versões do ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carloscds.net/2026/02/http-resilience/" />
+<meta property="article:published_time" content="2026-02-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-02-12T00:00:00+00:00" />
+<meta itemprop="name" content="Tratando a resiliência em chamadas HTTP">
+<meta itemprop="description" content="O que é ser resiliente ? E uma aplicação resiliente ?
+Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.
+No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &ldquo;roupagem&rdquo; nas últimas versões do .">
+<meta itemprop="datePublished" content="2026-02-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2026-02-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1245">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tratando a resiliência em chamadas HTTP"/>
+<meta name="twitter:description" content="O que é ser resiliente ? E uma aplicação resiliente ?
+Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.
+No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &ldquo;roupagem&rdquo; nas últimas versões do ."/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="http://carloscds.net" target="_blank">
+            <img class="img-circle img-rotate" src="https://avatars0.githubusercontent.com/u/1697221?s=460&amp;u=409a6ac4e0cca9f7302962ae6f6e375507c7d38f&amp;v=4" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Carlos dos Santos</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Technology and Code</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Developer world!</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-contact">
+                <a href="mailto:cdssoftware@hotmail.com?subject=Contato_Blog">
+                    <i class="icon icon-project"></i>
+                  <span class="menu-title">Contact</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-videos">
+                <a href="https://youtube.com/carloscds10">
+                    <i class="icon icon-book-fill"></i>
+                  <span class="menu-title">Videos</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">105</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet/" class="category-list-link">dotnet</a><span class="category-list-count">8</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet-core/" class="category-list-link">dotnet-core</a><span class="category-list-count">17</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/ef-core/" class="category-list-link">ef-core</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">34</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">9</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/premios/" class="category-list-link">premios</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/videos/" class="category-list-link">videos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">55</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">3</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/appservice/" class="tag-list-link">appservice</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/azure/" class="tag-list-link">azure</a><span
+                    class="tag-list-count">11</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/c-sharp/" class="tag-list-link">c-sharp</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/certificacao/" class="tag-list-link">certificacao</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/consultoria/" class="tag-list-link">consultoria</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/csharp/" class="tag-list-link">csharp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/devops/" class="tag-list-link">devops</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-4/" class="tag-list-link">ef-4</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-codefirst/" class="tag-list-link">ef-codefirst</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-codefirst-ef/" class="tag-list-link">ef-codefirst-ef</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/eforacle/" class="tag-list-link">eforacle</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entity-framework/" class="tag-list-link">entity-framework</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entityframework/" class="tag-list-link">entityframework</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/eventos/" class="tag-list-link">eventos</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/excel/" class="tag-list-link">excel</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/extensions/" class="tag-list-link">extensions</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/fuso-horario/" class="tag-list-link">fuso-horario</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/index/" class="tag-list-link">index</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/json/" class="tag-list-link">json</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/live/" class="tag-list-link">live</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdn/" class="tag-list-link">msdn</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/produvidade/" class="tag-list-link">produvidade</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/publish/" class="tag-list-link">publish</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/scrum/" class="tag-list-link">scrum</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/silverlight/" class="tag-list-link">silverlight</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/storage/" class="tag-list-link">storage</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tfs/" class="tag-list-link">tfs</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/time-zone/" class="tag-list-link">time-zone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tools/" class="tag-list-link">tools</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tuple/" class="tag-list-link">tuple</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/website/" class="tag-list-link">website</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows-8/" class="tag-list-link">windows-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows10/" class="tag-list-link">windows10</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/02/http-resilience/" class="title">Tratando a resiliência em chamadas HTTP</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-02-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-02-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/" class="title">Melhorando a organização do seu projeto - Exemplo básico de arquitetura</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-01-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2025/09/efcore-queryview/" class="title">EFCore.Visualizer - veja a sua query produzida pelo EF Core</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-09-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-09-01</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2025/06/aspnet-worker/" class="title">ASP.NET Worker - Criando jobs dentro da sua aplicação</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/" class="title">EF Migrations - Como rodar os updates se eu não tenho acesso direto ao banco ?</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2025-01-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-01-20</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="post-" class="article article-type-post" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2026/02/http-resilience/"
+    >Tratando a resiliência em chamadas HTTP</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2026/02/http-resilience/" class="article-date">
+  <time datetime="2026-02-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-02-12</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/aspnet/"> ASPNET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2026/02/http-resilience/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1245words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>O que é ser resiliente ? E uma aplicação resiliente ?</p>
+<p>Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.</p>
+<p>No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &ldquo;roupagem&rdquo; nas últimas versões do .NET. Hoje vamos falar do tratamento de resiliência em chamadas HTTP, ou seja, como lidar com ambientes onde a chamada pode nao responder e precisamos pelo menos garantir tentativas antes de apresentar um erro para o usuário.</p>
+<p>Ah, mas dá para resolver isto com um contador dentro de um for&hellip; Até dá, mas não seria uma solução estruturada e elegante!</p>
+<p>Não vamos colocar contadores, vamos trabalhar com uma nova extensão do ASP.NET chamada <strong>ResilienceHandler</strong>, que é derivada do popular pacote <a href="https://github.com/App-vNext/Polly">Polly</a>.</p>
+<h2 id="iniciando-o-projeto">Iniciando o projeto</h2>
+<p>Para este artigo iremos trabalhar com duas APIs em ASP.NET, uma principal que irá fazer chamadas para a outra. Estou também usando neste artigo o Visual Studio 2026 Preview e o .NET 11 Preview (sim tudo beta! rsrs)</p>
+<p>Crie uma Solution em branco no Visual Studio e depois adicione dois projetos, um chamado: HttpResiliente e outro chamado TesteAPI, ambos ASP.NET Core WebAPI. Depois de feito isto teremos a seguinte estrutura:</p>
+<p><img src="wp-content/uploads/2026/02/HttpResiliente_Solutions.png" alt=""></p>
+<p>O projeto HttpResilience usa Controllers, e o TesteAPI é bem mais simples e usa MinimalAPI.</p>
+<h3 id="projeto-httpresilience">Projeto HttpResilience</h3>
+<p>Para usarmos o conceito de Resiliencia temos que adicionar o pacote nuget:</p>
+<pre><code class="language-cmd">dotnet add package Microsoft.Extensions.Http.Resilience
+</code></pre>
+<h4 id="configurando-tudo-no-programcs">Configurando tudo no Program.cs</h4>
+<p><em>PS: neste exemplo nao usei o conceito de IoC para deixar mais simples!</em></p>
+<p>E depois no Program.cs adicionamos o Middleware - <em>AddResilienceHandler()</em>:</p>
+<pre><code class="language-csharp">public class Program
+{
+    public static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddControllers();
+        builder.Services.AddOpenApi();
+
+        builder.Services.AddHttpClient(&quot;TesteAPI&quot;, s =&gt; s.BaseAddress = new Uri(&quot;https://localhost:6001/&quot;)))
+            .AddResilienceHandler(&quot;TesteAPI-pipeline&quot;, builder =&gt; 
+            {
+                builder.AddRetry(new HttpRetryStrategyOptions
+                {
+                    MaxRetryAttempts = 3, // 3 tentativas
+                    Delay = TimeSpan.FromSeconds(3), // aguarda 3 segundos inicialmente
+                    BackoffType = DelayBackoffType.Exponential // vai dobrando: 3, 6, 12 e depois falha
+                });
+                builder.AddTimeout(TimeSpan.FromSeconds(3)); // tempo de timeout da chamada
+            });
+
+        var app = builder.Build();
+        app.MapOpenApi(&quot;/openapi/v1.json&quot;);
+        app.UseSwaggerUI(options =&gt;
+        {
+            options.RoutePrefix = &quot;swagger&quot;;
+            options.SwaggerEndpoint(&quot;/openapi/v1.json&quot;, &quot;OpenAPI V1&quot;);
+        });
+        app.MapControllers();
+        app.MapGet(&quot;/&quot; , () =&gt; &quot;HTTP Resilience - 2026 Carlos dos Santos &quot;);
+        app.UseMiddleware&lt;ResilienceMiddlewareException&gt;();
+        app.Run();
+    }
+</code></pre>
+<p>O inicio do Program.cs não tem mistério, basicamente adicionamos os middlewares de Controller e da OpenApi. Mas logo após vamos incluir o <strong>AddHttpClient()</strong> com a extensão <strong>AddResilienceHandler()</strong></p>
+<p>Aqui temos alguns pontos muitos importantes:</p>
+<ol>
+<li>Se você não usa HttpClient() e ClientFactory nas suas aplicações web, sugiro que começe! Isto evita muitos problemas de Socket no Sistema Operacional;</li>
+<li>Ao adicionar o <strong>HttpClient()</strong>, colocamos o nome <em>&ldquo;TesteAPI&rdquo;</em> e o endereço base da API que vamos consumir. Este nome será usado para criarmos os HttpClients nas chamadas. Isto cria um conceito de pool de HTTP e também padroniza a nossa API.</li>
+<li>Depois adicionamos o <strong>AddResilienceHandler()</strong>, colocamos um nome para ele: &ldquo;TesteAPI-pipeline&rdquo;, e configuramos a nossa política de resiliência.</li>
+</ol>
+<p>Explicando os parâmetros da política de resiliência:</p>
+<ul>
+<li>Quantas <em>tentativas</em> teremos antes de parar: cuidado para não colocar números muitos altos e travar a sua aplicação (no nosso exemplo 3 tentativas)</li>
+<li>Quanto <em>tempo vamos aguardar</em> entre cada tentativa ? (no nosso exemplo 3 segundos)</li>
+<li>Qual o <em>modelo de resiliência</em> que vamos adotar ? no caso deste exemplo escolhi Exponential, que vai dobrando os tempos (3, 6, e 12 segundos)</li>
+<li>E por fim, o <em>Timeout</em> das chamadas (no nosso exemplo 3 segundos)</li>
+</ul>
+<p>Simples e eficiente!</p>
+<p>Por fim, adicionei um Middleware para tratamento de erro. Eu ja abordei este tema <a href="https://carloscds.net/2024/07/tratamento-erros-inner-exception/">neste artigo</a>.</p>
+<h4 id="configurando-a-controller">Configurando a Controller</h4>
+<p>A nossa controller exemplo se chama TesteController e tem a seguinte estrutura:</p>
+<pre><code class="language-charp">using Microsoft.AspNetCore.Mvc;
+
+namespace HttpResilience.Controllers
+{
+    [ApiController]
+    [Route(&quot;[controller]&quot;)]
+    public class TesteController : ControllerBase
+    {
+        private readonly HttpClient _client;
+        public TesteController(IHttpClientFactory factory)
+        {
+            _client = factory.CreateClient(&quot;TesteAPI&quot;);
+        }
+
+        [HttpGet]
+        public async Task&lt;IActionResult&gt; Get()
+        {
+            var result = await _client.GetAsync(&quot;&quot;);
+            var resultMsg = await result.Content.ReadAsStringAsync();
+            if (result.IsSuccessStatusCode)
+            {
+                return Ok($&quot;Chamada: {resultMsg}&quot;);
+            }
+            return BadRequest($&quot;API Result: {resultMsg}&quot;);
+        }
+    }
+}
+</code></pre>
+<p>Para poder usar o <em>ResilienceHandler</em> vamos criar o HttpClient usando a Factory do ASP.NET (se você nunca ouviu falar disto, recomendo ler este <a href="https://learn.microsoft.com/pt-br/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests">artigo</a>)</p>
+<p>Quando criamos o HttpClient usando este código:</p>
+<pre><code class="language-csharp">public TesteController(IHttpClientFactory factory)
+{
+    _client = factory.CreateClient(&quot;TesteAPI&quot;);
+}
+</code></pre>
+<p>Estamos pegando do DI (Dependency Injection), um HttpClient vinculado ao nome &ldquo;TesteAPI&rdquo;, isto já cria o HttpClient com o BaseAddress e toda a configuração de Resiliência.</p>
+<p>Agora é só fazer a chamada da mesma maneira que você já faz, mas observe que ao fazer a chamada, não temos nenhum código de tratamento de tentativa, pois isto veio já pronto quando pegamos a instância do HttpClient.</p>
+<p>Nem mesmo o tratamento de erro está aqui, pois eu coloquei um Middleware de Exception. Você simplesmente chama a API e trata o resultado, o restante é por conta do ResilienceHandler().</p>
+<p>Simples assim!!!</p>
+<p>Agora vamos criar a API para chamarmos no teste.</p>
+<h3 id="projeto-testeapi">Projeto TesteAPI</h3>
+<p>Este projeto é muito simples. Basicamente um minimal API com um único endpoint. Veja o Program.cs</p>
+<pre><code class="language-csharp">var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+app.MapGet(&quot;/&quot;, () =&gt; $&quot;TesteAPI - {DateTime.Now}&quot;);
+app.Run();
+</code></pre>
+<p>Pronto, agora alguns detalhes antes de executarmos a aplicação.</p>
+<h3 id="configurando-o-ambiente-para-execução">Configurando o ambiente para execução</h3>
+<p>Vamos editar os arquivos <strong>launchSettings.json</strong> dos dois projetos.</p>
+<p>No projeto HttpResilience, coloque o seguinte:</p>
+<pre><code class="language-json">{
+  &quot;$schema&quot;: &quot;https://json.schemastore.org/launchsettings.json&quot;,
+  &quot;profiles&quot;: {
+    &quot;https&quot;: {
+      &quot;commandName&quot;: &quot;Project&quot;,
+      &quot;dotnetRunMessages&quot;: true,
+      &quot;launchBrowser&quot;: false,
+      &quot;applicationUrl&quot;: &quot;https://localhost:5001;http://localhost:5000&quot;,
+      &quot;environmentVariables&quot;: {
+        &quot;ASPNETCORE_ENVIRONMENT&quot;: &quot;Development&quot;
+      }
+    }
+  }
+}
+</code></pre>
+<p>E no projeto TesteAPI, o seguinte:</p>
+<pre><code class="language-json">{
+  &quot;$schema&quot;: &quot;https://json.schemastore.org/launchsettings.json&quot;,
+  &quot;profiles&quot;: {
+    &quot;https&quot;: {
+      &quot;commandName&quot;: &quot;Project&quot;,
+      &quot;dotnetRunMessages&quot;: true,
+      &quot;launchBrowser&quot;: false,
+      &quot;applicationUrl&quot;: &quot;https://localhost:6001;http://localhost:5006&quot;,
+      &quot;environmentVariables&quot;: {
+        &quot;ASPNETCORE_ENVIRONMENT&quot;: &quot;Development&quot;
+      }
+    }
+  }
+}
+</code></pre>
+<p>Basicamente informamos que o projeto HttpResilience vai rodar na porta HTTPS 5001 e o projeto TesteAPI na porta HTTPS 6001</p>
+<p>Agora vamos rodar e ver o que acontece!</p>
+<h3 id="rodando-os-dois-projetos">Rodando os dois projetos</h3>
+<p>Você pode rodar pelo Visual Studio marcando a execução simultânea dos dois projetos, mas eu vou preferir rodar pela linha de comando para poder parar o projeto de Teste e depois rodar novamente! Faça ai como achar mais interessante!</p>
+<h4 id="rodando-na-linha-de-comando">Rodando na linha de comando</h4>
+<p>Entre no diretório do projeto HttpResilience e digite o comando:</p>
+<pre><code class="language-cmd">dotnet run --launch-profile https
+</code></pre>
+<p>Depois entre no diretório do projeto TesteAPI e faça o mesmo!</p>
+<p>Agora temos as duas APIs em execução:
+<img src="wp-content/uploads/2026/02/HttpResiliente_Running.png" alt=""></p>
+<p>Acesse o <a href="https://localhost:5001/swagger">Swagger da API HttpResilience</a> e depois chame o endereço /Teste e faça o teste!</p>
+<p>Ele vai rodar e retornar o valor: &ldquo;Chamada: TesteAPI - 23/02/2026 22:47:15&rdquo; <em>(aqui você verá a data da execução)</em></p>
+<h4 id="verificando-a-resiliência">Verificando a resiliência</h4>
+<p>Feche o programa do TesteAPI e execute novamente a chamada pelo Swagger&hellip;</p>
+<p>Você verá um &ldquo;Loading&hellip;&rdquo; e depois de um tempo um erro 500, que é retornado pelo Middleware de Erros.</p>
+<p>Agora faça o teste novamente: chamando a API pelo Swagger, depois derrube a API de testes, espere 3 segundos e execute novamente a linha de comando&hellip;</p>
+<p>Você vai ver que a chamada foi executada sem erros! Isto significa que o chamador (HttpResilience) ficou tentando fazer a requisição e durante o tempo configurado na política a API voltou a funcionar e a chamada deu certo!</p>
+<p>Pronto, agora temos Resiliência na nossa API!</p>
+<h3 id="considerações">Considerações</h3>
+<p>É muito importante que você trate erros de chamada HTTP na sua aplicação, sempre levando em consideração que o serviço chamado pode sofrer alguma instabilidade e a sua aplicação precisa lidar com isto sem cair!</p>
+<p>Como eu falei antes, existem diversas maneiras de tratar a Resiliência no ASP.NET, leia a <a href="https://learn.microsoft.com/pt-br/dotnet/core/resilience/http-resilience?tabs=dotnet-cli">documentação</a> e adapte para a sua realidade!</p>
+<p>O código fonte do exemplo está no meu <a href="https://github.com/carloscds/CSharpSamples/tree/master/HttpResilience">GitHub</a>.</p>
+<p>Abraços e até a próxima!</p>
+
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+
+        <script type="text/javascript">
+
+            var disqus_config = function () {
+                this.page.url = 'https:\/\/carloscds.net\/2026\/02\/http-resilience\/';
+                this.page.identifier = 'Tratando a resiliência em chamadas HTTP';
+                this.page.title = 'Tratando a resiliência em chamadas HTTP';
+            };
+    
+            (function() {  
+                var d = document, s = d.createElement('script');
+
+                s.src = '//carloscds.disqus.com/embed.js';  
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+
+        </script>
+
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://carloscds.net/2026/01/melhorandoorganizacaoprojeto/" title="Melhorando a organização do seu projeto - Exemplo básico de arquitetura"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="facebook,twitter,linkedin, youtube"
+                data-mobile-sites=""></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://www.facebook.com/carloscds" target="_blank" title="facebook" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-facebook"></i></a></li>
+    <li><a href="https://github.com/carloscds" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://carloscds.net/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+    <li><a href="https://youtube.com/carloscds10" target="_blank" title="youtube" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-youtube"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2008  -
+    2026
+    
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/csharp.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://carloscds.net/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://carloscds.net/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/carloscds.net\/',
+            CONTENT_URL: 'https:\/\/carloscds.net\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://carloscds.net/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/carloscds.net\/2026\/02\/http-resilience\/';
+        this.page.identifier = 'Tratando a resiliência em chamadas HTTP';
+        this.page.title = 'Tratando a resiliência em chamadas HTTP';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'carloscds' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8863591-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
