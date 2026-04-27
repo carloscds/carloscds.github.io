@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Migrei um projeto de ASP.NET Core usando o GitHub Copilot</title>
+      <link>https://carloscds.net/2026/04/migreiumprojetocomcopilot/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/04/migreiumprojetocomcopilot/</guid>
+      <description>Pode parecer facil migrar um projeto não é ? Só trocar as referências no csproj e rodar uns updates no nuget, e pronto!
+Façil falar, mais difícil e complexo fazer!
+Cenário Temos um projeto na empresa que precisa gerar um QRCode para PIX, e para isto usamos um componente para &amp;ldquo;desenhar&amp;rdquo; o QRCode. Parece simples, até você tentar rodar isto em um container usando Linux Alpine.
+Não é tão simples assim, primeiro que o Linux Alpine é extremamente enxuto e depois de algum tempo você chega a conclusão que instalar libgdiplus nele pode ser um pouco mais trabalhoso do que parece.</description>
+    </item>
+    
+    <item>
       <title>Tratando a resiliência em chamadas HTTP</title>
       <link>https://carloscds.net/2026/02/http-resilience/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
@@ -212,18 +224,6 @@ Configuração muda de acordo com o Sistema Operacional Quando o App Service est
 Você que é um usuário de EntityFramework, já parou para olhar as queries que são geradas no banco ? Eu sempre faço esta pergunta em empresas que atendo e a resposta na grande maioria das vezes é: NÃO.
 Sempre ouço: o EntityFramework resolve isto para mim! Ele sabe como criar o melhor comando SQL para o banco, e muitas outras respostas!
 Mas a grande verdade é que o EntityFramework não faz milagres!</description>
-    </item>
-    
-    <item>
-      <title>Datas Estranhas no Entity Framework Core</title>
-      <link>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</link>
-      <pubDate>Mon, 22 Mar 2021 21:30:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2021/03/entity-framework-core-datas-estranhas/</guid>
-      <description>Olá pessoal,
-Quando trabalhamos com bancos de dados e aplicações em fusos horários diferentes, é normal que façamos uma configuração no nosso código para ajustar a data e hora, certo ?
-Problema O que acontece se você submeter uma consulta do tipo:
-select numero,data,valor from pedido where cast(data as date) = cast(getdate() as date) A data utilizada aqui será a do bando de dados, não da sua aplicação. Ora, mas isto está na cara, não é ?</description>
     </item>
     
   </channel>

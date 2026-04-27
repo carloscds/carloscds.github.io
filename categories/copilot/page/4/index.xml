@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copilot on Carlos dos Santos</title>
+    <link>https://carloscds.net/categories/copilot/</link>
+    <description>Recent content in Copilot on Carlos dos Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://carloscds.net/categories/copilot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desenvolva com Microsoft sem gastar dinheiro</title>
+      <link>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</link>
+      <pubDate>Sat, 02 Apr 2016 19:04:43 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/04/desenvolva-com-microsoft-sem-gastar-dinheiro/</guid>
+      <description>Ola pessoal,
+Esta semana tivemos fortes emoções no mundo Microsoft durante o evento Build. Foram tantos anúncios que levaremos semanas para entender tudo que aconteceu e principalmente o que vai acontecer daqui para frente, mas resumindo em poucas palavras: Muita coisa agora é open source, de graça mesmo!
+Nesta onda de ferrmentas gratuitas e open source, gostaria de apresentar a vocês o portal Visual Studio Dev Essentials:
+Bom, mas o que tem de tão especial neste portal ?</description>
+    </item>
+    
+    <item>
+      <title>Sua aplicação web está online neste momento ?</title>
+      <link>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</link>
+      <pubDate>Mon, 28 Mar 2016 11:52:44 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/03/sua-aplicao-web-est-online-neste-momento/</guid>
+      <description>Esta é realmente uma pergunta complicada não acham ? Como determinar se minha aplicação está funcionando, sem ficar olhando para ela ?
+Existem várias maneiras de resolver este problema, mas vou mostrar como monitorar isto usando o Application Insights do Microsoft Azure.
+É bem simples, vamos lá! Abra o portal do Azure: http://portal.azure.com com seu usuário e senha, caso não tenha um, basta criar uma conta trial.
+Dentro do portal, vá em Application Insights:</description>
+    </item>
+    
+    <item>
+      <title>CodeCracker no Channel9</title>
+      <link>https://carloscds.net/2015/12/codecracker-no-channel9/</link>
+      <pubDate>Wed, 30 Dec 2015 14:31:07 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/codecracker-no-channel9/</guid>
+      <description>Fala galera,
+Gostaria de compartilhar com vocês um vídeo que acabou de entrar no Channel9 sobre o projeto CodeCracker. Neste vídeo nós falamos um pouco do projeto, como contribuir e principalmente, como usar!
+Lembrando que você precisa do Visual Studio 2015 para poder trabalhar com o CodeCracker, pois ele é baseado no compilador Roslyn.
+Abraços e até a próxima,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio MarketPlace</title>
+      <link>https://carloscds.net/2015/12/visual-studio-marketplace/</link>
+      <pubDate>Mon, 28 Dec 2015 21:13:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/visual-studio-marketplace/</guid>
+      <description>Olá pessoal,
+Você ja teve aquele necessidade de instalar uma extensão para o Visual Studio e não sabia onde começar a procurar ? Bem, para resolver isto a Microsoft criou o Visual Studio Marketplace, que tem o objetivo de centralizar extensões e assinaturas do Visual Studio.
+Para acessar, entre no site https://marketplace.visualstudio.com/, mas vejam que não é somente para o Visual Studio que existem extensões…
+Existem também para o Visual Studio Team Services (anteriormente conhecido como Visual Studio Online), para o Visual Studio Code (editor de código multi plataforma) e também um link para você fazer assinaturas da plataforma Visual Studio.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework PowerTool no Visual Studio 2015</title>
+      <link>https://carloscds.net/2015/12/entity-framework-powertool-no-visual-studio-2015/</link>
+      <pubDate>Mon, 21 Dec 2015 20:35:17 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/entity-framework-powertool-no-visual-studio-2015/</guid>
+      <description>Olá,
+Se você usa bastante o EF CodeFirst como eu e já está no Visual Studio 2015, deve ter sentido falta do EF PowerTools. Infelizmente ele ainda não foi portado para esta versão do Visual Studio.
+Mas calma aí, existe uma maneira de instalar a versão atual no VS 2015. Para isto, primeiro baixe o componente da Visual Studio Galery. Veja na imagem abaixo que ele não suporta o VS 2015:</description>
+    </item>
+    
+    <item>
+      <title>Aula no Student to Business Maring&amp;aacute;</title>
+      <link>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</link>
+      <pubDate>Mon, 14 Dec 2015 08:53:41 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/12/aula-no-student-to-business-maring/</guid>
+      <description>Olá pessoal,
+Este último sábado (12/12/2015) tive a felicidade de participar do Student to Business (S2B) em Maringá, ministrando uma aula sobre Aplicações Móveis e Azure. Foi muito legal poder conversar com uma galera jovem e entusiasmada com tecnologia. Realmente muito gratificante!
+Fio um conteúdo muito denso, mas espero que tenham conseguido pegar a essência, pois o tempo foi muiti curso. Falamos sobre uso do Azure para Mobilidade, publicação de Apps no DevCenter, Telemetria usando Insights e muito mais!</description>
+    </item>
+    
+    <item>
+      <title>GitHub&amp;ndash;Boas Pr&amp;aacute;ticas</title>
+      <link>https://carloscds.net/2015/11/githubboas-prticas/</link>
+      <pubDate>Mon, 30 Nov 2015 15:10:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/11/githubboas-prticas/</guid>
+      <description>Pessoal,
+Durante o último MVP Summit, em Redmond nos Estados Unidos, tive o prazer de gravar um vídeo (em inglês) com o Phill Hack e mais alguns MVPs e RDs sobre boas práticas em projetos open source no Github. Se você trabalha com GitHub ou com projetos open source, vale a pena assistir ao vídeo e entender um pouco mais do que é praticado mundo afora!
+O link para o vídeo é este aqui.</description>
+    </item>
+    
+    <item>
+      <title>MVA Student to Business&amp;ndash;Desenvolvimento de Sistemas</title>
+      <link>https://carloscds.net/2015/11/mva-student-to-businessdesenvolvimento-de-sistemas/</link>
+      <pubDate>Mon, 30 Nov 2015 14:57:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/11/mva-student-to-businessdesenvolvimento-de-sistemas/</guid>
+      <description>Olá pessoal,
+Recentemente eu gravei um vídeo sobre o Visual Studio 2015 para o programa Student to Business. Neste vídeo eu dou uma visão geral do Visual Studio e da Plataforma .Net, mostro também algumas das plataformas e o que é possível fazer com ela.
+Se você é um iniciante na ferramenta ou até mesmo quer entender melhor o que ela faz, recomendo que você assista ao vídeo clicando aqui.</description>
+    </item>
+    
+    <item>
+      <title>TechEd 2015</title>
+      <link>https://carloscds.net/2015/09/teched-2015/</link>
+      <pubDate>Mon, 28 Sep 2015 08:13:40 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/09/teched-2015/</guid>
+      <description>Este foi um evento sensacional, uma tela gigante no keynote e palestrantes incríveis, como o chefe do Microsoft Research (Rico Malvar), que é um brasileiro e fez uma demonstração ao vivo do Skype Translator em Português. Bom também foi rever os amigos e principalmente ser palestrante em duas sessões deste que foi o maior evento de tecnologia da América Latina. Tivemos também uma participação especial do maestro João Carlos Martins, uma pessoa com uma história de vida e superação incríveis!</description>
+    </item>
+    
+    <item>
+      <title>Palestra Azure Univem</title>
+      <link>https://carloscds.net/2015/09/palestra-azure-univem/</link>
+      <pubDate>Fri, 11 Sep 2015 18:50:53 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/09/palestra-azure-univem/</guid>
+      <description>Ontem estive na Univem de Marília falando sobre o Microsoft Azure. o que chamou a atenção neste evento é que fui convidado para dar entrevista em um canal local de televisão, para o programa 4 Notícias. Achei bem legal a iniciativa de divulgar o evento, que é a Semana de Computação, bem como o conteúdo, em um programa de televisão local.
+Agradeço a todos pelas presença e principalmente pelos questionamentos, que tornam a palestra ainda mais produtiva!</description>
+    </item>
+    
+    <item>
+      <title>Participe do lançamento do Visual Studio 2015 #visualstudiortm</title>
+      <link>https://carloscds.net/2015/07/participe-do-lanamento-do-visual-studio-2015-visualstudiortm/</link>
+      <pubDate>Wed, 08 Jul 2015 10:04:33 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/07/participe-do-lanamento-do-visual-studio-2015-visualstudiortm/</guid>
+      <description>Em 20 de julho, iremos celebrar a última release do Visual Studio 2015!
+Convidamos a todos a aprender sobre as novas features e tecnologias que acompanharão a nova versão. Você poderá interagir na sessão ao vivo, participar da sessão de perguntas e respostas com o time de engenharia, além de se aprofundar em detalhes técnicos, em mais de 60 sessões on-demand. Para acessar, clique aqui.
+Teremos também a oportunidade de ver o time de Visual Studio criando uma solução fim-a-fim em um projeto open-source, alavancando as mais novas ferramentas e tecnologias.</description>
+    </item>
+    
+    <item>
+      <title>Hangout Projeto CodeCracker</title>
+      <link>https://carloscds.net/2015/06/hangout-projeto-codecracker/</link>
+      <pubDate>Mon, 22 Jun 2015 21:55:46 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/06/hangout-projeto-codecracker/</guid>
+      <description>Pessoal,
+hoje fizemos mais um hangout sobre o projeto CodeCracker que estamos trabalhando desde novembro de 2014. Este projeto trata da criação de analisadores estáticos de código e fixers utilizando o novo compilador Roslyn. É um projeto totalmente open source e está hospedado no GutHub.
+Se você está interessado em aprender como o compilador funciona e escrever analisadores de código, nós estamos procurando você 😊
+Assista ao vídeo que conta um pouco do que está acontecendo no projeto e também onde mostramos as várias formas de contribuição, mesmo que você não entenda muito de GitHub, porque isto podemos ensinar par você.</description>
+    </item>
+    
+    <item>
+      <title>Build Tour São Paulo</title>
+      <link>https://carloscds.net/2015/05/build-tour-so-paulo/</link>
+      <pubDate>Fri, 29 May 2015 16:47:36 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/05/build-tour-so-paulo/</guid>
+      <description>Na semana passada tivemos o Build Tour em São Paulo, uma versão compacta do evento americando. Neste evento foram mostradas várias novidades do Windows 10 e da nova plataforma de desenvolvimento, a Windows Universal Apps.
+no dia seguinte ao evento, eu e mais dois MVPs fomos convidados a comentar o evento na sede da Microsoft. Esta nossa conversa foi transmitida ao vivo e agora está disponível no site para quem não pode assisir.</description>
+    </item>
+    
+    <item>
+      <title>MVP Virtual Conference</title>
+      <link>https://carloscds.net/2015/05/mvp-virtual-conference-2/</link>
+      <pubDate>Sat, 02 May 2015 10:23:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/05/mvp-virtual-conference-2/</guid>
+      <description>Olá amigos!
+Gostaria de convidá-los para o grande evento que a Microsoft e os MVPs estão organizando, e que acontecerá nos dias 14 e 15 de maio, a partir das 12h00 (Horário de Brasilia)
+Junte-se aos MVPs do Brasil, Estados Unidos e Latam que estarão compartilhando o seu conhecimento em sessões práticas e gratuitas, com cenários do mundo real e últimas novidades sobre Tecnologia Microsoft.
+O MVP Virtual Conference trará 95 sessões com conteúdo para IT Pros, Developers e Consumer experts, planejadas para ajudá-lo a navegar no momento mobile-first Cloud first.</description>
+    </item>
+    
+    <item>
+      <title>C# 6</title>
+      <link>https://carloscds.net/2015/03/c-6/</link>
+      <pubDate>Mon, 02 Mar 2015 15:30:53 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/03/c-6/</guid>
+      <description>Fala pessoal,
+Na última sexta-feira (27/02) eu fiz uma palestra online no Codificando Night Week sobre as novidades do C# 6. O vídeo da minha apresentação já está no Youtube e pode ser baixado aqui. Disponibilizei também os PPT no Slideshare e você pode obter neste link.
+Abraços e até a próxima.
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2015 e C# - Algumas Novidades</title>
+      <link>https://carloscds.net/2014/11/visual-studio-2015-e-c-6algumas-novidades/</link>
+      <pubDate>Sun, 16 Nov 2014 18:02:58 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/11/visual-studio-2015-e-c-6algumas-novidades/</guid>
+      <description>Olá, como todos já devem saber a Microsoft liberou na última quarta-feira (12/11) a versão Public Preview do Visual Studio 2015 e também uma versão free agora chamada de Visual Studio 2013 Community. Junto com o Visual Studio 2015 temos agora o novo C# 6. Neste post vou falar sobre algumas das novidades da IDE e também do C# 6.
+Novidades da IDE:
+Code Fixer: identifica problemas no código e mostrar possíveis soluções:</description>
+    </item>
+    
+    <item>
+      <title>C# Roslyn e Projeto Open Source - CodeCracker</title>
+      <link>https://carloscds.net/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/</link>
+      <pubDate>Thu, 13 Nov 2014 23:14:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/</guid>
+      <description>Esta semana a Microsoft anunciou o novo Visual Studio 2015 e junto com ele o C# 6 com seu novo compilador, anteriormente conhecido como Roslyn e agora oficialmente chamado de .Net Compiler Platform.
+Com o Roslyn possível termos acesso a estrutura do compilador, sua árvore sintática e também mudar o seu comportamento através de componentes chamados Analyzers.
+Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, participei de um hackaton com o time do compilador Roslyn, onde eu e diversos outros MVPs tivemos a oportunidade de escrever alguns analyzers juntamente com o time do Roslyn e durante este mesmo evento surgiu a idéia de criarmos um projeto Open Source contendo diversos analyzers, totalmente aberto e free, disponível para toda a comunidade de desenvolvedores, nascia então o projeto CodeCracker, naquele momento criamos o time inicial, composto por mim, Giovanni Bassi e o Elemar Junior, todos MVPs de C#.</description>
+    </item>
+    
+    <item>
+      <title>ALM Summit 2014</title>
+      <link>https://carloscds.net/2014/09/alm-summit-2014/</link>
+      <pubDate>Mon, 08 Sep 2014 10:33:55 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/09/alm-summit-2014/</guid>
+      <description>Olá pessoal,
+Aconteceu no último dia 30 de agosto de 2014, na sede da Microsoft em São Paulo, mais uma edição do ALM Summit Brasil. Neste ano tive a oportunidade de palestrar sobre os novos recursos de telemetria do Visual Studio Online e Microsoft Azure, o Application Insights.
+Confira as fotos do evento
+Um grande abraço e até a próxima,
+Carlos dos Santos.</description>
+    </item>
+    
+    <item>
+      <title>Dapper - Um Micro ORM muito interessante</title>
+      <link>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</link>
+      <pubDate>Sun, 07 Sep 2014 17:46:32 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/09/dapperum-micro-orm-muito-interessante-2/</guid>
+      <description>Olá pessoal,
+Eu utilizo muito EntityFramework nos projetos da empresa, pois trabalhar com classes e objetos é muito mais simples do que utulizar acessio a dados tradicionais. Mas recentemente comecei a utilizar o Dapper, que pode ser chamado de um micro ORM, pois ele possui algumas funcionalidades bem pontuais para trabalharmos com acesso a dados.
+Então vamos pensar em um cenário onde você precisa consultar um banco de dados qualquer, e colocar o resultado desta consulta em um objeto.</description>
+    </item>
+    
+    <item>
+      <title>EntityFramework-Lendo seu banco de dados com o Visual Studio 2013 Update 2</title>
+      <link>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</link>
+      <pubDate>Wed, 02 Jul 2014 09:02:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2014/07/entityframework-lendo-seu-banco-de-dados-com-o-visual-studio-2013-update-2/</guid>
+      <description>Olá pessoal,
+Há algum tempo atrás eu fiz um post falando sobre como proveitar seu banco de dados existente com o EntityFramework PowerTools, mas o modelo do PowerTools não permite escolher as tabelas ou views que você quer ler, e ás vezes isto é bem útil.
+Com o lançamento do Update 2 do Visual Studio 2013 e também do EntityFramework 6.1, foi adicionada uma nova opção nas fontes de dados, que agora permite também fazer engenharia reversa com CodeFirst escolhendo quais tabelas e views serão lidas, a exemplo do que já era possível com o EntityFramework Designer.</description>
+    </item>
+    
+  </channel>
+</rss>
