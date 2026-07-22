@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Curso de C# no IFPR</title>
+      <link>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</link>
+      <pubDate>Mon, 03 Oct 2011 20:32:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2011/10/curso-de-c-no-ifpr/</guid>
+      <description>Nos dias 14 e 15 de setembro eu ministrei um curso básico de C# para os alunos do curso técnico do Instituto Federal do Paraná (www.ifpr.edu.br) a convite do Prof. Rodolfo Barrivieira.
+Neste treinamento os alunos tiveram a oportunidade de conhecer a plataforma Microsoft.Net e o Visual Studio 2010, num total de 8 horas de curso.
+Abraços,
+Carlos.</description>
+    </item>
+    
+    <item>
       <title>TechEd 2011–Palestra Entity Framework</title>
       <link>https://carloscds.net/2011/10/teched-2011palestra-entity-framework/</link>
       <pubDate>Sun, 02 Oct 2011 20:45:27 -0300</pubDate>
@@ -232,21 +244,6 @@ Para quem achar interessante, existe um treinamento gratuito de Visual Studio 20
 O treinamento está em Inglês mas é muito bom.
 []s,
 Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Promoção Indique Azure</title>
-      <link>https://carloscds.net/2010/11/promoo-indique-azure/</link>
-      <pubDate>Fri, 26 Nov 2010 08:36:19 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/11/promoo-indique-azure/</guid>
-      <description>Pessoal,
- Sobre a promoção Indique Azure (www.indiqueazure.com.br) , segue abaixo um tutorial que explica como participar:
-   Crie sua conta no Portal do Windows Azure: http://www.slideshare.net/indiqueazure/como-assinar-windows-azure
-  Baixe o Programa para fazer o Upload do arquivo: www.sharpcode.com.br/downloads/SetupBlobUp.zip
-  Instale o programa e cadastre uma foto qualquer no Blob do Azure, como neste exemplo:
-  http://anobre.blob.core.windows.net/concursofotonuvem/foto_56afcb65-a410-4b85-8147-bf960c832a16.jpg.
- No Slide do item 1, tem as instruções de como publicar a imagem</description>
     </item>
     
   </channel>
