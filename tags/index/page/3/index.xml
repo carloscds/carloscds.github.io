@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Trabalhando com SQL na linha de comando</title>
+      <link>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</link>
+      <pubDate>Mon, 25 Dec 2017 21:42:46 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2017/12/trabalhando-com-sql-na-linha-de-comando/</guid>
+      <description>Olá pessoal,
+Hoje em dia, apesar de IDEs super poderosas, com milhares de funcionalidades, às vezes nos deparamos com procedimentos que são necessários na linha de comandos, nosso bom e velho Command Prompt.
+Mas porque eu teria que usar uma ferramenta de linha de comando se tenho o Management Studio, o Visual Studio e agora também o Operations Studio ? Isto é simples, você pode estar em um ambiente onde não existe sequer um modo gráfico, o que é muito comum em servidores, principalmente Linux.</description>
+    </item>
+    
+    <item>
       <title>SQL Operations Studio</title>
       <link>https://carloscds.net/2017/11/sql-operations-studio/</link>
       <pubDate>Sun, 19 Nov 2017 21:00:06 -0300</pubDate>
@@ -227,16 +238,6 @@ Falar de Microsoft Open Source parece ser algo inimaginável, mas é a pura real
       <guid>https://carloscds.net/2016/04/codecracker-1-0/</guid>
       <description>Depois de um longo tempo e muito trabalho, temos o oriulho de anunciar a versão 1.0 do CodeCracker, uma das mais populares ferramentas para análise estática de código do mercado, e totalmente free e open source.
 Só relembrando, Análise Estática de Código, é o fato de conseguirmos analisar seu código direto no editor, sem a necessidade de compilar. Com o compilador Roslyn (.Net Compiler), que veio junto com o Visual Studio 2015, se tornou possível escrever códigos (analisadores e fixers) que atuam no fluxo da compilação, pois o Roslyn atua como “Compiler as a Service”, um serviço de compilação que podemos consumir.</description>
-    </item>
-    
-    <item>
-      <title>C# Interativo (REPL)</title>
-      <link>https://carloscds.net/2016/04/c-interativo-repl/</link>
-      <pubDate>Sat, 02 Apr 2016 20:34:24 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2016/04/c-interativo-repl/</guid>
-      <description>Alguma vez você já pensou em testar aquele trecho de código sem precisar compilar toda a solução ?
-Acho que este é um sonho de vários desenvolvedores. Será que dá para executar só aquele “pedacinho” do código ? Normalmente você tem que executar o codigo todo e fazer um braek point e depois rodar o debug sem parar, ou mais ainda, quem de nós que nunca criou um programa console só para testar um trecho de código ?</description>
     </item>
     
   </channel>

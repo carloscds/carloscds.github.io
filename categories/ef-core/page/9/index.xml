@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Evento sobre Visual Studio 2010 na Unioeste em Cascavel</title>
+      <link>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</link>
+      <pubDate>Wed, 14 Apr 2010 15:40:09 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-unioeste-em-cascavel/</guid>
+      <description>Agora pouco eu e o Alexsandro Salmazo (funcionário da Microsoft) fizemos uma palestra na Unioeste em Cascavel/PR.
+O Salmazo abriu o evento falando sobre diversas tecnologias e aplicações que a Microsoft possui, foi muito bom!!!
+Depois eu falei sobre várias funcionalidades do novo Visual Studio 2010, EF 4, WPF, Silverlight e Azure, enfim, fiz um overview da plataforma .Net e do Visual Studio 2010.
+Agradecemos o convite da universidade e esperamos voltar lá em breve.</description>
+    </item>
+    
+    <item>
       <title>Evento sobre Visual Studio 2010 na PUC em Londrina</title>
       <link>https://carloscds.net/2010/04/evento-sobre-visual-studio-2010-na-puc-em-londrina/</link>
       <pubDate>Wed, 14 Apr 2010 15:33:23 -0300</pubDate>
@@ -225,18 +237,6 @@ Equipe de desenvolvimento da Agili.</description>
 Mas como tirar proveito destes recursos em operações simples ? O que vou mostrar agora é como transformar dois comandos simples da linguagem C# com o uso da programação paralela.
 Primeiramente vou montar um laço for tradicional:
 for (int i = 0; i &amp;lt; 100; i++){Console.</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio 2010 – reinvindicação atendida</title>
-      <link>https://carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</link>
-      <pubDate>Wed, 28 Oct 2009 22:49:53 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/10/visual-studio-2010-reinvindicacao-atendida/</guid>
-      <description>Pessoal,
-Estou realmente muito contente com as melhorias que estão sendo feitas no Visual Studio 2010 e a cada dia me surpreendo com a velocidade das mudanças.
-Uma coisa que foi muito solicitada durante o http://mvp.support.microsoft.com/MVPsummit (evento de MVPs na Microsoft/USA), foi a lentidão da janela Add Reference. Acredito que muitos de vocês já ficaram algum tempo esperando esta janela abrir para poder adicionar algo ao projeto.
-Agora, no Beta 2, já tivemos o tão esperado ajuste desta janela, ela simplesmente abre instantaneamente e você já pode adicionar as referências.</description>
     </item>
     
   </channel>

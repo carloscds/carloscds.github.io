@@ -162,9 +162,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">4</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">106</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">107</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/copilot/" class="category-list-link">copilot</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
@@ -387,6 +387,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2026/07/shortcircuitaspnet/" class="title">ShortCircuit: Pulando o pipeline de Middlewares no ASP.NET Core</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-07-21</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2026/04/migreiumprojetocomcopilot/" class="title">Migrei um projeto de ASP.NET Core usando o GitHub Copilot</a>
                     </p>
                     <p class="item-date">
@@ -424,16 +434,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2025/06/aspnet-worker/" class="title">ASP.NET Worker - Criando jobs dentro da sua aplicação</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2025-06-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2025-06-03</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -449,6 +449,45 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2026/07/shortcircuitaspnet/"
+    >ShortCircuit: Pulando o pipeline de Middlewares no ASP.NET Core</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Você já parou para pensar em quantos Middlewares são executados antes da sua Controller responder um simples &ldquo;OK&rdquo; ? Autenticação, CORS, Roteamento, Rate Limiting, Logging&hellip; e às vezes o seu endpoint nem precisa de nada disso!
+Pensando nisso, o ASP.NET Core adicionou um novo atributo chamado [ShortCircuit], que faz o endpoint ser executado logo após o Roteamento, &ldquo;pulando&rdquo; todo o restante do pipeline de Middlewares.
+Mas isto não é novidade ?
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2026/07/shortcircuitaspnet/" class="">
+  <time datetime="2026-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-07-21</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/aspnet/"> ASPNET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2026/07/shortcircuitaspnet/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 801words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -683,45 +722,6 @@ Então podemos criar em uma aplicação ASP.NET, um código que é sempre execut
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2025/01/ef-migrations-rodando-em-um-banco-sem-acesso-direto/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1486words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 7minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2024/12/visualstudio-codesearch/"
-    >Visual Studio CodeSearch - Ficou muito bom!</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Se você já está usando o Visual Studio 2022 ou 2022 Preview, pode usar este novo recurso que encontra qualquer coisa no seu código! Se você ainda não usa, baixe agora mesmo uma das versões do Visual Studio 2022.
-Esta é uma dica simples, mas que pode te animar a usar o Visual Studio 2022.
-Busca no código ? Se você já usa Visual Studio há agum tempo deve estar acostumado a usar o Find in Files certo ?
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2024/12/visualstudio-codesearch/" class="">
-  <time datetime="2024-12-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">2024-12-10</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-  <a class="article-category-link" href="/categories/visual-studio/"> Visual Studio </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2024/12/visualstudio-codesearch/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 261words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
       </p>
     </article></div>
   
