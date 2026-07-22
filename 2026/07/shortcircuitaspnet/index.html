@@ -55,7 +55,7 @@ Pensando nisso, o ASP.NET Core adicionou um novo atributo chamado [ShortCircuit]
 Mas isto não é novidade ?">
 <meta itemprop="datePublished" content="2026-07-21T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2026-07-21T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="801">
+<meta itemprop="wordCount" content="815">
 
 
 
@@ -496,7 +496,7 @@ Mas isto não é novidade ?"/>
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2026/07/shortcircuitaspnet/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 801words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 815words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
       </div>
     </div>
@@ -624,6 +624,7 @@ internal sealed class ExceptionHandlingMiddleware
 <h3 id="considerações">Considerações</h3>
 <p>É um recurso simples, mas que ajuda bastante em performance quando você tem endpoints que realmente não precisam de todo aquele pipeline de Middlewares rodando por baixo dos panos. Health checks e arquivos estáticos como o robots.txt são os candidatos perfeitos para o <strong>[ShortCircuit]</strong>.</p>
 <p>Vale lembrar: use com cuidado! Se o seu endpoint short-circuited passar a precisar de autenticação ou CORS no futuro, você vai precisar remover o atributo, senão aquele Middleware simplesmente não vai ser executado.</p>
+<p>Um detalhe importante é que esta funcionalidade está disponivel no .NET 11 Preview 6.</p>
 <p>O código fonte do exemplo está no meu <a href="https://github.com/carloscds/CSharpSamples/tree/master/CircuitoCurto">GitHub</a>.</p>
 <p>Abraços e até a próxima!</p>
 
