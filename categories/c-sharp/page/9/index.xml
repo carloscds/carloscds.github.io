@@ -5,10 +5,21 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Palestra na Unipar de Paranavaí/PR</title>
+      <link>https://carloscds.net/2010/05/palestra-na-unipar-de-paranavaipr/</link>
+      <pubDate>Tue, 25 May 2010 02:40:31 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/05/palestra-na-unipar-de-paranavaipr/</guid>
+      <description>Ontem (24/05/2010) eu e o Márcio Althmann realizamos uma palestra na Unipar de Paranavaí/PR onde tivemos a oportunidade de mostrar as novidades do novo Visual Studio 2010 e do Silverlight 4.
+Gostaria de agradecer ao nosso amigo Rodrigo Ghedin, do famoso site WinAjuda e MVP assim como eu, pelo convite e pela oportunidade de mostrarmos um pouco de tecnologia neste evento.
+Agradecemos também a direção da Unipar pelo espaço e pela colaboração na divulgação do evento.</description>
+    </item>
     
     <item>
       <title>Desenvolvimento para Windows Phone com Silverlight</title>
@@ -229,18 +240,6 @@ Equipe de desenvolvimento da Agili.</description>
       
       <guid>https://carloscds.net/2009/11/cobol-team-foundation-server/</guid>
       <description>O título parece estranho mas é possível :), estamos prestando consultoria para um cliente em Londrina, onde os projetos novos serão feitos com .NET, Team System e tudo que tem direito, mas eles possuem muitos projetos em Cobol ainda, e uma das exigências era versionar o Cobol no Team Foundation Server também, e funcionou perfeitamente, o pessoal adorou, não preciso nem falar a reação deles quando viram a tela de Anotate mostrando o histórico do código.</description>
-    </item>
-    
-    <item>
-      <title>Programação Paralela com C# 4.0</title>
-      <link>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</link>
-      <pubDate>Tue, 03 Nov 2009 13:09:45 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/programacao-paralela-com-c-4-0/</guid>
-      <description>Uma das novidades do .Net Framework 4.0 é a programação paralela, ou paralelelismo, que consiste em se utilizar os vários núcleos disponíveis nos computadores atuais, por exemplo, os famosos Core 2 Duo.
-Mas como tirar proveito destes recursos em operações simples ? O que vou mostrar agora é como transformar dois comandos simples da linguagem C# com o uso da programação paralela.
-Primeiramente vou montar um laço for tradicional:
-for (int i = 0; i &amp;lt; 100; i++){Console.</description>
     </item>
     
   </channel>
