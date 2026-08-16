@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>JoinCommunity 2016</title>
+      <link>https://carloscds.net/2016/05/joincommunity-2016/</link>
+      <pubDate>Mon, 23 May 2016 08:45:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2016/05/joincommunity-2016/</guid>
+      <description>Olá pessoal,
+Neste final de semana tive a grata satisfação de palestrar no evento Join Community em Goiânia, a convite do Marcelo Paiva. Um evento muito bem organizado, quie contou até com tradução para Libras, o que mostra a importância dos organizadores profissionais com deficiência auditiva. Confesso que fiquei supreso!
+Neste evento fiz a palestra de abertura e falei sobre o SonarQube, uma ferramenta fantástica para medir a qualidade do código fonte, e não estou falando apenas de código .</description>
+    </item>
+    
+    <item>
       <title>Palesta sobre Microsoft Open Source no FLISOL de Mar&amp;iacute;lia</title>
       <link>https://carloscds.net/2016/04/palesta-sobre-microsoft-open-source-no-flisol-de-marlia/</link>
       <pubDate>Sat, 16 Apr 2016 18:15:35 -0300</pubDate>
@@ -217,17 +228,6 @@ Carlos dos Santos.</description>
       <description>Olá, como todos já devem saber a Microsoft liberou na última quarta-feira (12/11) a versão Public Preview do Visual Studio 2015 e também uma versão free agora chamada de Visual Studio 2013 Community. Junto com o Visual Studio 2015 temos agora o novo C# 6. Neste post vou falar sobre algumas das novidades da IDE e também do C# 6.
 Novidades da IDE:
 Code Fixer: identifica problemas no código e mostrar possíveis soluções:</description>
-    </item>
-    
-    <item>
-      <title>C# Roslyn e Projeto Open Source - CodeCracker</title>
-      <link>https://carloscds.net/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/</link>
-      <pubDate>Thu, 13 Nov 2014 23:14:56 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2014/11/c-roslyn-e-projeto-open-sourcecodecracker-2/</guid>
-      <description>Esta semana a Microsoft anunciou o novo Visual Studio 2015 e junto com ele o C# 6 com seu novo compilador, anteriormente conhecido como Roslyn e agora oficialmente chamado de .Net Compiler Platform.
-Com o Roslyn possível termos acesso a estrutura do compilador, sua árvore sintática e também mudar o seu comportamento através de componentes chamados Analyzers.
-Na semana passada, quando eu estava na sede da Microsoft em Redmond/USA, participei de um hackaton com o time do compilador Roslyn, onde eu e diversos outros MVPs tivemos a oportunidade de escrever alguns analyzers juntamente com o time do Roslyn e durante este mesmo evento surgiu a idéia de criarmos um projeto Open Source contendo diversos analyzers, totalmente aberto e free, disponível para toda a comunidade de desenvolvedores, nascia então o projeto CodeCracker, naquele momento criamos o time inicial, composto por mim, Giovanni Bassi e o Elemar Junior, todos MVPs de C#.</description>
     </item>
     
   </channel>

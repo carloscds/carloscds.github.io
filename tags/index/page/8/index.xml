@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Palestra sobre Mercado e Tecnologias</title>
+      <link>https://carloscds.net/2010/12/palestra-sobre-mercado-e-tecnologias/</link>
+      <pubDate>Wed, 08 Dec 2010 15:12:03 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/12/palestra-sobre-mercado-e-tecnologias/</guid>
+      <description>Pessoal,
+No último dia 30/11/2010 estive no Colégio Estadual Vicente Rijo em Londrina, para uma palestra sobre o mercado regional de tecnologia e as tecnologias utilizadas. Nesta oprtunidade falei sobre a plataforma Microsoft e como ela está posicionada em relação a outras ferramentas.
+Gostaria de ressaltar que fique impressional com a qualidade das instalações e do ensino técnico mistrado por uma escola pública, realmente um exemplo a ser seguido. Gostaria de agradecer ao Pedro da Incubadora Intuel da Universidade Estadual de Londrina pelo convite.</description>
+    </item>
+    
+    <item>
       <title>Curso Gratuito de Visual Studio 2010</title>
       <link>https://carloscds.net/2010/11/curso-gratuito-de-visual-studio-2010/</link>
       <pubDate>Tue, 30 Nov 2010 08:49:31 -0300</pubDate>
@@ -224,18 +235,6 @@ Carlos dos Santos.</description>
 Conheça o novo template no link:
 http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
 http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
-[]s,
-Carlos.</description>
-    </item>
-    
-    <item>
-      <title>Dicas sobre Visual Studio Team System</title>
-      <link>https://carloscds.net/2010/06/dicas-sobre-visual-studio-team-system/</link>
-      <pubDate>Thu, 03 Jun 2010 23:25:56 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2010/06/dicas-sobre-visual-studio-team-system/</guid>
-      <description>Eu separei três dicas interessantes sobre VSTS 2010 para vocês:
- Migrando para o TFS 2010 Configurando a análise estática de código Introdução as ferramentas de arquitetura  No mesmo site existem diversas outras dicas sobre o VSTS. Os artigos estão em inglês, mas vale a pena dar uma olhada.
 []s,
 Carlos.</description>
     </item>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção - Carlos dos Santos
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Mais uma Preview do .NET saiu do forno! Se você lembra do post sobre o ShortCircuit em Middlewares, aquele recurso já tinha chegado justamente nesta versão, a Preview 6. Agora vamos dar uma olhada geral no que mais veio junto, com foco no que interessa para quem trabalha com ASP.NET Core e Entity Framework Core no dia a dia.
+Runtime e Performance O runtime ganhou melhorias no desempenho de código assíncrono, otimizações no JIT, um registro de erros mais detalhado melhorias significativas para quem publica com NativeAOT." />
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "hmg2a17ahy");
+    </script>
+
+    
+    <meta name="generator" content="Hugo 0.68.0 with theme pure" />
+    <title>Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção - Carlos dos Santos</title>
+    
+    
+    <link rel="stylesheet" href="https://carloscds.net/css/style.min.c4bc7071f132c964c2116bca53b392933f377e5ca7b7051ed245187c621a2d3e.css">
+    
+    <base href="https://carloscds.net/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção" />
+<meta property="og:description" content="Mais uma Preview do .NET saiu do forno! Se você lembra do post sobre o ShortCircuit em Middlewares, aquele recurso já tinha chegado justamente nesta versão, a Preview 6. Agora vamos dar uma olhada geral no que mais veio junto, com foco no que interessa para quem trabalha com ASP.NET Core e Entity Framework Core no dia a dia.
+Runtime e Performance O runtime ganhou melhorias no desempenho de código assíncrono, otimizações no JIT, um registro de erros mais detalhado melhorias significativas para quem publica com NativeAOT." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carloscds.net/2026/08/dotnet11preview6novidades/" />
+<meta property="article:published_time" content="2026-08-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-08-16T00:00:00+00:00" />
+<meta itemprop="name" content="Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção">
+<meta itemprop="description" content="Mais uma Preview do .NET saiu do forno! Se você lembra do post sobre o ShortCircuit em Middlewares, aquele recurso já tinha chegado justamente nesta versão, a Preview 6. Agora vamos dar uma olhada geral no que mais veio junto, com foco no que interessa para quem trabalha com ASP.NET Core e Entity Framework Core no dia a dia.
+Runtime e Performance O runtime ganhou melhorias no desempenho de código assíncrono, otimizações no JIT, um registro de erros mais detalhado melhorias significativas para quem publica com NativeAOT.">
+<meta itemprop="datePublished" content="2026-08-16T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2026-08-16T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="653">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção"/>
+<meta name="twitter:description" content="Mais uma Preview do .NET saiu do forno! Se você lembra do post sobre o ShortCircuit em Middlewares, aquele recurso já tinha chegado justamente nesta versão, a Preview 6. Agora vamos dar uma olhada geral no que mais veio junto, com foco no que interessa para quem trabalha com ASP.NET Core e Entity Framework Core no dia a dia.
+Runtime e Performance O runtime ganhou melhorias no desempenho de código assíncrono, otimizações no JIT, um registro de erros mais detalhado melhorias significativas para quem publica com NativeAOT."/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+    
+  </head>
+
+  
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="http://carloscds.net" target="_blank">
+            <img class="img-circle img-rotate" src="https://avatars0.githubusercontent.com/u/1697221?s=460&amp;u=409a6ac4e0cca9f7302962ae6f6e375507c7d38f&amp;v=4" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Carlos dos Santos</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Technology and Code</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Developer world!</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-contact">
+                <a href="mailto:cdssoftware@hotmail.com?subject=Contato_Blog">
+                    <i class="icon icon-project"></i>
+                  <span class="menu-title">Contact</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-videos">
+                <a href="https://www.youtube.com/@carlosdribion">
+                    <i class="icon icon-book-fill"></i>
+                  <span class="menu-title">Videos</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">109</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/copilot/" class="category-list-link">copilot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/devops/" class="category-list-link">devops</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet/" class="category-list-link">dotnet</a><span class="category-list-count">8</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/dotnet-core/" class="category-list-link">dotnet-core</a><span class="category-list-count">17</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/ef-core/" class="category-list-link">ef-core</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entity-framework/" class="category-list-link">entity-framework</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework/" class="category-list-link">entityframework</a><span class="category-list-count">34</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/entityframework-core/" class="category-list-link">entityframework-core</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/eventos/" class="category-list-link">eventos</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/git/" class="category-list-link">git</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/github/" class="category-list-link">github</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/iot/" class="category-list-link">iot</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/linux/" class="category-list-link">linux</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/mobilidade/" class="category-list-link">mobilidade</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/open-source/" class="category-list-link">open-source</a><span class="category-list-count">9</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/performance/" class="category-list-link">performance</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/premios/" class="category-list-link">premios</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/scrum/" class="category-list-link">scrum</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/silverlight/" class="category-list-link">silverlight</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/sonarqube/" class="category-list-link">sonarqube</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/sql/" class="category-list-link">sql</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/videos/" class="category-list-link">videos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/visual-studio/" class="category-list-link">visual-studio</a><span class="category-list-count">55</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/visual-studio-code/" class="category-list-link">visual-studio-code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows/" class="category-list-link">windows</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-10/" class="category-list-link">windows-10</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-8/" class="category-list-link">windows-8</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/windows-phone/" class="category-list-link">windows-phone</a><span class="category-list-count">3</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/appservice/" class="tag-list-link">appservice</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/azure/" class="tag-list-link">azure</a><span
+                    class="tag-list-count">11</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/c#-msdn/" class="tag-list-link">c#-msdn</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/c-sharp/" class="tag-list-link">c-sharp</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/certificacao/" class="tag-list-link">certificacao</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/consultoria/" class="tag-list-link">consultoria</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/csharp/" class="tag-list-link">csharp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/desenvolvimento/" class="tag-list-link">desenvolvimento</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/devops/" class="tag-list-link">devops</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-4/" class="tag-list-link">ef-4</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-codefirst/" class="tag-list-link">ef-codefirst</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/ef-codefirst-ef/" class="tag-list-link">ef-codefirst-ef</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/efcore-dotnetcore/" class="tag-list-link">efcore-dotnetcore</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/eforacle/" class="tag-list-link">eforacle</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entity-framework/" class="tag-list-link">entity-framework</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entityframework/" class="tag-list-link">entityframework</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/entityframework-core/" class="tag-list-link">entityframework-core</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/eventos/" class="tag-list-link">eventos</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/excel/" class="tag-list-link">excel</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/extensions/" class="tag-list-link">extensions</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/fuso-horario/" class="tag-list-link">fuso-horario</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/index/" class="tag-list-link">index</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/json/" class="tag-list-link">json</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/live/" class="tag-list-link">live</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/mobilidade-msdn/" class="tag-list-link">mobilidade-msdn</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdn/" class="tag-list-link">msdn</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#/" class="tag-list-link">msdnc#</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#azure/" class="tag-list-link">msdnc#azure</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/msdnc#ef-codefirst-ef/" class="tag-list-link">msdnc#ef-codefirst-ef</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/produvidade/" class="tag-list-link">produvidade</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/publish/" class="tag-list-link">publish</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/scrum/" class="tag-list-link">scrum</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/silverlight/" class="tag-list-link">silverlight</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/storage/" class="tag-list-link">storage</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tfs/" class="tag-list-link">tfs</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/time-zone/" class="tag-list-link">time-zone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tools/" class="tag-list-link">tools</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/tuple/" class="tag-list-link">tuple</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/visual-studio/" class="tag-list-link">visual-studio</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/website/" class="tag-list-link">website</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows-8/" class="tag-list-link">windows-8</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows-phone/" class="tag-list-link">windows-phone</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://carloscds.net/tags/windows10/" class="tag-list-link">windows10</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/08/dotnet11preview6novidades/" class="title">Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-08-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-08-16</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/08/fimdosuportedotnet8e9/" class="title">.NET 8 e 9 chegam ao fim do suporte: como planejar a migração para o .NET 10</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-08-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-08-03</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/07/shortcircuitaspnet/" class="title">ShortCircuit: Pulando o pipeline de Middlewares no ASP.NET Core</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-07-21</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/04/migreiumprojetocomcopilot/" class="title">Migrei um projeto de ASP.NET Core usando o GitHub Copilot</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-04-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-04-27</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://carloscds.net/2026/02/http-resilience/" class="title">Tratando a resiliência em chamadas HTTP</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-02-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-02-12</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="post-" class="article article-type-post" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2026/08/dotnet11preview6novidades/"
+    >Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2026/08/dotnet11preview6novidades/" class="article-date">
+  <time datetime="2026-08-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-08-16</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/aspnet/"> ASPNET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2026/08/dotnet11preview6novidades/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 653words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Mais uma Preview do .NET saiu do forno! Se você lembra do post sobre o <a href="/2026/07/shortcircuitaspnet/">ShortCircuit em Middlewares</a>, aquele recurso já tinha chegado justamente nesta versão, a <strong>Preview 6</strong>. Agora vamos dar uma olhada geral no que mais veio junto, com foco no que interessa para quem trabalha com ASP.NET Core e Entity Framework Core no dia a dia.</p>
+<h3 id="runtime-e-performance">Runtime e Performance</h3>
+<p>O runtime ganhou melhorias no desempenho de código assíncrono, otimizações no JIT, um registro de erros mais detalhado melhorias significativas para quem publica com <strong>NativeAOT</strong>.</p>
+<h3 id="sdk-e-ferramentas">SDK e Ferramentas</h3>
+<p>O <code>dotnet test</code> ficou mais amigável, com saída melhorada e suporte a <strong>xUnit v3</strong> e <strong>NUnit</strong> de forma mais integrada. Outro detalhe interessante é a possibilidade de referenciar DLLs diretamente em aplicativos baseados em arquivo único:</p>
+<pre><code class="language-csharp">#:include ./libs/MinhaLib.dll
+</code></pre>
+<p>Além disso, o SDK já suporta NativeAOT via CLI de ponta a ponta, compilações multi-arquitetura usando <strong>Podman</strong> e integração com TypeScript via Static Web Assets.</p>
+<h3 id="c-extension-indexers">C#: Extension Indexers</h3>
+<p>A novidade que mais chamou minha atenção foi a introdução dos <strong>extension indexers</strong>. Até então, dava para criar métodos de extensão, propriedades de extensão, mas não um indexador. Agora sim:</p>
+<pre><code class="language-csharp">public static class ListaExtensions
+{
+    extension&lt;T&gt;(List&lt;T&gt; lista)
+    {
+        public T this[Index indice]
+        {
+            get =&gt; lista[indice.GetOffset(lista.Count)];
+        }
+    }
+}
+</code></pre>
+<p>Repare que o indexador foi declarado dentro de um bloco <code>extension&lt;T&gt;(List&lt;T&gt; lista)</code>, e não como um método estático tradicional. Isso permite usá-lo exatamente como se fosse um indexador nativo do <code>List&lt;T&gt;</code>, inclusive aceitando <code>Index</code> (aquele <code>^1</code> que já usamos em arrays):</p>
+<pre><code class="language-csharp">var numeros = new List&lt;int&gt; { 10, 20, 30, 40, 50 };
+
+Console.WriteLine(numeros[^1]); // 50 - último item usando Index
+Console.WriteLine(numeros[2]);  // 30 - também funciona com int, pois Index tem conversão implícita
+</code></pre>
+<p>Sem o extension indexer, você precisaria escrever algo como <code>numeros.ElementAt(numeros.Count - 1)</code> ou criar uma classe derivada só para ganhar essa sintaxe. Agora dá para &ldquo;estender&rdquo; o comportamento de indexação direto em cima do <code>List&lt;T&gt;</code>, sem precisar tocar na classe original.</p>
+<p>Isso abre espaço para deixar APIs de terceiros (que você não controla) muito mais fluentes, sem precisar criar um wrapper só para ganhar um <code>objeto[indice]</code>.</p>
+<h3 id="aspnet-core">ASP.NET Core</h3>
+<p>Aqui tem bastante coisa boa para quem usa <strong>Minimal APIs</strong>:</p>
+<ul>
+<li><strong>Validação assíncrona</strong>: agora dá para validar o payload de forma assíncrona antes de chegar no handler, útil quando a validação depende de uma consulta ao banco ou a outro serviço;</li>
+<li><strong>Proteção automática contra CSRF</strong>: menos boilerplate de configuração manual;</li>
+<li><strong>OpenAPI 3.2 por padrão</strong>: os documentos gerados automaticamente já saem no formato mais novo da especificação;</li>
+<li><strong>Suporte a scroll no Blazor Virtualize</strong>: melhora listas grandes renderizadas em componentes Blazor.</li>
+</ul>
+<p>Um exemplo simples de validação assíncrona em Minimal API:</p>
+<pre><code class="language-csharp">app.MapPost(&quot;/pedidos&quot;, async (Pedido pedido, IValidator&lt;Pedido&gt; validator) =&gt;
+{
+    var resultado = await validator.ValidateAsync(pedido);
+    if (!resultado.IsValid)
+        return Results.ValidationProblem(resultado.ToDictionary());
+
+    return Results.Ok(pedido);
+});
+</code></pre>
+<h3 id="entity-framework-core">Entity Framework Core</h3>
+<p>O EF Core seguiu evoluindo a tradução de LINQ, agora conseguindo percorrer propriedades de <strong>tipos complexos</strong> dentro de chaves e índices, e passou a suportar relacionamentos de chave estrangeira <strong>sem restrição</strong> (útil em cenários de integração com bancos legados, onde nem sempre dá para criar a FK &ldquo;de verdade&rdquo;).</p>
+<h3 id="net-maui">.NET MAUI</h3>
+<p>Para quem trabalha com apps mobile: o <strong>CollectionView2</strong> chegou ao Windows, o Android ganhou uma arquitetura Shell baseada em handlers, o <strong>HybridWebView</strong> agora é seguro para uso com NativeAOT, e a geolocalização passou a suportar filtro de distância mínima entre atualizações.</p>
+<h3 id="containers">Containers</h3>
+<p>Quem publica em Docker/Kubernetes ganha imagens <strong>Azure Linux 4.0</strong> e imagens de SDK com NativeAOT ainda menores, o que ajuda bastante em tempo de cold start e tamanho final da imagem.</p>
+<h3 id="considerações">Considerações</h3>
+<p>Como sempre em uma Preview, vale testar em ambiente de desenvolvimento antes de considerar qualquer coisa para produção. Mas olhando o conjunto — extension indexers, validação assíncrona em Minimal APIs e as melhorias no EF Core — dá para perceber que o time está deixando o dia a dia de quem já migrou para .NET 10 cada vez mais produtivo, preparando terreno para o próximo LTS.</p>
+<p>Abraços e até a próxima!</p>
+
+    </div>
+    <div class="article-footer">
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+
+        <script type="text/javascript">
+
+            var disqus_config = function () {
+                this.page.url = 'https:\/\/carloscds.net\/2026\/08\/dotnet11preview6novidades\/';
+                this.page.identifier = 'Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção';
+                this.page.title = 'Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção';
+            };
+    
+            (function() {  
+                var d = document, s = d.createElement('script');
+
+                s.src = '//carloscds.disqus.com/embed.js';  
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+
+        </script>
+
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://carloscds.net/2026/08/fimdosuportedotnet8e9/" title=".NET 8 e 9 chegam ao fim do suporte: como planejar a migração para o .NET 10"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="facebook,twitter,linkedin, youtube"
+                data-mobile-sites=""></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://www.facebook.com/carloscds" target="_blank" title="facebook" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-facebook"></i></a></li>
+    <li><a href="https://github.com/carloscds" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://carloscds.net/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/cdssoftware" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+    <li><a href="https://www.youtube.com/@carlosdribion" target="_blank" title="youtube" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-youtube"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2008  -
+    2026
+    
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/csharp.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://carloscds.net/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
+<script src="https://carloscds.net/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/carloscds.net\/',
+            CONTENT_URL: 'https:\/\/carloscds.net\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://carloscds.net/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/carloscds.net\/2026\/08\/dotnet11preview6novidades\/';
+        this.page.identifier = 'Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção';
+        this.page.title = 'Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'carloscds' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8863591-6', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>

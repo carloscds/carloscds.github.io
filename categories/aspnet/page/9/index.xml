@@ -5,10 +5,22 @@
     <link>https://carloscds.net/categories/aspnet/</link>
     <description>Recent content in ASPNET on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/aspnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dicas sobre Visual Studio Team System</title>
+      <link>https://carloscds.net/2010/06/dicas-sobre-visual-studio-team-system/</link>
+      <pubDate>Thu, 03 Jun 2010 23:25:56 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/dicas-sobre-visual-studio-team-system/</guid>
+      <description>Eu separei três dicas interessantes sobre VSTS 2010 para vocês:
+ Migrando para o TFS 2010 Configurando a análise estática de código Introdução as ferramentas de arquitetura  No mesmo site existem diversas outras dicas sobre o VSTS. Os artigos estão em inglês, mas vale a pena dar uma olhada.
+[]s,
+Carlos.</description>
+    </item>
     
     <item>
       <title>Palestra na Unipar de Paranavaí/PR</title>
@@ -231,15 +243,6 @@ A palestra foi muito interessante e com muita participação da equipe de desenv
 Agrademos o convite e esperamos que a palestra tenha mostrado todo o potencial do Silverlight.Net
 Márcio demonstrando Silverlight.
 Equipe de desenvolvimento da Agili.</description>
-    </item>
-    
-    <item>
-      <title>Cobol &#43; Team Foundation Server</title>
-      <link>https://carloscds.net/2009/11/cobol-team-foundation-server/</link>
-      <pubDate>Wed, 18 Nov 2009 08:15:04 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/cobol-team-foundation-server/</guid>
-      <description>O título parece estranho mas é possível :), estamos prestando consultoria para um cliente em Londrina, onde os projetos novos serão feitos com .NET, Team System e tudo que tem direito, mas eles possuem muitos projetos em Cobol ainda, e uma das exigências era versionar o Cobol no Team Foundation Server também, e funcionou perfeitamente, o pessoal adorou, não preciso nem falar a reação deles quando viram a tela de Anotate mostrando o histórico do código.</description>
     </item>
     
   </channel>
