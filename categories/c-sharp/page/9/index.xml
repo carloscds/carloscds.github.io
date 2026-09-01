@@ -5,10 +5,24 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scrum para o VSTS 2010</title>
+      <link>https://carloscds.net/2010/06/scrum-para-o-vsts-2010/</link>
+      <pubDate>Mon, 07 Jun 2010 12:24:29 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/scrum-para-o-vsts-2010/</guid>
+      <description>A Microsoft acaba de liberar o template Beta de Scrum para o Team Foundation Server 2010. Eu já tive oportunidade de trabalhar com ele na semana passada durante um curso de Professional Scrum Developer e está realmente muito bom.
+Conheça o novo template no link:
+http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
+http://blogs.msdn.com/b/aaronbjork/archive/2010/05/25/announcing-team-foundation-server-scrum-v1-0-beta.aspx
+[]s,
+Carlos.</description>
+    </item>
     
     <item>
       <title>Dicas sobre Visual Studio Team System</title>
@@ -230,19 +244,6 @@ A convite do Prof. Ricardo Delgado, fizemos uma apresentação sobre Windows 7, 
 Procuramos mostrar um overview de todas as tecnologias, onde ficamos cerca de 3 horas fazendo demonstrações.
 Confiram as fotos:
 []s,</description>
-    </item>
-    
-    <item>
-      <title>Palestra sobre Silverlight</title>
-      <link>https://carloscds.net/2009/11/palestra-sobre-silverlight/</link>
-      <pubDate>Wed, 18 Nov 2009 08:19:23 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/11/palestra-sobre-silverlight/</guid>
-      <description>Estivemos na empresa Agili Desenvolvimento de Sistema na cidade de Londrina, onde fizemos uma apresentação do Silverlight 3.0 e como a empresa pode aproveitar os benefícios desta plataforma para o desenvolvimento de seus sistemas.
-A palestra foi muito interessante e com muita participação da equipe de desenvovimento da empresa.
-Agrademos o convite e esperamos que a palestra tenha mostrado todo o potencial do Silverlight.Net
-Márcio demonstrando Silverlight.
-Equipe de desenvolvimento da Agili.</description>
     </item>
     
   </channel>

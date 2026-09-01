@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/copilot/</link>
     <description>Recent content in Copilot on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/copilot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analisando falhas de build com Copilot direto no VS Code (MSBuild Binlog)</title>
+      <link>https://carloscds.net/2026/08/analisandobuildscomcopilotvscode/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/08/analisandobuildscomcopilotvscode/</guid>
+      <description>Quem nunca ficou preso olhando um log de build gigante do MSBuild tentando entender por que um projeto quebrou? Pois a Microsoft lançou uma extensão para o VS Code, ainda em Preview, que coloca o Copilot para fazer esse trabalho de detetive por você: o MSBuild Binlog Analyzer.
+O problema que ela resolve O .binlog (Binary Log) do MSBuild guarda tudo que aconteceu durante o build: cada target executado, cada task, tempos, erros e warnings.</description>
+    </item>
     
     <item>
       <title>Novidades do .NET 11 Preview 6 para quem já usa .NET 10 em produção</title>
@@ -212,16 +222,6 @@ Azure Database Default Config Quando você cria um banco de dados no Azure, por 
       <guid>https://carloscds.net/2023/07/entityframeworkcore-powertools/</guid>
       <description>Este artigo é uma dica rápida, mas extremamente útil! Imagine que você já tem um banco de dados e quer usar o EF, o que você faz ? Cria tudo na mão ? Esera que tem um jeito muito mais interessante!
 Apresentando o EF Core PowerTools Este é uma ferramenta que considero essencial para trabalhar com EF. Não é uma ferramenta nova, já escrevi sobre ela há muitos anos atrás, mas ainda considero bastante útil no cenário que mencionei acima, você já tem o banco e precisa criar as classes.</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework Core - Inicio (de novo)</title>
-      <link>https://carloscds.net/2023/07/entityframeworkcore-inicio/</link>
-      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2023/07/entityframeworkcore-inicio/</guid>
-      <description>Durante muito tempo eu publiquei muito conteúdo sobre EntityFramework (EF), muito antes da versão Core surgir, e durante muito tempo depois desta nova versão eu apenas acompanhei o desenvolvimento, até que na versão 3.1, o EF Core ficou realmente bom para uso em grandes projetos, com a produção de queries &amp;ldquo;muito limpas&amp;rdquo; para o banco de dados. Neste ponto voltei a colocar o EF nos meus projetos.
-Mas antes de contonuar, precisamos fazer uma explicação para você que &amp;ldquo;ainda&amp;rdquo; acha que o EntityFramework é um ORM ruim.</description>
     </item>
     
   </channel>
