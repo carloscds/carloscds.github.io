@@ -5,10 +5,20 @@
     <link>https://carloscds.net/posts/</link>
     <description>Recent content in Posts on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>.NET 11 RC 1: como começar a testar sua aplicação</title>
+      <link>https://carloscds.net/2026/10/dotnet11rc1/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/10/dotnet11rc1/</guid>
+      <description>O .NET 11 chegou ao Release Candidate 1! No post sobre o Preview 6, vimos algumas novidades da plataforma. Agora vamos preparar um ambiente para testar uma API e organizar a avaliação de uma aplicação que você já tem.
+O que muda com o RC 1? Segundo o anúncio oficial da Microsoft, esta versão tem licença de suporte go-live, permitindo seu uso em aplicações de produção com suporte. Ela continua sendo uma candidata a lançamento; isso não elimina a necessidade de validar suas dependências e os fluxos da aplicação.</description>
+    </item>
     
     <item>
       <title>Analisando falhas de build com Copilot direto no VS Code (MSBuild Binlog)</title>
@@ -212,16 +222,6 @@ Como funciona ? Imagine que você tem um banco de dados de Livros, como o script
       <description>O EntityFramework possui o recurso de migrations que ajuda demais no desenvolvimento de aplicações, pois com a abordagem do CodeFirst você vai criando as suas classes e ao rodar o migrations tudo é aplicado no banco de dados. Muito útil durante o desenvolvimento!
 Até aí nada demais, inclusive eu já abordei o Migrations em diversos artigos aqui no blog, então onde está o problema ?
 Azure Database Default Config Quando você cria um banco de dados no Azure, por exemplo com o comando:</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework Core PowerTools - Engenharia Reversa do Banco de Dados</title>
-      <link>https://carloscds.net/2023/07/entityframeworkcore-powertools/</link>
-      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2023/07/entityframeworkcore-powertools/</guid>
-      <description>Este artigo é uma dica rápida, mas extremamente útil! Imagine que você já tem um banco de dados e quer usar o EF, o que você faz ? Cria tudo na mão ? Esera que tem um jeito muito mais interessante!
-Apresentando o EF Core PowerTools Este é uma ferramenta que considero essencial para trabalhar com EF. Não é uma ferramenta nova, já escrevi sobre ela há muitos anos atrás, mas ainda considero bastante útil no cenário que mencionei acima, você já tem o banco e precisa criar as classes.</description>
     </item>
     
   </channel>
