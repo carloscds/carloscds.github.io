@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>MVP Virtual Conference</title>
+      <link>https://carloscds.net/2015/05/mvp-virtual-conference-2/</link>
+      <pubDate>Sat, 02 May 2015 10:23:38 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2015/05/mvp-virtual-conference-2/</guid>
+      <description>Olá amigos!
+Gostaria de convidá-los para o grande evento que a Microsoft e os MVPs estão organizando, e que acontecerá nos dias 14 e 15 de maio, a partir das 12h00 (Horário de Brasilia)
+Junte-se aos MVPs do Brasil, Estados Unidos e Latam que estarão compartilhando o seu conhecimento em sessões práticas e gratuitas, com cenários do mundo real e últimas novidades sobre Tecnologia Microsoft.
+O MVP Virtual Conference trará 95 sessões com conteúdo para IT Pros, Developers e Consumer experts, planejadas para ajudá-lo a navegar no momento mobile-first Cloud first.</description>
+    </item>
+    
+    <item>
       <title>C# 6</title>
       <link>https://carloscds.net/2015/03/c-6/</link>
       <pubDate>Mon, 02 Mar 2015 15:30:53 -0300</pubDate>
@@ -228,18 +240,6 @@ Imagine que você está escrevendo um método qualquer e precisa verificar um m�
 Ontem (18/09/2013) fiz uma palestra sobre Windows Azure no Cesumar em Maringá, onde mostrei as funcionalides do Azure e como é possível criar e migrar aplicações para a nuvem.
 Gostaria de agradecer ao Clodoaldo Assis pelo convite, ao Cesumar pela oportunidade e principalmente pelas pessoas presentes e pela excelente interação que tivemos ao final da palestra.
 Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse minha página no facebook.</description>
-    </item>
-    
-    <item>
-      <title>Entity Framework 6–Gerando Log dos comandos SQL</title>
-      <link>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</link>
-      <pubDate>Mon, 02 Sep 2013 21:31:15 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</guid>
-      <description>Olá,
-O Entity Framework 6 RC já foi lançado! Agora é a hora de começar a trabalhar na migraçãoda versão 5 para a 6 e ver as novas funcionalidades. As especificações sobre as novas funcionalidades podem ser encontradas aqui.
-Dentre as muitas novidades, que vamos explorar nos post seguintes, hoje vou destacar uma que acho bem interessante: o log dos comandos enviados ao banco de dados.
-Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacional traduz comandos de uma linguagem de programação, no nosso caso C# e LINQ, para comandos de banco de dados.</description>
     </item>
     
   </channel>

@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Entity Framework 6–Gerando Log dos comandos SQL</title>
+      <link>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</link>
+      <pubDate>Mon, 02 Sep 2013 21:31:15 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</guid>
+      <description>Olá,
+O Entity Framework 6 RC já foi lançado! Agora é a hora de começar a trabalhar na migraçãoda versão 5 para a 6 e ver as novas funcionalidades. As especificações sobre as novas funcionalidades podem ser encontradas aqui.
+Dentre as muitas novidades, que vamos explorar nos post seguintes, hoje vou destacar uma que acho bem interessante: o log dos comandos enviados ao banco de dados.
+Um ORM (Object-Relational Mapping), ou simplesmente um Mapeamento Objeto-Relacional traduz comandos de uma linguagem de programação, no nosso caso C# e LINQ, para comandos de banco de dados.</description>
+    </item>
+    
+    <item>
       <title>Entity Framework 6–Trabalhando com os Nightly Builds</title>
       <link>https://carloscds.net/2013/08/entity-framework-6trabalhando-com-os-nightly-builds/</link>
       <pubDate>Sun, 18 Aug 2013 18:13:06 -0300</pubDate>
@@ -237,16 +249,6 @@ A diferença é aque você pode alternar entre o Debugger Canvas e o Debugger co
       <description>Pessoal,
 Hoje vou mostrar uma maneira bem simples e interessante de fazer validação de dados com EntityFramework, classes POCO e uma aplicação Windows Forms.
 Como eu já comentei em outros posts, quando você utiliza DataAnnotations em classes POCO na sua camada de dados e faz a camada de apresentação com WPF/Silverlight ou MVC, o tratamento dos campos é feito automaticamente, praticamente sem nenhum tipo de código. Mas e se você ainda programa para WindowsForms ou precisa validar os dados da classe em uma camada e retornar o erro para outra camada, como fazer ?</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework CodeFirst</title>
-      <link>https://carloscds.net/2012/01/entityframework-codefirst/</link>
-      <pubDate>Sat, 07 Jan 2012 23:31:48 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/01/entityframework-codefirst/</guid>
-      <description>No post anterior, eu falei em como trabalhar com Entity Framework usando o Designer, ou seja, um modelo de classes criado a partir de um arquivo EDMX. Este modelo funciona perfeitamente em diversos tipos de projetos, mas o grande incoveniente é ter um arquivo EDMX para cada tipo de banco de dados do seu projeto.
-Então vamos agora usar uma abordagem diferente, mas nem tão diferente assim do artigo anterior. Nossa necessidade ainda é manter o isolamento do banco de dados e trabalhar somente com objetos.</description>
     </item>
     
   </channel>

@@ -162,9 +162,9 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://carloscds.net/categories/asp.net/" class="category-list-link">asp.net</a><span class="category-list-count">13</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">8</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/aspnet/" class="category-list-link">aspnet</a><span class="category-list-count">9</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/azure/" class="category-list-link">azure</a><span class="category-list-count">25</span></li>
-            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">111</span></li>
+            <li class="category-list-item"><a href="https://carloscds.net/categories/c-sharp/" class="category-list-link">c-sharp</a><span class="category-list-count">112</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/certificacao/" class="category-list-link">certificacao</a><span class="category-list-count">3</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/copilot/" class="category-list-link">copilot</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://carloscds.net/categories/dapper/" class="category-list-link">dapper</a><span class="category-list-count">1</span></li>
@@ -387,6 +387,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://carloscds.net/2026/10/aspnetcore11openapi/" class="title">OpenAPI no ASP.NET Core 11: APIs obsoletas e ambientes de geração</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-10-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-10-20</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://carloscds.net/2026/10/dotnet11rc1/" class="title">.NET 11 RC 1: como começar a testar sua aplicação</a>
                     </p>
                     <p class="item-date">
@@ -424,16 +434,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://carloscds.net/2026/07/shortcircuitaspnet/" class="title">ShortCircuit: Pulando o pipeline de Middlewares no ASP.NET Core</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2026-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-07-21</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -449,6 +449,43 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2026/10/aspnetcore11openapi/"
+    >OpenAPI no ASP.NET Core 11: APIs obsoletas e ambientes de geração</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Toda API que evolui acaba tendo endpoints antigos, mantidos apenas para não quebrar quem ainda os usa. Em C#, marcamos esse código com [Obsolete], mas essa informação não chegava ao documento OpenAPI: quem consumia a API pelo Swagger ou por um cliente gerado não ficava sabendo. No .NET 11 RC 1 isso mudou. Além disso, a geração do documento durante o build ganhou uma opção para escolher o ambiente da aplicação.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://carloscds.net/2026/10/aspnetcore11openapi/" class="">
+  <time datetime="2026-10-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-10-20</time>
+</a>
+
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
+  <a class="article-category-link" href="/categories/aspnet/"> ASPNET </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2026/10/aspnetcore11openapi/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1022words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 5minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -681,45 +718,6 @@ Não é tão simples assim, primeiro que o Linux Alpine é extremamente enxuto e
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 450words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2026/02/http-resilience/"
-    >Tratando a resiliência em chamadas HTTP</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        O que é ser resiliente ? E uma aplicação resiliente ?
-Ser resiliente é saber lidar com adversidades, adaptar-se a mudancas e lidar com pressões. Mas e uma aplicação resiliente ? Basicamente é a mesma coisa, saber contornar problemas que não estão ao seu alcance, tratar erros e sobrecargas.
-No cenário de aplicações web, vamos explorar um recurso que nem é tão novo assim, mas que ganhou uma nova &ldquo;roupagem&rdquo; nas últimas versões do .
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://carloscds.net/2026/02/http-resilience/" class="">
-  <time datetime="2026-02-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">2026-02-12</time>
-</a>
-
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/c-sharp/"> C Sharp </a>
-  <a class="article-category-link" href="/categories/aspnet/"> ASPNET </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2026/02/http-resilience/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 1245words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 6minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -732,7 +730,7 @@ No cenário de aplicações web, vamos explorar um recurso que nem é tão novo 
       </li>
     </ul>
     <div class="total-article bar-right">
-      Page:1/28
+      Page:1/29
     </div>
   </div>
 </nav>

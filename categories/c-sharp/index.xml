@@ -5,10 +5,19 @@
     <link>https://carloscds.net/categories/c-sharp/</link>
     <description>Recent content in C Sharp on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/c-sharp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OpenAPI no ASP.NET Core 11: APIs obsoletas e ambientes de geração</title>
+      <link>https://carloscds.net/2026/10/aspnetcore11openapi/</link>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/10/aspnetcore11openapi/</guid>
+      <description>Toda API que evolui acaba tendo endpoints antigos, mantidos apenas para não quebrar quem ainda os usa. Em C#, marcamos esse código com [Obsolete], mas essa informação não chegava ao documento OpenAPI: quem consumia a API pelo Swagger ou por um cliente gerado não ficava sabendo. No .NET 11 RC 1 isso mudou. Além disso, a geração do documento durante o build ganhou uma opção para escolher o ambiente da aplicação.</description>
+    </item>
     
     <item>
       <title>.NET 11 RC 1: como começar a testar sua aplicação</title>
@@ -211,17 +220,6 @@ Não gosto muito deste tipo de solução, então verifiquei a documentação do 
       <description>Recentemente foi lancado o EF 8, juntamente com o .NET 8 e com ele muitas novidades! Mas dentre todas, uma que &amp;lsquo;volta&amp;rsquo;, sim, ela já existiu no passado, é o uso de queries diretas sem uso do contexto, também conhecidas como RAW Queries.
 Podemos afirmar que o seu uso é muito parecido com o Dapper, mas em um contexto do EF.
 Como funciona ? Imagine que você tem um banco de dados de Livros, como o script abaixo:</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework - Se você usa Migrations com Azure Database, preste muita atenção!</title>
-      <link>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</link>
-      <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2023/09/entityframeworkcore-databasetier/</guid>
-      <description>O EntityFramework possui o recurso de migrations que ajuda demais no desenvolvimento de aplicações, pois com a abordagem do CodeFirst você vai criando as suas classes e ao rodar o migrations tudo é aplicado no banco de dados. Muito útil durante o desenvolvimento!
-Até aí nada demais, inclusive eu já abordei o Migrations em diversos artigos aqui no blog, então onde está o problema ?
-Azure Database Default Config Quando você cria um banco de dados no Azure, por exemplo com o comando:</description>
     </item>
     
   </channel>
