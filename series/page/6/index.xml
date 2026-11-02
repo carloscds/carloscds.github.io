@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Palestra de Windows Azure–Cesumar</title>
+      <link>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</link>
+      <pubDate>Thu, 19 Sep 2013 10:07:11 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2013/09/palestra-de-windows-azurecesumar/</guid>
+      <description>Pessoal,
+Ontem (18/09/2013) fiz uma palestra sobre Windows Azure no Cesumar em Maringá, onde mostrei as funcionalides do Azure e como é possível criar e migrar aplicações para a nuvem.
+Gostaria de agradecer ao Clodoaldo Assis pelo convite, ao Cesumar pela oportunidade e principalmente pelas pessoas presentes e pela excelente interação que tivemos ao final da palestra.
+Para baixar a apresentação, acesse aqui e para ver as fotos do evento, acesse minha página no facebook.</description>
+    </item>
+    
+    <item>
       <title>Entity Framework 6–Gerando Log dos comandos SQL</title>
       <link>https://carloscds.net/2013/09/entity-framework-6gerando-log-dos-comandos-sql/</link>
       <pubDate>Mon, 02 Sep 2013 21:31:15 -0300</pubDate>
@@ -237,17 +249,6 @@ Muitas novidades ainda estão por vir na versão que deverá sair logo após o l
 Após baixar e instalar o Debugger Canvas, você pode configurar a ativar as opções no menu Tools/Options/Debugger do Visual Studio:
 Depois é só executar o seu código:
 A diferença é aque você pode alternar entre o Debugger Canvas e o Debugger convencional, através da opção “Debugger Canvas” do menu Debug.</description>
-    </item>
-    
-    <item>
-      <title>Validando Dados com EntityFramework e WindowsForms</title>
-      <link>https://carloscds.net/2012/01/validando-dados-com-entityframework-e-windowsforms/</link>
-      <pubDate>Tue, 31 Jan 2012 00:20:00 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2012/01/validando-dados-com-entityframework-e-windowsforms/</guid>
-      <description>Pessoal,
-Hoje vou mostrar uma maneira bem simples e interessante de fazer validação de dados com EntityFramework, classes POCO e uma aplicação Windows Forms.
-Como eu já comentei em outros posts, quando você utiliza DataAnnotations em classes POCO na sua camada de dados e faz a camada de apresentação com WPF/Silverlight ou MVC, o tratamento dos campos é feito automaticamente, praticamente sem nenhum tipo de código. Mas e se você ainda programa para WindowsForms ou precisa validar os dados da classe em uma camada e retornar o erro para outra camada, como fazer ?</description>
     </item>
     
   </channel>

@@ -5,10 +5,19 @@
     <link>https://carloscds.net/categories/</link>
     <description>Recent content in Categories on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publicando containers com .NET 11: imagens reproduzíveis</title>
+      <link>https://carloscds.net/2026/11/dotnet11containers/</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://carloscds.net/2026/11/dotnet11containers/</guid>
+      <description>Desde o .NET 7, o SDK consegue gerar imagens de container sem precisar de um Dockerfile: basta um dotnet publish. Mas havia um detalhe incômodo: publicar o mesmo código duas vezes gerava imagens com digests diferentes. Para o registry, eram duas imagens distintas, e o pipeline enviava tudo de novo. No .NET 11 isso mudou: agora é possível gerar imagens reproduzíveis, e o SDK deixa de enviar o que o registry já tem.</description>
+    </item>
     
     <item>
       <title>OpenAPI no ASP.NET Core 11: APIs obsoletas e ambientes de geração</title>
@@ -209,17 +218,6 @@ Se você e lembra, desde o .NET 5.0, o Swagger vem sendo utilizado amplamente em
       <guid>https://carloscds.net/2024/05/aspnetcore-keyedservices/</guid>
       <description>Recentemente tive que fazer uma mudança em um projeto ASP.NET que envolvia usar repositório para acesso ao Azure Storage. Este projeto ja tinha uma storage funcionando, mas o cliente precisava usar uma segunda storage para um endpoint específico na aplicação. Ok, nada que um IF não resolva certo ?
 Não gosto muito deste tipo de solução, então verifiquei a documentação do ASP.NET 8 e temos um novo recurso chamado KeyedServices.</description>
-    </item>
-    
-    <item>
-      <title>EntityFramework - SQL Raw Queries</title>
-      <link>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</link>
-      <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://carloscds.net/2023/11/entityframeworkcore-sqlraw/</guid>
-      <description>Recentemente foi lancado o EF 8, juntamente com o .NET 8 e com ele muitas novidades! Mas dentre todas, uma que &amp;lsquo;volta&amp;rsquo;, sim, ela já existiu no passado, é o uso de queries diretas sem uso do contexto, também conhecidas como RAW Queries.
-Podemos afirmar que o seu uso é muito parecido com o Dapper, mas em um contexto do EF.
-Como funciona ? Imagine que você tem um banco de dados de Livros, como o script abaixo:</description>
     </item>
     
   </channel>

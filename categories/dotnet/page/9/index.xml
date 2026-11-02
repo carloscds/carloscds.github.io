@@ -5,10 +5,20 @@
     <link>https://carloscds.net/categories/dotnet/</link>
     <description>Recent content in DotNet on Carlos dos Santos</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://carloscds.net/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile Brazil 2010</title>
+      <link>https://carloscds.net/2010/06/agile-brazil-2010/</link>
+      <pubDate>Sun, 27 Jun 2010 15:51:34 -0300</pubDate>
+      
+      <guid>https://carloscds.net/2010/06/agile-brazil-2010/</guid>
+      <description>Eu estive na quinta e sexta-feira (24 e 25/06) em Porto Alegre/RS para a Agile Brasil 2010 – Conferência Brasileira sobre Métodos Ageis de Desenvolvimento de Software e foi um evento realmente espetacular.
+Primeiro por reencontrar vários amigos, depois pelos palestrantes, como Martin Flowler, um dos grandes influenciadores das metodologias ágeis. Nestes dias tivemos várias palestras e workshops , de alto nível, onde pudemos aumentar nosso conhecimento e trocar idéias.</description>
+    </item>
     
     <item>
       <title>Professional Scrum Master</title>
@@ -236,16 +246,6 @@ Você quer fazer tudo que tem no livro, pois o Silverlight por si só já é mui
       <description>Hoje em dia é muito comum recebermos dados em planilhas do Excel e ter que importar ou analisar estes dados em nossas aplicações.
 Com a ajuda do .Net Framework esta tarefa fica muito fácil e vou demonstrar como você pode abrir um arquivo do Excel e executar um comando Select em uma planilha simplesmente usando Ado.Net.
 Para começar, vamos mostrar como está a nossa planilha no Excel e quais as informações importantes para o nosso programa em .</description>
-    </item>
-    
-    <item>
-      <title>SkyDrive Explorer</title>
-      <link>https://carloscds.net/2009/12/skydrive-explorer/</link>
-      <pubDate>Sun, 13 Dec 2009 11:18:02 -0300</pubDate>
-      
-      <guid>https://carloscds.net/2009/12/skydrive-explorer/</guid>
-      <description>Se você costuma usar o SkyDrive para armazenar informações e poder usar em qualquer lugar, vai gostar deste novo utilitário. O SkyDrive Explorer é um aplicativo que permite que você abra o SkyDrive no seu Windows Explorer e consigar ler e gravar arquivos como se fosse um drive do seu computador. Se você ainda não usa o SkyDrive, clique http://skydrive.live.com e comece agora mesmo.
-Primeiro você precisa baixar o utilitário clicando aqui.</description>
     </item>
     
   </channel>

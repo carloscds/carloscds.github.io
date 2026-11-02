@@ -3,6 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carloscds.net/categories/c-sharp/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/devops/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/categories/dotnet/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/posts/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://carloscds.net/2026/11/dotnet11containers/</loc>
+    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://carloscds.net/categories/aspnet/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,28 +52,7 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/c-sharp/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/2026/10/aspnetcore11openapi/</loc>
-    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/posts/</loc>
     <lastmod>2026-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -262,13 +283,6 @@
   </url>
   
   <url>
-    <loc>https://carloscds.net/categories/dotnet/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://carloscds.net/categories/dotnet-core/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -397,13 +411,6 @@
   <url>
     <loc>https://carloscds.net/2019/06/qual-e-a-versao-do-framework-de-um-exe-ou-dll/</loc>
     <lastmod>2019-06-02T22:18:30-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://carloscds.net/categories/devops/</loc>
-    <lastmod>2019-04-29T23:01:15-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
